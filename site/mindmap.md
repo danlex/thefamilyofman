@@ -3,7 +3,6 @@ layout: default
 title: Research mindmap
 namespace: Meta
 permalink: /mindmap/
-mermaid: true
 description: >-
   Living map of what we know and what we need to investigate about
   Edward Steichen's The Family of Man.
@@ -28,55 +27,62 @@ edit_dir: research
 
 A living map of **what we know** (with sources) and **what we need to investigate** (gaps). Update this file after every merged research PR and whenever a new gap is identified.
 
-## Overview (Mermaid)
+## Overview
 
-```mermaid
-mindmap
-  root((The Family of Man))
-    1955 Exhibition
-      MoMA NY
-      Edward Steichen curator
-      Paul Rudolph installation
-      Carl Sandburg prologue
-      Opened 24 Jan 1955
-    Catalog
-      503 photographs
-      273 photographers
-      68 countries
-      2M+ submissions
-    World Tour 1955–62
-      USIA sponsored
-      ~91 venues
-      37 countries
-      ~9M visitors
-      Moscow 1959
-    Clervaux Luxembourg
-      Steichen gift
-      CNA custodian
-      1994 opening
-      2010–13 restoration
-    UNESCO 2003
-      Memory of the World
-    Thematic clusters
-      Prologue
-      Lovers
-      Marriage & birth
-      Family & children
-      Play & learning
-      Work
-      Eating & everyday
-      Relationships
-      Hardship & war
-      Death
-      Rededication
-    Critical reception
-      Barthes 1957
-      Sontag 1977
-      Sekula 1981
-      Sandeen 1995
-      Stimson 2006
-      Turner 2013
-```
+<pre class="tree">
+<span class="tree-root">The Family of Man</span>
+│
+├─ <b>1955 Exhibition</b>
+│  ├─ Museum of Modern Art, New York
+│  ├─ Edward Steichen &mdash; curator
+│  ├─ Paul Rudolph &mdash; installation design
+│  ├─ Carl Sandburg &mdash; prologue
+│  └─ Opened 24 January 1955
+│
+├─ <b>Catalog</b>
+│  ├─ 503 photographs
+│  ├─ 273 photographers
+│  ├─ 68 countries of origin
+│  └─ Selected from a large submission pool
+│     <i>(commonly cited as &ldquo;2 million&rdquo;; primary source not yet verified)</i>
+│
+├─ <b>World Tour 1955&ndash;1962</b>
+│  ├─ USIA sponsored
+│  ├─ ~91 venues
+│  ├─ 37 countries
+│  ├─ ~9 million visitors
+│  └─ Moscow 1959 &mdash; Sokolniki Park
+│
+├─ <b>Clervaux, Luxembourg</b>
+│  ├─ Steichen&rsquo;s gift to his country of birth
+│  ├─ CNA &mdash; Centre national de l&rsquo;audiovisuel
+│  ├─ Permanent installation since 1994
+│  └─ Restoration 2010&ndash;2013
+│
+├─ <b>UNESCO 2003</b>
+│  └─ Memory of the World register
+│
+├─ <b>Thematic clusters</b> <i>(working reconstruction &mdash; see <a href="{{ '/sections/' | relative_url }}">/sections/</a>)</i>
+│  ├─ Prologue
+│  ├─ Lovers
+│  ├─ Marriage &amp; birth
+│  ├─ Family &amp; children
+│  ├─ Play &amp; learning
+│  ├─ Work
+│  ├─ Eating &amp; everyday
+│  ├─ Relationships
+│  ├─ Hardship &amp; war
+│  ├─ Death
+│  └─ Rededication
+│
+└─ <b>Critical reception</b>
+   ├─ Barthes 1957 &mdash; <i>The Great Family of Man</i>
+   ├─ Sontag 1977 &mdash; <i>On Photography</i>
+   ├─ Sekula 1981 &mdash; <i>The Traffic in Photographs</i>
+   ├─ Sandeen 1995 &mdash; <i>Picturing an Exhibition</i>
+   ├─ Stimson 2006 &mdash; <i>The Pivot of the World</i>
+   └─ Turner 2013 &mdash; <i>The Democratic Surround</i>
+</pre>
 
 ---
 

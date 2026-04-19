@@ -22,7 +22,6 @@ layout: default
 title: Research mindmap
 namespace: Meta
 permalink: /mindmap/
-mermaid: true
 description: >-
   Living map of what we know and what we need to investigate about
   Edward Steichen's The Family of Man.

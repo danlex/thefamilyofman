@@ -413,6 +413,65 @@ main {
 .entity-table a { text-decoration: none; }
 .entity-table a:hover { text-decoration: underline; }
 
+/* ---------- Text-tree (mindmap) ---------- */
+
+.tree {
+  display: block;
+  white-space: pre;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--mid);
+  letter-spacing: 0;
+  overflow-x: auto;
+  margin: 2rem 0 2.5rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  background: transparent;
+  tab-size: 2;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.tree b {
+  color: var(--ink);
+  font-weight: 500;
+  font-family: var(--mono);
+  letter-spacing: 0.01em;
+  font-feature-settings: normal;
+}
+.tree i {
+  color: var(--mid);
+  font-family: var(--mono);
+  font-style: italic;
+  font-size: 0.9em;
+}
+.tree a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--hairline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.tree a:hover {
+  text-decoration-color: var(--ink);
+}
+.tree-root {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.35rem;
+  line-height: 1;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  font-weight: 500;
+  padding-bottom: 0.35rem;
+  display: inline-block;
+}
+
+@media (max-width: 540px) {
+  .tree { font-size: 0.78rem; padding: 1.25rem 0.75rem; }
+  .tree-root { font-size: 1.15rem; }
+}
+
 /* ---------- Empty state ---------- */
 
 .empty {
