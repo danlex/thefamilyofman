@@ -33,4 +33,8 @@ See [plan.md](plan.md) for the full plan, [AGENTS.md](AGENTS.md) for the workflo
 
 ## Status
 
-Phase 0 — infrastructure build. See [plan.md §14](plan.md) for phased execution.
+- Phase 0 (research infrastructure) — ✅ done
+- Phase 0.5 (wiki scaffold) — ✅ done, site live at [danlex.github.io/thefamilyofman](https://danlex.github.io/thefamilyofman/)
+- Phase 1 (foundational research) — in progress: [PR #3](https://github.com/danlex/thefamilyofman/pull/3) open
+
+See [`research/mindmap.md`](research/mindmap.md) for the **living map of what we know and what we need to investigate**. See [`plan.md`](plan.md) §14 for phased execution.
