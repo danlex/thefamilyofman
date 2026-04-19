@@ -1,0 +1,41 @@
+name: Suggest an improvement
+description: Quick improvement suggestion for any article. No technical skills needed.
+title: "[improvement] <short summary>"
+labels: ["investigation", "needs-agent", "p2-enrichment"]
+body:
+  - type: input
+    id: article
+    attributes:
+      label: Article URL or path
+      description: Which page needs improvement? Paste the URL from the site, or the file path if you know it.
+      placeholder: https://danlex.github.io/thefamilyofman/photographs/wayne-miller-father-and-son/
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of improvement
+      options:
+        - typo or wording
+        - missing citation
+        - broken link
+        - factual correction
+        - missing information
+        - perspective / balance issue
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What should change?
+      description: Plain language is fine. If you have a source, please include it.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (if you have one)
+      description: Author, title, publisher, year, URL. Helps a lot if you can cite where the correction comes from.
+    validations:
+      required: false

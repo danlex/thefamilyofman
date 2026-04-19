@@ -1,0 +1,425 @@
+/* The Family of Man — monochrome editorial stylesheet
+ *
+ * Design: Steichen's exhibition was black-and-white; Paul Rudolph's
+ * installation was spare modernist. The site honors both: pure monochrome,
+ * generous whitespace, hairline rules, editorial typography, no ornament.
+ */
+
+/* ---------- Variables ---------- */
+
+:root {
+  --ink: #111111;
+  --paper: #ffffff;
+  --mist: #f5f5f5;
+  --hairline: #e5e5e5;
+  --mid: #6b6b6b;
+  --rule: #000000;
+  --content-width: 680px;
+  --wide-width: 1100px;
+  --serif: "EB Garamond", "Iowan Old Style", "Apple Garamond", Georgia, Cambria, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #f1f1f1;
+    --paper: #0b0b0b;
+    --mist: #161616;
+    --hairline: #262626;
+    --mid: #9a9a9a;
+    --rule: #ffffff;
+  }
+}
+
+/* ---------- Reset ---------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body, h1, h2, h3, h4, p, ul, ol, figure, blockquote { margin: 0; }
+img { display: block; max-width: 100%; height: auto; }
+
+/* ---------- Base ---------- */
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.7;
+  font-feature-settings: "kern", "liga", "onum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+a:hover { text-decoration-color: var(--mid); }
+
+/* ---------- Layout ---------- */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.wrap {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+.wrap-wide {
+  max-width: var(--wide-width);
+  margin: 0 auto;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--hairline);
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: saturate(180%) blur(4px);
+}
+.site-header .wrap-wide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 1.25rem;
+}
+.site-title {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.site-title em { font-style: italic; }
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+}
+.site-nav a {
+  text-decoration: none;
+  color: var(--mid);
+}
+.site-nav a:hover, .site-nav a[aria-current="page"] {
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .site-header .wrap-wide { flex-direction: column; align-items: flex-start; gap: 0.75rem; padding: 0.75rem 1rem; }
+  .site-nav { flex-wrap: wrap; gap: 1rem; }
+}
+
+/* ---------- Article ---------- */
+
+.article { padding-top: 2rem; }
+
+.kicker {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 0.5rem;
+}
+
+.article-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.25rem, 5.5vw, 4.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  margin-bottom: 1rem;
+}
+
+.article-meta {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--mid);
+  letter-spacing: 0.01em;
+  margin-bottom: 2rem;
+}
+
+.article hr,
+.hairline {
+  border: 0;
+  border-top: 1px solid var(--hairline);
+  margin: 2.5rem 0;
+}
+
+.article h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.article h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.article p + p { margin-top: 1.1rem; }
+
+.article ul, .article ol { padding-left: 1.25rem; }
+.article li + li { margin-top: 0.3rem; }
+
+.article blockquote {
+  border-left: 2px solid var(--ink);
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin: 1.25rem 0;
+  color: var(--mid);
+  font-style: italic;
+}
+
+.article code {
+  font-family: var(--mono);
+  font-size: 0.9em;
+  background: var(--mist);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+/* ---------- Perspective note ---------- */
+
+.perspective-note {
+  border: 1px solid var(--hairline);
+  padding: 1rem 1.25rem;
+  margin: 2rem 0;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  color: var(--mid);
+  background: var(--mist);
+}
+.perspective-note strong {
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* ---------- Home ---------- */
+
+.hero { padding: 4rem 0 3rem; text-align: left; }
+.hero .kicker { margin-bottom: 1rem; }
+.hero h1 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.25rem;
+}
+.hero .lede {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  line-height: 1.55;
+  max-width: 48ch;
+  color: var(--mid);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  margin: 3rem 0;
+}
+.stats > * {
+  padding: 1.25rem 1rem;
+  border-right: 1px solid var(--hairline);
+}
+.stats > *:last-child { border-right: 0; }
+.stats .num {
+  display: block;
+  font-family: var(--serif);
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 500;
+}
+.stats .label {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mid);
+}
+
+.entry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--hairline);
+}
+.entry-grid a {
+  display: block;
+  padding: 1.5rem 1.25rem;
+  text-decoration: none;
+  border-right: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  transition: background 0.12s ease;
+}
+.entry-grid a:hover { background: var(--mist); }
+.entry-grid .kicker { margin-bottom: 0.35rem; }
+.entry-grid h3 {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+.entry-grid p {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  color: var(--mid);
+  line-height: 1.5;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--hairline);
+  padding: 2rem 1.25rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--mid);
+}
+.site-footer .wrap-wide {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.site-footer a { color: inherit; }
+
+/* ---------- Article footer (edit / discuss / improve) ---------- */
+
+.article-actions {
+  display: flex;
+  gap: 2rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--hairline);
+  flex-wrap: wrap;
+}
+.article-actions a {
+  color: var(--mid);
+  text-decoration: none;
+}
+.article-actions a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Category & "see also" blocks ---------- */
+
+.categories, .see-also, .references {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--hairline);
+  font-family: var(--sans);
+  font-size: 0.9rem;
+}
+.categories .label, .see-also .label, .references .label {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 0.5rem;
+}
+.categories ul, .see-also ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* ---------- Lists / tables (catalog browser) ---------- */
+
+.list-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+}
+.list-filters input, .list-filters select {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid var(--hairline);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 0;
+}
+.list-filters input:focus, .list-filters select:focus {
+  outline: 1px solid var(--ink);
+  outline-offset: -1px;
+}
+
+.entity-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+}
+.entity-table th, .entity-table td {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+.entity-table th {
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mid);
+  border-bottom: 1px solid var(--ink);
+}
+.entity-table a { text-decoration: none; }
+.entity-table a:hover { text-decoration: underline; }
+
+/* ---------- Empty state ---------- */
+
+.empty {
+  border: 1px dashed var(--hairline);
+  padding: 2rem;
+  text-align: center;
+  color: var(--mid);
+  font-family: var(--sans);
+  font-size: 0.95rem;
+}

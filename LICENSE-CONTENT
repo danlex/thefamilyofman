@@ -1,0 +1,41 @@
+Content license: Creative Commons Attribution-ShareAlike 4.0 International
+(CC BY-SA 4.0)
+
+This license applies to the **written research content** in this repository:
+
+- `research/` — narrative essays
+- `sources/` — source entries and notes
+- `site/_photographs/`, `site/_photographers/`, `site/_events/`, `site/_places/`,
+  `site/_concepts/`, `site/_sections_articles/`, `site/_sources/` — wiki articles
+- `site/*.md` (other than generated assets) — overview pages
+- `plan.md`, `AGENTS.md`, `CREDIBILITY.md`, `README.md`, `CONTRIBUTING.md`,
+  and other prose files at the repository root
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose,
+  even commercially
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
+- **ShareAlike** — If you remix, transform, or build upon the material, you
+  must distribute your contributions under the same license as the original.
+
+Required attribution format (suggested):
+    "thefamilyofman (https://github.com/danlex/thefamilyofman),
+    licensed under CC BY-SA 4.0."
+
+Third-party material incorporated into our prose — quoted passages from
+Barthes, Sontag, Sekula, Sandeen, Stimson, Turner, Steichen, Sandburg, etc.
+— is used under fair-use / fair-dealing principles for scholarly commentary
+and retains its own copyright. Such quotations are not relicensed under this
+CC BY-SA license.
+
+The software in this repository (see `LICENSE`) and the structured data
+(see `data/README.md`) are licensed separately.

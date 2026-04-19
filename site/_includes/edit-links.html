@@ -1,0 +1,16 @@
+{%- comment -%}
+Footer "Edit / Discuss / Improve" links for every article.
+Expects page.edit_dir (set via _config.yml defaults) OR uses page.path
+fallback to build the GitHub web-editor URL.
+{%- endcomment -%}
+
+{%- assign edit_path = page.path -%}
+{%- if page.edit_dir and page.slug -%}
+  {%- assign edit_path = page.edit_dir | append: "/" | append: page.slug | append: ".md" -%}
+{%- endif -%}
+
+<div class="article-actions">
+  <a href="{{ site.edit_url_base }}/{{ edit_path }}" rel="noopener">✏️ Edit this page</a>
+  <a href="https://github.com/{{ site.repository }}/issues/new?template=improvement.yml&title=%5Bimprovement%5D%20{{ page.title | url_encode }}" rel="noopener">🐛 Suggest improvement</a>
+  <a href="https://github.com/{{ site.repository }}/discussions" rel="noopener">💬 Discuss</a>
+</div>

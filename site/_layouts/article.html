@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article class="wrap article">
+  {% if page.namespace %}<div class="kicker">{{ page.namespace }}</div>{% endif %}
+  <h1 class="article-title">{{ page.title }}</h1>
+
+  {% if page.byline or page.dates %}
+  <div class="article-meta">
+    {% if page.byline %}{{ page.byline }}{% endif %}
+    {% if page.byline and page.dates %} · {% endif %}
+    {% if page.dates %}{{ page.dates }}{% endif %}
+  </div>
+  {% endif %}
+
+  <hr>
+
+  {{ content }}
+
+  {% if page.references %}
+  <div class="references">
+    <div class="label">References</div>
+    <ul>
+      {% for ref in page.references %}<li>{{ ref }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page.see_also %}
+  <div class="see-also">
+    <div class="label">See also</div>
+    <ul>
+      {% for item in page.see_also %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page.categories and page.categories.size > 0 %}
+  <div class="categories">
+    <div class="label">Categories</div>
+    <ul>
+      {% for cat in page.categories %}<li>{{ cat }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% include edit-links.html %}
+</article>

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="wrap-wide article" style="padding: 0 1.25rem;">
+  {% if page.namespace %}<div class="kicker">{{ page.namespace }}</div>{% endif %}
+  <h1 class="article-title">{{ page.title }}</h1>
+  {% if page.lede %}<p class="lede" style="font-size:1.15rem; color:var(--mid); max-width:60ch; margin-top:0.75rem;">{{ page.lede }}</p>{% endif %}
+  <hr>
+  {{ content }}
+  {% include edit-links.html %}
+</div>

@@ -1,0 +1,109 @@
+title: The Family of Man
+tagline: A public wiki
+description: >-
+  A public wiki documenting Edward Steichen's 1955 MoMA exhibition —
+  503 photographs by 273 photographers, permanently housed at Clervaux
+  Castle, Luxembourg (UNESCO Memory of the World, 2003).
+
+url: https://danlex.github.io
+baseurl: /thefamilyofman
+repository: danlex/thefamilyofman
+edit_url_base: https://github.com/danlex/thefamilyofman/edit/main
+
+author:
+  name: thefamilyofman contributors
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:collection/:name/
+timezone: Europe/Luxembourg
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - node_modules
+
+collections:
+  photographs:
+    output: true
+    permalink: /photographs/:name/
+  photographers:
+    output: true
+    permalink: /photographers/:name/
+  events:
+    output: true
+    permalink: /events/:name/
+  places:
+    output: true
+    permalink: /places/:name/
+  concepts:
+    output: true
+    permalink: /concepts/:name/
+  sections_articles:
+    output: true
+    permalink: /sections/:name/
+  sources:
+    output: true
+    permalink: /sources/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: photographs
+    values:
+      layout: article
+      namespace: Photograph
+      edit_dir: site/_photographs
+  - scope:
+      path: ""
+      type: photographers
+    values:
+      layout: article
+      namespace: Photographer
+      edit_dir: site/_photographers
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: article
+      namespace: Event
+      edit_dir: site/_events
+  - scope:
+      path: ""
+      type: places
+    values:
+      layout: article
+      namespace: Place
+      edit_dir: site/_places
+  - scope:
+      path: ""
+      type: concepts
+    values:
+      layout: article
+      namespace: Concept
+      edit_dir: site/_concepts
+  - scope:
+      path: ""
+      type: sections_articles
+    values:
+      layout: article
+      namespace: Section
+      edit_dir: site/_sections_articles
+  - scope:
+      path: ""
+      type: sources
+    values:
+      layout: article
+      namespace: Source
+      edit_dir: site/_sources
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

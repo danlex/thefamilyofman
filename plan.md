@@ -252,8 +252,55 @@ Recommendation: keep data provider-agnostic; pick target at v0.2 once volume jus
 
 - **Repo visibility:** public (`github.com/danlex/thefamilyofman`).
 - **Catalog scope:** all 503 original photographs (user decision 2026-04-19).
+- **Deliverable format:** public wiki ("Wikipedia of *The Family of Man*"), published via GitHub Pages.
+- **Tech stack:** Jekyll — native to GH Pages, zero build pipeline on our side. Plain hand-written CSS, vanilla JS only for catalog filtering. One Google Font (EB Garamond) for headings, system sans for body. No framework, no Node, no package manager.
+- **Design:** pure monochrome (black/white/hairline gray), modern editorial, high-contrast typography, generous whitespace — echoing Steichen's B&W exhibition and Paul Rudolph's spare modernist installation.
+- **License split:** MIT (code) + CC-BY-SA 4.0 (content, Wikipedia-compatible) + CC0 (data).
+- **Image policy:** no hosting of the 503 photographs (each is copyrighted by its photographer/estate; licensing 273 rights-holders is infeasible). Articles link out to MoMA and CNA Luxembourg deep links. Only CC / public-domain / fair-use assets are hosted, each with a `license.json` metadata file.
+- **Feedback flow:** every article carries three footer links — "✏️ Edit this page" (GitHub web editor, opens a PR per edit), "🐛 Suggest improvement" (pre-filled issue via `improvement.yml`), "💬 Discuss" (Giscus on GitHub Discussions). All PRs go through the 4-judge panel.
+- **Contributor experience:** `CONTRIBUTING.md` documents three paths — small PR via Edit-this-page, lightweight issue, or discussion comment.
 
-## 17. Open questions
+## 17. Wiki architecture (Phase 0.5)
+
+```
+site/                         # Jekyll root
+├── _config.yml               # collections, permalinks, plugins
+├── Gemfile                   # jekyll, webrick, plugins
+├── index.md                  # home — hero, stats, 8 entry points
+├── exhibition.md             # 1955 MoMA
+├── tour.md                   # world tour
+├── clervaux.md               # Luxembourg
+├── reception.md              # critical history
+├── unesco.md                 # Memory of the World
+├── photographs.md            # filterable list (503)
+├── photographers.md          # filterable list (273)
+├── sections.md               # thematic sections index
+├── bibliography.md           # filterable sources index
+├── about.md                  # project, licenses
+├── 404.html
+├── _layouts/                 # default, article, list
+├── _includes/                # header, footer, edit-links
+├── _photographs/             # Jekyll collection — one .md per photo
+├── _photographers/           # one .md per contributor
+├── _events/                  # opening, tour stops, UNESCO, anniversaries
+├── _places/                  # MoMA, Clervaux Castle, tour venues
+├── _concepts/                # humanism critique, cultural diplomacy, …
+├── _sections_articles/       # per-section articles
+├── _sources/                 # per-source articles (authored from sources/)
+└── assets/
+    ├── css/style.css         # one hand-written stylesheet, ~450 lines
+    └── js/filter.js          # vanilla JS for list filters
+.github/workflows/
+└── deploy-pages.yml          # build Jekyll → deploy to Pages on push to main
+LICENSE                       # MIT
+LICENSE-CONTENT               # CC-BY-SA 4.0
+CONTRIBUTING.md               # 3-path contributor guide
+data/README.md                # CC0 declaration
+```
+
+**Deployment:** GitHub Pages with `build_type: workflow`. The `.github/workflows/deploy-pages.yml` action runs on every push to `main` that touches `site/`, `data/`, or the workflow itself.
+
+## 18. Open questions
 
 1. **PR-based workflow** — confirm PRs against `main` (recommended) vs. direct commits.
 2. **Dispatcher cadence** — manual invocation, `/loop` every N minutes, or scheduled cron trigger?
@@ -271,7 +318,8 @@ Recommendation: keep data provider-agnostic; pick target at v0.2 once volume jus
 14. **Judge-Bias verdict scheme** — tri-state APPROVE / APPROVE-WITH-NOTES / REJECT (recommended) or binary?
 15. **Critical-perspective floor** — ≥25% of interpretive examples (recommended), or different threshold?
 16. **Photographer demographic tagging** — tag gender/ethnicity only where self-identified or documented in reputable source; leave blank otherwise. Confirm?
+17. ~~**Deliverable format**~~ — **decided: public wiki, Jekyll on GH Pages, MIT + CC-BY-SA + CC0, B&W editorial design, link-out image policy.**
 
-## 18. Next step
+## 19. Next step
 
-Once open questions are answered, Phase 0 build begins: scaffolding, templates, labels, agent briefs, judge configs. No research or issue seeding until Phase 0 is committed and approved.
+Phase 0 (research infrastructure) and Phase 0.5 (wiki scaffold) are committed. Phase 1 (foundational research: Catalog Builder + Sections Cartographer) awaits go-ahead on the remaining open questions.
