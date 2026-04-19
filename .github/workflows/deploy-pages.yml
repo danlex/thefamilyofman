@@ -6,6 +6,8 @@ on:
     paths:
       - 'site/**'
       - 'data/**'
+      - 'research/**'
+      - 'scripts/sync_mindmap.sh'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -26,6 +28,10 @@ jobs:
         working-directory: site
     steps:
       - uses: actions/checkout@v4
+
+      - name: Sync research/mindmap.md → site/mindmap.md
+        working-directory: .
+        run: bash scripts/sync_mindmap.sh
 
       - uses: ruby/setup-ruby@v1
         with:

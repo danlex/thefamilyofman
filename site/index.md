@@ -72,6 +72,11 @@ permalink: /
       <h3>Bibliography</h3>
       <p>Every source used to build this wiki, with its tier and relevance.</p>
     </a>
+    <a href="{{ '/mindmap/' | relative_url }}">
+      <div class="kicker">Meta</div>
+      <h3>Mindmap</h3>
+      <p>What we know, what we still need to investigate, and what's in flight — a living research status map.</p>
+    </a>
   </div>
 </section>
 

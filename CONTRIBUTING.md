@@ -58,6 +58,21 @@ Merged. Site rebuilds. Your contribution is live.
 
 If a judge requests changes, you'll see their specific feedback. Two revision cycles are allowed before the PR is escalated to a human.
 
+## Editing the mindmap
+
+The research mindmap has two files:
+
+- **`research/mindmap.md`** — the canonical source. Edit this.
+- **`site/mindmap.md`** — the generated Jekyll page that renders at [/mindmap/](https://danlex.github.io/thefamilyofman/mindmap/). **Do not edit this directly.**
+
+After editing `research/mindmap.md`, run:
+
+```
+bash scripts/sync_mindmap.sh
+```
+
+…and commit both files together. The GitHub Actions deploy workflow also runs this script on every push to `main`, so the published site always reflects the canonical source.
+
 ## License
 
 By submitting a contribution, you agree that:
