@@ -66,12 +66,13 @@ mindmap
 - **Curator: Edward Steichen**, then Director of MoMA's Department of Photography.
 - **Installation design: Paul Rudolph** (architect). *Source: MoMA Archives / archive-highlights page.*
 - **Prologue: Carl Sandburg** (Steichen's brother-in-law), distributed as a leaflet at the entrance.
-- **Scale: 503 photographs by 273 photographers from 68 countries**, selected from ~2 million submissions. *Source: 1955 catalog; MoMA press release, 21 June 1955.*
+- **Scale: 503 photographs by 273 photographers from 68 countries.** *Citation status: not yet verified to pagination of the 1955 catalog in this repo; MoMA's public 2429 record is currently unreachable from our fetcher (confirmation needed before cite).*
+- **Selection process** — figure of "~2 million submissions" is commonly cited but **not yet verified**; Wikipedia's published figure of ~4 million refers to the *book* submission pool rather than the exhibition. Do not use either figure without a primary-source citation (1955 catalog or Steichen's writings).
 - **Entrance arch / crowd imagery opens the show.** *Source: MoMA archive-highlights page.*
 - **Closing image: W. Eugene Smith, *A Walk to Paradise Garden* (1946).** *Source: MoMA archive-highlights page.*
 
 ### Thematic structure *(active — PR #3 open)*
-- The 1955 catalog does **not** present a canonical numbered list of sections. Scholarly reconstructions differ: UNESCO says "32 themes," CNA Luxembourg says "37 themes."
+- The 1955 catalog does **not** present a canonical numbered list of sections. Scholarly reconstructions differ: UNESCO Memory of the World register gives "32 themes" (confirmed). A "37 themes" figure is reported on CNA Luxembourg's education portal but is **not yet independently verified** in this repo (CNA site was unreachable during the 2026-04-19 audit).
 - **Our working reconstruction: 11 thematic clusters** (`sec-prologue` through `sec-rededication-future`), per PR #3 — awaiting judge-panel review. Each row in `data/sections.csv` is tagged "thematic cluster reconstructed" to avoid implying canonical status.
 
 ### World tour 1955–1962
@@ -88,7 +89,7 @@ mindmap
 ### Critical reception — major landmarks
 - **Roland Barthes, "The Great Family of Man"** (in *Mythologies*, 1957). Foundational critique: universalist humanism flattens history and politics. *Verbatim text extracted from a university-hosted PDF via PR #3.*
 - **Susan Sontag, *On Photography*** (1977). Related sentimentalism critique.
-- **Allan Sekula, "The Traffic in Photographs"** (*Art Journal*, 1981). Marxist ideological reading.
+- **Allan Sekula, "The Traffic in Photographs"** — Marxist ideological reading. *Citation status: widely attributed to* Art Journal *1981, but volume/issue/pages are not yet verified in this repo.*
 - **Eric Sandeen, *Picturing an Exhibition: The Family of Man and 1950s America*** (U. New Mexico Press, 1995). Standard historical study; complicates both defense and critique.
 - **Blake Stimson, *The Pivot of the World*** (MIT Press, 2006). Re-reads the show within post-war photographic modernism.
 - **Fred Turner, *The Democratic Surround*** (U. Chicago Press, 2013). Liberal-democratic design culture.
