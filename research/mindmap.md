@@ -3,7 +3,7 @@ title: Research mindmap
 last_updated: 2026-04-19
 ---
 
-> **Note.** This document was last bumped on 2026-04-19. Catalog now has 94 rows (`photo-0001`..`photo-0094`) after PRs #4 + #7 merged. PR #6 (photographer bios batch 1) still in progress.
+> **Note.** This document was last bumped on 2026-04-19. Catalog: 94 rows seeded (PRs #4 + #7). Photographers: 20 rows + 4 short bios + 20 source entries seeded (PR #8). Live on the site. An unresolved bottleneck: obituary and museum-page citations were added by `author-publication-year` rather than verified-permalink because WebFetch was denied by MoMA / Magnum / ICP / NYT; Judge-Grounding re-verification is a follow-up issue.
 
 # Research mindmap
 
@@ -85,6 +85,12 @@ mindmap
 - **The 7 subsections of the checklist** (Prologue, Lovers, Marriage, Pregnancy, Childbirth, Nursing Mothers, Births) map into 4 of our 11 thematic clusters (`sec-prologue`, `sec-lovers`, `sec-marriage-birth`, `sec-family-children`). Per-row mapping is documented in the CSV `notes` column.
 - **National attribution is preserved verbatim** from the checklist — Capa is listed "American," Erwitt "American," Horvat "Italian," even where later scholarly convention differs. Any re-framing is a separate editorial decision, not a silent correction.
 
+### Photographers — batch 1 seeded (PR #8)
+- **20 photographer rows** covering every unique individual named in the first 47 catalog plates. 4 short bios exist (Capa, Wayne Miller, Doisneau, DeCarava) — the remaining 16 are CSV rows only.
+- **Checklist nationality was preserved verbatim** — Capa "American," Horvat "Italian," Kessel "American" — with scholarly alternatives recorded in `notes`.
+- **20 new source entries were added** (NYT obituaries, a *Le Monde* obituary, Magnum Photos, ICP, CCP, Moderna Museet, Fotostiftung Schweiz). These are **Tier 3** and were added by author/publication/year because WebFetch to the institutional sites returned 403 during the seed session. Every citation carries a "verification flag for judges" note — Judge-Grounding re-verification is an open task (see issue #9 below).
+- **Gender is blank on all 20 rows** per the project's tagging policy.
+
 ### World tour 1955–1962
 - **Sponsor: United States Information Agency (USIA).** Records held at National Archives, RG 306.
 - **Commonly cited figures: ~91 venues, ~37 countries, ~9M visitors.** *Citation status: widely repeated but not yet verified to Tier-1 primary records in this repo.*
@@ -141,6 +147,7 @@ mindmap
 ### Methodological gaps
 - **Theme-count reconciliation** — UNESCO says 32, CNA says 37, our reconstruction proposes 11. Need a source-by-source treatment.
 - **Attribution practice** — where our row cites multiple sources with semicolons, confirm CSV-reader compatibility with all tools (not just `validate_schema.py`).
+- **WebFetch access to institutional archives** — MoMA (`moma.org`), Magnum (`magnumphotos.com`), ICP (`icp.org`), and NYT all returned 403 to our automated fetcher during the PR #8 session. Source entries added in that PR carry *unverified* permalinks. Options to unblock: (a) a live audit pass with a human-operated browser, (b) a cross-mirror reader (archive.org snapshot or `archive.today`), (c) a `gh api` or academic-library proxy path. Until this is resolved, avoid adding more photographer-bio batches that depend on web-fetched institutional pages.
 
 ---
 
@@ -151,7 +158,8 @@ mindmap
 | [#1](https://github.com/danlex/thefamilyofman/issues/1) | Catalog plates 1–50 | `CLOSED` via PR #4 | catalog-builder | 47 rows merged; MoMA Master Checklist #569 added as Tier-1 anchor. Judge panel not run. |
 | [#2](https://github.com/danlex/thefamilyofman/issues/2) | Thematic sections + prologue | `CLOSED` via PR #3 | sections-cartographer | Merged without judge review — re-audit pending. |
 | [#5](https://github.com/danlex/thefamilyofman/issues/5) | Catalog plates 48–100 | `CLOSED` via PR #7 | catalog-builder | 47 further rows merged (plate numbers 51–100, checklist-skipped #61, #88, #90). |
-| [#6](https://github.com/danlex/thefamilyofman/issues/6) | Photographer bios batch 1 | `in-progress` | photographer-biographer | Worker running on branch `agent/photographer-bios-batch-1`. |
+| [#6](https://github.com/danlex/thefamilyofman/issues/6) | Photographer bios batch 1 | `CLOSED` via PR #8 | photographer-biographer | 20 rows + 4 bios + 20 source entries merged. Obit/museum citations carry "not re-verified" flags — follow-up below. |
+| [#9](https://github.com/danlex/thefamilyofman/issues/9) | Re-verify PR #8 citations | `needs-agent` | sources-librarian | Re-fetch the 20 source files via live + archive.org; mark `verified: true/false`. Blocks more photographer batches. |
 
 ---
 
