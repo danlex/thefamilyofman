@@ -32,7 +32,7 @@ edit_dir: research
 <!-- GENERATED FROM research/mindmap.md — DO NOT EDIT DIRECTLY.
      Edit the source and run scripts/sync_mindmap.sh. -->
 
-<article class="wrap article">
+<article class="wrap article" markdown="1">
   <div class="kicker">Research status</div>
   <h1 class="article-title">Mindmap</h1>
   <div class="article-meta">
@@ -40,6 +40,7 @@ edit_dir: research
     updated after every merged research PR
   </div>
   <hr>
+
 FRONTMATTER
 
 # Strip the source's YAML frontmatter (the first ---…--- block) and any

@@ -13,7 +13,7 @@ edit_dir: research
 <!-- GENERATED FROM research/mindmap.md — DO NOT EDIT DIRECTLY.
      Edit the source and run scripts/sync_mindmap.sh. -->
 
-<article class="wrap article">
+<article class="wrap article" markdown="1">
   <div class="kicker">Research status</div>
   <h1 class="article-title">Mindmap</h1>
   <div class="article-meta">
@@ -21,6 +21,7 @@ edit_dir: research
     updated after every merged research PR
   </div>
   <hr>
+
 
 > **Note.** This document was last bumped on 2026-04-19. Catalog: **192 rows** seeded (PRs #4 + #7 + #11). Photographers: 20 rows + 4 short bios + 20 source entries seeded (PR #8). Live on the site. An unresolved bottleneck: obituary and museum-page citations in PR #8 carry `verified: false` flags because WebFetch was denied by MoMA / Magnum / ICP / NYT — issue #9 tracks the re-verification.
 
