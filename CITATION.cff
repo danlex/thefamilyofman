@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  If you use thefamilyofman in academic work or other publications,
+  please cite it as below.
+title: "thefamilyofman: a public wiki of Edward Steichen's The Family of Man"
+abstract: >-
+  A public, openly-maintained research wiki documenting Edward Steichen's
+  1955 exhibition The Family of Man — its 503 photographs by 273
+  photographers, 1955–1962 world tour, permanent installation at Clervaux
+  Castle (Luxembourg), UNESCO Memory of the World inscription (2003),
+  and seven decades of critical reception. Every claim is sourced to
+  primary archives or peer-reviewed scholarship.
+type: dataset
+repository-code: "https://github.com/danlex/thefamilyofman"
+url: "https://danlex.github.io/thefamilyofman/"
+license: "CC-BY-SA-4.0"
+license-url: "https://github.com/danlex/thefamilyofman/blob/main/LICENSE-CONTENT"
+keywords:
+  - photography
+  - Edward Steichen
+  - The Family of Man
+  - Museum of Modern Art
+  - Clervaux
+  - Luxembourg
+  - UNESCO Memory of the World
+  - exhibition history
+  - photographic humanism
+authors:
+  - name: "thefamilyofman contributors"
+date-released: 2026-04-19
