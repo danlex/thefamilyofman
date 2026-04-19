@@ -7,7 +7,9 @@ on:
       - 'site/**'
       - 'data/**'
       - 'research/**'
+      - 'sources/**'
       - 'scripts/sync_mindmap.sh'
+      - 'scripts/compute_progress.sh'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -32,6 +34,10 @@ jobs:
       - name: Sync research/mindmap.md → site/mindmap.md
         working-directory: .
         run: bash scripts/sync_mindmap.sh
+
+      - name: Compute site/_data/progress.yml
+        working-directory: .
+        run: bash scripts/compute_progress.sh
 
       - uses: ruby/setup-ruby@v1
         with:

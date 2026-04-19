@@ -1,0 +1,23 @@
+{%- comment -%}
+Renders a progress strip at the bottom of an entry-grid tile.
+
+Expects `include.p` to be an entry from site/_data/progress.yml with:
+  kind:  "count" | "status"
+  pct:   integer 0-100         (for kind: count)
+  count: integer               (optional)
+  total: integer               (optional)
+  label: display string
+  note:  secondary line (optional)
+{%- endcomment -%}
+
+{%- assign p = include.p -%}
+{%- if p -%}
+<div class="progress progress-{{ p.kind | default: 'status' }}">
+  {%- if p.kind == "count" -%}
+  <div class="progress-bar"><span style="width: {{ p.pct | default: 0 }}%"></span></div>
+  {%- else -%}
+  <div class="progress-bar progress-bar-status"></div>
+  {%- endif -%}
+  <div class="progress-label">{{ p.label }}</div>
+</div>
+{%- endif -%}

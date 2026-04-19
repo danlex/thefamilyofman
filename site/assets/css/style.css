@@ -320,6 +320,47 @@ main {
   line-height: 1.5;
 }
 
+/* ---------- Progress strip (home-page tiles) ---------- */
+
+.progress {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--hairline);
+}
+.progress-bar {
+  height: 2px;
+  background: var(--hairline);
+  position: relative;
+  overflow: hidden;
+}
+.progress-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--ink);
+  transition: width 0.3s ease;
+}
+.progress-bar-status {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--hairline) 0,
+    var(--hairline) 3px,
+    transparent 3px,
+    transparent 7px
+  );
+  background-color: transparent;
+}
+.progress-label {
+  margin-top: 0.45rem;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mid);
+}
+.entry-grid a:hover .progress-bar > span {
+  background: var(--rule);
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
