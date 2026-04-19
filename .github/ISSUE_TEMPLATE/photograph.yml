@@ -1,0 +1,42 @@
+name: Photograph investigation
+description: Investigate one photograph in the exhibition — provenance, subject, sources.
+title: "[photograph] <short subject>"
+labels: ["investigation", "provenance", "needs-agent", "p2-enrichment"]
+body:
+  - type: input
+    id: photo_id
+    attributes:
+      label: Photograph ID
+      description: Stable ID from `data/photographs.csv` (e.g., `photo-0042`).
+    validations:
+      required: true
+  - type: input
+    id: photographer
+    attributes:
+      label: Photographer
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What the worker must produce (provenance, subject, reception, links to sources).
+      value: |
+        - Confirm `data/photographs.csv` row is complete and correct
+        - Add a photograph entry file at `research/photographs/<id>.md` using `templates/photograph-entry.md`
+        - Cite ≥1 Tier-1 source (MoMA or CNA Luxembourg) for provenance
+        - Add any missing source entries to `sources/`
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] Photograph entry file exists
+        - [ ] `data/photographs.csv` row updated
+        - [ ] All claims sourced; `check_credibility.py` passes
+        - [ ] `validate_schema.py` passes
+        - [ ] Perspective declared
+    validations:
+      required: true

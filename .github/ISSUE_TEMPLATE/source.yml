@@ -1,0 +1,38 @@
+name: Source entry
+description: Add one or more bibliographic sources to the repository.
+title: "[source] <short description>"
+labels: ["investigation", "sources", "needs-agent", "p1-core"]
+body:
+  - type: dropdown
+    id: decade
+    attributes:
+      label: Decade
+      options:
+        - era-1950s
+        - era-1960s
+        - era-1970s
+        - era-1980s
+        - era-1990s
+        - era-2000s
+        - era-2010s
+        - era-2020s
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources to add
+      description: One per entry — full citation, URL if online, expected tier.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] One file per source under `sources/<decade>/<slug>.md` using `templates/source-entry.md`
+        - [ ] Frontmatter complete (all required fields)
+        - [ ] Tier assignment justified in frontmatter notes
+        - [ ] URL verified live at time of accession (archive.org snapshot if fragile)
+    validations:
+      required: true

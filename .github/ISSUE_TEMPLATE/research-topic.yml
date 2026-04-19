@@ -1,0 +1,44 @@
+name: Research topic / narrative essay
+description: Investigate a narrative topic (exhibition history, tour, Clervaux, reception, UNESCO).
+title: "[research] <topic>"
+labels: ["investigation", "needs-agent", "p1-core"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - exhibition-history
+        - world-tour
+        - clervaux
+        - reception
+        - unesco
+        - sections
+    validations:
+      required: true
+  - type: textarea
+    id: mandate
+    attributes:
+      label: Mandate
+      description: What the worker must produce and where (which file in `research/`).
+    validations:
+      required: true
+  - type: textarea
+    id: primary_sources
+    attributes:
+      label: Primary sources to consult
+      description: A starter list — worker may find more, must justify inclusion/exclusion.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] Essay file present in `research/`
+        - [ ] Every claim carries a `source_id` citation
+        - [ ] Counter-perspectives acknowledged where Tier-1/2 critique exists
+        - [ ] Perspective tags declared
+        - [ ] `check_credibility.py` + `validate_schema.py` pass
+    validations:
+      required: true

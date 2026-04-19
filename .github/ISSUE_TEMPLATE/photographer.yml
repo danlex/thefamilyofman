@@ -1,0 +1,40 @@
+name: Photographer biography (batch)
+description: Biographies for a batch of photographers (recommended batch size ~25).
+title: "[photographer] batch <n>: <range or theme>"
+labels: ["investigation", "photographer-bio", "needs-agent", "p1-core"]
+body:
+  - type: input
+    id: batch
+    attributes:
+      label: Batch number
+    validations:
+      required: true
+  - type: textarea
+    id: names
+    attributes:
+      label: Photographers in this batch
+      description: Names, one per line. Must match entries in `data/photographers.csv`.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      value: |
+        For each photographer in the batch:
+        - Fill/verify row in `data/photographers.csv` (dates, nationality, photo_count)
+        - Optional: add a short `research/photographers/<slug>.md` bio (≤500 words) if enough Tier-1/2 material exists
+        - Add source entries to `sources/` for every citation
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] Every row has ≥1 Tier-1/2 source for dates and photo_count
+        - [ ] Nationality cited from an authoritative source
+        - [ ] Gender left blank unless self-identified or documented in a reputable source
+        - [ ] All new sources present in `sources/`
+    validations:
+      required: true
