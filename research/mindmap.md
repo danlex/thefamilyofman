@@ -3,6 +3,8 @@ title: Research mindmap
 last_updated: 2026-04-19
 ---
 
+> **Note.** This document was last bumped on 2026-04-19 after PR #3 (thematic clusters) merged and the Catalog Builder worker was dispatched on issue #1.
+
 # Research mindmap
 
 A living map of **what we know** (with sources) and **what we need to investigate** (gaps). Update this file after every merged research PR and whenever a new gap is identified.
@@ -71,9 +73,10 @@ mindmap
 - **Entrance arch / crowd imagery opens the show.** *Source: MoMA archive-highlights page.*
 - **Closing image: W. Eugene Smith, *A Walk to Paradise Garden* (1946).** *Source: MoMA archive-highlights page.*
 
-### Thematic structure *(active — PR #3 open)*
+### Thematic structure *(merged via PR #3)*
 - The 1955 catalog does **not** present a canonical numbered list of sections. Scholarly reconstructions differ: UNESCO Memory of the World register gives "32 themes" (confirmed). A "37 themes" figure is reported on CNA Luxembourg's education portal but is **not yet independently verified** in this repo (CNA site was unreachable during the 2026-04-19 audit).
-- **Our working reconstruction: 11 thematic clusters** (`sec-prologue` through `sec-rededication-future`), per PR #3 — awaiting judge-panel review. Each row in `data/sections.csv` is tagged "thematic cluster reconstructed" to avoid implying canonical status.
+- **Our working reconstruction: 11 thematic clusters** (`sec-prologue` through `sec-rededication-future`) are live on the site under [/sections/](https://danlex.github.io/thefamilyofman/sections/). Each row in `data/sections.csv` is tagged "thematic cluster reconstructed" to avoid implying canonical status.
+- **Governance note:** PR #3 was merged before the four-judge panel ran. The content should be re-audited — especially Judge-Grounding on the Barthes verbatim quotes and Judge-Bias on the theme-count treatment.
 
 ### World tour 1955–1962
 - **Sponsor: United States Information Agency (USIA).** Records held at National Archives, RG 306.
@@ -137,9 +140,9 @@ mindmap
 
 | # | Title | State | Agent | Notes |
 |---|---|---|---|---|
-| [#1](https://github.com/danlex/thefamilyofman/issues/1) | Catalog plates 1–50 | `needs-agent` | catalog-builder | Blocked on Sandburg-excerpt verification and catalog access. |
-| [#2](https://github.com/danlex/thefamilyofman/issues/2) | Thematic sections + prologue | `in-progress` | sections-cartographer | PR #3 open; awaiting judge panel. |
-| [PR #3](https://github.com/danlex/thefamilyofman/pull/3) | `[#2]` sections PR | `OPEN` | — | 21 files, +463/-0. Judges not yet run. |
+| [#1](https://github.com/danlex/thefamilyofman/issues/1) | Catalog plates 1–50 | `in-progress` | catalog-builder | Worker dispatched 2026-04-19; access to primary catalog scans may be restricted. |
+| [#2](https://github.com/danlex/thefamilyofman/issues/2) | Thematic sections + prologue | `closed via PR #3` | sections-cartographer | Merged without judge review — re-audit pending. |
+| [PR #3](https://github.com/danlex/thefamilyofman/pull/3) | `[#2]` sections PR | `MERGED` | — | Content live at [/sections/](https://danlex.github.io/thefamilyofman/sections/). Judge panel not run. |
 
 ---
 
