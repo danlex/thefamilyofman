@@ -3,7 +3,7 @@ title: Research mindmap
 last_updated: 2026-04-19
 ---
 
-> **Note.** This document was last bumped on 2026-04-19 after PR #3 (thematic clusters) merged and PR #4 (catalog plates 1–47) opened for review.
+> **Note.** This document was last bumped on 2026-04-19. Catalog now has 94 rows (`photo-0001`..`photo-0094`) after PRs #4 + #7 merged. PR #6 (photographer bios batch 1) still in progress.
 
 # Research mindmap
 
@@ -80,7 +80,7 @@ mindmap
 
 ### Catalog — first rows seeded (PR #4 open)
 - **New anchor source identified: MoMA Master Checklist for Exhibition #569** (`src-moma-exh-0569-master-checklist`, Tier 1). This 26-page internal checklist from MoMA Exhibitions is what PR #4 uses for every row — it gives per-plate photographer, agency/publication, nationality, "where taken," and print dimensions verbatim.
-- **Plates 1–50 contain 47 photographs, not 50.** The MoMA Master Checklist skips numbers 5, 7, and 8 in the Prologue section — no explanation given in the document (possible withdrawal, reserved numbering, or internal edit). Our row ids `photo-0001`…`photo-0047` compact the gap.
+- **Plate numbers skipped by the primary source so far:** #5, #7, #8 (Prologue); #61 (Mothers and Babies); #88, #90 (Family Activities). Reasons not stated in the document. Each skip is noted in the adjacent row's `notes`. Through plate #100 the checklist contains 94 photographs; our row ids `photo-0001`…`photo-0094` are sequential (we do not echo the skipped numbers).
 - **The MoMA Master Checklist records no titles and no dates for individual plates.** Steichen deprived the images of titles (per CNA education portal). Plate years are absent from the primary source. Any year or title we add to a photograph row must be backed by a separate Tier-1/2 citation — secondary identifications (e.g., Bullock's *Let There Be Light* = plate 2) are preserved only in `notes` with a "reported, not primary-verified" caveat.
 - **The 7 subsections of the checklist** (Prologue, Lovers, Marriage, Pregnancy, Childbirth, Nursing Mothers, Births) map into 4 of our 11 thematic clusters (`sec-prologue`, `sec-lovers`, `sec-marriage-birth`, `sec-family-children`). Per-row mapping is documented in the CSV `notes` column.
 - **National attribution is preserved verbatim** from the checklist — Capa is listed "American," Erwitt "American," Horvat "Italian," even where later scholarly convention differs. Any re-framing is a separate editorial decision, not a silent correction.
@@ -109,7 +109,7 @@ mindmap
 ## What we need to investigate (prioritized gaps)
 
 ### P0 — foundational (blocks everything else)
-- **Catalog — plates 48–503** (remaining after PR #4's first 47). Continue with the MoMA Master Checklist sections: Pregnancy, Childbirth, Nursing Mothers, Births, and onward through the rest of the show.
+- **Catalog — plates 101–end** (after PR #7 the first 94 rows are seeded). Continue with the remainder of the MoMA Master Checklist #569.
 - **Plate titles and dates** — the Master Checklist has neither. We need the *printed 1955 catalog* (the book) or Steichen's curatorial correspondence to attach titles and years to plates. Expected primary source: the Luxembourg National Library or a Google Books preview of the catalog; the Internet Archive scans were access-restricted.
 - **Verbatim Sandburg prologue text with page numbers.** Same blocker as above — access to a scan of the 1955 catalog.
 - **Canonical source for exhibition-level figures** (503, 273, 68, ~2M submissions) traced to specific pages of the 1955 catalog, not MoMA's summary pages.
@@ -148,10 +148,10 @@ mindmap
 
 | # | Title | State | Agent | Notes |
 |---|---|---|---|---|
-| [#1](https://github.com/danlex/thefamilyofman/issues/1) | Catalog plates 1–50 | `in-progress` | catalog-builder | Worker delivered PR #4; 47 rows seeded. |
-| [#2](https://github.com/danlex/thefamilyofman/issues/2) | Thematic sections + prologue | `closed via PR #3` | sections-cartographer | Merged without judge review — re-audit pending. |
-| [PR #3](https://github.com/danlex/thefamilyofman/pull/3) | `[#2]` sections PR | `MERGED` | — | Content live at [/sections/](https://danlex.github.io/thefamilyofman/sections/). Judge panel not run. |
-| [PR #4](https://github.com/danlex/thefamilyofman/pull/4) | `[#1]` catalog 1–47 | `OPEN` | — | 47 rows, 1 new Tier-1 source (MoMA Master Checklist #569). Judge panel not yet run. |
+| [#1](https://github.com/danlex/thefamilyofman/issues/1) | Catalog plates 1–50 | `CLOSED` via PR #4 | catalog-builder | 47 rows merged; MoMA Master Checklist #569 added as Tier-1 anchor. Judge panel not run. |
+| [#2](https://github.com/danlex/thefamilyofman/issues/2) | Thematic sections + prologue | `CLOSED` via PR #3 | sections-cartographer | Merged without judge review — re-audit pending. |
+| [#5](https://github.com/danlex/thefamilyofman/issues/5) | Catalog plates 48–100 | `CLOSED` via PR #7 | catalog-builder | 47 further rows merged (plate numbers 51–100, checklist-skipped #61, #88, #90). |
+| [#6](https://github.com/danlex/thefamilyofman/issues/6) | Photographer bios batch 1 | `in-progress` | photographer-biographer | Worker running on branch `agent/photographer-bios-batch-1`. |
 
 ---
 
