@@ -3,7 +3,7 @@ title: Research mindmap
 last_updated: 2026-04-19
 ---
 
-> **Note.** This document was last bumped on 2026-04-19. Catalog: 94 rows seeded (PRs #4 + #7). Photographers: 20 rows + 4 short bios + 20 source entries seeded (PR #8). Live on the site. An unresolved bottleneck: obituary and museum-page citations were added by `author-publication-year` rather than verified-permalink because WebFetch was denied by MoMA / Magnum / ICP / NYT; Judge-Grounding re-verification is a follow-up issue.
+> **Note.** This document was last bumped on 2026-04-19. Catalog: **192 rows** seeded (PRs #4 + #7 + #11). Photographers: 20 rows + 4 short bios + 20 source entries seeded (PR #8). Live on the site. An unresolved bottleneck: obituary and museum-page citations in PR #8 carry `verified: false` flags because WebFetch was denied by MoMA / Magnum / ICP / NYT — issue #9 tracks the re-verification.
 
 # Research mindmap
 
@@ -80,7 +80,10 @@ mindmap
 
 ### Catalog — first rows seeded (PR #4 open)
 - **New anchor source identified: MoMA Master Checklist for Exhibition #569** (`src-moma-exh-0569-master-checklist`, Tier 1). This 26-page internal checklist from MoMA Exhibitions is what PR #4 uses for every row — it gives per-plate photographer, agency/publication, nationality, "where taken," and print dimensions verbatim.
-- **Plate numbers skipped by the primary source so far:** #5, #7, #8 (Prologue); #61 (Mothers and Babies); #88, #90 (Family Activities). Reasons not stated in the document. Each skip is noted in the adjacent row's `notes`. Through plate #100 the checklist contains 94 photographs; our row ids `photo-0001`…`photo-0094` are sequential (we do not echo the skipped numbers).
+- **Plate numbers skipped by the primary source so far:** #5, #7, #8 (Prologue); #61 (Mothers and Babies); #88, #90 (Family Activities); #145, #149 (Work A). Reasons not stated in the document. Each skip is noted in the adjacent row's `notes`.
+- **Out-of-order plates encountered in #101–200 range:** #115 opens Section 14 Land rather than closing Section 13; #168 appears mid-Section 14 between #141 and Section 15; #194 appears inside Section 19 Classical Music. Three-digit plates #505 and #506 also appear inside sections 14–15 (out of the 101–200 range) — deferred.
+- **Through plate #200 the checklist contains 192 photographs.** Our row ids `photo-0001`…`photo-0192` are sequential (we do not echo the skipped numbers).
+- **Joint-credit plates seeded:** #107 "Diane and Allan Arbus" (`photo-0101`); #173 "Fritz Goro with Robert Campbell" (`photo-0165`). Preserved as printed.
 - **The MoMA Master Checklist records no titles and no dates for individual plates.** Steichen deprived the images of titles (per CNA education portal). Plate years are absent from the primary source. Any year or title we add to a photograph row must be backed by a separate Tier-1/2 citation — secondary identifications (e.g., Bullock's *Let There Be Light* = plate 2) are preserved only in `notes` with a "reported, not primary-verified" caveat.
 - **The 7 subsections of the checklist** (Prologue, Lovers, Marriage, Pregnancy, Childbirth, Nursing Mothers, Births) map into 4 of our 11 thematic clusters (`sec-prologue`, `sec-lovers`, `sec-marriage-birth`, `sec-family-children`). Per-row mapping is documented in the CSV `notes` column.
 - **National attribution is preserved verbatim** from the checklist — Capa is listed "American," Erwitt "American," Horvat "Italian," even where later scholarly convention differs. Any re-framing is a separate editorial decision, not a silent correction.
@@ -115,7 +118,7 @@ mindmap
 ## What we need to investigate (prioritized gaps)
 
 ### P0 — foundational (blocks everything else)
-- **Catalog — plates 101–end** (after PR #7 the first 94 rows are seeded). Continue with the remainder of the MoMA Master Checklist #569.
+- **Catalog — plates 201–end** (after PR #11 the first 192 rows are seeded). Continue with the remainder of the MoMA Master Checklist #569; also record the out-of-range three-digit plates (#505, #506) that appeared early inside sections 14–15.
 - **Plate titles and dates** — the Master Checklist has neither. We need the *printed 1955 catalog* (the book) or Steichen's curatorial correspondence to attach titles and years to plates. Expected primary source: the Luxembourg National Library or a Google Books preview of the catalog; the Internet Archive scans were access-restricted.
 - **Verbatim Sandburg prologue text with page numbers.** Same blocker as above — access to a scan of the 1955 catalog.
 - **Canonical source for exhibition-level figures** (503, 273, 68, ~2M submissions) traced to specific pages of the 1955 catalog, not MoMA's summary pages.
@@ -160,6 +163,7 @@ mindmap
 | [#5](https://github.com/danlex/thefamilyofman/issues/5) | Catalog plates 48–100 | `CLOSED` via PR #7 | catalog-builder | 47 further rows merged (plate numbers 51–100, checklist-skipped #61, #88, #90). |
 | [#6](https://github.com/danlex/thefamilyofman/issues/6) | Photographer bios batch 1 | `CLOSED` via PR #8 | photographer-biographer | 20 rows + 4 bios + 20 source entries merged. Obit/museum citations carry "not re-verified" flags — follow-up below. |
 | [#9](https://github.com/danlex/thefamilyofman/issues/9) | Re-verify PR #8 citations | `needs-agent` | sources-librarian | Re-fetch the 20 source files via live + archive.org; mark `verified: true/false`. Blocks more photographer batches. |
+| [#10](https://github.com/danlex/thefamilyofman/issues/10) | Catalog plates 101–200 | `CLOSED` via PR #11 | catalog-builder | 98 rows merged (`photo-0095`…`photo-0192`); skipped #145, #149; out-of-order #115, #168, #194. |
 
 ---
 
