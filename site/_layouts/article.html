@@ -2,6 +2,7 @@
 layout: default
 ---
 <article class="wrap article">
+  {% if page.namespace == "Section" %}{% include section-glyph.html %}{% endif %}
   {% if page.namespace %}<div class="kicker">{{ page.namespace }}</div>{% endif %}
   <h1 class="article-title">{{ page.title }}</h1>
 

@@ -1,0 +1,108 @@
+{%- comment -%}
+Decorative monochrome SVG glyph, one per thematic cluster.
+Original line-art; not derivative of any exhibition photograph.
+Rendered inside the <article> hero of each /sections/<slug>/ page.
+Uses `page.slug` to pick the glyph; stroke colour is inherited via currentColor.
+{%- endcomment -%}
+
+{%- assign slug = include.slug | default: page.slug -%}
+<div class="section-glyph" aria-hidden="true" role="presentation">
+{%- case slug -%}
+
+{%- when 'prologue' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <line x1="10" y1="74" x2="110" y2="74"/>
+  <circle cx="60" cy="54" r="18"/>
+  <line x1="24" y1="88" x2="96" y2="88" stroke-dasharray="2 4"/>
+</svg>
+
+{%- when 'lovers' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <circle cx="46" cy="60" r="30"/>
+  <circle cx="74" cy="60" r="30"/>
+</svg>
+
+{%- when 'marriage-and-childbirth' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <circle cx="44" cy="55" r="22"/>
+  <circle cx="76" cy="55" r="22"/>
+  <circle cx="60" cy="82" r="10"/>
+</svg>
+
+{%- when 'family-and-children' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <circle cx="60" cy="60" r="7"/>
+  <circle cx="30" cy="42" r="5"/>
+  <circle cx="92" cy="42" r="5"/>
+  <circle cx="30" cy="80" r="5"/>
+  <circle cx="92" cy="80" r="5"/>
+  <circle cx="60" cy="28" r="5"/>
+  <circle cx="60" cy="96" r="5"/>
+  <line x1="60" y1="60" x2="30" y2="42"/>
+  <line x1="60" y1="60" x2="92" y2="42"/>
+  <line x1="60" y1="60" x2="30" y2="80"/>
+  <line x1="60" y1="60" x2="92" y2="80"/>
+  <line x1="60" y1="60" x2="60" y2="28"/>
+  <line x1="60" y1="60" x2="60" y2="96"/>
+</svg>
+
+{%- when 'play-learning-and-education' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <path d="M 60 60 m -2 0 a 2 2 0 1 1 4 0 a 8 8 0 1 1 -16 0 a 14 14 0 1 1 28 0 a 20 20 0 1 1 -40 0 a 26 26 0 1 1 52 0 a 32 32 0 1 1 -64 0 a 38 38 0 1 1 76 0" />
+</svg>
+
+{%- when 'work' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <line x1="24" y1="30" x2="96" y2="30"/>
+  <line x1="24" y1="50" x2="96" y2="50"/>
+  <line x1="24" y1="70" x2="96" y2="70"/>
+  <line x1="24" y1="90" x2="96" y2="90"/>
+  <line x1="30" y1="24" x2="30" y2="96"/>
+  <line x1="50" y1="24" x2="50" y2="96"/>
+  <line x1="70" y1="24" x2="70" y2="96"/>
+  <line x1="90" y1="24" x2="90" y2="96"/>
+</svg>
+
+{%- when 'eating-and-everyday-life' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <line x1="22" y1="58" x2="98" y2="58"/>
+  <path d="M 26 58 Q 60 100 94 58"/>
+  <circle cx="60" cy="68" r="3"/>
+</svg>
+
+{%- when 'relationships-and-community' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <circle cx="60" cy="32" r="9"/>
+  <circle cx="32" cy="84" r="9"/>
+  <circle cx="88" cy="84" r="9"/>
+  <line x1="60" y1="41" x2="32" y2="75"/>
+  <line x1="60" y1="41" x2="88" y2="75"/>
+  <line x1="41" y1="84" x2="79" y2="84"/>
+</svg>
+
+{%- when 'hardship-suffering-and-war' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1.2">
+  <polyline points="12,70 30,52 42,78 58,46 72,82 86,50 102,74"/>
+</svg>
+
+{%- when 'death-and-mourning' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <line x1="18" y1="60" x2="102" y2="60"/>
+  <line x1="30" y1="74" x2="90" y2="74" stroke-dasharray="3 5" opacity="0.6"/>
+  <line x1="44" y1="88" x2="76" y2="88" stroke-dasharray="2 6" opacity="0.35"/>
+</svg>
+
+{%- when 'rededication-peace-and-the-future' -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <line x1="60" y1="100" x2="60" y2="26"/>
+  <polyline points="40,46 60,26 80,46"/>
+  <circle cx="60" cy="26" r="4"/>
+</svg>
+
+{%- else -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1">
+  <circle cx="60" cy="60" r="40"/>
+</svg>
+
+{%- endcase -%}
+</div>
