@@ -2,7 +2,7 @@
 layout: list
 title: Photographers
 namespace: Index
-lede: The 273 photographers whose work appeared in the exhibition.
+lede: The photographers who contributed to the 1955 exhibition. Nationality is recorded per the MoMA Master Checklist's own attribution; scholarly alternatives are noted in each row's source file.
 permalink: /photographers/
 edit_dir: site
 ---
@@ -12,30 +12,40 @@ edit_dir: site
   <select id="nationality" aria-label="Filter by nationality"><option value="">All nationalities</option></select>
 </div>
 
-{% if site.photographers.size > 0 %}
+{% assign rows = site.data.photographers %}
+{% if rows and rows.size > 0 %}
+<div class="list-meta">{{ rows.size }} of 273 rows seeded.</div>
 <table class="entity-table" id="photographers-table">
   <thead>
     <tr>
       <th>Name</th>
       <th>Nationality</th>
       <th>Dates</th>
-      <th>Works in the exhibition</th>
+      <th>Plates</th>
+      <th>Biography</th>
     </tr>
   </thead>
   <tbody>
-    {% for p in site.photographers %}
+    {% for p in rows %}
     <tr>
-      <td><a href="{{ p.url | relative_url }}">{{ p.name }}</a></td>
+      <td>{{ p.name }}</td>
       <td>{{ p.nationality }}</td>
-      <td>{% if p.birth_year %}{{ p.birth_year }}{% endif %}{% if p.death_year %}–{{ p.death_year }}{% endif %}</td>
+      <td>{% if p.birth_year and p.birth_year != "" %}{{ p.birth_year }}{% endif %}{% if p.death_year and p.death_year != "" %}–{{ p.death_year }}{% endif %}</td>
       <td>{{ p.photo_count }}</td>
+      <td>
+        {% if p.bio_url and p.bio_url != "" -%}
+        <a href="{{ p.bio_url }}" rel="noopener">institutional</a>
+        {%- else -%}
+        —
+        {%- endif %}
+      </td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
 {% else %}
 <div class="empty">
-  No photographer articles yet.
+  No photographer rows yet.
 </div>
 {% endif %}
 

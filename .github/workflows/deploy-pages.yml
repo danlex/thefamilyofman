@@ -35,6 +35,10 @@ jobs:
         working-directory: .
         run: bash scripts/sync_mindmap.sh
 
+      - name: Sync data/*.csv → site/_data/ and sources → site/_sources/
+        working-directory: .
+        run: bash scripts/sync_site_data.sh
+
       - name: Compute site/_data/progress.yml
         working-directory: .
         run: bash scripts/compute_progress.sh

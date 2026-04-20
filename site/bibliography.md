@@ -18,7 +18,9 @@ edit_dir: site
   <select id="decade" aria-label="Filter by decade"><option value="">All decades</option></select>
 </div>
 
-{% if site.sources.size > 0 %}
+{% assign sorted = site.sources | sort: "year" %}
+{% if sorted.size > 0 %}
+<div class="list-meta">{{ sorted.size }} source entries.</div>
 <table class="entity-table" id="sources-table">
   <thead>
     <tr>
@@ -27,23 +29,31 @@ edit_dir: site
       <th>Year</th>
       <th>Type</th>
       <th>Tier</th>
+      <th>Link</th>
     </tr>
   </thead>
   <tbody>
-    {% for s in site.sources %}
+    {% for s in sorted %}
     <tr>
       <td>{{ s.author }}</td>
-      <td><a href="{{ s.url | relative_url }}">{{ s.title }}</a></td>
+      <td>{{ s.title }}</td>
       <td>{{ s.year }}</td>
       <td>{{ s.type }}</td>
       <td>{{ s.tier }}</td>
+      <td>
+        {% if s.url and s.url != "" -%}
+        <a href="{{ s.url }}" rel="noopener">source</a>
+        {%- else -%}
+        —
+        {%- endif %}
+      </td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
 {% else %}
 <div class="empty">
-  The bibliography is being built — three librarian agents (Primary / Critical / Contemporary eras) will populate this as Phase 2 proceeds.
+  The bibliography is being built.
 </div>
 {% endif %}
 
