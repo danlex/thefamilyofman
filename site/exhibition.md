@@ -23,6 +23,13 @@ The exhibition opened at the Museum of Modern Art in New York on **24 January 19
 
 The galleries were designed by architect **Paul Rudolph**.
 
+{% include image.html
+   src="/assets/images/family-of-man-layout.jpg"
+   alt="A layout view of a Family of Man exhibit installation"
+   caption="Installation layout of a Family of Man tour venue, documenting the traveling re-fabrication of Rudolph's original design."
+   credit="U.S. National Archives · DPLA · Public domain"
+   credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Lay-out_-_DPLA_-_5c4794f6d3a44086410a6e9733695553.jpg" %}
+
 ## Catalog and prologue
 
 The exhibition was accompanied by a catalog published by MoMA, with a prologue by **Carl Sandburg** (Steichen's brother-in-law).

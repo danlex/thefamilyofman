@@ -8,6 +8,13 @@ edit_dir: site
 
 **thefamilyofman** is a public wiki documenting Edward Steichen's 1955 exhibition *The Family of Man* — its 503 photographs, 273 contributing photographers, 1955–62 world tour, permanent installation at Clervaux Castle, UNESCO Memory of the World inscription, and seven decades of critical reception.
 
+{% include image.html
+   src="/assets/images/steichen-guam-1945.jpg"
+   alt="Captain E. J. Steichen photographing children on Guam Island, circa 1945"
+   caption="Edward Steichen as Captain of Navy combat photography, Guam, circa 1945. A decade later he curated The Family of Man at MoMA."
+   credit="U.S. Navy / NARA · Public domain"
+   credit_url="https://commons.wikimedia.org/wiki/File:Capt._E.J._Steichen,_Navy_combat_photographer,_photographs_native_children_on_Guam_Island._-_NARA_-_520943.jpg" %}
+
 ## How it's built
 
 The wiki is built openly on GitHub. Every article lives as a Markdown file in the repository. The site is static — plain HTML served by GitHub Pages, with no backend, no database, and no framework. Jekyll renders the Markdown at build time.
