@@ -1,0 +1,85 @@
+---
+layout: default
+---
+<article class="wrap article photograph-page">
+  <div class="kicker">{{ page.id | upcase | replace: "-", " " }}</div>
+  <h1 class="article-title">
+    {%- if page.title == "Untitled" or page.title == "" -%}
+      <em>Untitled</em>
+    {%- else -%}
+      {{ page.title }}
+    {%- endif -%}
+  </h1>
+
+  <div class="article-meta">
+    <strong>{{ page.photographer }}</strong>{% if page.year and page.year != "" %} · {{ page.year }}{% endif %}{% if page.country and page.country != "" %} · {{ page.country }}{% endif %}
+  </div>
+
+  <hr>
+
+  <div class="photograph-view">
+    {% if page.moma_object_id and page.moma_object_id != "" %}
+    <a class="view-image-card" href="https://www.moma.org/collection/works/{{ page.moma_object_id }}" rel="noopener">
+      <div class="view-image-card-label">View the image at</div>
+      <div class="view-image-card-venue">MoMA</div>
+      <div class="view-image-card-sub">Object #{{ page.moma_object_id }}</div>
+    </a>
+    {% else %}
+    <a class="view-image-card" href="https://www.moma.org/calendar/exhibitions/2429" rel="noopener">
+      <div class="view-image-card-label">View the exhibition record at</div>
+      <div class="view-image-card-venue">MoMA</div>
+      <div class="view-image-card-sub">Exhibition #2429 (1955)</div>
+    </a>
+    {% endif %}
+    <a class="view-image-card" href="https://steichencollections.lu/" rel="noopener">
+      <div class="view-image-card-label">Or view at</div>
+      <div class="view-image-card-venue">Clervaux</div>
+      <div class="view-image-card-sub">CNA Luxembourg collection</div>
+    </a>
+  </div>
+
+  <p class="no-image-note">
+    This wiki does not host exhibition photographs — each is copyrighted
+    by its photographer or estate. See the
+    <a href="https://github.com/danlex/thefamilyofman/blob/main/IMAGE_POLICY.md">image policy</a>.
+  </p>
+
+  <dl class="photograph-meta">
+    <div><dt>Photographer</dt><dd>{{ page.photographer }}</dd></div>
+    {% if page.year and page.year != "" %}<div><dt>Year</dt><dd>{{ page.year }}</dd></div>{% endif %}
+    <div><dt>Country</dt><dd>{{ page.country | default: "—" }}</dd></div>
+    <div><dt>Section</dt><dd><a href="{{ '/sections/' | relative_url }}">{{ page.section }}</a></dd></div>
+    <div><dt>Clervaux display</dt><dd>{{ page.clervaux_on_display }}</dd></div>
+    {% if page.moma_object_id and page.moma_object_id != "" %}<div><dt>MoMA object</dt><dd>#{{ page.moma_object_id }}</dd></div>{% endif %}
+  </dl>
+
+  {% if content and content != "" %}
+  <h2>Catalog notes</h2>
+  <div class="photograph-notes">
+    {{ content }}
+  </div>
+  {% endif %}
+
+  {% if page.source_ids and page.source_ids != "" %}
+  <div class="references">
+    <div class="label">Sources</div>
+    <ul>
+      {% assign src_ids = page.source_ids | split: ";" %}
+      {% for sid in src_ids %}
+      <li><code>{{ sid | strip }}</code></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="see-also">
+    <div class="label">See also</div>
+    <ul>
+      <li><a href="{{ '/photographs/' | relative_url }}">Back to the catalog</a></li>
+      <li><a href="{{ '/sections/' | relative_url }}">Thematic sections</a></li>
+      <li><a href="{{ '/photographers/' | relative_url }}">Photographers</a></li>
+    </ul>
+  </div>
+
+  {% include edit-links.html %}
+</article>

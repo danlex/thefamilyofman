@@ -30,7 +30,7 @@ edit_dir: site
   <tbody>
     {% for p in rows %}
     <tr>
-      <td>{{ p.id }}</td>
+      <td><a href="{{ '/photographs/' | append: p.id | append: '/' | relative_url }}">{{ p.id }}</a></td>
       <td>{{ p.photographer }}</td>
       <td>{{ p.year }}</td>
       <td>{{ p.country }}</td>
