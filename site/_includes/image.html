@@ -1,0 +1,31 @@
+{%- comment -%}
+Renders a figure with attribution, per IMAGE_POLICY.md.
+Usage:
+  {% include image.html
+     src="/assets/images/foo.jpg"
+     alt="Short descriptive alt text"
+     caption="What the photo shows"
+     credit="Photo by Author, CC BY-SA 3.0"
+     credit_url="https://commons.wikimedia.org/wiki/File:Foo.jpg" %}
+
+Every image hosted on the site must ship with a sibling license.json
+and must be referenced through this include (so attribution renders
+visibly under every published image).
+{%- endcomment -%}
+<figure class="hero-image">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.caption }}" loading="lazy">
+  <figcaption>
+    {%- if include.caption -%}
+    <span class="caption">{{ include.caption }}</span>
+    {%- endif -%}
+    {%- if include.credit -%}
+    <span class="credit">
+      {%- if include.credit_url -%}
+        <a href="{{ include.credit_url }}" rel="noopener">{{ include.credit }}</a>
+      {%- else -%}
+        {{ include.credit }}
+      {%- endif -%}
+    </span>
+    {%- endif -%}
+  </figcaption>
+</figure>

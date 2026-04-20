@@ -219,6 +219,40 @@ main {
   border-radius: 2px;
 }
 
+/* ---------- Hero image / figure ---------- */
+
+.hero-image {
+  margin: 2rem 0 2.5rem;
+  padding: 0;
+}
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(1) contrast(1.05);
+  border: 1px solid var(--hairline);
+}
+.hero-image figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--mid);
+}
+.hero-image figcaption .caption { flex: 1 1 auto; }
+.hero-image figcaption .credit {
+  flex: 0 0 auto;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.hero-image figcaption a { color: inherit; }
+
 /* ---------- Photograph detail page ---------- */
 
 .photograph-page .article-title em {
