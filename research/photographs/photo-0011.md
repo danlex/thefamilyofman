@@ -14,7 +14,7 @@
 
 ## Provenance
 
-The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo) records plate #14 as: *"France — Robert Doisneau, Rapho Guillumette (agency), French — 18 × 21 1/4"* (print dimensions in cm). The checklist does not record a title or date.
+The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo) records plate #14 as: *"France — Robert Doisneau, Rapho Guillumette (agency), French"*. Print dimensions (18 × 21 1/4 cm) appear in the full 26-page Master Checklist PDF but not in the in-repo source file's Key excerpts (which transcribe dimensions for Section 1 Prologue only). The checklist does not record a title or date.
 
 Doisneau has three plates in Section 2 (Lovers) — at checklist numbers #14, #16, #20 (our `photo-0011`, `photo-0013`, `photo-0017`). The Master Checklist does not distinguish which of the three corresponds to any specific titled work in Doisneau's catalogue raisonné. The much-reproduced *Le Baiser de l'Hôtel de Ville* (1950) is NOT assigned here to any specific plate — CREDIBILITY.md and CLAUDE.md require plate-level Tier-1/2 attestation before such a matching is recorded.
 

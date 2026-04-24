@@ -14,7 +14,7 @@
 
 ## Provenance
 
-The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo) records plate #30 as: *"Japan — Werner Bischof, Magnum, Swiss — 18 × 12"* (print dimensions in cm). The checklist does not record a title or date.
+The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo) records plate #30 as: *"Japan — Werner Bischof, Magnum, Swiss"*. Print dimensions (18 × 12 cm) appear in the full 26-page Master Checklist PDF but not in the in-repo source file's Key excerpts (which transcribe dimensions for Section 1 Prologue only). The checklist does not record a title or date.
 
 Bischof's Family of Man plate was contributed posthumously — he was killed in a road accident in the Peruvian Andes on 16 May 1954, nine days before fellow Magnum co-member Robert Capa (`photo-0023`) died in Indochina. Magnum Photos' own archive page (`src-magnum-photographer-bios`, Tier-3, verified:true, fetched 2026-04-24 from https://www.magnumphotos.com/photographer/werner-bischof) confirms Bischof "b. 1916, Switzerland" and "died in a road accident in the Andes on May 16, 1954" (verbatim quotations).
 
