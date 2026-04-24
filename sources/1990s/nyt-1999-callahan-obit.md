@@ -30,4 +30,4 @@ Named-author obituary of record for Harry Callahan (1912–1999), whose print ap
 
 - Complementary institutional reference: Harry Callahan papers and prints held by the Art Institute of Chicago and the Center for Creative Photography.
 - Perspective: journalistic / biographical.
-- Not fetchable anywhere (NYT paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Biographical dates (b. 22 Oct 1912, Detroit; d. 15 Mar 1999, Atlanta) corroborated by Wikipedia (en.wikipedia.org/wiki/Harry_Callahan_(photographer), accessed 2026-04-24) — no date discrepancies found. Tier-3 retained on basis of independent corroboration.
+- Not fetchable anywhere (NYT paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Per CREDIBILITY.md, Wikipedia is not a valid citation endpoint. The Art Institute of Chicago and CCP hold Callahan archive material (Tier-1 candidates) but NEITHER was fetched this round. Biographical dates in Key excerpts are held on the pre-existing NYT citation only.
