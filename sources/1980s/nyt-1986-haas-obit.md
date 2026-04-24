@@ -5,10 +5,11 @@ author: "The New York Times"
 year: 1986
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
 tags: [photographer-bio, obituary, haas, magnum, color-photography]
+verified: false
 ---
 
 ## Citation
@@ -29,3 +30,4 @@ Obituary of record for Ernst Haas (1921–1986), Magnum photographer whose print
 
 - Magnum Photos maintains a photographer bio (magnumphotos.com/photographer/ernst-haas) confirming these dates.
 - Perspective: journalistic / biographical.
+- Not fetchable anywhere (NYT paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Biographical dates (b. 2 Mar 1921, Vienna; d. 12 Sep 1986, New York City) corroborated by Wikipedia (en.wikipedia.org/wiki/Ernst_Haas, accessed 2026-04-24) — no date discrepancies found. Tier-3 retained on basis of independent corroboration.

@@ -5,10 +5,11 @@ author: "Guerrin, Michel"
 year: 1994
 type: article
 publisher: "Le Monde"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: fr
 tags: [photographer-bio, obituary, doisneau, humanist-photography]
+verified: false
 ---
 
 ## Citation
@@ -29,3 +30,4 @@ Named-author obituary of record in a French newspaper of record for Robert Doisn
 
 - Atelier Robert Doisneau (robertdoisneau.com), maintained by his daughters Annette and Francine Doisneau, is the canonical estate / archival reference and may be cited where a finer provenance claim is needed.
 - Perspective: journalistic / biographical.
+- Not fetchable anywhere (Le Monde paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Biographical dates (b. 14 Apr 1912, Gentilly; d. 1 Apr 1994, Montrouge) corroborated by Wikipedia (en.wikipedia.org/wiki/Robert_Doisneau, accessed 2026-04-24) — no date discrepancies found. Tier-3 retained on basis of independent corroboration.
