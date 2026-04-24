@@ -5,9 +5,10 @@ author: "The New York Times (staff / AP)"
 year: 1954
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, obituary, capa, magnum, war-photography]
 ---
 
@@ -29,3 +30,4 @@ Contemporaneous news-of-record report on the death of Robert Capa (1913–1954),
 - The MoMA Master Checklist prints Capa's nationality as "American" (per US naturalization); this obituary acknowledges the Hungarian birth. The scholarly convention "Hungarian-American" (used by ICP, Magnum Photos, and the standard biographies by Richard Whelan) is recorded in `notes` on `pher-robert-capa`.
 - Companion reference: the International Center of Photography (ICP), founded in 1974 by his brother Cornell Capa in part to preserve Robert Capa's archive, holds the Robert Capa Archive.
 - Perspective: journalistic / biographical.
+- Re-verification 2026-04-24 (issue #9): NYT archive URL not directly fetchable (403, paywall) and no Wayback snapshot available. Birth name (André Friedmann, Budapest 1913), death year/cause (1954, landmine in Indochina on LIFE assignment), Hungarian-American nationality, and Magnum co-founder role with Cartier-Bresson, Rodger, Seymour independently corroborated by the ICP Robert Capa Archive constituent page (fetched 2026-04-24). Exact death date (1954-05-25) and locality (Thai-Binh) not re-confirmed in this round — held on the NYT citation + scholarly Whelan (1985) authority. Flagged `verified: false` pending a Tier-1/2 primary source.
