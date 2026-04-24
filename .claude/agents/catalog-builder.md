@@ -50,3 +50,11 @@ Produce the authoritative list of all 503 photographs in the exhibition. One CSV
 
 - Per-photograph provenance essays — see `provenance-researcher`.
 - Photographer biographies — see `photographer-biographer`.
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**Never name a source as backing a catalog row field unless you actually fetched / read it this session.** Critical failure modes for this agent: writing `moma_object_id` values not actually retrieved from a MoMA collection page this round; writing `clervaux_on_display: yes` because the work *seems* prominent rather than because a CNA page said so.
+
+If MoMA was 403/blocked this session, say so explicitly: `moma_object_id` left blank with `notes: "MoMA collection page not fetched this round"`. Leaving a field blank is better than guessing it from an adjacent row. Invoke `tvl-tech-bias-validator` before closing.

@@ -31,3 +31,9 @@ Document the 1955 MoMA exhibition itself: conception, curation, design, opening,
 - [ ] Installation design (Rudolph) documented with primary sources
 - [ ] At least one critical reception perspective acknowledged (even if critique is later; note temporal placement)
 - [ ] Perspective tags declared
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**Never claim a source documents a 1955 exhibition fact unless you fetched / opened that source this session.** Specific failure mode for this agent: asserting that Paul Rudolph's installation drawings "document X" without having seen them this round; quoting Sandburg's prologue without fetching the catalog. Invoke `tvl-tech-bias-validator` before closing.

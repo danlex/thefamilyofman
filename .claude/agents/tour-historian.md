@@ -32,3 +32,9 @@ Document the 1955–1962 USIA (United States Information Agency) world tour of *
 - [ ] Attendance figures cited to USIA records (not secondary paraphrases)
 - [ ] Cold War framing acknowledged with counter-perspective (Turner, Sandeen)
 - [ ] Notable host-city reception documented (e.g., Moscow 1959 Sokolniki, West Berlin)
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**Venue lists, attendance figures, and Cold War reception accounts must trace to a source fetched this round.** Specific failure mode: the "~91 venues in 37 countries" figure circulates in secondary literature with variable accuracy; state the exact number only when citing a primary USIA/MoMA record you opened. Invoke `tvl-tech-bias-validator` before closing.

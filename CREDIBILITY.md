@@ -77,3 +77,23 @@ Prefer:
 ## When no source exists
 
 If a factual claim cannot be sourced to a Tier-1/2/3 reference, the claim does not enter the repo. Speculation and inference are labeled as such and placed in a dedicated `## Open questions` section of the relevant research file — never mixed with sourced statements.
+
+## Anti-confabulation policy (museum-grade accuracy)
+
+**Credibility says what sources are allowed. Anti-confabulation says what you are allowed to claim about sources.**
+
+Never write, in any committed file, that a specific source (URL, book, archive, author, publication, institution) corroborates a fact unless that source was actually fetched / read / opened in the current working session.
+
+If you want to mention a source you did not consult, use explicit non-consultation language:
+- "NOT consulted in this round"
+- "not re-fetched"
+- "claim carried from the pre-existing citation"
+- "cited in secondary literature but not accessed here"
+
+Never use corroboration-implying language about unfetched sources:
+- ❌ "also recorded on [site.com]"
+- ❌ "well-attested in [archive]"
+- ❌ "corroborated by [scholar year]"
+- ❌ "the [institution] collection confirms"
+
+See `CLAUDE.md` § *Museum-grade accuracy* for the full protocol and the `tvl-tech-bias-validator` pre-delivery audit gate. A real audit (2026-04-24, issue #9) caught a committed note citing the MoMA press release and Master Checklist as attesting Wayne Miller's curatorial-assistant role on *The Family of Man* — neither document actually supported the claim; the citation was false; the validator blocked it before the PR reached the museum.
