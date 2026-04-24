@@ -28,6 +28,6 @@ Obituary of record for Ernst Haas (1921–1986), Magnum photographer whose print
 
 ## Notes
 
-- Magnum Photos maintains a photographer bio (magnumphotos.com/photographer/ernst-haas) confirming these dates.
+- Magnum Photos maintains a photographer bio (magnumphotos.com/photographer/ernst-haas); not consulted in this round.
 - Perspective: journalistic / biographical.
 - Not fetchable anywhere (NYT paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Per CREDIBILITY.md, Wikipedia is not a valid citation endpoint — it may be consulted as a pointer to primary/secondary sources but cannot itself corroborate a claim. Magnum's photographer page (`magnumphotos.com/photographer/ernst-haas`) is the closest Tier-3 corroborating authority but was NOT fetched this round. Biographical dates in Key excerpts are held on the pre-existing NYT citation only.
