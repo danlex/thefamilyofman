@@ -29,4 +29,4 @@ Named-author obituary of record for Ralph Morse (1917–2014), LIFE magazine pho
 ## Notes
 
 - Perspective: journalistic / biographical.
-- Re-verification 2026-04-24 (issue #9): NYT archive 403/paywalled, no Wayback snapshot. Morse's LIFE tenure and Mercury Seven coverage are well-attested in LIFE archive holdings (Time Inc. / Meredith archive at the LIFE Photo Collection on Google Arts & Culture). Flagged `verified: false` pending Chrome-session verification.
+- Re-verification 2026-04-24 (issue #9): NYT archive 403/paywalled; Wayback not attempted for this specific URL in this round. No alternative source was fetched for Morse this round (the LIFE Photo Collection on Google Arts & Culture is cited in secondary literature but was NOT consulted in this round). Flagged `verified: false` pending Chrome-session verification.

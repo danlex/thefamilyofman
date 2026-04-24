@@ -29,4 +29,4 @@ Named-author obituary of record for Louis Faurer (1916–2001), the New York Sch
 ## Notes
 
 - Perspective: journalistic / biographical.
-- Re-verification 2026-04-24 (issue #9): NYT archive URL not directly fetchable (403, paywall) and no Wayback snapshot surfaced. Faurer's dates and NY-School affiliation are well-attested in independent art-history literature (Westerbeck, Livingston) but not re-fetched in this round. Flagged `verified: false` pending Chrome-session verification or a Tier-1 museum-collection replacement.
+- Re-verification 2026-04-24 (issue #9): NYT archive URL not directly fetchable (403, paywall); Wayback not attempted for this specific URL in this round. No alternative source was fetched for Faurer this round. Flagged `verified: false` pending Chrome-session verification or a Tier-1 museum-collection replacement.
