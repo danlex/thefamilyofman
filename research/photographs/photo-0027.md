@@ -38,7 +38,7 @@ Not written this round.
 ## Open questions
 
 - The specific Japanese location, subject, and date of the photograph.
-- Whether this plate is one of Bischof's published Japan images from 1951–52 or an earlier/later work — not attested in any source fetched this round.
+- The specific date of the Japan plate — not attested in any source fetched this round; a Tier-1 Bischof catalogue raisonné or Werner Bischof Estate cross-reference would be needed.
 - Whether MoMA's permanent collection holds the print with a recorded object id.
 - Whether the print is among the Clervaux Castle holdings.
 - Whether the print was authorized posthumously by the Werner Bischof Estate for the exhibition or had already been printed before his death — not attested in fetched sources.
