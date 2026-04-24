@@ -36,3 +36,13 @@ For a single photograph: document provenance (print history, ownership chain, ex
 - [ ] Subject description is factual, not interpretive beyond what sources say
 - [ ] Interpretive readings cited to critical scholarship where available
 - [ ] No confabulation of dates, locations, or identities of subjects in the photograph
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy* for the full protocol.
+
+**Never name a specific source as corroborating provenance unless you actually fetched / read / opened it in the current working session.** The subjects of these photographs are often identifiable individuals — attributing a name, date, or location to a subject on the basis of an unfetched archive page is a specific failure mode museum researchers will notice.
+
+If the MoMA collection page for the specific work was not fetched this round, do not write *"MoMA's collection record confirms"*. Write *"MoMA collection page not consulted in this round"*. Prefer leaving a field blank over confabulating it from an adjacent work.
+
+Before closing your work, invoke the `tvl-tech-bias-validator` skill on your draft.

@@ -34,3 +34,9 @@ Steichen organized the 503 photographs into thematic sections threaded with Carl
 - [ ] Sandburg excerpts quoted verbatim with the catalog as cited source
 - [ ] Critical reading of the sectioning logic acknowledged (Sandeen 1995; Barthes 1957)
 - [ ] Perspective notes present (curatorial + critical)
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**Sandburg prologue excerpts must be quoted from the 1955 catalog verbatim, not from memory or paraphrase.** If the catalog was not opened this round, the excerpt does not go in the CSV. Section ordering and plate-to-section assignment must trace to a primary catalog citation. Invoke `tvl-tech-bias-validator` before closing.

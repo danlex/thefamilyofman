@@ -5,9 +5,10 @@ author: "Kimmelman, Michael"
 year: 2001
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, obituary, faurer, new-york-school]
 ---
 
@@ -28,3 +29,4 @@ Named-author obituary of record for Louis Faurer (1916–2001), the New York Sch
 ## Notes
 
 - Perspective: journalistic / biographical.
+- Re-verification 2026-04-24 (issue #9): NYT archive URL not directly fetchable (403, paywall); Wayback not attempted for this specific URL in this round. No alternative source was fetched for Faurer this round. Flagged `verified: false` pending Chrome-session verification or a Tier-1 museum-collection replacement.

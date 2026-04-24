@@ -6,9 +6,10 @@ year: 2010
 type: archive
 publisher: "International Center of Photography, New York"
 url: "https://www.icp.org/browse/archive/constituents/robert-capa"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 1
 language: en
+verified: true
 tags: [photographer-bio, capa, archive, icp, magnum]
 ---
 
@@ -22,12 +23,13 @@ Tier-1 institutional archive page for the Robert Capa Archive at ICP (founded by
 
 ## Key excerpts / pages
 
-- Birth: October 22, 1913, Budapest, Hungary (as Endre Ernő Friedmann).
+- Birth: October 22, 1913, Budapest, Hungary. (The ICP page fetched 2026-04-24 renders the name "André Friedmann"; the Hungarian original "Endre Ernő Friedmann" appears in prior scholarly sources — Whelan 1985, Hungarian-language biographies — which were NOT re-fetched in this round.)
 - Death: May 25, 1954, Thai-Binh, Indochina / Vietnam.
-- Nationality: Hungarian-American (per ICP scholarly convention).
-- Co-founded Magnum Photos in 1947 with Henri Cartier-Bresson, David "Chim" Seymour, George Rodger, and William Vandivert.
+- Nationality: "American (b. Hungary)" per ICP; scholarly convention "Hungarian-American" elsewhere.
+- Co-founded Magnum Photos in 1947 with Henri Cartier-Bresson, David "Chim" Seymour, George Rodger, and William Vandivert (year carried from pre-existing citations; the ICP page fetched this round confirmed the co-founder role but did not itself timestamp the 1947 founding).
 
 ## Notes
 
-- The MoMA Master Checklist for *The Family of Man* records Capa as "American" (per US naturalization); ICP and the standard Capa biographies (Richard Whelan, 1985; Bernard Lebrun / Michel Lefebvre, 2011) use "Hungarian-American." Both are recorded on `pher-robert-capa` — checklist form as `nationality`, scholarly form in `notes`.
+- The MoMA Master Checklist for *The Family of Man* records Capa as "American" (per US naturalization); Richard Whelan (1985) and Bernard Lebrun / Michel Lefebvre (2011) use "Hungarian-American" in their scholarly biographies — both are named for reference but were NOT consulted in this round. Both convention-forms are recorded on `pher-robert-capa`: checklist form as `nationality`, scholarly form in `notes`.
 - Perspective: institutional / archival.
+- Verified against fetched source on 2026-04-24. ICP constituent page at `https://www.icp.org/browse/archive/constituents/robert-capa` resolved and returned biographical summary confirming Budapest birth as André Friedmann, 1913-1954 dates, death by landmine in Indochina, nationality "American (b. Hungary)", and Magnum co-founder role with Cartier-Bresson, Chim (David Seymour), and George Rodger. Archive item count and the precise 1947 Magnum founding year were NOT re-verified against the fetched page in this round (item count shown in the UI but not captured; the 1947 year is carried from the pre-existing citation).

@@ -6,9 +6,10 @@ year: 2024
 type: website
 publisher: "Magnum Photos"
 url: "https://www.magnumphotos.com/photographers/"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: true
 tags: [photographer-bio, magnum, directory]
 ---
 
@@ -31,3 +32,4 @@ Magnum Photos is the cooperative agency co-founded in 1947 by Robert Capa, Henri
 
 - Magnum's biographies are institutional-reputation sources (Tier 3). Where stronger archival holdings exist (ICP for Capa, the Werner Bischof Estate for Bischof, the Henri Cartier-Bresson Foundation for Cartier-Bresson), those are the preferred primary references.
 - Perspective: institutional / professional-society.
+- Verified against fetched source on 2026-04-24. The index page at `https://www.magnumphotos.com/photographers/` resolved and presents an alphabetical photographer directory with filter options for membership class and estate photographers (specific filter labels were not captured verbatim this round). Individual photographer-page URL pattern confirmed via the Werner Bischof page (`/photographer/werner-bischof`), which returned biographical content: "b. 1916, Switzerland" and "died in a road accident in the Andes on May 16, 1954".

@@ -31,3 +31,13 @@ Build the bibliography for 21st-century scholarship and institutional publicatio
 - [ ] Tier declared and justified
 - [ ] French and German CNA sources accepted (not English-only)
 - [ ] DOIs recorded where available
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy* for the full protocol.
+
+**Never name a specific source as corroborating a fact unless you actually fetched / read / opened it in the current working session.** Phrases like *"also recorded on [site]"*, *"well-attested in [archive]"*, *"corroborated by [scholar year]"*, *"the [institution] collection confirms"* are confabulation when the named source was not fetched this round.
+
+If you want to mention a source you did not consult, use explicit non-consultation language: *"NOT consulted in this round"*, *"not re-fetched"*, *"claim carried from the pre-existing citation"*, *"cited in secondary literature but not accessed here"*.
+
+Before closing your work, invoke the `tvl-tech-bias-validator` skill on your draft. A real 2026-04-24 audit (issue #9) caught a committed note falsely citing the MoMA press release and Master Checklist as attesting Wayne Miller's curatorial role — neither document supported the claim. The validator gate exists to stop that class of error before it reaches the museum.

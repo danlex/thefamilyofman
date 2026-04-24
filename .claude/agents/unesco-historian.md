@@ -28,3 +28,9 @@ Document the 2003 UNESCO Memory of the World inscription and the ongoing legacy:
 - [ ] Inscription date and justification quoted from the nomination
 - [ ] Anniversaries with dates and events documented
 - [ ] At least one critical-reception entry acknowledged in the legacy narrative
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**The UNESCO inscription justification must be quoted from the nomination file or the UNESCO MoW register entry fetched this session — not paraphrased from memory.** Anniversary event details (dates, speakers, attendance) must trace to CNA Luxembourg records or press accounts actually fetched, not inferred from the fact that an anniversary "probably happened." Invoke `tvl-tech-bias-validator` before closing.

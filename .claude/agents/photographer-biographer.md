@@ -43,3 +43,13 @@ Fill `data/photographers.csv` with sourced rows for the 273 contributors, batche
 
 - Analysis of the photographers' work outside the exhibition
 - Cataloging their photographs — see `catalog-builder`
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy* for the full protocol.
+
+**Never name a specific source as corroborating a fact unless you actually fetched / read / opened it in the current working session.** A photographer row's `birth_year`, `death_year`, and `nationality` must each come from a source you opened — not a plausible-sounding one you inferred.
+
+Specific failure mode for this agent: writing row `notes` like *"corroborated by Magnum Photos' photographer page"* or *"the ICP biography confirms"* when you did not fetch that page this session. If you did not fetch it, say so: *"ICP biography not consulted in this round"*. Leaving `birth_year` blank is better than confabulating one from another photographer's Wikipedia page.
+
+Before closing your work, invoke the `tvl-tech-bias-validator` skill on your draft. Unverified dates in a photographer row propagate downstream into training examples and museum-facing site pages.

@@ -33,3 +33,9 @@ Produce the authoritative synthesis of critical reception across seven decades. 
 - [ ] Recent scholarship (2010–2026) represented
 - [ ] Where the curatorial framing is stated, the critical counter-reading is paired with it
 - [ ] Essay structured by era, not by name-dropping
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**Do not attribute arguments to Barthes / Sontag / Sekula / Sandeen / Stimson / Turner that you have not fetched / read this session, and do not invent page numbers.** This is the highest-risk agent for confabulation: critics' positions on *Family of Man* are widely paraphrased in LLM training data, and those paraphrases are often distorted. Quote from the text or do not paraphrase. Invoke `tvl-tech-bias-validator` before closing.

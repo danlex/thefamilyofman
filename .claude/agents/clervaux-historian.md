@@ -31,3 +31,11 @@ Document the Luxembourg chapter: how the prints came to Luxembourg, where they l
 - [ ] Restoration campaign lead(s), duration, scope cited
 - [ ] French and German sources included where available (not English-only)
 - [ ] Perspective note: this is a Luxembourgian institutional history — counter-perspectives may be limited but should be acknowledged
+
+## Museum-grade accuracy (MANDATORY)
+
+See `CLAUDE.md` and `CREDIBILITY.md` § *Anti-confabulation policy*.
+
+**Never claim a source documents a fact you have not fetched this round.** Particular risk here: the gift date, deed terms, and restoration lead names are facts the museum's own staff will know exactly. A confabulated date or name is immediately discoverable and undermines the whole project.
+
+If CNA Luxembourg pages were not fetched this round, say *"not consulted in this round"*; carry the claim from pre-existing citations or leave it out. Invoke `tvl-tech-bias-validator` before closing.
