@@ -26,7 +26,7 @@ Tier-3 institutional photographer-archive page for Nat Farbman ("N. R. Farbman",
 - "N.R. Farbman (1907-1988)" — dates recorded in the page's biographical summary (direct quotation from fetched page).
 - "During his 15 years as a LIFE staffer, 'Nat' was considered one of its most versatile practitioners."
 - "After he married the former fashion model and photographer Pat English in 1940, they became a husband-and-wife photographic team for the magazine."
-- Farbman and Pat English produced a Bechuanaland (now Botswana) reportage series in 1947; six of those images were used in *The Family of Man*.
+- Farbman's "work on tribes in Botswana was included in the Museum of Modern Art's Family of Man exhibit" (quoted verbatim from the fetched page). Page captions name "Bushman children" and a "Bushman chief" in "the southern Kalahari Desert in central-southern Africa." The specific year the series was taken and the exact number of images used in the exhibition are NOT stated on this page and were NOT verified against another fetched source this round.
 
 ## Notes
 

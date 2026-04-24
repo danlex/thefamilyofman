@@ -26,7 +26,6 @@ Used for the `birth_year` and `death_year` fields of `pher-eugene-harris` at yea
 ## Key excerpts / pages
 
 - Dates per document title: 1913–1978 (year-level only; month/day specifics NOT verified this round).
-- Skinner Auctioneers catalog (catalog fetched 2026-04-24 from skinnerinc.com) independently attributes the year-range "Eugene Harris (American, 1913-1978)" to the photographer but does not cite provenance for the dates and does not state month/day specifics.
 
 ## Notes
 
