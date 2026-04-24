@@ -5,9 +5,10 @@ author: "Weber, Bruce"
 year: 2014
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, obituary, morse, life-magazine]
 ---
 
@@ -28,3 +29,4 @@ Named-author obituary of record for Ralph Morse (1917–2014), LIFE magazine pho
 ## Notes
 
 - Perspective: journalistic / biographical.
+- Re-verification 2026-04-24 (issue #9): NYT archive 403/paywalled, no Wayback snapshot. Morse's LIFE tenure and Mercury Seven coverage are well-attested in LIFE archive holdings (Time Inc. / Meredith archive at the LIFE Photo Collection on Google Arts & Culture). Flagged `verified: false` pending Chrome-session verification.

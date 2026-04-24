@@ -6,9 +6,10 @@ year: 2010
 type: archive
 publisher: "International Center of Photography, New York"
 url: "https://www.icp.org/browse/archive/constituents/robert-capa"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 1
 language: en
+verified: true
 tags: [photographer-bio, capa, archive, icp, magnum]
 ---
 
@@ -31,3 +32,4 @@ Tier-1 institutional archive page for the Robert Capa Archive at ICP (founded by
 
 - The MoMA Master Checklist for *The Family of Man* records Capa as "American" (per US naturalization); ICP and the standard Capa biographies (Richard Whelan, 1985; Bernard Lebrun / Michel Lefebvre, 2011) use "Hungarian-American." Both are recorded on `pher-robert-capa` — checklist form as `nationality`, scholarly form in `notes`.
 - Perspective: institutional / archival.
+- Verified against fetched source on 2026-04-24. ICP constituent page returned 6,601 archived items attributed to Capa; biographical summary confirms Budapest birth as André Friedmann, 1913-1954 dates, death "stepped on a landmine" in Indochina, and Magnum co-founding with Cartier-Bresson, Seymour, Rodger. Hungarian-American nationality ("American (b. Hungary)") confirmed.

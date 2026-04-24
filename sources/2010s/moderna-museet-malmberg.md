@@ -5,10 +5,11 @@ author: "Moderna Museet (Stockholm) / Fotografiska Museet"
 year: 2018
 type: website
 publisher: "Moderna Museet, Stockholm"
-url: "https://www.modernamuseet.se/stockholm/en/collection/"
-accessed: 2026-04-19
+url: "https://sis.modernamuseet.se/en/"
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, malmberg, swedish-photography]
 ---
 
@@ -30,3 +31,4 @@ Tier-3 institutional reference for Hans Malmberg (1927–1977), the Swedish phot
 
 - **Verification flag for judges**: the precise day/month of birth and death for Malmberg were not re-verified in this seed entry. Swedish-language archival references (Moderna Museet, Nordiska museet, Svenskt Pressfotografmuseum) are the preferred Tier-1 sources and should replace this reference before any training-dataset entry uses Malmberg's dates as ground truth.
 - Perspective: institutional.
+- Re-verification 2026-04-24 (issue #9): the original URL `/stockholm/en/collection/` did not surface a Malmberg-specific page and the `/exhibitions/hans-malmberg/` URL returns 404. The canonical collection-search portal at `sis.modernamuseet.se/en/` (Moderna Museet's SIS collection database, 91,600 objects online) resolves and is the right landing page, but a targeted search result page for Malmberg was not fetchable in this round (dynamic search interface). URL updated to the SIS portal. Flagged `verified: false` pending a direct browser-session query that returns an item-level link.

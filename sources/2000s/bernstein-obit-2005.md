@@ -5,9 +5,10 @@ author: "various"
 year: 2005
 type: article
 publisher: "New York press / Photo-League legacy publications"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, obituary, bernstein, photo-league]
 ---
 
@@ -29,3 +30,4 @@ Tier-3 reference bundle for Lou Bernstein (1911–2005), the New York street pho
 
 - **Verification flag for judges**: the specific NYT obituary byline/date is not independently re-verified in this seed entry. Judge-Credibility / Judge-Grounding should resolve against the NYT archive and this file should be updated (or replaced with a more specific citation) before any training-dataset entries draw on it.
 - Perspective: journalistic / biographical.
+- Re-verification 2026-04-24 (issue #9): no concrete URL to fetch — this entry is a bundled reference without a single canonical obituary. NYT archive search would require an authenticated browser session; not attempted in this round. Flagged `verified: false` — this file is the weakest link in the 2000s set and a future pass should either pin it to a specific bylined obituary or replace it with a museum-collection reference for Bernstein (e.g., Brooklyn Museum, ICP).

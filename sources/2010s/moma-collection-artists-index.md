@@ -6,9 +6,10 @@ year: 2024
 type: website
 publisher: "The Museum of Modern Art, New York"
 url: "https://www.moma.org/collection/artists"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 1
 language: en
+verified: false
 tags: [photographer-bio, moma, directory, primary]
 ---
 
@@ -31,3 +32,4 @@ Tier-1 institutional reference for the dates and nationality of photographers re
 
 - This entry is an index-level pointer; per-artist pages are cited as needed in row `notes` but are not duplicated as separate source files for every photographer in the seed batch — doing so would multiply ~273 thin stub files for the full catalog. Deeper per-artist MoMA citations should be added when an individual `research/photographers/<slug>.md` article is written.
 - Perspective: institutional / curatorial.
+- Re-verification 2026-04-24 (issue #9): both `/artists/` and `/collection/artists` returned 403 to programmatic WebFetch — MoMA applies aggressive CDN-layer bot filtering. The page exists and is widely cited; verification must be done through a browser session. Flagged `verified: false` pending Chrome-session confirmation.

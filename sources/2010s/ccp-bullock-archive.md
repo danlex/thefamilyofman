@@ -6,9 +6,10 @@ year: 2019
 type: archive
 publisher: "University of Arizona"
 url: "https://ccp.arizona.edu/archives/collections/wynn-bullock-archive"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 1
 language: en
+verified: false
 tags: [photographer-bio, bullock, archive]
 ---
 
@@ -29,3 +30,4 @@ Tier-1 institutional archive holding Bullock's papers, prints, and working recor
 
 - URL structure follows CCP's standard archive finding-aid pattern; link health should be re-checked periodically (`scripts/check_credibility.py`).
 - Perspective: institutional / archival.
+- Re-verification 2026-04-24 (issue #9): direct URL returns 404 — CCP migrated their archive URL scheme. The Bullock archive still exists at CCP (confirmed by the CCP homepage navigation), but under a different slug not surfaced in the available browse. Flagged `verified: false` pending a pass that finds the current canonical URL via CCP's finding-aids index.
