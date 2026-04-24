@@ -19,7 +19,7 @@ LIFE. "The Photography of N. R. Farbman." Institutional photographer archive pag
 
 ## Relevance
 
-Tier-3 institutional photographer-archive page for Nat Farbman ("N. R. Farbman", 1907–1988), LIFE magazine staff photographer, whose prints appear at plate #4 (Prologue, Belgian Congo) of *The Family of Man*. Source for the biographical dates used in `pher-nat-farbman`. Also the canonical record of the Farbman / Pat English husband-and-wife photography team that produced the Bechuanaland-bushmen reportage series, several images of which were used in the exhibition.
+Tier-3 institutional photographer-archive page for Nat Farbman ("N. R. Farbman", 1907–1988), LIFE magazine staff photographer, whose prints appear at plate #4 (Prologue, Belgian Congo) of *The Family of Man*. Source for the biographical dates used in `pher-nat-farbman`. Also the canonical record of the Farbman / Pat English husband-and-wife photography team. Per the LIFE page (quoted verbatim under Key excerpts), Farbman's "work on tribes in Botswana was included in the Museum of Modern Art's Family of Man exhibit" — the specific year of that series and the exact number of images used are NOT stated on the page.
 
 ## Key excerpts / pages
 
