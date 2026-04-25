@@ -82,6 +82,86 @@ permalink: /
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
   <div class="home-section-head">
     <div>
+      <div class="kicker">In memoriam · 1879–1973</div>
+      <h2>Edward Steichen — the author of the gallery</h2>
+      <p class="lead">Born in Bivange (Béiweng), Luxembourg, on 27 March 1879. Director of the Department of Photography at MoMA from 1947 to 1962. The single curatorial author of <em>The Family of Man</em>. Died 25 March 1973 in West Redding, Connecticut, two days short of his 94th birthday.</p>
+    </div>
+    <a class="more" href="{{ '/steichen/' | relative_url }}">Read the memorial →</a>
+  </div>
+  <div class="memorial-card">
+    <a class="memorial-portrait" href="{{ '/steichen/' | relative_url }}">
+      <img src="{{ '/assets/images/steichen-1902-self-portrait.jpg' | relative_url }}" alt="Edward Steichen self-portrait, 1901" loading="lazy">
+      <div class="memorial-portrait-credit">Self-portrait, 1901 · Public domain</div>
+    </a>
+    <div class="memorial-body">
+      <blockquote class="memorial-quote">
+        “I am a Luxembourgish boy.”
+        <cite>Steichen introducing himself to Grand Duchess Charlotte at the White House, 1963 — the meeting that would lead, the next year, to the U.S. government's donation of <em>The Family of Man</em> to Luxembourg.</cite>
+      </blockquote>
+      <p class="memorial-prose">
+        He bought his first camera at sixteen, was naturalised American at twenty-one, photographed for <em>Vogue</em> and <em>Vanity Fair</em> for fifteen years, commanded the U.S. Naval Aviation Photographic Unit in the Pacific, then assembled — over three years and across 503 photographs by 273 photographers — the most-visited photography exhibition of the twentieth century. The collection he gathered returned to his birthplace in 1994 and is on continuous public display at <a href="{{ '/clervaux/' | relative_url }}">Clervaux Castle</a> today.
+      </p>
+      <a class="memorial-cta" href="{{ '/steichen/' | relative_url }}">Read the full memorial →</a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>The people behind the exhibition</h2>
+      <p class="lead">Beyond the 273 photographers whose plates fill the galleries, four people shaped what visitors actually saw — and one Luxembourg head of state brought the prints home.</p>
+    </div>
+  </div>
+  <div class="people-grid">
+    <article class="person-card">
+      <div class="person-portrait">
+        <img src="{{ '/assets/images/sandburg-1955-nywts.jpg' | relative_url }}" alt="Carl Sandburg, 1955" loading="lazy">
+      </div>
+      <div class="person-body">
+        <h3>Carl Sandburg</h3>
+        <div class="person-dates">1878 – 1967 · poet</div>
+        <p>Steichen's brother-in-law (he married Lilian Steichen in 1908) and the author of the prologue distributed to every visitor of the 1955 show as a leaflet, reprinted in both catalog editions. The closing line — <em>"A camera testament, a drama of the grand canyon of humanity…"</em> — is quoted in MoMA's press release for the book.</p>
+        <div class="person-credit">Photo: Al Ravenna for World Telegram, 1955 · Library of Congress · Public domain</div>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="work" %}
+      </div>
+      <div class="person-body">
+        <h3>Paul Rudolph</h3>
+        <div class="person-dates">1918 – 1997 · architect</div>
+        <p>Designed the gallery installation: temporary walls, prints ranging from 24 × 36 cm to 300 × 400 cm, photographs floating at varying heights — sometimes set on the floor, sometimes hung from the ceiling. Rudolph would later chair Yale's School of Architecture from 1958 to 1965 and become a defining figure of late-modernist American building.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait">
+        <img src="{{ '/assets/images/charlotte-1919-grand-duchess.jpg' | relative_url }}" alt="Charlotte, Grand Duchess of Luxembourg, 1919" loading="lazy">
+      </div>
+      <div class="person-body">
+        <h3>Grand Duchess Charlotte</h3>
+        <div class="person-dates">1896 – 1985 · Luxembourg head of state</div>
+        <p>Reigned 1919–1964. During a 1963 state visit to Washington, Steichen introduced himself to her with the words "I am a Luxembourgish boy." At his request, the U.S. government donated the last complete touring edition of <em>The Family of Man</em> to Luxembourg in 1964 — the act that gave Clervaux its present collection.</p>
+        <div class="person-credit">Photo: unknown, 1919 · Public domain (PD-old)</div>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="family-and-children" %}
+      </div>
+      <div class="person-body">
+        <h3>Wayne Miller</h3>
+        <div class="person-dates">1918 – 2013 · Magnum photographer</div>
+        <p>Magnum photographer (later Magnum's president, 1962–66) who contributed multiple plates to the exhibition. His role as Steichen's curatorial assistant on <em>The Family of Man</em> is asserted in the major secondary literature (Sandeen 1995; Steichen's own 1963 autobiography) but was not directly named in the in-repo MoMA press release or Master Checklist as of the most recent re-verification — flagged on his <a href="{{ '/photographers/pher-wayne-miller/' | relative_url }}">photographer page</a>.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
       <h2>In eleven movements</h2>
       <p class="lead">Steichen sequenced the 503 plates as a single arc — from the cosmos to childbirth, from work and play to war and rededication. Eleven thematic clusters, reconstructed from the 1955 catalog.</p>
     </div>
