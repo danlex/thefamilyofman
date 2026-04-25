@@ -28,7 +28,7 @@ edit_dir: site
   <tbody>
     {% for p in rows %}
     <tr>
-      <td>{{ p.name }}</td>
+      <td><a href="{{ '/photographers/' | append: p.id | append: '/' | relative_url }}">{{ p.name }}</a></td>
       <td>{{ p.nationality }}</td>
       <td>{% if p.birth_year and p.birth_year != "" %}{{ p.birth_year }}{% endif %}{% if p.death_year and p.death_year != "" %}–{{ p.death_year }}{% endif %}</td>
       <td>{{ p.photo_count }}</td>

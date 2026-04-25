@@ -16,6 +16,44 @@ permalink: /
   </p>
 </section>
 
+<section class="wrap">
+{% include image.html
+   src="/assets/images/moma-1955-opening.jpg"
+   alt="Visitors at a Family of Man installation, captioned 'Opening Day'"
+   caption="A Family of Man tour-edition installation, captioned “Opening Day” by the U.S. Information Agency. Photographic record from the USIA's documentation of the show's traveling editions, 1955–1962 — not the 24 January 1955 MoMA opening itself."
+   credit="U.S. National Archives · DPLA · Public domain"
+   credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Opening_Day_-_DPLA_-_bd5b1ae514db1f2e31d7bec695ee2d88.jpg" %}
+</section>
+
+<section class="wrap" style="margin-top: 2.5rem;">
+  <div class="action-head">
+    <div class="kicker">Use this wiki</div>
+    <h2 class="action-h2">What are you looking for?</h2>
+  </div>
+  <div class="action-row">
+    <a class="action-card" href="{{ '/photographs/' | relative_url }}">
+      <div class="action-kicker">Find</div>
+      <h3>A photograph</h3>
+      <p>{{ site.data.photographs.size }} of 503 plates catalogued — searchable by photographer, country, section, year.</p>
+    </a>
+    <a class="action-card" href="{{ '/photographers/' | relative_url }}">
+      <div class="action-kicker">Find</div>
+      <h3>A photographer</h3>
+      <p>{{ site.data.photographers.size }} of 273 contributors profiled — biographies linked to institutional archives.</p>
+    </a>
+    <a class="action-card" href="{{ '/sections/' | relative_url }}">
+      <div class="action-kicker">Read about</div>
+      <h3>A thematic section</h3>
+      <p>The 11 clusters Steichen sequenced — from Prologue through Rededication, threaded with Sandburg.</p>
+    </a>
+    <a class="action-card" href="{{ '/bibliography/' | relative_url }}">
+      <div class="action-kicker">Cite a</div>
+      <h3>Source</h3>
+      <p>{{ site.sources.size }} sources across eight decades, tier-graded for academic and museum use.</p>
+    </a>
+  </div>
+</section>
+
 <section class="wrap-wide" style="padding: 0 1.25rem;">
   <div class="stats">
     <div><span class="num">503</span><span class="label">photographs</span></div>
@@ -25,6 +63,20 @@ permalink: /
     <div><span class="num">9M</span><span class="label">visitors (1955–62)</span></div>
     <div><span class="num">2003</span><span class="label">UNESCO inscription</span></div>
   </div>
+</section>
+
+<section class="wrap" style="margin-top: 4rem;">
+  <figure class="pull-quote">
+    <blockquote>
+      <p>“A camera testament, a drama of the grand canyon of humanity, an epic woven of fun, mystery and holiness — here is the Family of Man.”</p>
+    </blockquote>
+    <figcaption>
+      Carl Sandburg, closing line of the prologue distributed to visitors as a leaflet
+      and reprinted in both editions of the catalog. Quoted in
+      <a href="{{ '/sources/moma-1955-press-release-book/' | relative_url }}">MoMA's press release</a>
+      announcing the book on 21 June 1955.
+    </figcaption>
+  </figure>
 </section>
 
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
@@ -113,6 +165,74 @@ permalink: /
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
   <div class="home-section-head">
     <div>
+      <h2>By the numbers</h2>
+      <p class="lead">A snapshot of the {{ site.data.photographs.size }} catalog rows seeded so far — country and section distributions, computed live from <code>data/photographs.csv</code>.</p>
+    </div>
+  </div>
+
+  {% assign by_country = site.data.photographs | group_by: "country" | sort: "size" | reverse %}
+  {% assign top_country_size = by_country | first %}
+  {% assign top_country_count = top_country_size.items.size %}
+
+  {% assign by_section = site.data.photographs | group_by: "section" %}
+
+  <div class="numbers-grid">
+    <div class="numbers-col">
+      <h3 class="numbers-h3">Top countries of origin</h3>
+      <div class="dist">
+        {% for g in by_country limit: 8 %}
+          {% assign g_count = g.items.size %}
+          {% assign pct = g_count | times: 100 | divided_by: top_country_count %}
+          <div class="dist-row">
+            <span class="dist-label">{{ g.name | default: "—" }}</span>
+            <span class="dist-bar"><span style="width: {{ pct }}%"></span></span>
+            <span class="dist-num">{{ g_count }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      <p class="dist-note">Top 8 of the {{ by_country.size }} countries seeded so far. The full exhibition draws from 68 countries.</p>
+    </div>
+
+    <div class="numbers-col">
+      <h3 class="numbers-h3">Plates per section</h3>
+      <div class="dist">
+        {% assign sorted_sections_for_dist = site.data.sections | sort: "order" %}
+        {% assign max_section_count = 0 %}
+        {% for s in sorted_sections_for_dist %}
+          {% assign match = by_section | where: "name", s.id | first %}
+          {% if match %}
+            {% assign mc = match.items.size %}
+            {% if mc > max_section_count %}{% assign max_section_count = mc %}{% endif %}
+          {% endif %}
+        {% endfor %}
+        {% if max_section_count == 0 %}{% assign max_section_count = 1 %}{% endif %}
+        {% for s in sorted_sections_for_dist %}
+          {% assign match = by_section | where: "name", s.id | first %}
+          {% assign s_count = 0 %}
+          {% if match %}{% assign s_count = match.items.size %}{% endif %}
+          {% assign pct = s_count | times: 100 | divided_by: max_section_count %}
+          {% assign sec_article = site.sections_articles | where: "order", s.order | first %}
+          <div class="dist-row">
+            <span class="dist-label">
+              {% if sec_article -%}
+              <a href="{{ sec_article.url | relative_url }}">{{ s.title }}</a>
+              {%- else -%}
+              {{ s.title }}
+              {%- endif %}
+            </span>
+            <span class="dist-bar"><span style="width: {{ pct }}%"></span></span>
+            <span class="dist-num">{{ s_count }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      <p class="dist-note">Bars are scaled to the most-populated section in this snapshot. Empty rows are sections still awaiting catalog work.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
       <h2>Examined in detail</h2>
       <p class="lead">The first plates to receive a deep-dive provenance article — what the 1955 Master Checklist records, what was confirmed against archival sources, and what remains an open question.</p>
     </div>
@@ -132,6 +252,29 @@ permalink: /
         </div>
       </a>
       {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Recently added to the catalog</h2>
+      <p class="lead">The latest plates seeded into <code>data/photographs.csv</code>, in reverse-checklist order.</p>
+    </div>
+    <a class="more" href="{{ '/photographs/' | relative_url }}">All photographs →</a>
+  </div>
+  {% assign recent = site.data.photographs | reverse %}
+  <div class="recent-list">
+    {% for p in recent limit: 6 %}
+    <a class="recent-row" href="{{ '/photographs/' | append: p.id | append: '/' | relative_url }}">
+      <span class="recent-id">{{ p.id }}</span>
+      <span class="recent-name">{{ p.photographer }}</span>
+      <span class="recent-meta">
+        {%- assign psec = site.data.sections | where: "id", p.section | first -%}
+        {% if psec %}{{ psec.title }}{% else %}{{ p.section }}{% endif %} · {{ p.country }}{% if p.year and p.year != "" %} · {{ p.year }}{% endif %}
+      </span>
+    </a>
     {% endfor %}
   </div>
 </section>
@@ -199,13 +342,107 @@ permalink: /
   </div>
 </section>
 
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Help us finish this</h2>
+      <p class="lead">The wiki is a work in progress, openly built on GitHub. Every gap below is a tracked issue waiting for a contributor — researchers, photographers' estates, and the archive community are all welcome.</p>
+    </div>
+    <a class="more" href="https://github.com/danlex/thefamilyofman/issues" rel="noopener">All issues →</a>
+  </div>
+  {% assign photos_open = 503 | minus: site.data.photographs.size %}
+  {% assign photographers_open = 273 | minus: site.data.photographers.size %}
+  {% assign photographers_no_dates = 0 %}
+  {% for p in site.data.photographers %}
+    {% if p.birth_year == "" or p.birth_year == nil %}
+      {% assign photographers_no_dates = photographers_no_dates | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  <div class="gaps-grid">
+    <div class="gap-card">
+      <div class="gap-num">{{ photos_open }}</div>
+      <div class="gap-label">plates still to be catalogued</div>
+      <p class="gap-meta">Of the 503 in the 1955 Master Checklist, {{ site.data.photographs.size }} have repository rows. Each remaining plate needs a checklist transcription and section assignment.</p>
+      <a class="gap-link" href="https://github.com/danlex/thefamilyofman/issues?q=is%3Aissue+label%3Acatalog" rel="noopener">Catalog issues →</a>
+    </div>
+    <div class="gap-card">
+      <div class="gap-num">{{ photographers_open }}</div>
+      <div class="gap-label">photographers still to be profiled</div>
+      <p class="gap-meta">Of the 273 contributors, {{ site.data.photographers.size }} have biographical rows. Each profile needs name, dates, nationality, and a Tier-1 or Tier-2 source.</p>
+      <a class="gap-link" href="https://github.com/danlex/thefamilyofman/issues?q=is%3Aissue+label%3Aphotographer-bio" rel="noopener">Photographer issues →</a>
+    </div>
+    <div class="gap-card">
+      <div class="gap-num">5</div>
+      <div class="gap-label">overview essays still pending</div>
+      <p class="gap-meta">The Exhibition · Clervaux · World Tour · Reception · UNESCO pages are stubs. Each needs a sourced research document before the site copy is written.</p>
+      <a class="gap-link" href="https://github.com/danlex/thefamilyofman/issues?q=is%3Aissue+label%3Ainvestigation" rel="noopener">Investigation issues →</a>
+    </div>
+    {% if photographers_no_dates > 0 %}
+    <div class="gap-card">
+      <div class="gap-num">{{ photographers_no_dates }}</div>
+      <div class="gap-label">profiled photographers still missing birth/death years</div>
+      <p class="gap-meta">A row exists, but birth/death years remain blank because no Tier-1/2 source has been fetched. These need an institutional or peer-reviewed citation.</p>
+      <a class="gap-link" href="https://github.com/danlex/thefamilyofman/issues?q=is%3Aissue+label%3Aphotographer-bio" rel="noopener">Help close them →</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Sources</h2>
+      <p class="lead">{{ site.sources.size }} cited references across eight decades — primary archive material from MoMA, LIFE, and the National Archives; obituaries and biographies from the major papers and museums; the Sandeen, Stimson, and Turner monographs.</p>
+    </div>
+    <a class="more" href="{{ '/bibliography/' | relative_url }}">All sources →</a>
+  </div>
+
+  {% assign tier1 = site.sources | where: "tier", 1 | size %}
+  {% assign tier2 = site.sources | where: "tier", 2 | size %}
+  {% assign tier3 = site.sources | where: "tier", 3 | size %}
+  <div class="tier-strip">
+    <div class="tier-stat"><span class="tier-num">{{ tier1 }}</span><span class="tier-label">Tier 1 — primary / archival</span></div>
+    <div class="tier-stat"><span class="tier-num">{{ tier2 }}</span><span class="tier-label">Tier 2 — peer-reviewed academic</span></div>
+    <div class="tier-stat"><span class="tier-num">{{ tier3 }}</span><span class="tier-label">Tier 3 — reputable press / museum</span></div>
+  </div>
+
+  {% assign recent_sources = site.sources | sort: "year" | reverse %}
+  <div class="sources-strip">
+    {% for src in recent_sources limit: 6 %}
+    <a class="source-card" href="{{ src.url | default: src.url_archive | default: '#' }}" rel="noopener">
+      <div class="source-year">{{ src.year }}</div>
+      <div class="source-title">{{ src.title | truncate: 90 }}</div>
+      <div class="source-meta">{% if src.author %}{{ src.author | truncate: 40 }} · {% endif %}Tier {{ src.tier }}</div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap" style="margin-top: 4rem;">
+  <div class="cite-card">
+    <div class="kicker">For academic and museum use</div>
+    <h3 class="cite-h3">Cite this wiki</h3>
+    <p class="cite-lead">Every page tracks its sources, its contributors, and its revision history. Suggested citation:</p>
+    <pre class="cite-snippet">"<span id="cite-page">[Page title]</span>." <em>The Family of Man</em> wiki, edited by Alexandru Dan and contributors. {{ site.url }}{{ site.baseurl }}/. Accessed <span id="cite-date">[date]</span>.</pre>
+    <p class="cite-foot">Per-page commits and revision history are public at <a href="https://github.com/danlex/thefamilyofman" rel="noopener">github.com/danlex/thefamilyofman</a>. Each article has an <em>Edit this page</em> link at its foot. Per the <a href="https://github.com/danlex/thefamilyofman/blob/main/CREDIBILITY.md" rel="noopener">credibility rubric</a>, claims are tier-graded; per the <a href="https://github.com/danlex/thefamilyofman/blob/main/CLAUDE.md" rel="noopener">museum-grade accuracy policy</a>, no source is cited that wasn't fetched in the working session.</p>
+  </div>
+  <script>
+    (function () {
+      var page = document.getElementById('cite-page');
+      var date = document.getElementById('cite-date');
+      if (page) page.textContent = document.title.split(' · ')[0] || 'The Family of Man';
+      if (date) date.textContent = new Date().toISOString().slice(0, 10);
+    })();
+  </script>
+</section>
+
 <section class="wrap" style="margin-top: 4rem;">
   <div class="perspective-note">
     <strong>About this wiki</strong>
-    This wiki is a research project built openly on GitHub. Every article
-    cites its sources. Every contribution is reviewed by a four-judge panel
-    for credibility, grounding, schema conformance, and bias. Anyone can
-    improve any page by clicking <em>Edit this page</em> at the bottom —
-    see the <a href="https://github.com/danlex/thefamilyofman/blob/main/CONTRIBUTING.md">contributing guide</a>.
+    A research project built openly on GitHub. Every article cites its sources.
+    Every contribution is reviewed by a four-judge panel for credibility, grounding,
+    schema conformance, and bias. Anyone can improve any page by clicking
+    <em>Edit this page</em> at the bottom — see the
+    <a href="https://github.com/danlex/thefamilyofman/blob/main/CONTRIBUTING.md">contributing guide</a>.
   </div>
 </section>
