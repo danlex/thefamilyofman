@@ -433,6 +433,54 @@ permalink: /
   </div>
 </section>
 
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Plates we can show</h2>
+      <p class="lead">Most of the 503 photographs in <em>The Family of Man</em> remain copyrighted; this wiki links out for nearly all of them. A handful are now in the public domain — works by U.S. federal photographers, photographs older than the U.S. copyright term, or institutionally released. These four are confirmed contributions, with their licenses recorded next to each file in <code>site/assets/images/</code>.</p>
+    </div>
+    <a class="more" href="https://github.com/danlex/thefamilyofman/blob/main/IMAGE_POLICY.md" rel="noopener">Image policy →</a>
+  </div>
+  <div class="plates-grid">
+    <figure class="plate-card">
+      <img src="{{ '/assets/images/lange-1936-migrant-mother.jpg' | relative_url }}" alt="Dorothea Lange, Migrant Mother, 1936" loading="lazy">
+      <figcaption>
+        <div class="plate-photographer">Dorothea Lange</div>
+        <div class="plate-title"><em>Migrant Mother</em>, Nipomo, California · March 1936</div>
+        <p>Lange's most-reproduced FSA photograph. She contributed five plates to <em>The Family of Man</em>; this image is offered as an example of her FSA documentary work, not as identification of any specific Master Checklist plate.</p>
+        <div class="plate-license">PD-US-GOV (FSA/OWI) · Library of Congress</div>
+      </figcaption>
+    </figure>
+    <figure class="plate-card">
+      <img src="{{ '/assets/images/lee-1941-easter-chicago.jpg' | relative_url }}" alt="Russell Lee, Easter morning on the Southside of Chicago, 1941" loading="lazy">
+      <figcaption>
+        <div class="plate-photographer">Russell Lee</div>
+        <div class="plate-title"><em>Easter morning on the Southside of Chicago, Illinois</em> · April 1941</div>
+        <p>Lee made some 600 federally-commissioned images for the FSA between 1936 and 1942 alongside Lange, Walker Evans, and Arthur Rothstein. He contributed two plates to the exhibition (#84 Family Activities, #178 Work B).</p>
+        <div class="plate-license">PD-US-GOV (FSA/OWI) · Library of Congress</div>
+      </figcaption>
+    </figure>
+    <figure class="plate-card">
+      <img src="{{ '/assets/images/delano-1940-tobacco-farmers.jpg' | relative_url }}" alt="Jack Delano, Mr. and Mrs. Andrew Lyman, 1940" loading="lazy">
+      <figcaption>
+        <div class="plate-photographer">Jack Delano</div>
+        <div class="plate-title"><em>Mr. and Mrs. Andrew Lyman, Polish tobacco farmers near Windsor Locks, Connecticut</em> · September 1940</div>
+        <p>Delano joined the FSA in 1940; later relocated to Puerto Rico and made it his lifelong subject. He contributed one plate to the exhibition (#140 Section 14 Land — also FSA-attributed in the checklist).</p>
+        <div class="plate-license">PD-US-GOV (FSA/OWI) · Library of Congress</div>
+      </figcaption>
+    </figure>
+    <figure class="plate-card">
+      <img src="{{ '/assets/images/brady-1861-dead-soldier.jpg' | relative_url }}" alt="Mathew Brady, dead Civil War soldier, c. 1861" loading="lazy">
+      <figcaption>
+        <div class="plate-photographer">Mathew Brady</div>
+        <div class="plate-title">Battlefield photograph from the American Civil War · c. 1861</div>
+        <p>The Wikimedia Commons file description states verbatim: <em>"Photo was also selected by Edward Steichen for the exhibition The Family of Man in 1955."</em> Brady is not yet seeded in our catalog; his plate falls within the still-uncatalogued portion of the 503-plate Master Checklist.</p>
+        <div class="plate-license">PDM (pre-1929 publication) · Wikimedia Commons</div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
 <section class="exposition-wall">
   <img src="{{ '/assets/images/clervaux-2013-interior.jpg' | relative_url }}"
        alt="Interior view of the Family of Man installation at Clervaux Castle"

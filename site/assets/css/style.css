@@ -1604,6 +1604,72 @@ main {
   .exposition-wall .ew-credit { font-size: 0.65rem; }
 }
 
+/* ---------- Home: PD plates gallery ---------- */
+
+.plates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0;
+  margin-top: 1rem;
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--hairline);
+}
+.plate-card {
+  margin: 0;
+  border-right: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+}
+.plate-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.05);
+  background: var(--mist);
+}
+.plate-card figcaption {
+  padding: 1rem 1.1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  border-top: 1px solid var(--hairline);
+}
+.plate-photographer {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 0.35rem;
+}
+.plate-title {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 0.65rem;
+  color: var(--ink);
+}
+.plate-title em { font-style: italic; }
+.plate-card figcaption p {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--mid);
+  margin: 0 0 0.85rem;
+  flex: 1 1 auto;
+}
+.plate-license {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--mid);
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--hairline);
+}
+
 /* ---------- Empty state ---------- */
 
 .empty {
