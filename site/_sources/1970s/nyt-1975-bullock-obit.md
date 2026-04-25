@@ -5,10 +5,11 @@ author: "The New York Times (staff / AP)"
 year: 1975
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
 tags: [photographer-bio, obituary, bullock]
+verified: false
 ---
 
 ## Citation
@@ -29,3 +30,4 @@ Primary biographical reference for the birth year (1902) and death year (1975) o
 
 - This obituary is the most accessible Tier-3 reference for Bullock's core dates. Deeper primary holdings are at the Center for Creative Photography, University of Arizona (the Wynn Bullock Archive), which is a Tier-1 archival source for further provenance work.
 - Perspective: journalistic / biographical.
+- Not fetchable anywhere (NYT paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Per CREDIBILITY.md, Wikipedia is not a valid citation endpoint — the Bullock Wikipedia article was viewed as a pointer only; it points to the CCP Wynn Bullock Archive as the underlying authority, but the CCP URL returned 404 this round (see `src-ccp-bullock-archive`). Biographical dates in Key excerpts are held on the pre-existing NYT citation only; no independent primary/secondary source was fetched this round.

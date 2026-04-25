@@ -5,9 +5,10 @@ author: "Cotter, Holland"
 year: 2009
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, obituary, decarava, harlem]
 ---
 
@@ -29,3 +30,4 @@ Named-author obituary of record by Cotter (NYT senior art critic) for Roy DeCara
 
 - The MoMA Master Checklist prints the name as "Roy De Carava"; later sources (including DeCarava's own estate) print it as "Roy DeCarava." Our `data/photographs.csv` preserves the checklist spelling; `data/photographers.csv` records the canonical "Roy DeCarava" and notes the checklist variant.
 - Perspective: journalistic / biographical.
+- Re-verification 2026-04-24 (issue #9): NYT archive URL not directly fetchable (403, paywall); Wayback not attempted for this specific URL in this round. MoMA's online collection was attempted as corroboration but returned 403 — DeCarava's 1952 Guggenheim Fellowship, 1955 *Sweet Flypaper of Life* with Langston Hughes, and 1996 MoMA retrospective were NOT re-verified against MoMA's collection record in this round. Flagged `verified: false` pending Chrome-session verification.

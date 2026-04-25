@@ -27,9 +27,30 @@ permalink: /
   </div>
 </section>
 
-<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 2.5rem;">
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>In eleven movements</h2>
+      <p class="lead">Steichen sequenced the 503 plates as a single arc — from the cosmos to childbirth, from work and play to war and rededication. Eleven thematic clusters, reconstructed from the 1955 catalog.</p>
+    </div>
+    <a class="more" href="{{ '/sections/' | relative_url }}">All sections →</a>
+  </div>
+  {% assign sorted_sections = site.sections_articles | sort: "order" %}
+  <div class="section-grid">
+    {% for s in sorted_sections %}
+    <a class="section-card" href="{{ s.url | relative_url }}">
+      {% include section-glyph.html slug=s.slug %}
+      <div class="section-card-num">{{ s.order | prepend: "00" | slice: -2, 2 }}</div>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.theme }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
   <h2 style="font-family: var(--serif); font-weight: 500; font-size: 1.6rem; margin-bottom: 0.25rem;">Explore</h2>
-  <p style="font-family: var(--sans); font-size: 0.92rem; color: var(--mid); margin-bottom: 1.25rem;">Eight entry points into the exhibition's story.</p>
+  <p style="font-family: var(--sans); font-size: 0.92rem; color: var(--mid); margin-bottom: 1.25rem;">Nine entry points into the exhibition's story.</p>
 
   <div class="entry-grid">
     <a href="{{ '/exhibition/' | relative_url }}">
@@ -86,6 +107,95 @@ permalink: /
       <p>What we know, what we still need to investigate, and what's in flight — a living research status map.</p>
       {% include progress.html p=site.data.progress.mindmap %}
     </a>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Examined in detail</h2>
+      <p class="lead">The first plates to receive a deep-dive provenance article — what the 1955 Master Checklist records, what was confirmed against archival sources, and what remains an open question.</p>
+    </div>
+    <a class="more" href="{{ '/photographs/' | relative_url }}">All photographs →</a>
+  </div>
+  {% assign featured_ids = "photo-0002,photo-0005,photo-0011,photo-0023,photo-0027" | split: "," %}
+  <div class="featured-grid">
+    {% for fid in featured_ids %}
+      {% assign fp = site.data.photographs | where: "id", fid | first %}
+      {% if fp %}
+      <a class="featured-card" href="{{ '/photographs/' | append: fid | append: '/' | relative_url }}">
+        <div class="kicker">Deep dive</div>
+        <div class="photographer">{{ fp.photographer }}</div>
+        <div class="meta">
+          {% assign sec = site.data.sections | where: "id", fp.section | first %}{% if sec %}{{ sec.title }}{% else %}{{ fp.section }}{% endif %}<br>
+          {{ fp.country }}{% if fp.year and fp.year != "" %} · {{ fp.year }}{% endif %} · <span style="font-family: var(--mono); letter-spacing: 0.05em;">{{ fid }}</span>
+        </div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Most-photographed contributors</h2>
+      <p class="lead">From the {{ site.data.photographers.size }} photographer rows seeded so far, ranked by plate count in the 1955 Master Checklist. The full exhibition lists 273 contributors.</p>
+    </div>
+    <a class="more" href="{{ '/photographers/' | relative_url }}">All photographers →</a>
+  </div>
+  {% assign top = site.data.photographers | sort: "photo_count" | reverse %}
+  <div class="contributor-list">
+    {% for c in top limit: 8 %}
+    <div class="contributor-row">
+      <span class="rank">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
+      <span class="name">{{ c.name }}</span>
+      <span class="dates">
+        {%- if c.birth_year and c.birth_year != "" -%}
+          {{ c.birth_year }}{% if c.death_year and c.death_year != "" %}–{{ c.death_year }}{% endif %}
+        {%- else -%}
+          dates unconfirmed
+        {%- endif -%}
+        {% if c.nationality and c.nationality != "" %} · {{ c.nationality }}{% endif %}
+      </span>
+      <span class="count">{{ c.photo_count }} {% if c.photo_count == "1" %}plate{% else %}plates{% endif %}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>A timeline</h2>
+      <p class="lead">Six anchor dates between the exhibition's opening and its current life at Clervaux.</p>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="timeline-row">
+      <span class="date">24 Jan 1955</span>
+      <span class="what">The exhibition opens at the <a href="{{ '/exhibition/' | relative_url }}">Museum of Modern Art</a> in New York. Galleries designed by Paul Rudolph; prologue leaflet by Carl Sandburg.</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">1955–1962</span>
+      <span class="what">Editions of the show <a href="{{ '/tour/' | relative_url }}">travel internationally</a> under the U.S. Information Agency — venues and visitor figures pending verification against the National Archives.</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">1994</span>
+      <span class="what">After decades in storage, the prints return to Luxembourg as Steichen's gift and go on permanent display at <a href="{{ '/clervaux/' | relative_url }}">Clervaux Castle</a>, curated by the Centre national de l'audiovisuel.</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">2003</span>
+      <span class="what">The Clervaux collection is inscribed on <a href="{{ '/unesco/' | relative_url }}">UNESCO's Memory of the World</a> register.</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">2010–2013</span>
+      <span class="what">A major restoration and re-installation of the Clervaux galleries is completed — see the <a href="{{ '/clervaux/' | relative_url }}">Clervaux page</a> for the CNA programme.</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">Today</span>
+      <span class="what">The wiki — a public, source-cited reconstruction of the show, its travels, and its critical reception. Latest progress: {{ site.data.progress.photographs.label }} of the catalog seeded.</span>
+    </div>
   </div>
 </section>
 

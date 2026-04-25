@@ -8,10 +8,10 @@ exhibition:
 
 photographs:
   kind: count
-  count: 192
+  count: 217
   total: 503
-  pct: 38
-  label: "192 / 503  ·  38%"
+  pct: 43
+  label: "217 / 503  ·  43%"
 
 photographers:
   kind: count
@@ -45,8 +45,8 @@ reception:
 
 bibliography:
   kind: count
-  count: 29
-  label: "29 source entries  ·  growing"
+  count: 31
+  label: "31 source entries  ·  growing"
 
 mindmap:
   kind: status
