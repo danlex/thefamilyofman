@@ -16,13 +16,14 @@ permalink: /
   </p>
 </section>
 
-<section class="wrap">
-{% include image.html
-   src="/assets/images/moma-1955-opening.jpg"
-   alt="Visitors at a Family of Man installation, captioned 'Opening Day'"
-   caption="A Family of Man tour-edition installation, captioned “Opening Day” by the U.S. Information Agency. Photographic record from the USIA's documentation of the show's traveling editions, 1955–1962 — not the 24 January 1955 MoMA opening itself."
-   credit="U.S. National Archives · DPLA · Public domain"
-   credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Opening_Day_-_DPLA_-_bd5b1ae514db1f2e31d7bec695ee2d88.jpg" %}
+<section class="exposition-wall exposition-wall-full">
+  <img src="{{ '/assets/images/family-of-man-schoolchildren.jpg' | relative_url }}"
+       alt="Schoolchildren viewing a Family of Man installation; large prints surround them"
+       loading="lazy">
+  <figcaption>
+    <span class="ew-caption">Schoolchildren at a Family of Man installation. Photographic record from the USIA's documentation of the show's 1955–1962 international tour.</span>
+    <span class="ew-credit"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Schoolchildren_-_DPLA_-_bc02eb41421152da8c2e735ea8fd7a9a.jpg">U.S. National Archives · DPLA · Public domain</a></span>
+  </figcaption>
 </section>
 
 <section class="wrap" style="margin-top: 2.5rem;">
@@ -157,6 +158,16 @@ permalink: /
       </div>
     </article>
   </div>
+</section>
+
+<section class="exposition-wall">
+  <img src="{{ '/assets/images/family-of-man-layout.jpg' | relative_url }}"
+       alt="Layout view of a Family of Man installation"
+       loading="lazy">
+  <figcaption>
+    <span class="ew-caption">Installation layout from a Family of Man tour venue, documenting the traveling re-fabrication of <strong>Paul Rudolph's</strong> 1955 design — temporary walls, prints sized 24 × 36 cm to 300 × 400 cm, photographs floating at varying heights and sometimes set on the floor or hung from the ceiling.</span>
+    <span class="ew-credit"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Lay-out_-_DPLA_-_5c4794f6d3a44086410a6e9733695553.jpg">U.S. National Archives · DPLA · Public domain</a></span>
+  </figcaption>
 </section>
 
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
@@ -420,6 +431,16 @@ permalink: /
       <span class="what">The wiki — a public, source-cited reconstruction of the show, its travels, and its critical reception. Latest progress: {{ site.data.progress.photographs.label }} of the catalog seeded.</span>
     </div>
   </div>
+</section>
+
+<section class="exposition-wall">
+  <img src="{{ '/assets/images/clervaux-2013-interior.jpg' | relative_url }}"
+       alt="Interior view of the Family of Man installation at Clervaux Castle"
+       loading="lazy">
+  <figcaption>
+    <span class="ew-caption">The permanent installation at <a href="{{ '/clervaux/' | relative_url }}">Clervaux Castle</a>, Luxembourg, where the prints have been on continuous public display since 1994. Photographed in 2013, between the first and second restoration phases.</span>
+    <span class="ew-credit"><a href="https://commons.wikimedia.org/wiki/File:Familyofman1.JPG">Gorup de Besanez · CC BY-SA 4.0</a></span>
+  </figcaption>
 </section>
 
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">

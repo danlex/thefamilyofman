@@ -1533,6 +1533,77 @@ main {
   padding-left: 1.25rem;
 }
 
+/* ---------- Exposition wall (full-width image break) ---------- */
+
+.exposition-wall {
+  margin: 4rem 0 0;
+  background: var(--ink);
+  color: var(--paper);
+  position: relative;
+  overflow: hidden;
+}
+.exposition-wall img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.05);
+  opacity: 0.95;
+}
+.exposition-wall figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  font-family: var(--sans);
+  background: var(--ink);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.84rem;
+  line-height: 1.55;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.exposition-wall figcaption a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+}
+.exposition-wall figcaption a:hover { text-decoration-color: rgba(255, 255, 255, 0.9); }
+.exposition-wall .ew-caption { flex: 1 1 60%; max-width: 70ch; }
+.exposition-wall .ew-credit {
+  flex: 0 0 auto;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  align-self: flex-start;
+}
+.exposition-wall-full {
+  margin: 0 0 0;
+  background: var(--ink);
+}
+.exposition-wall-full img { max-height: 78vh; }
+
+/* Larger editorial headings on home-section-head when used as exposition heading */
+.home-section-head h2 {
+  font-size: clamp(2rem, 4vw, 2.85rem);
+  letter-spacing: -0.005em;
+  line-height: 1.1;
+}
+.home-section-head .lead {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 56ch;
+}
+
+@media (max-width: 600px) {
+  .exposition-wall { margin-top: 3rem; }
+  .exposition-wall img { max-height: 50vh; }
+  .exposition-wall figcaption { padding: 0.75rem 1rem; }
+  .exposition-wall .ew-credit { font-size: 0.65rem; }
+}
+
 /* ---------- Empty state ---------- */
 
 .empty {
