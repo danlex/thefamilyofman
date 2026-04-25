@@ -12,7 +12,14 @@ layout: default
   </h1>
 
   <div class="article-meta">
-    <strong>{{ page.photographer }}</strong>{% if page.year and page.year != "" %} · {{ page.year }}{% endif %}{% if page.country and page.country != "" %} · {{ page.country }}{% endif %}
+    {%- assign pher_match = site.data.photographers | where: "name", page.photographer | first -%}
+    <strong>
+    {%- if pher_match -%}
+      <a href="{{ '/photographers/' | append: pher_match.id | append: '/' | relative_url }}">{{ page.photographer }}</a>
+    {%- else -%}
+      {{ page.photographer }}
+    {%- endif -%}
+    </strong>{% if page.year and page.year != "" %} · {{ page.year }}{% endif %}{% if page.country and page.country != "" %} · {{ page.country }}{% endif %}
   </div>
 
   <hr>

@@ -1,0 +1,105 @@
+---
+layout: default
+---
+<article class="wrap article photographer-page">
+  <div class="kicker">{{ page.id | upcase | replace: "-", " " }}</div>
+  <h1 class="article-title">{{ page.name }}</h1>
+
+  {% assign plates = site.data.photographs | where: "photographer", page.name %}
+  <div class="article-meta">
+    {%- if page.birth_year and page.birth_year != "" -%}
+      {{ page.birth_year }}{% if page.death_year and page.death_year != "" %}–{{ page.death_year }}{% endif %}
+    {%- else -%}
+      <em>dates unconfirmed</em>
+    {%- endif -%}
+    {% if page.nationality and page.nationality != "" %} · {{ page.nationality }}{% endif %}
+    {% if plates.size > 0 %} · {{ plates.size }}{% if plates.size == 1 %} plate{% else %} plates{% endif %} catalogued{% endif %}
+  </div>
+
+  <hr>
+  {% if plates.size > 0 %}
+  <h2>Plates contributed</h2>
+  <p style="font-family: var(--sans); font-size: 0.92rem; color: var(--mid);">
+    The {{ plates.size }} {% if plates.size == 1 %}plate{% else %}plates{% endif %} attributed to {{ page.name }} in the 1955 MoMA Master Checklist (Exhibition #569).
+  </p>
+  <table class="entity-table">
+    <thead>
+      <tr>
+        <th style="width: 14%;">ID</th>
+        <th>Country</th>
+        <th>Section</th>
+        <th>Year</th>
+        <th>View</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for p in plates %}
+      <tr>
+        <td><a href="{{ '/photographs/' | append: p.id | append: '/' | relative_url }}">{{ p.id }}</a></td>
+        <td>{{ p.country | default: "—" }}</td>
+        <td>
+          {%- assign sec = site.data.sections | where: "id", p.section | first -%}
+          {%- assign sec_article = site.sections_articles | where: "order", sec.order | first -%}
+          {% if sec_article %}<a href="{{ sec_article.url | relative_url }}">{{ sec.title }}</a>{% elsif sec %}{{ sec.title }}{% else %}{{ p.section }}{% endif %}
+        </td>
+        <td>{{ p.year | default: "—" }}</td>
+        <td>
+          {% if p.moma_object_id and p.moma_object_id != "" -%}
+          <a href="https://www.moma.org/collection/works/{{ p.moma_object_id }}" rel="noopener">MoMA</a>
+          {%- else -%}
+          <a href="https://steichencollections.lu/" rel="noopener">Clervaux</a>
+          {%- endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <div class="empty">No catalogued plates attributed to {{ page.name }} yet — the catalog seeding is in progress.</div>
+  {% endif %}
+
+  {% if content and content != "" %}
+  <h2>Notes</h2>
+  <div class="photograph-notes">
+    {{ content }}
+  </div>
+  {% endif %}
+
+  {% if page.bio_url and page.bio_url != "" %}
+  <h2>External biography</h2>
+  <p style="font-family: var(--sans); font-size: 0.92rem;">
+    <a href="{{ page.bio_url }}" rel="noopener">{{ page.bio_url }}</a>
+  </p>
+  {% endif %}
+
+  {% if page.source_ids and page.source_ids != "" %}
+  <div class="references">
+    <div class="label">Sources</div>
+    <ul>
+      {% assign src_ids = page.source_ids | split: ";" %}
+      {% for sid in src_ids %}
+      {% assign src_doc = site.sources | where: "id", sid | strip | first %}
+      <li>
+        {% if src_doc %}
+          <a href="{{ src_doc.url | relative_url }}">{{ src_doc.title | default: sid | strip }}</a>
+          {%- if src_doc.tier %} <span style="font-family: var(--mono); font-size: 0.72rem; color: var(--mid);">· Tier {{ src_doc.tier }}</span>{% endif %}
+        {% else %}
+          <code>{{ sid | strip }}</code>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="see-also">
+    <div class="label">See also</div>
+    <ul>
+      <li><a href="{{ '/photographers/' | relative_url }}">Back to all photographers</a></li>
+      <li><a href="{{ '/photographs/' | relative_url }}">All photographs</a></li>
+      <li><a href="{{ '/sections/' | relative_url }}">Thematic sections</a></li>
+    </ul>
+  </div>
+
+  {% include edit-links.html %}
+</article>

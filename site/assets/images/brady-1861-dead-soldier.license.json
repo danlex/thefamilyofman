@@ -1,0 +1,13 @@
+{
+  "file": "brady-1861-dead-soldier.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Dead_soldier_from_the_Civil_War_photo_by_Mathew_Brady.jpg",
+  "source_url_direct": "https://upload.wikimedia.org/wikipedia/commons/...",
+  "license": "Public Domain Mark 1.0 (PDM)",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "rights_holder": "Mathew Brady (c. 1822–1896); image circa 1861, identified as free of known copyright restrictions",
+  "attribution": "Mathew Brady, dead soldier, American Civil War, c. 1861. Public domain (pre-1929 publication).",
+  "date_taken": "circa 1861",
+  "url_verified_at": "2026-04-25",
+  "basis": "public_domain",
+  "subject": "Civil War battlefield photograph. The Wikimedia file description states verbatim: \"Photo was also selected by Edward Steichen for the exhibition The Family of Man in 1955\" — a direct attestation of inclusion in the 1955 exhibition. The specific plate number in the MoMA Master Checklist has not been confirmed against our in-repo source data as of 2026-04-25 (Brady is not yet seeded in data/photographers.csv; Brady's plate falls within the still-unseeded portion of the 503-plate catalog, likely beyond plate #251)."
+}

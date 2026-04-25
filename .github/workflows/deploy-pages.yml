@@ -43,6 +43,10 @@ jobs:
         working-directory: .
         run: python3 scripts/generate_photograph_pages.py
 
+      - name: Generate per-photographer pages
+        working-directory: .
+        run: python3 scripts/generate_photographer_pages.py
+
       - name: Compute site/_data/progress.yml
         working-directory: .
         run: bash scripts/compute_progress.sh

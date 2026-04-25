@@ -6,6 +6,13 @@ permalink: /reception/
 edit_dir: site
 ---
 
+{% include image.html
+   src="/assets/images/family-of-man-schoolchildren.jpg"
+   alt="Schoolchildren viewing The Family of Man"
+   caption="Schoolchildren viewing a Family of Man tour-edition installation. The exhibition's appeal to young viewers is part of what made it the most-attended photography show of the twentieth century — and part of what its critics accused it of: the universalism that worked on schoolchildren is the universalism Barthes called \"sentimental humanism.\""
+   credit="U.S. National Archives · DPLA · Public domain"
+   credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Schoolchildren_-_DPLA_-_bc02eb41421152da8c2e735ea8fd7a9a.jpg" %}
+
 _This article is pending research._
 
 *The Family of Man* has been one of the most intensely debated exhibitions in the history of photography. The major critical landmarks in its reception include:
