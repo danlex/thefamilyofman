@@ -5,10 +5,11 @@ author: "Kimmelman, Michael"
 year: 1999
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
 tags: [photographer-bio, obituary, callahan]
+verified: false
 ---
 
 ## Citation
@@ -29,3 +30,4 @@ Named-author obituary of record for Harry Callahan (1912–1999), whose print ap
 
 - Complementary institutional reference: Harry Callahan papers and prints held by the Art Institute of Chicago and the Center for Creative Photography.
 - Perspective: journalistic / biographical.
+- Not fetchable anywhere (NYT paywall; no Wayback Machine snapshot found via archive.org API). Marked verified: false per issue #9 procedure. Per CREDIBILITY.md, Wikipedia is not a valid citation endpoint. The Art Institute of Chicago and CCP hold Callahan archive material (Tier-1 candidates) but NEITHER was fetched this round. Biographical dates in Key excerpts are held on the pre-existing NYT citation only.

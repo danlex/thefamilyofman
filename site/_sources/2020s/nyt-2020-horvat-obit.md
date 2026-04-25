@@ -5,9 +5,10 @@ author: "Genzlinger, Neil"
 year: 2020
 type: article
 publisher: "The New York Times"
-accessed: 2026-04-19
+accessed: 2026-04-24
 tier: 3
 language: en
+verified: false
 tags: [photographer-bio, obituary, horvat, fashion-photography]
 ---
 
@@ -29,3 +30,4 @@ Named-author obituary of record for Frank Horvat (1928–2020), whose print appe
 
 - The MoMA Master Checklist records Horvat's nationality as "Italian" (per his birthplace within 1928 Italy). Horvat is variously described in later sources as Italian, Croatian (per post-1947 sovereignty of Opatija), French (per long residence in France), or "European." The checklist form is preserved in `nationality`; the alternatives are noted in `notes` on `pher-frank-horvat`.
 - Perspective: journalistic / biographical.
+- Re-verification 2026-04-24 (issue #9): NYT archive 403/paywalled; Wayback not attempted for this specific URL in this round. The Horvat estate site (horvatland.com) was NOT consulted in this round. Flagged `verified: false` pending Chrome-session verification.
