@@ -7,6 +7,13 @@ permalink: /photographers/
 edit_dir: site
 ---
 
+<figure class="list-hero list-hero-portraits">
+  <img src="{{ '/assets/images/sandburg-1955-nywts.jpg' | relative_url }}" alt="Carl Sandburg, 1955">
+  <img src="{{ '/assets/images/steichen-1902-self-portrait.jpg' | relative_url }}" alt="Edward Steichen self-portrait, 1901">
+  <img src="{{ '/assets/images/charlotte-1919-grand-duchess.jpg' | relative_url }}" alt="Grand Duchess Charlotte, 1919">
+  <figcaption>The author and his circle: Carl Sandburg (prologue, 1955); Edward Steichen (curator, self-portrait 1901); Grand Duchess Charlotte (the 1963 White House meeting that brought the show to Luxembourg). Read the <a href="{{ '/steichen/' | relative_url }}">Steichen memorial</a>.</figcaption>
+</figure>
+
 <div class="list-filters">
   <input id="q" type="search" placeholder="Search name, nationality…" autocomplete="off">
   <select id="nationality" aria-label="Filter by nationality"><option value="">All nationalities</option></select>

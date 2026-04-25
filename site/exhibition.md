@@ -34,6 +34,24 @@ The galleries were designed by architect **Paul Rudolph**.
 
 The exhibition was accompanied by a catalog published by MoMA, with a prologue by **Carl Sandburg** (Steichen's brother-in-law).
 
+{% include image.html
+   src="/assets/images/family-of-man-schoolchildren.jpg"
+   alt="Schoolchildren viewing The Family of Man"
+   caption="Schoolchildren viewing a tour-edition installation. The exhibition was seen by some 9 million people across 91 venues from 1955 to 1962."
+   credit="U.S. National Archives · DPLA · Public domain"
+   credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Schoolchildren_-_DPLA_-_bc02eb41421152da8c2e735ea8fd7a9a.jpg" %}
+
+## The author of the exhibition
+
+{% include image.html
+   src="/assets/images/steichen-1902-self-portrait.jpg"
+   alt="Edward Steichen self-portrait, 1901"
+   caption="Edward Steichen, self-portrait, 1901 (gum print). The Luxembourgish-born photographer was Director of the Department of Photography at MoMA from 1947 to 1962."
+   credit="Edward J. Steichen · Public domain (PD-old)"
+   credit_url="https://commons.wikimedia.org/wiki/File:Eduard_J._Steichen,_self_portrait_1902.jpg" %}
+
+For Steichen's life — birth in Bivange, the Naval Aviation Photographic Unit, the 1963 White House meeting with Grand Duchess Charlotte, and the 1964 donation of the exhibition to Luxembourg — see the [Steichen memorial]({{ '/steichen/' | relative_url }}).
+
 ## Reception
 
 See the [Reception]({{ '/reception/' | relative_url }}) article.

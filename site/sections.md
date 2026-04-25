@@ -7,6 +7,11 @@ permalink: /sections/
 edit_dir: site
 ---
 
+<figure class="list-hero">
+  <img src="{{ '/assets/images/family-of-man-layout.jpg' | relative_url }}" alt="Layout view of a Family of Man installation" loading="lazy">
+  <figcaption>Installation layout from a Family of Man tour venue, documenting Paul Rudolph's design — temporary walls, prints from 24 × 36 cm to 300 × 400 cm, photographs floating at varying heights. USIA · DPLA · Public domain.</figcaption>
+</figure>
+
 {% if site.sections_articles.size > 0 %}
 {% assign sorted = site.sections_articles | sort: "order" %}
 <div class="section-grid">

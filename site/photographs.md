@@ -7,6 +7,15 @@ permalink: /photographs/
 edit_dir: site
 ---
 
+<figure class="list-hero">
+  <img src="{{ '/assets/images/family-of-man-schoolchildren.jpg' | relative_url }}" alt="Schoolchildren viewing The Family of Man" loading="lazy">
+  <figcaption>Schoolchildren viewing a tour-edition installation of <em>The Family of Man</em>. USIA / National Archives · DPLA · Public domain.</figcaption>
+</figure>
+
+<aside class="page-context">
+  <p>Most of the 503 plates remain under copyright; this index links out to the photograph at MoMA or Clervaux for each. A small number have entered the public domain — see the <a href="{{ '/' | relative_url }}#plates-we-can-show">"Plates we can show"</a> gallery on the homepage for the four PD examples currently hosted (Lange, Lee, Delano, Brady).</p>
+</aside>
+
 <div class="list-filters">
   <input id="q" type="search" placeholder="Search title, photographer, country…" autocomplete="off">
   <select id="country" aria-label="Filter by country"><option value="">All countries</option></select>
