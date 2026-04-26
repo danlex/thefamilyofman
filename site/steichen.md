@@ -105,13 +105,23 @@ In 1966 he visited the prints' eventual home at [Clervaux Castle]({{ '/clervaux/
    credit="Unknown photographer · Public domain"
    credit_url="https://commons.wikimedia.org/wiki/File:Charlotte_-_Grand_Duchess_of_Luxembourg.jpg" %}
 
+## Critical readings
+
+The institutional voice that anchors this page — the CNA's biographical portrait — is curatorial. Steichen's exhibition has been read very differently by other voices.
+
+**Roland Barthes** (1957) opens the modern critique in *Mythologies*. He argues that the show's universalism — birth, death, work, love presented as shared human constants — flattens history and politics. By staging the universal as natural, the exhibition (Barthes writes) precludes the specific question that any honest political photograph should provoke: *whose* mortality, *whose* labour, *whose* family, under *what* conditions.[^8]
+
+**Eric Sandeen** (*Picturing an Exhibition: The Family of Man and 1950s America*, University of New Mexico Press, 1995) is the standard book-length historical study. Sandeen complicates both Steichen's framing and Barthes' counter-framing with archive evidence from the 1955 MoMA opening and the USIA tour: he reconstructs how the show was assembled, how it was received venue by venue, and how its Cold War sponsorship shaped what was shown and what wasn't.[^9]
+
+These two readings — and the later voices of **Susan Sontag** (1977), **Allan Sekula** (1981), **Blake Stimson** (2006), and **Fred Turner** (2013) — are the conversation Steichen's most-visited exhibition has provoked for nearly seven decades. See the [Reception page]({{ '/reception/' | relative_url }}) for the full critical thread; the works above are recorded in the [Bibliography]({{ '/bibliography/' | relative_url }}).
+
 ## Last years
 
 Steichen had married **Joanna Taub** in 1960; the CNA records her as "fifty-four years his junior."[^1] He died at his home in West Redding, Connecticut, on **25 March 1973**, two days before his 94th birthday.[^2]
 
 ## What the collection became
 
-The collection he assembled returned permanently to **Clervaux Castle** in **1994**, twenty-one years after his death.[^1] It was inscribed on UNESCO's [Memory of the World register]({{ '/unesco/' | relative_url }}) in **2003** — recognising it as documentary heritage of universal significance — and was rebuilt under a major restoration program in **2010–2013**.[^1]
+The collection he assembled returned permanently to **Clervaux Castle** in **1994**,[^4] twenty-one years after his death. It was inscribed on UNESCO's [Memory of the World register]({{ '/unesco/' | relative_url }}) in **2003**,[^7] recognising it as documentary heritage of universal significance, and was rebuilt under a major restoration program in **2010–2013**.[^4]
 
 {% include image.html
    src="/assets/images/clervaux-2015-rg72-interior.jpg"
@@ -120,15 +130,19 @@ The collection he assembled returned permanently to **Clervaux Castle** in **199
    credit="RG72 · CC BY-SA 4.0"
    credit_url="https://commons.wikimedia.org/wiki/File:Familio_de_homo_(Clervaux).jpg" %}
 
-Luxembourg's reconciliation with its emigrant son is now visible at the level of state institutions: the Centre national de l'audiovisuel custodies the collection; an Edward Steichen Award supports emerging photographers and artists between Luxembourg and the United States; and the country claims him in its cultural-tourism literature. Bivange itself remains a small village in the southern commune of Roeser; the house where he was born has not been re-verified for this page in this round of citation work.
+The institutional custodian of the collection today is the Centre national de l'audiovisuel — see the [Clervaux page]({{ '/clervaux/' | relative_url }}) for the present-day curation.
 
 <div class="perspective-note">
   <strong>Perspective note</strong>
   Steichen's autobiography <em>A Life in Photography</em> (1963) and Penelope Niven's <em>Steichen: A Biography</em> (Clarkson Potter, 1997) are the standard book-length lives. Neither has been re-fetched in this round of citation work; specific anecdotes from those volumes that appear elsewhere on this wiki should be flagged as <code>verified: false</code> until they are. The CNA's <a href="https://www.thefamilyofman.education/en/historical-context/edward-steichen-from-a-man-of-his-time-to-an-artist-out-of-time">institutional biography</a> is the Tier-1 anchor used here.
 </div>
 
-[^1]: Centre national de l'audiovisuel (CNA), Luxembourg. *Edward Steichen: From a Man of His Time to an Artist Out of Time*. Educational portal — `src-cna-edu-steichen-bio`. Anchors: birth in Bivange 1879; emigration "barely 2 years old"; MoMA Director 1947–1962; *The Family of Man* opens 1955 and tours to 1965; "in 1960 he remarried Joanna Taub – 54 years his junior." 1994 Clervaux installation, 2003 UNESCO inscription, and 2010–2013 restoration are attested by the CNA institutional voice across its English education portal and German collections page.
+[^1]: Centre national de l'audiovisuel (CNA), Luxembourg. *Edward Steichen: From a Man of His Time to an Artist Out of Time*. Educational portal — `src-cna-edu-steichen-bio`. Anchors: birth in Bivange 1879; emigration "barely 2 years old"; MoMA Director 1947–1962; *The Family of Man* opens 1955 and tours to 1965; "in 1960 he remarried Joanna Taub – 54 years his junior."
 [^2]: Biographical commonplaces — first camera 1895; Stieglitz attention by 1900; naturalization 1900; Condé Nast chief photographer 1923–1938; the optical-effect framing of the 1903 Morgan portrait — are widely repeated in standard biographical references, including the Wikipedia entry for Steichen and the Niven 1997 monograph *Steichen: A Biography*. None of those biographical sources were fetched for this page in this round; specific narrative colour beyond what `[^1]` directly attests should be treated as `verified: false` until a primary biographical source is consulted. The same disclaimer covers the Sandburg-poem-as-title-source claim, which is recorded with primary citation in `research/sections.md` (citing `src-moma-1955-press-release-book` and `src-moma-1955-catalog`) but those primary sources were not re-fetched in this session.
 [^3]: JCA. *Cercle Cité Lecture Celebrates Life of Edward Steichen*. Chronicle.lu, 1 April 2025 — `src-chronicle-lu-2025-cercle-cite-steichen`. The original speaker and primary archival sources for these three points (1963 meeting, 1964 donation, 1966 Clervaux visit) are not given in the press article; the underlying Cour-grand-ducale or CNA archival documentation should be consulted to upgrade these claims to Tier-1.
+[^4]: Centre national de l'audiovisuel (CNA), Luxembourg. *Familio de homo* (German collections page) — `src-cna-collections-deu-family-of-man`. Verbatim attests the 1994 inauguration ("Präsentation der Sammlung als Dauerausstellung im Schloss von Clervaux") and the 2010–2013 second restoration phase ("Eine zweite Restaurierungsphase wurde in den Jahren 2010-2013 unternommen"). Fetched 2026-04-25.
 [^5]: Wikipedia, *Carl Sandburg* (fetched 2026-04-25): "In 1907, Sandburg met Lilian Steichen (1883–1977), sister of photographer Edward Steichen, at the Milwaukee Social Democratic Party office. They married the following year [1908] and had three daughters." Per `CREDIBILITY.md`, Wikipedia is pointer-only; the canonical primary source for this would be the Sandburg-Niven correspondence or Niven's biography, neither re-fetched here. Carried as a tier-3-equivalent until upgraded.
 [^6]: Wikipedia, *Edward Steichen* (fetched 2026-04-25): notes Steichen as one of "six officer-photographers" of the Naval Aviation Photographic Unit. Same Wikipedia caveat as `[^5]`.
+[^7]: UNESCO Memory of the World International Register, *The Family of Man* — `src-unesco-mow-2003`. Inscription 2003.
+[^8]: Roland Barthes, "The Great Family of Man," in *Mythologies* (1957) — `src-barthes-1957`. The foundational critical reading: argues that the exhibition's universalist humanism flattens history and politics. Barthes is the canonical counter-voice to the CNA's institutional framing.
+[^9]: Eric J. Sandeen, *Picturing an Exhibition: The Family of Man and 1950s America* (University of New Mexico Press, 1995) — `src-sandeen-1995`. The standard book-length historical study of the show — complicates both Steichen's universalist framing and Barthes' critique with venue-by-venue evidence from the USIA tour archives.
