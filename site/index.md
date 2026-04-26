@@ -110,36 +110,6 @@ permalink: /
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
   <div class="home-section-head">
     <div>
-      <h2>Steichen the photographer</h2>
-      <p class="lead">Before he became MoMA's curatorial author of <em>The Family of Man</em>, Steichen was the most-published portrait, fashion, and Pictorialist photographer of his generation. Two of his own works are in the public domain and hosted here.</p>
-    </div>
-    <a class="more" href="{{ '/steichen/' | relative_url }}">Read the memorial →</a>
-  </div>
-  <div class="plates-grid">
-    <figure class="plate-card">
-      <img src="{{ '/assets/images/steichen-1904-pond-moonlight.jpg' | relative_url }}" alt="Edward Steichen, The Pond — Moonlight, 1904" loading="lazy">
-      <figcaption>
-        <div class="plate-photographer">Edward Steichen</div>
-        <div class="plate-title"><em>The Pond — Moonlight</em>, Mamaroneck, NY · 1904</div>
-        <p>One of three known surviving prints, held by the Metropolitan Museum of Art and the Museum of Modern Art. In February 2006 a print sold at Sotheby's for US$2.9 million.</p>
-        <div class="plate-license">PD-1923 · Wikimedia Commons</div>
-      </figcaption>
-    </figure>
-    <figure class="plate-card">
-      <img src="{{ '/assets/images/steichen-1903-jp-morgan.jpg' | relative_url }}" alt="Edward Steichen, J. Pierpont Morgan, 1903" loading="lazy">
-      <figcaption>
-        <div class="plate-photographer">Edward Steichen</div>
-        <div class="plate-title">J. Pierpont Morgan · 1903</div>
-        <p>Steichen photographed the financier when he was twenty-four. The light catching Morgan's hand on the chair-arm reads, in this widely-circulated frame, as a blade.</p>
-        <div class="plate-license">PD-old · Wikimedia Commons</div>
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
-  <div class="home-section-head">
-    <div>
       <h2>The people behind the exhibition</h2>
       <p class="lead">Beyond the 273 photographers whose plates fill the galleries, four people shaped what visitors actually saw — and one Luxembourg head of state brought the prints home.</p>
     </div>
