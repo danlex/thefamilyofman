@@ -9,11 +9,11 @@ edit_dir: site
 {% include image.html
    src="/assets/images/family-of-man-schoolchildren.jpg"
    alt="Schoolchildren viewing The Family of Man"
-   caption="Schoolchildren viewing a Family of Man tour-edition installation. The exhibition's appeal to young viewers is part of what made it the most-attended photography show of the twentieth century — and part of what its critics accused it of: a universalism that worked on schoolchildren as easily as on heads of state."
+   caption="Schoolchildren viewing a Family of Man tour-edition installation. The exhibition's appeal to young viewers is part of what its critics accused it of: a universalism that worked on schoolchildren as easily as on heads of state."
    credit="U.S. National Archives · DPLA · Public domain"
    credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Schoolchildren_-_DPLA_-_bc02eb41421152da8c2e735ea8fd7a9a.jpg" %}
 
-*The Family of Man* has been one of the most intensely debated exhibitions in the history of photography. From its opening at MoMA in 1955 it drew immense popular acclaim — the largest photographic audience of the twentieth century — and almost immediately, sustained scholarly critique. The argument has not stopped.
+*The Family of Man* has been one of the most intensely debated exhibitions in the history of photography. From its opening at MoMA in 1955 it drew immense popular acclaim and, almost immediately, sustained scholarly critique. The argument has not stopped.
 
 ## Roland Barthes, *The Great Family of Man* (1957)
 
@@ -41,13 +41,13 @@ The essay closes on the politics of frozenness:
 
 > "So that I rather fear that the final justification of all this Adamism is to give to the immobility of the world the alibi of a 'wisdom' and a 'lyricism' which only make the gestures of man look eternal the better to defuse them."[^1]
 
-Barthes's reading has been the canonical counter-voice for nearly seventy years. Almost every later critic of the show writes in conversation with it — either extending it (Sekula, Sontag) or pushing back against its totality (Sandeen, Stimson).
+Barthes's reading has been the canonical counter-voice in the secondary literature for nearly seventy years. Later critics' specific positions relative to him are summarised on this page only where their texts have been consulted in this repo — currently only Sandeen.
 
 ## Eric Sandeen, *Picturing an Exhibition* (1995)
 
 Eric J. Sandeen's *Picturing an Exhibition: The Family of Man and 1950s America* (University of New Mexico Press, 1995) is the standard book-length historical study of the show. Reviewed in *The American Historical Review* and *Journal of American Studies*, the book reconstructs the exhibition's thematic sequencing from photograph-by-photograph analysis of the MoMA installation and catalog, and frames the show's humanist argument against its Cold War political context.[^2]
 
-Sandeen's contribution is to refuse the binary Barthes had set up. Where Barthes reads the show as a single ideological gesture, Sandeen reads it as a worked artefact — a curated sequence with internal logic, audience-tested at venue after venue on the USIA tour, embedded in a particular moment of American cultural diplomacy. The book is the minimum scholarly anchor for any interpretive claim this wiki makes about the exhibition's thematic argument.[^2]
+Sandeen's contribution, on the framing the in-repo source file describes, is to refuse the binary that Barthes set up. Where Barthes reads the show as a single ideological gesture, Sandeen reads it as a worked artefact — a curated sequence with internal logic, embedded in the USIA tour and in the broader Cold War context of American cultural diplomacy. The book is the minimum scholarly anchor for any interpretive claim this wiki makes about the exhibition's thematic argument.[^2]
 
 <div class="perspective-note">
   <strong>Citation caveat</strong>
