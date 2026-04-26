@@ -82,7 +82,7 @@ A living map of **what we know** (with sources) and **what we need to investigat
 
 ### Thematic structure *(merged via PR #3)*
 - The 1955 catalog does **not** present a canonical numbered list of sections. Scholarly reconstructions differ: UNESCO Memory of the World register gives "32 themes" (confirmed). A "37 themes" figure is reported on CNA Luxembourg's education portal but is **not yet independently verified** in this repo (CNA site was unreachable during the 2026-04-19 audit).
-- **Our working reconstruction: 11 thematic clusters** (`sec-prologue` through `sec-rededication-future`) are live on the site under [/sections/](https://danlex.github.io/thefamilyofman/sections/). Each row in `data/sections.csv` is tagged "thematic cluster reconstructed" to avoid implying canonical status.
+- **Our working reconstruction: 11 thematic clusters** (`sec-prologue` through `sec-rededication-future`) are live on the site under [/sections/](https://thefamilyofman.alexandrudan.com/sections/). Each row in `data/sections.csv` is tagged "thematic cluster reconstructed" to avoid implying canonical status.
 - **Governance note:** PR #3 was merged before the four-judge panel ran. The content should be re-audited — especially Judge-Grounding on the Barthes verbatim quotes and Judge-Bias on the theme-count treatment.
 
 ### Catalog — first rows seeded (PR #4 open)
