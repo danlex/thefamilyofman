@@ -5,8 +5,8 @@ description: >-
   503 photographs by 273 photographers, permanently housed at Clervaux
   Castle, Luxembourg (UNESCO Memory of the World, 2003).
 
-url: https://danlex.github.io
-baseurl: /thefamilyofman
+url: https://thefamilyofman.alexandrudan.com
+baseurl: ""
 repository: danlex/thefamilyofman
 edit_url_base: https://github.com/danlex/thefamilyofman/edit/main
 
