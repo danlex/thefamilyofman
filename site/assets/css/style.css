@@ -1749,6 +1749,40 @@ main {
 .page-context p { margin: 0; }
 .page-context a { color: var(--ink); }
 
+/* ---------- In-page TOC (long article navigation) ---------- */
+
+.page-toc {
+  margin: 2rem 0 3rem;
+  padding: 1.25rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: var(--mist);
+}
+.page-toc .kicker { margin-bottom: 0.75rem; }
+.page-toc ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 2rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.page-toc li {
+  break-inside: avoid;
+  padding: 0.15rem 0;
+}
+.page-toc a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.page-toc a:hover { border-bottom-color: var(--ink); }
+@media (max-width: 640px) {
+  .page-toc ol { columns: 1; }
+}
+
 /* ---------- Empty state ---------- */
 
 .empty {

@@ -22,6 +22,24 @@ edit_dir: site
 </blockquote>
 </div>
 
+<nav class="page-toc" aria-label="Page contents">
+  <div class="kicker">On this page</div>
+  <ol>
+    <li><a href="#a-luxembourgish-boy">A Luxembourgish boy</a> · 1879</li>
+    <li><a href="#the-morgan-portrait">The Morgan portrait</a> · 1903</li>
+    <li><a href="#a-pictorialist-masterwork--the-pond--moonlight-1904">The Pond — Moonlight</a> · 1904</li>
+    <li><a href="#stieglitz-and-the-291-gallery">Stieglitz and the 291 Gallery</a> · 1905</li>
+    <li><a href="#carl-sandburg-brother-in-law">Carl Sandburg, brother-in-law</a> · 1908</li>
+    <li><a href="#the-first-world-war">The First World War</a> · 1917</li>
+    <li><a href="#vogue-the-navy-and-moma">Vogue, the Navy, and MoMA</a> · 1923–1962</li>
+    <li><a href="#the-family-of-man"><em>The Family of Man</em></a> · 1955</li>
+    <li><a href="#the-1963-meeting-and-the-gift-to-luxembourg">The 1963 meeting and the gift to Luxembourg</a></li>
+    <li><a href="#critical-readings">Critical readings</a></li>
+    <li><a href="#last-years">Last years</a></li>
+    <li><a href="#what-the-collection-became">What the collection became</a></li>
+  </ol>
+</nav>
+
 ## A Luxembourgish boy
 
 **Édouard Jean Steichen** was born on 27 March 1879 in **Bivange (Béiweng)**, a village in southern Luxembourg.[^1] He was barely two years old when his parents emigrated to the United States, settling first in Hancock, Michigan's Upper Peninsula copper country, and later in Milwaukee.[^1]
@@ -29,21 +47,6 @@ edit_dir: site
 He bought his first camera, a secondhand Kodak "detective" box, in 1895 — at sixteen.[^2] By 1900, the year he became a naturalized U.S. citizen, his photographs had drawn the attention of **Alfred Stieglitz**, the New York gallerist who would become his most consequential collaborator.[^2]
 
 The 1901 self-portrait at the top of this page appears in *International Studio* magazine in 1908; by then Steichen was already a defining figure in the **Photo-Secession** movement, the Stieglitz-led circle that argued photography deserved to stand alongside painting as fine art.
-
-## Stieglitz and the 291 Gallery
-
-In 1905 Steichen and Stieglitz opened the **Little Galleries of the Photo-Secession** in what had been Steichen's portrait studio. The space quickly became known by its address — **the 291 Gallery**.[^2]
-
-## A Pictorialist masterwork — *The Pond — Moonlight* (1904)
-
-In 1904, in **Mamaroneck, New York**, near the home of the art critic **Charles Caffin**, Steichen made one of the defining photographs of his early Pictorialist period. The print is a gum-bichromate produced with hand-applied light-sensitive gums, yielding one-of-a-kind images; only three are known to survive — held by the Metropolitan Museum of Art and the Museum of Modern Art (New York).[^2]
-
-{% include image.html
-   src="/assets/images/steichen-1904-pond-moonlight.jpg"
-   alt="Edward Steichen, The Pond — Moonlight, 1904"
-   caption="*The Pond — Moonlight*, Mamaroneck, New York, 1904. Hand-applied light-sensitive gums produced one-of-a-kind prints. In February 2006 a print sold at Sotheby's for US$2.9 million."
-   credit="Edward Steichen · Public domain (PD-1923)"
-   credit_url="https://commons.wikimedia.org/wiki/File:ThePondMoonlight.jpg" %}
 
 ## The Morgan portrait
 
@@ -56,9 +59,20 @@ In 1903 Steichen photographed **J. Pierpont Morgan**. The financier had agreed t
    credit="Edward Steichen · Public domain (PD-old)"
    credit_url="https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_Photographic_portrait_of_Pierpont_Morgan_(1837-1913).jpg" %}
 
-## The First World War
+## A Pictorialist masterwork — *The Pond — Moonlight* (1904)
 
-Steichen returned to uniform in the First World War. He commanded the photographic division of the **American Expeditionary Forces** and came out of the war an Army **Colonel**.[^2] He would return to military service a quarter-century later, this time in the U.S. Navy.
+In 1904, in **Mamaroneck, New York**, near the home of the art critic **Charles Caffin**, Steichen made one of the defining photographs of his early Pictorialist period. The print is a gum-bichromate produced with hand-applied light-sensitive gums, yielding one-of-a-kind images; only three are known to survive — held by the Metropolitan Museum of Art and the Museum of Modern Art (New York).[^2]
+
+{% include image.html
+   src="/assets/images/steichen-1904-pond-moonlight.jpg"
+   alt="Edward Steichen, The Pond — Moonlight, 1904"
+   caption="*The Pond — Moonlight*, Mamaroneck, New York, 1904. Hand-applied light-sensitive gums produced one-of-a-kind prints. In February 2006 a print sold at Sotheby's for US$2.9 million."
+   credit="Edward Steichen · Public domain (PD-1923)"
+   credit_url="https://commons.wikimedia.org/wiki/File:ThePondMoonlight.jpg" %}
+
+## Stieglitz and the 291 Gallery
+
+In 1905 Steichen and Stieglitz opened the **Little Galleries of the Photo-Secession** in what had been Steichen's portrait studio. The space quickly became known by its address — **the 291 Gallery**.[^2]
 
 ## Carl Sandburg, brother-in-law
 
@@ -70,6 +84,10 @@ Steichen's sister **Lilian Steichen** married the poet **Carl Sandburg** in 1908
    caption="Carl Sandburg, photographed in 1955 — the year of The Family of Man's opening — by Al Ravenna for the New York World-Telegram and Sun. Library of Congress."
    credit="Al Ravenna / NYWTS · Public domain"
    credit_url="https://commons.wikimedia.org/wiki/File:Carl_Sandburg_NYWTS.jpg" %}
+
+## The First World War
+
+Steichen returned to uniform in the First World War. He commanded the photographic division of the **American Expeditionary Forces** and came out of the war an Army **Colonel**.[^2] He would return to military service a quarter-century later, this time in the U.S. Navy.
 
 ## Vogue, the Navy, and MoMA
 
