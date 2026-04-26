@@ -1,0 +1,59 @@
+---
+permalink: /search.json
+layout: null
+---
+[
+{%- assign sep = "" -%}
+
+{%- comment -%} Photographs (from data/photographs.csv) {%- endcomment -%}
+{%- for p in site.data.photographs -%}
+  {{ sep }}
+  {%- assign sec = site.data.sections | where: "id", p.section | first -%}
+  {
+    "kind": "photograph",
+    "id": {{ p.id | jsonify }},
+    "title": {{ p.title | default: "Untitled" | jsonify }},
+    "subtitle": {{ p.photographer | jsonify }},
+    "body": {%- if p.country and p.country != "" -%}{{ p.country | append: " · " | append: sec.title | append: " · " | append: p.year | append: " · " | append: p.notes | jsonify }}{%- else -%}{{ p.notes | jsonify }}{%- endif -%},
+    "url": {{ "/photographs/" | append: p.id | append: "/" | relative_url | jsonify }}
+  }
+  {%- assign sep = "," -%}
+{%- endfor -%}
+
+{%- comment -%} Photographers (from data/photographers.csv) {%- endcomment -%}
+{%- for c in site.data.photographers -%}
+  {{ sep }}
+  {
+    "kind": "photographer",
+    "id": {{ c.id | jsonify }},
+    "title": {{ c.name | jsonify }},
+    "subtitle": {%- if c.birth_year and c.birth_year != "" -%}{{ c.birth_year | append: "–" | append: c.death_year | append: " · " | append: c.nationality | jsonify }}{%- else -%}{{ c.nationality | jsonify }}{%- endif -%},
+    "body": {{ c.notes | jsonify }},
+    "url": {{ "/photographers/" | append: c.id | append: "/" | relative_url | jsonify }}
+  }
+  {%- assign sep = "," -%}
+{%- endfor -%}
+
+{%- comment -%} Sources (from site/_sources/) {%- endcomment -%}
+{%- for s in site.sources -%}
+  {{ sep }}
+  {
+    "kind": "source",
+    "id": {{ s.id | default: s.slug | jsonify }},
+    "title": {{ s.title | jsonify }},
+    "subtitle": {{ s.author | default: "" | append: " · " | append: s.year | append: " · Tier " | append: s.tier | jsonify }},
+    "body": {{ s.content | strip_html | strip_newlines | truncate: 400 | jsonify }},
+    "url": {{ s.url | relative_url | jsonify }}
+  }
+  {%- assign sep = "," -%}
+{%- endfor -%}
+
+{%- comment -%} Top-level pages {%- endcomment -%}
+,{ "kind": "page", "id": "exhibition", "title": "The 1955 Exhibition", "subtitle": "Overview", "body": "Edward Steichen Paul Rudolph Carl Sandburg MoMA opening 24 January 1955", "url": {{ "/exhibition/" | relative_url | jsonify }} }
+,{ "kind": "page", "id": "steichen", "title": "Edward Steichen", "subtitle": "Curator · 1879–1973", "body": "Bivange Luxembourg Photo-Secession Stieglitz 291 Gallery Morgan Pond Moonlight Vogue Vanity Fair Naval Aviation Photographic Unit MoMA Charlotte 1963 Joanna Taub", "url": {{ "/steichen/" | relative_url | jsonify }} }
+,{ "kind": "page", "id": "clervaux", "title": "Clervaux", "subtitle": "Permanent home since 1994", "body": "Centre national de l'audiovisuel CNA Luxembourg castle restoration 2010 2013", "url": {{ "/clervaux/" | relative_url | jsonify }} }
+,{ "kind": "page", "id": "tour", "title": "World Tour", "subtitle": "1955–1962 USIA", "body": "United States Information Agency 91 venues 9 million visitors", "url": {{ "/tour/" | relative_url | jsonify }} }
+,{ "kind": "page", "id": "unesco", "title": "UNESCO Memory of the World", "subtitle": "Inscription 2003", "body": "documentary heritage", "url": {{ "/unesco/" | relative_url | jsonify }} }
+,{ "kind": "page", "id": "reception", "title": "Reception", "subtitle": "Critical readings", "body": "Barthes Sandeen Sontag Sekula Stimson Turner mythologies", "url": {{ "/reception/" | relative_url | jsonify }} }
+,{ "kind": "page", "id": "sections", "title": "Thematic sections", "subtitle": "Eleven clusters", "body": "Prologue Lovers Marriage Family Children Play Work Eating Relationships Hardship Death Rededication", "url": {{ "/sections/" | relative_url | jsonify }} }
+]
