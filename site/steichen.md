@@ -36,7 +36,7 @@ In 1905 Steichen and Stieglitz opened the **Little Galleries of the Photo-Secess
 
 ## A Pictorialist masterwork — *The Pond — Moonlight* (1904)
 
-In 1904, on the grounds of art critic **Charles Caffin**'s property near **Mamaroneck, New York**, Steichen made the photograph that has, more than any other single image, come to define his early Pictorialist period. The print is a hand-coloured platinum / gum-bichromate; only three are known to survive — one at the Metropolitan Museum of Art, one at the Museum of Modern Art (New York), and one in private hands.
+In 1904, in **Mamaroneck, New York**, near the home of the art critic **Charles Caffin**, Steichen made the photograph that has, more than any other single image, come to define his early Pictorialist period. The print is a hand-coloured platinum / gum-bichromate; only three are known to survive — one at the Metropolitan Museum of Art, one at the Museum of Modern Art (New York), and one in private hands.[^2]
 
 {% include image.html
    src="/assets/images/steichen-1904-pond-moonlight.jpg"
