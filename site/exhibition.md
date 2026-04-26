@@ -53,7 +53,7 @@ The MoMA archives record one further sentence Steichen reportedly used about the
 
 > "The people in the audience looked at the pictures, and the people in the pictures looked back at them. They recognized each other."[^1]
 
-This thesis — universal-as-natural — is the same one Roland Barthes would set out to dismantle two years later in *Mythologies*. See [Reception]({{ '/reception/' | relative_url }}).
+This thesis — universal-as-natural — is the same one Roland Barthes would interrogate two years later in *Mythologies*. See [Reception]({{ '/reception/' | relative_url }}) for the full critical thread.
 
 ## Paul Rudolph's installation
 
@@ -71,7 +71,7 @@ The architect **Paul Rudolph** designed the gallery installation. Per the MoMA a
 Two simultaneous editions of the catalog were published on **21 June 1955**:[^2]
 
 - A **deluxe edition**, "published by Simon and Schuster in collaboration with Maco Magazine Corporation for the Museum of Modern Art, New York": "boards, boxed, 226 pages, more than 500 photographs from 68 countries, including portfolio of installation pictures of the exhibition 'The Family of Man' in the Museum of Modern Art, New York. Prologue by Carl Sandburg, introduction by Edward Steichen. 8½ × 11". $10."[^2]
-- A **paper edition**, "published by the Maco Magazine Corporation for the Museum of Modern Art": "Stiff paper cover printed in four colors. More than 500 photographs from 68 countries. 192 pages. Prologue by Carl Sandburg, introduction by Edward Steichen. 8½ × 11". $1."[^2]
+- A **paper edition**, "published by the Maco Magazine Corporation for the Museum of Modern Art": "Stiff paper cover printed in four colors. More than 500 photographs from 68 countries. 192 pages. Prologue by Carl Sandburg, introduction by Edward Steichen 8½ × 11". $1."[^2]
 
 The layout for both editions was designed by **Leo Lionni**, "well-known art director and artist," and printed by **R.R. Donnelley and Sons**.[^2] The wall captions — quotations from world literature placed throughout the exhibition's interior — are reproduced in both books.[^2]
 
@@ -107,9 +107,9 @@ The exhibition has been one of the most intensely debated photographic shows of 
 
 <div class="perspective-note">
   <strong>Perspective note</strong>
-  This page anchors on two Tier-1 institutional sources: the MoMA archives-highlights record (<code>src-moma-archives-highlights-1955</code>) and MoMA's June 21 1955 press release for the book (<code>src-moma-1955-press-release-book</code>). All Steichen and Sandburg quotations are verbatim from those sources. The wiki's reconstruction of the thematic flow follows MoMA's own parsing rather than imposing an external structure.
+  This page is written through the institutional / curatorial lens — it anchors on two Tier-1 MoMA sources, both of which inherit Steichen's own framing of the show. That framing is one of three on this wiki: see the <a href="{{ '/reception/' | relative_url }}">Reception page</a> for the critical counter-voice (Barthes, Sandeen, and the wider scholarly thread), and the <a href="{{ '/sections/' | relative_url }}">Sections index</a> for the wiki's working reconstruction of the thematic flow. None of the three lenses is treated as canonical. All Steichen and Sandburg quotations on this page are verbatim from <code>src-moma-archives-highlights-1955</code> or <code>src-moma-1955-press-release-book</code>.
 </div>
 
 [^1]: MoMA Archives, *Edward Steichen at The Family of Man, 1955* (Archives Highlights), `src-moma-archives-highlights-1955`. Anchors: 24 January – 8 May 1955; 503 photographs / 273 photographers / 68 countries; "Curator: Edward Steichen, assisted by Wayne Miller"; Paul Rudolph installation with temporary walls and print sizes 24 × 36 cm to 300 × 400 cm; the narrative progression summary; the two cited Steichen and Sandburg sentences; and the ~270,000 New York attendance figure. The attendance figure appears in the source's Relevance summary rather than verbatim quotation; flagged accordingly.
-[^2]: Museum of Modern Art press release for *The Family of Man* book publication, 21 June 1955, `src-moma-1955-press-release-book`. Verbatim attestations of: the two catalog editions and their specs; the Steichen "mirror of the essential oneness" passage; Sandburg's prologue distribution as a leaflet and reprinting in both books; the closing prologue line; Leo Lionni layout and R.R. Donnelley printing; the U.S. tour schedule (Minneapolis → Dallas → Cleveland → Philadelphia → Baltimore → Pittsburgh, June 1955 – November 1956). The tour-cities list and dates appear in the source's Relevance summary; treat as carried-from-press-release-PDF rather than verbatim until the cited PDF is re-extracted plate-by-plate.
-[^3]: `research/sections.md`, in turn citing `src-moma-1955-press-release-book` and `src-moma-1955-catalog`. The 1944 poem source for the title was not re-fetched in this round; treat as `verified: false` until the 1955 catalog or the 1944 *The People, Yes* edition is consulted directly for primary attribution.
+[^2]: Museum of Modern Art press release for *The Family of Man* book publication, 21 June 1955, `src-moma-1955-press-release-book`. Verbatim attestations of: the two catalog editions and their specs; the Steichen "mirror of the essential oneness" passage; Sandburg's prologue distribution as a leaflet and reprinting in both books; the closing prologue line; Leo Lionni layout and R.R. Donnelley printing; the U.S. tour schedule (Minneapolis → Dallas → Cleveland → Philadelphia → Baltimore → Pittsburgh, June 1955 – November 1956). The tour-schedule table is in the source's Key excerpts block (page-2 tour-schedule entry); the city list also appears summarised in the source's Relevance section.
+[^3]: `research/sections.md`, in turn citing `src-moma-1955-press-release-book` and `src-moma-1955-catalog`. The 1944 *The Long Shadow of Lincoln: A Litany* attribution as the title-source poem was not re-fetched in this round; treat as `verified: false` until the 1955 catalog or a primary edition of the poem is consulted directly.
