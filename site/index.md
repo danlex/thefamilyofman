@@ -324,55 +324,6 @@ permalink: /
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
   <div class="home-section-head">
     <div>
-      <h2>Examined in detail</h2>
-      <p class="lead">The first plates to receive a deep-dive provenance article — what the 1955 Master Checklist records, what was confirmed against archival sources, and what remains an open question.</p>
-    </div>
-    <a class="more" href="{{ '/photographs/' | relative_url }}">All photographs →</a>
-  </div>
-  {% assign featured_ids = "photo-0002,photo-0005,photo-0011,photo-0023,photo-0027" | split: "," %}
-  <div class="featured-grid">
-    {% for fid in featured_ids %}
-      {% assign fp = site.data.photographs | where: "id", fid | first %}
-      {% if fp %}
-      <a class="featured-card" href="{{ '/photographs/' | append: fid | append: '/' | relative_url }}">
-        <div class="kicker">Deep dive</div>
-        <div class="photographer">{{ fp.photographer }}</div>
-        <div class="meta">
-          {% assign sec = site.data.sections | where: "id", fp.section | first %}{% if sec %}{{ sec.title }}{% else %}{{ fp.section }}{% endif %}<br>
-          {{ fp.country }}{% if fp.year and fp.year != "" %} · {{ fp.year }}{% endif %} · <span style="font-family: var(--mono); letter-spacing: 0.05em;">{{ fid }}</span>
-        </div>
-      </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
-  <div class="home-section-head">
-    <div>
-      <h2>Recently added to the catalog</h2>
-      <p class="lead">The latest plates seeded into <code>data/photographs.csv</code>, in reverse-checklist order.</p>
-    </div>
-    <a class="more" href="{{ '/photographs/' | relative_url }}">All photographs →</a>
-  </div>
-  {% assign recent = site.data.photographs | reverse %}
-  <div class="recent-list">
-    {% for p in recent limit: 6 %}
-    <a class="recent-row" href="{{ '/photographs/' | append: p.id | append: '/' | relative_url }}">
-      <span class="recent-id">{{ p.id }}</span>
-      <span class="recent-name">{{ p.photographer }}</span>
-      <span class="recent-meta">
-        {%- assign psec = site.data.sections | where: "id", p.section | first -%}
-        {% if psec %}{{ psec.title }}{% else %}{{ p.section }}{% endif %} · {{ p.country }}{% if p.year and p.year != "" %} · {{ p.year }}{% endif %}
-      </span>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
-  <div class="home-section-head">
-    <div>
       <h2>Most-photographed contributors</h2>
       <p class="lead">From the {{ site.data.photographers.size }} photographer rows seeded so far, ranked by plate count in the 1955 Master Checklist. The full exhibition lists 273 contributors.</p>
     </div>
@@ -380,7 +331,7 @@ permalink: /
   </div>
   {% assign top = site.data.photographers | sort: "photo_count" | reverse %}
   <div class="contributor-list">
-    {% for c in top limit: 8 %}
+    {% for c in top limit: 5 %}
     <div class="contributor-row">
       <span class="rank">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>
       <span class="name">{{ c.name }}</span>
@@ -436,8 +387,8 @@ permalink: /
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
   <div class="home-section-head">
     <div>
-      <h2>Plates we can show</h2>
-      <p class="lead">Most of the 503 photographs in <em>The Family of Man</em> remain copyrighted; this wiki links out for nearly all of them. A handful are now in the public domain — works by U.S. federal photographers, photographs older than the U.S. copyright term, or institutionally released. These four are confirmed contributions, with their licenses recorded next to each file in <code>site/assets/images/</code>.</p>
+      <h2>Featured photographs</h2>
+      <p class="lead">Most of the 503 photographs in <em>The Family of Man</em> remain copyrighted; this wiki links out for nearly all of them. A handful are in the public domain — works by U.S. federal photographers, photographs older than the U.S. copyright term, or institutionally released — and their licenses are recorded next to each file in <code>site/assets/images/</code>. For the rest of the catalog, see the <a href="{{ '/photographs/' | relative_url }}">{{ site.data.photographs.size }} catalogued plates</a>.</p>
     </div>
     <a class="more" href="https://github.com/danlex/thefamilyofman/blob/main/IMAGE_POLICY.md" rel="noopener">Image policy →</a>
   </div>
