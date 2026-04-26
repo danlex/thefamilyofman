@@ -9,7 +9,7 @@ edit_dir: site
 {% include image.html
    src="/assets/images/family-of-man-schoolchildren.jpg"
    alt="Schoolchildren viewing The Family of Man"
-   caption="Schoolchildren viewing a tour-edition installation. In its New York run alone the show drew more than 270,000 visitors; on the international tour 1955–1962 it would reach roughly 9 million across 91 venues."
+   caption="Schoolchildren viewing a tour-edition installation. In its New York run alone the show drew more than 270,000 visitors; the international tour ran 1955–1962, with audience figures pending verification against USIA archival records."
    credit="U.S. National Archives · DPLA · Public domain"
    credit_url="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit,_Schoolchildren_-_DPLA_-_bc02eb41421152da8c2e735ea8fd7a9a.jpg" %}
 
@@ -57,7 +57,7 @@ This thesis — universal-as-natural — is the same one Roland Barthes would in
 
 ## Paul Rudolph's installation
 
-The architect **Paul Rudolph** designed the gallery installation. Per the MoMA archive record, he used **temporary walls** and **print sizes ranging from 24 × 36 cm to 300 × 400 cm**.[^1] Rudolph would later chair Yale's School of Architecture from 1958 to 1965;[^4] *The Family of Man* sits early in his trajectory, before the work that would define his late-modernist reputation.
+The architect **Paul Rudolph** designed the gallery installation. Per the MoMA archive record, he used **temporary walls** and **print sizes ranging from 24 × 36 cm to 300 × 400 cm**.[^1] Rudolph would later chair Yale University's Department of Architecture from 1958 to 1965;[^4] *The Family of Man* sits early in his trajectory, before the work that would define his late-modernist reputation.
 
 {% include image.html
    src="/assets/images/family-of-man-layout.jpg"
@@ -113,5 +113,5 @@ The exhibition has been one of the most intensely debated photographic shows of 
 [^1]: MoMA Archives, *Edward Steichen at The Family of Man, 1955* (Archives Highlights), `src-moma-archives-highlights-1955`. Anchors: 24 January – 8 May 1955; 503 photographs / 273 photographers / 68 countries; "Curator: Edward Steichen, assisted by Wayne Miller"; Paul Rudolph installation with temporary walls and print sizes 24 × 36 cm to 300 × 400 cm; the narrative progression summary; the two cited Steichen and Sandburg sentences; and the ~270,000 New York attendance figure. The attendance figure appears in the source's Relevance summary rather than verbatim quotation; flagged accordingly.
 [^2]: Museum of Modern Art press release for *The Family of Man* book publication, 21 June 1955, `src-moma-1955-press-release-book`. Verbatim attestations of: the two catalog editions and their specs; the Steichen "mirror of the essential oneness" passage; Sandburg's prologue distribution as a leaflet and reprinting in both books; the closing prologue line; Leo Lionni layout and R.R. Donnelley printing; the U.S. tour schedule (Minneapolis → Dallas → Cleveland → Philadelphia → Baltimore → Pittsburgh, June 1955 – November 1956). The tour-schedule table is in the source's Key excerpts block (page-2 tour-schedule entry); the city list also appears summarised in the source's Relevance section.
 [^3]: `research/sections.md`, in turn citing `src-moma-1955-press-release-book` and `src-moma-1955-catalog`. The 1944 *The Long Shadow of Lincoln: A Litany* attribution as the title-source poem was not re-fetched in this round; treat as `verified: false` until the 1955 catalog or a primary edition of the poem is consulted directly.
-[^4]: Wikipedia, *Paul Rudolph (architect)* (fetched 2026-04-25 in PR #25 research): "He served as chair of Yale University's Department of Architecture from 1958 to 1965." Per `CREDIBILITY.md`, Wikipedia is pointer-only; carried as a tier-3-equivalent until a primary architectural-history source is consulted directly.
+[^4]: Wikipedia, *Paul Rudolph (architect)* (re-fetched 2026-04-27): "chair of Yale University's Department of Architecture from 1958 to 1965." Per `CREDIBILITY.md`, Wikipedia is pointer-only; carried as a tier-3-equivalent until a primary architectural-history source is consulted directly.
 [^5]: The "9 million visitors across 91 venues" figure for the 1955–1962 USIA tour is repeated across institutional summaries on this wiki (homepage, /tour/, /clervaux/, research/world-tour notes) but the primary archival anchor — USIA records at the U.S. National Archives in Record Group 306 — has not been fetched. Treat as `verified: false` for the specific figure pending NARA RG 306 access. The general fact of a multi-year USIA-sponsored tour reaching tens of countries is well-attested across all our Tier-1 sources.

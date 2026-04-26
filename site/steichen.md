@@ -121,7 +121,7 @@ Documented MoMA exhibitions Steichen organised before and during his directorshi
 
 [The Family of Man]({{ '/exhibition/' | relative_url }}) opened at MoMA on 24 January 1955 and toured the world until 1965 — an arc the CNA describes as "the consecration of his most ambitious project: to explore the potential of photography as a means of communication and prove its capacity to interact with the world as much as it was showing it."[^1]
 
-The exhibition's prologue was written by Carl Sandburg — Steichen's brother-in-law (Sandburg married Steichen's sister Lilian in 1908). Its installation was designed by the architect Paul Rudolph, then at the start of his career; he would later chair Yale's School of Architecture from 1958 to 1965.
+The exhibition's prologue was written by Carl Sandburg — Steichen's brother-in-law (Sandburg married Steichen's sister Lilian in 1908). Its installation was designed by the architect Paul Rudolph, then at the start of his career; he would later chair Yale University's Department of Architecture from 1958 to 1965 — see the [Exhibition page]({{ '/exhibition/' | relative_url }}) for that citation.
 
 For the exhibition's catalog and structure see the [Photographs index]({{ '/photographs/' | relative_url }}), the [Sections]({{ '/sections/' | relative_url }}), and the [Sources]({{ '/bibliography/' | relative_url }}).
 
