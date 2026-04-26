@@ -32,7 +32,7 @@ The 1901 self-portrait at the top of this page appears in *International Studio*
 
 ## Stieglitz and the 291 Gallery
 
-In 1905 Steichen and Stieglitz opened the **Little Galleries of the Photo-Secession** in what had been Steichen's portrait studio. The space — quickly known by its address as **the 291 Gallery** — became a defining venue for early-twentieth-century American photography and a beachhead for European modernism in New York.[^2]
+In 1905 Steichen and Stieglitz opened the **Little Galleries of the Photo-Secession** in what had been Steichen's portrait studio. The space quickly became known by its address — **the 291 Gallery**.[^2]
 
 ## The Morgan portrait
 
@@ -47,7 +47,7 @@ In 1903 Steichen photographed **J. Pierpont Morgan**. The financier had agreed t
 
 ## The First World War
 
-Steichen returned to uniform in the First World War. He commanded the photographic division of the **American Expeditionary Forces** — the U.S. Army's aerial reconnaissance and photographic effort in France — and came out of the war an Army **Colonel**. He would return to military service a quarter-century later, this time in the U.S. Navy.[^2]
+Steichen returned to uniform in the First World War. He commanded the photographic division of the **American Expeditionary Forces** and came out of the war an Army **Colonel**.[^2] He would return to military service a quarter-century later, this time in the U.S. Navy.
 
 ## Carl Sandburg, brother-in-law
 
@@ -84,7 +84,7 @@ In 1947 he was named **Director of the Department of Photography at the Museum o
 
 > "When he was named the director of the Photography Department at the Museum of Modern Art in New York from 1947 to 1962, Steichen's photographer career became secondary and he dedicated his time to make other artists famous."[^1]
 
-Across his fifteen years as Director of the Department of Photography he organised a succession of exhibitions that fed directly into the project that would define his curatorial life. The named precursors include *Power in the Pacific: Battle Photographs of our Navy in Action on the Sea and In the Sky* (MoMA, 1945, while he was still in uniform), *Korea — The Impact of War in Photographs* (1951), *Five French Photographers* (1951–52), and *Postwar European Photography* (1953).[^2] Each was, in some sense, a rehearsal for the 1955 epic.
+Documented MoMA exhibitions Steichen organised before and during his directorship — and that secondary literature treats as precursors to *The Family of Man* — include *Power in the Pacific: Battle Photographs of our Navy in Action on the Sea and In the Sky* (1945, while he was still in uniform), *Korea — The Impact of War in Photographs* (1951), *Five French Photographers* (1951–52), and *Postwar European Photography* (1953).[^2]
 
 *The Family of Man* opened on **24 January 1955**.
 
@@ -127,7 +127,7 @@ These two readings — and the later voices of **Susan Sontag** (1977), **Allan 
 
 ## Last years
 
-Steichen had married **Joanna Taub** in 1960; the CNA records her as "fifty-four years his junior."[^1] He died at his home in West Redding, Connecticut, on **25 March 1973**, two days before his 94th birthday.[^2] Joanna Steichen, his second wife, survived him by thirty-seven years; she died in Montauk, New York, on 24 July 2010.[^2]
+Steichen had married **Joanna Taub** in 1960 — by Wikipedia's account his third marriage, after Clara Smith (1903–1922) and Dana Desboro Glover (1923–1957). The CNA records Joanna as "fifty-four years his junior."[^1][^2] He died at his home in West Redding, Connecticut, on **25 March 1973**, two days before his 94th birthday.[^2] Joanna Steichen survived him by thirty-seven years (2010 − 1973); she died in Montauk, New York, on 24 July 2010.[^2]
 
 ## What the collection became
 
@@ -148,7 +148,7 @@ The institutional custodian of the collection today is the Centre national de l'
 </div>
 
 [^1]: Centre national de l'audiovisuel (CNA), Luxembourg. *Edward Steichen: From a Man of His Time to an Artist Out of Time*. Educational portal — `src-cna-edu-steichen-bio`. Anchors: birth in Bivange 1879; emigration "barely 2 years old"; MoMA Director 1947–1962; *The Family of Man* opens 1955 and tours to 1965; "in 1960 he remarried Joanna Taub – 54 years his junior."
-[^2]: Biographical commonplaces grouped here are widely repeated in standard biographical references, including the Wikipedia entry for Steichen (re-fetched 2026-04-26) and the Niven 1997 monograph *Steichen: A Biography*. The cluster covers: first camera 1895; Stieglitz attention by 1900; naturalization 1900; the 1905 Little Galleries of the Photo-Secession / 291 Gallery with Stieglitz; Condé Nast chief photographer 1923–1938; the optical-effect framing of the 1903 Morgan portrait; First World War command of the photographic division of the American Expeditionary Forces and Army Colonel rank; the pre-FoM MoMA exhibitions *Power in the Pacific* (1945), *Korea — The Impact of War in Photographs* (1951), *Five French Photographers* (1951–52), and *Postwar European Photography* (1953); and the death of Joanna Taub Steichen in Montauk, New York, on 24 July 2010. None of those primary biographical sources were fetched in this round; the bundle should be treated as `verified: false` until Niven 1997 (or an equivalent primary biographical source) is consulted directly. The same disclaimer covers the Sandburg-poem-as-title-source claim, which is recorded with primary citation in `research/sections.md` (citing `src-moma-1955-press-release-book` and `src-moma-1955-catalog`) but those primary sources were not re-fetched in this session.
+[^2]: Biographical commonplaces grouped here are widely repeated in standard biographical references, including the Wikipedia entry for Steichen (re-fetched 2026-04-26) and the Niven 1997 monograph *Steichen: A Biography*. The cluster covers: first camera 1895; Stieglitz attention by 1900; naturalization 1900; the 1905 Little Galleries of the Photo-Secession / 291 Gallery with Stieglitz; Condé Nast chief photographer 1923–1938; the optical-effect framing of the 1903 Morgan portrait; First World War command of the photographic division of the American Expeditionary Forces and Army Colonel rank; the pre-FoM MoMA exhibitions *Power in the Pacific* (1945), *Korea — The Impact of War in Photographs* (1951), *Five French Photographers* (1951–52), and *Postwar European Photography* (1953); Steichen's three marriages — Clara Smith (1903–1922), Dana Desboro Glover (1923–1957, who pre-deceased him), and Joanna Taub (1960–1973); and the death of Joanna Taub Steichen in Montauk, New York, on 24 July 2010 (aged 77). None of those primary biographical sources were fetched in this round; the bundle should be treated as `verified: false` until Niven 1997 (or an equivalent primary biographical source) is consulted directly. The same disclaimer covers the Sandburg-poem-as-title-source claim, which is recorded with primary citation in `research/sections.md` (citing `src-moma-1955-press-release-book` and `src-moma-1955-catalog`) but those primary sources were not re-fetched in this session.
 [^3]: JCA. *Cercle Cité Lecture Celebrates Life of Edward Steichen*. Chronicle.lu, 1 April 2025 — `src-chronicle-lu-2025-cercle-cite-steichen`. The original speaker and primary archival sources for these three points (1963 meeting, 1964 donation, 1966 Clervaux visit) are not given in the press article; the underlying Cour-grand-ducale or CNA archival documentation should be consulted to upgrade these claims to Tier-1.
 [^4]: Centre national de l'audiovisuel (CNA), Luxembourg. *Familio de homo* (German collections page) — `src-cna-collections-deu-family-of-man`. Verbatim attests the 1994 inauguration ("Präsentation der Sammlung als Dauerausstellung im Schloss von Clervaux") and the 2010–2013 second restoration phase ("Eine zweite Restaurierungsphase wurde in den Jahren 2010-2013 unternommen"). Fetched 2026-04-25.
 [^5]: Wikipedia, *Carl Sandburg* (fetched 2026-04-25): "In 1907, Sandburg met Lilian Steichen (1883–1977), sister of photographer Edward Steichen, at the Milwaukee Social Democratic Party office. They married the following year [1908] and had three daughters." Per `CREDIBILITY.md`, Wikipedia is pointer-only; the canonical primary source for this would be the Sandburg-Niven correspondence or Niven's biography, neither re-fetched here. Carried as a tier-3-equivalent until upgraded.
