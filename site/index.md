@@ -57,12 +57,12 @@ permalink: /
 
 <section class="wrap-wide" style="padding: 0 1.25rem;">
   <div class="stats">
-    <div><span class="num">503</span><span class="label">photographs</span></div>
-    <div><span class="num">273</span><span class="label">photographers</span></div>
-    <div><span class="num">68</span><span class="label">countries of origin</span></div>
-    <div><span class="num">91</span><span class="label">tour venues</span></div>
-    <div><span class="num">9M</span><span class="label">visitors (1955–62)</span></div>
-    <div><span class="num">2003</span><span class="label">UNESCO inscription</span></div>
+    <a href="{{ '/photographs/' | relative_url }}"><span class="num">503</span><span class="label">photographs</span></a>
+    <a href="{{ '/photographers/' | relative_url }}"><span class="num">273</span><span class="label">photographers</span></a>
+    <a href="{{ '/photographs/' | relative_url }}"><span class="num">68</span><span class="label">countries of origin</span></a>
+    <a href="{{ '/tour/' | relative_url }}"><span class="num">91</span><span class="label">tour venues</span></a>
+    <a href="{{ '/tour/' | relative_url }}"><span class="num">9M</span><span class="label">visitors (1955–62)</span></a>
+    <a href="{{ '/unesco/' | relative_url }}"><span class="num">2003</span><span class="label">UNESCO inscription</span></a>
   </div>
 </section>
 
@@ -507,6 +507,20 @@ permalink: /
     <span class="ew-caption">The permanent installation at <a href="{{ '/clervaux/' | relative_url }}">Clervaux Castle</a>, Luxembourg, where the prints have been on continuous public display since 1994. Photographed in 2013, between the first and second restoration phases.</span>
     <span class="ew-credit"><a href="https://commons.wikimedia.org/wiki/File:Familyofman1.JPG">Gorup de Besanez · CC BY-SA 4.0</a></span>
   </figcaption>
+</section>
+
+<section class="wrap" style="margin-top: 4rem;">
+  <div class="kicker" style="margin-bottom: 0.4rem;">The argument has not stopped</div>
+  <figure class="pull-quote">
+    <blockquote>
+      <p>“Why not ask the parents of Emmet Till, the young Negro assassinated by the Whites what they think of <em>The Great Family of Man</em>?”</p>
+    </blockquote>
+    <figcaption>
+      Roland Barthes, “La grande famille des hommes,” in <em>Mythologies</em> (1957). The foundational critique
+      of the exhibition's universalism — read in full alongside Sandeen 1995 on the
+      <a href="{{ '/reception/' | relative_url }}">Reception page</a>.
+    </figcaption>
+  </figure>
 </section>
 
 <section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
