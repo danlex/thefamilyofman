@@ -492,7 +492,7 @@ permalink: /
       <figcaption>
         <div class="plate-photographer">Toni Frissell <span class="plate-pending-tag">FoM unverified</span></div>
         <div class="plate-title"><em>"My Shadow"</em>, from <em>A Child's Garden of Verses</em> · 1944</div>
-        <p>Frissell's photograph appears in the same Wikimedia FoM category but the file description does not directly attest plate-level inclusion. Frissell is not in our catalog data; her FoM plate (if any) is likely in the still-uncatalogued portion of the 503-plate checklist.</p>
+        <p>Frissell's photograph appears in the same Wikimedia FoM category but the file description does not directly attest plate-level inclusion. Frissell is not in our catalog data; her FoM plate (if any) has not been located in the catalogued portion of the 503-plate checklist as of 2026-04-26.</p>
         <div class="plate-license">PD via LoC · "no known restrictions" · Toni Frissell Collection</div>
       </figcaption>
     </figure>
