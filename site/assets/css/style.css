@@ -1670,6 +1670,19 @@ main {
   border-top: 1px solid var(--hairline);
 }
 
+.plate-card-pending img { opacity: 0.85; }
+.plate-card-pending .plate-photographer { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.plate-pending-tag {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mid);
+  background: var(--mist);
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--hairline);
+}
+
 /* ---------- List page hero ---------- */
 
 .list-hero {

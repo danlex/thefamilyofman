@@ -478,6 +478,24 @@ permalink: /
         <div class="plate-license">PDM (pre-1929 publication) · Wikimedia Commons</div>
       </figcaption>
     </figure>
+    <figure class="plate-card plate-card-pending">
+      <img src="{{ '/assets/images/carroll-1859-alice-queen-of-may.jpg' | relative_url }}" alt="Lewis Carroll, Alice Liddell as 'The Queen of May', 1859" loading="lazy">
+      <figcaption>
+        <div class="plate-photographer">Lewis Carroll <span class="plate-pending-tag">FoM unverified</span></div>
+        <div class="plate-title">Alice Liddell as <em>"The Queen of May"</em> · 1859</div>
+        <p>Carroll's portrait of Alice Liddell appears in the Wikimedia "Family of Man (Steichen exhibition)" category. The category placement is editorial Wikimedia curation, not a Tier-1/2 source: Carroll's plate inclusion is <strong>plausible but not yet attested</strong> against a primary FoM source in our research. Carroll is not in our catalog data.</p>
+        <div class="plate-license">PD-old (Carroll d. 1898) · Wikimedia Commons</div>
+      </figcaption>
+    </figure>
+    <figure class="plate-card plate-card-pending">
+      <img src="{{ '/assets/images/frissell-1944-my-shadow.jpg' | relative_url }}" alt="Toni Frissell, My Shadow, 1944" loading="lazy">
+      <figcaption>
+        <div class="plate-photographer">Toni Frissell <span class="plate-pending-tag">FoM unverified</span></div>
+        <div class="plate-title"><em>"My Shadow"</em>, from <em>A Child's Garden of Verses</em> · 1944</div>
+        <p>Frissell's photograph appears in the same Wikimedia FoM category but the file description does not directly attest plate-level inclusion. Frissell is not in our catalog data; her FoM plate (if any) is likely in the still-uncatalogued portion of the 503-plate checklist.</p>
+        <div class="plate-license">PD via LoC · "no known restrictions" · Toni Frissell Collection</div>
+      </figcaption>
+    </figure>
   </div>
 </section>
 
