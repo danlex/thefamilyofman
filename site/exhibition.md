@@ -44,7 +44,7 @@ The exhibition was accompanied by a catalog published by MoMA, with a prologue b
 ## The author of the exhibition
 
 {% include image.html
-   src="/assets/images/steichen-1902-self-portrait.jpg"
+   src="/assets/images/steichen-1901-self-portrait.jpg"
    alt="Edward Steichen self-portrait, 1901"
    caption="Edward Steichen, self-portrait, 1901 (gum print). The Luxembourgish-born photographer was Director of the Department of Photography at MoMA from 1947 to 1962."
    credit="Edward J. Steichen · Public domain (PD-old)"

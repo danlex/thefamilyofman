@@ -91,7 +91,7 @@ permalink: /
   </div>
   <div class="memorial-card">
     <a class="memorial-portrait" href="{{ '/steichen/' | relative_url }}">
-      <img src="{{ '/assets/images/steichen-1902-self-portrait.jpg' | relative_url }}" alt="Edward Steichen self-portrait, 1901" loading="lazy">
+      <img src="{{ '/assets/images/steichen-1901-self-portrait.jpg' | relative_url }}" alt="Edward Steichen self-portrait, 1901" loading="lazy">
       <div class="memorial-portrait-credit">Self-portrait, 1901 · Public domain</div>
     </a>
     <div class="memorial-body">
