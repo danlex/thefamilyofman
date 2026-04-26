@@ -27,7 +27,7 @@ He then names what he sees as the show's structural sleight of hand — its tran
 
 The essay's central charge — that the exhibition strips politics out of the everyday by re-coding history as nature — is delivered in two pivotal sentences:
 
-> "This myth functions in two stages: first the difference between human morphologies is asserted, exoticism is insistently stressed … Then, from this pluralism, a type of unity is magically produced: man is born, works, laughs and dies everywhere in the same way …"[^1]
+> "This myth functions in two stages: first the difference between human morphologies is asserted, exoticism is insistently stressed ... Then, from this pluralism, a type of unity is magically produced: man is born, works, laughs and dies everywhere in the same way ..."[^1]
 >
 > "This myth of the human 'condition' rests on a very old mystification, which always consists in placing Nature at the bottom of History."[^1]
 
@@ -56,14 +56,14 @@ Sandeen's contribution is to refuse the binary Barthes had set up. Where Barthes
 
 ## The wider critical thread
 
-Four further voices are conventionally cited as part of the show's critical reception. Source files for these are not yet in this repository; treating them at any depth here would risk paraphrase without verification. They are listed for reference, with the canonical works to consult:
+Four further voices are conventionally cited as part of the show's critical reception. Source files for these are **not yet in this repository** and none of them was fetched in this round of citation work. They are listed below at the level of bare bibliographic metadata only — the wiki does not summarise their arguments here because doing so without consulting the texts would violate the museum-grade-accuracy rule.
 
-- **Susan Sontag, *On Photography* (Farrar, Straus and Giroux, 1977).** Sontag's broader photographic-ethics argument is often treated as a generalisation of Barthes's specific reading of *The Family of Man*.
-- **Allan Sekula, "The Traffic in Photographs," *Art Journal* 41:1 (1981).** A Marxist-aesthetic re-reading; the canonical reference for the ideological-critique line on the show.
-- **Blake Stimson, *The Pivot of the World: Photography and Its Nation* (MIT Press, 2006).** Re-reads *The Family of Man* within the conventions of post-war photographic modernism.
-- **Fred Turner, *The Democratic Surround: Multimedia and American Liberalism from World War II to the Psychedelic Sixties* (University of Chicago Press, 2013).** Places the exhibition inside the design history of mid-century American liberal-democratic culture.
+- **Susan Sontag, *On Photography* (Farrar, Straus and Giroux, 1977).**
+- **Allan Sekula, "The Traffic in Photographs," *Art Journal* 41:1 (1981).**
+- **Blake Stimson, *The Pivot of the World: Photography and Its Nation* (MIT Press, 2006).**
+- **Fred Turner, *The Democratic Surround: Multimedia and American Liberalism from World War II to the Psychedelic Sixties* (University of Chicago Press, 2013).**
 
-Source files for these four are an open task — see [issue #26](https://github.com/danlex/thefamilyofman/issues/26) for the tracking ticket on this page.
+Adding source files for these four — and quoting and characterising their arguments from primary text — is an explicit open task. See [issue #26](https://github.com/danlex/thefamilyofman/issues/26) for the tracking ticket.
 
 <div class="perspective-note">
   <strong>Perspective note</strong>
