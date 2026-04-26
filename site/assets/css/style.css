@@ -485,8 +485,13 @@ main {
 .stats > * {
   padding: 1.25rem 1rem;
   border-right: 1px solid var(--hairline);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: background 0.12s ease;
 }
 .stats > *:last-child { border-right: 0; }
+.stats > a:hover { background: var(--mist); }
 .stats .num {
   display: block;
   font-family: var(--serif);
