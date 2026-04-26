@@ -1,11 +1,17 @@
-// Vanilla client-side search across photographs, photographers, sources, and top-level pages.
-// Loads /search.json once, filters on substring match (lowercased), renders a dropdown of up to 10 results.
-// No dependencies. No tracking. No analytics. Pure DOM.
+// Vanilla client-side search with Apple-style icon-toggle drawer.
+// - Magnifying-glass button in header → drawer slides down below nav with input + results
+// - Lazy-loads /search.json on first open, caches in memory
+// - Substring matching with three-tier score (title > subtitle > body), top 10
+// - "/" focuses (when drawer closed → opens it). Esc closes. Click outside closes.
+// No dependencies. No tracking.
 
 (function () {
+  var toggle = document.getElementById('site-search-toggle');
+  var drawer = document.getElementById('site-search-drawer');
   var input = document.getElementById('site-search');
   var results = document.getElementById('site-search-results');
-  if (!input || !results) return;
+  var closeBtn = document.getElementById('site-search-close');
+  if (!toggle || !drawer || !input || !results) return;
 
   var index = null;
   var indexLoading = false;
@@ -22,14 +28,10 @@
 
   function escapeHTML(s) {
     return String(s == null ? '' : s)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
   function score(item, q) {
-    // Prefer matches in title, then subtitle, then body. Lower score = better.
     var t = (item.title || '').toLowerCase();
     var s = (item.subtitle || '').toLowerCase();
     var b = (item.body || '').toLowerCase();
@@ -39,12 +41,20 @@
     return -1;
   }
 
-  function render(query, items) {
-    if (!query) {
-      results.innerHTML = '';
-      results.hidden = true;
-      return;
+  function filter(q) {
+    if (!index) return [];
+    q = q.toLowerCase();
+    var scored = [];
+    for (var i = 0; i < index.length; i++) {
+      var sc = score(index[i], q);
+      if (sc >= 0) scored.push({ item: index[i], score: sc });
     }
+    scored.sort(function (a, b) { return a.score - b.score; });
+    return scored.slice(0, 10).map(function (x) { return x.item; });
+  }
+
+  function render(query, items) {
+    if (!query) { results.innerHTML = ''; results.hidden = true; return; }
     if (!items.length) {
       results.innerHTML = '<div class="search-empty">No matches.</div>';
       results.hidden = false;
@@ -62,17 +72,25 @@
     results.hidden = false;
   }
 
-  function filter(q) {
-    if (!index) return [];
-    q = q.toLowerCase();
-    var scored = [];
-    for (var i = 0; i < index.length; i++) {
-      var sc = score(index[i], q);
-      if (sc >= 0) scored.push({ item: index[i], score: sc });
-    }
-    scored.sort(function (a, b) { return a.score - b.score; });
-    return scored.slice(0, 10).map(function (s) { return s.item; });
+  function openDrawer() {
+    drawer.hidden = false;
+    document.body.classList.add('site-search-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    setTimeout(function () { input.focus(); input.select(); }, 30);
+    if (!index) loadIndex();
   }
+  function closeDrawer() {
+    drawer.hidden = true;
+    document.body.classList.remove('site-search-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    input.value = '';
+    render('', []);
+    toggle.focus();
+  }
+  function isOpen() { return !drawer.hidden; }
+
+  toggle.addEventListener('click', function () { isOpen() ? closeDrawer() : openDrawer(); });
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
 
   var debounce;
   input.addEventListener('input', function () {
@@ -83,16 +101,21 @@
       loadIndex().then(function () { render(q, filter(q)); });
     }, 80);
   });
-  input.addEventListener('focus', function () { if (!index) loadIndex(); });
-  input.addEventListener('blur', function () {
-    // Slight delay so click on a hit registers before we hide
-    setTimeout(function () { results.hidden = true; }, 150);
-  });
+
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') { input.blur(); results.hidden = true; }
+    if (e.key === 'Escape' && isOpen()) { e.preventDefault(); closeDrawer(); return; }
     if (e.key === '/' && document.activeElement !== input) {
+      // Don't hijack typing in other input fields
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
       e.preventDefault();
-      input.focus();
+      if (!isOpen()) openDrawer(); else input.focus();
     }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!isOpen()) return;
+    if (drawer.contains(e.target) || toggle.contains(e.target)) return;
+    closeDrawer();
   });
 })();
