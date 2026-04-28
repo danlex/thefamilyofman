@@ -133,7 +133,7 @@ permalink: /
       <div class="person-body">
         <h3>Paul Rudolph</h3>
         <div class="person-dates">1918 – 1997 · architect</div>
-        <p>Designed the gallery installation: temporary walls, prints ranging from 24 × 36 cm to 300 × 400 cm, photographs floating at varying heights — sometimes set on the floor, sometimes hung from the ceiling. Rudolph would later chair Yale's School of Architecture from 1958 to 1965 and become a defining figure of late-modernist American building.</p>
+        <p>Designed the gallery installation: temporary walls, prints ranging from 24 × 36 cm to 300 × 400 cm, photographs floating at varying heights — sometimes set on the floor, sometimes hung from the ceiling. Rudolph would later chair Yale University's Department of Architecture from 1958 to 1965 and become a defining figure of late-modernist American building.</p>
       </div>
     </article>
     <article class="person-card">
