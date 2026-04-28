@@ -126,7 +126,7 @@ The 2015 UNESCO Recommendation Concerning Preservation of, and Access to, Docume
 
 ## 6. Anniversaries and subsequent events
 
-The inscription occurred in 2003. Decennial milestones fall in **2013** (10th anniversary of inscription) and **2023** (20th anniversary). Quinquennial milestones include 2008, 2018, and the present year 2028.
+The inscription occurred in 2003. Decennial milestones fall in **2013** (10th anniversary of inscription) and **2023** (20th anniversary). Quinquennial milestones fall in 2008, 2018, and 2028. (As of 2026, the next decennial milestone is the 25th in 2028.)
 
 **No CNA Luxembourg anniversary event records, conference proceedings, or press accounts relating to the 2013 or 2023 inscription anniversaries were fetched in this round.** Whether the CNA, UNESCO, or other institutions marked either milestone with a dedicated event, publication, or symposium is not attested in this note and should not be assumed. A future pass would productively consult: CNA annual reports for 2013 and 2023; the CNA press office; and Luxembourg cultural-affairs press coverage in *Luxemburger Wort* and *Tageblatt* for those years.
 
