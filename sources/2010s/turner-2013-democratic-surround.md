@@ -10,7 +10,7 @@ accessed: 2026-04-30
 tier: 2
 language: en
 tags: [scholarship, reception, cold-war, liberalism, multimedia, exhibition, usia, moma]
-verified: true
+verified: false  # IA bibliographic metadata + chapter list confirmed; body text not accessed (CDL borrow not completed) — set to false for consistency with stimson-2006 and other access-restricted entries
 ---
 
 ## Citation
