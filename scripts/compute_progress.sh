@@ -40,8 +40,8 @@ cat > "$OUT" <<YAML
 
 exhibition:
   kind: status
-  label: "outline"
-  note: "Placeholder — historian not yet dispatched."
+  label: "substantive"
+  note: "Substantive overview merged via PR #41 (24 January – 8 May 1955 MoMA opening; Steichen + Wayne Miller; Paul Rudolph installation; Sandburg prologue; arc of the show; reception thread)."
 
 photographs:
   kind: count
@@ -67,18 +67,23 @@ sections:
 
 tour:
   kind: status
-  label: "outline"
-  note: "Placeholder — historian not yet dispatched."
+  label: "substantive"
+  note: "Substantive overview merged via PR #47 (1955-56 US 6-city tour; USIA international tour 1955-c.1962/1964/1965; Corcoran/Guatemala/Tokyo/Johannesburg/Moscow venues attested; 1992-94 second wave Toulouse/Tokyo/Hiroshima; Cold War cultural-diplomacy framing). Headline aggregate (9M/91/37) pending NARA RG 306."
 
 clervaux:
   kind: status
-  label: "outline"
-  note: "Placeholder — historian not yet dispatched."
+  label: "substantive"
+  note: "Substantive overview merged via PR #43 (1964-66 donation; 1974-89 partial display; 1994 permanent installation; September 2010 → July 2013 second restoration with Studio Berselli + NJOY rooms; current CNA curation)."
+
+unesco:
+  kind: status
+  label: "substantive"
+  note: "Substantive overview merged via PR #45 (1992 Memory of the World programme; IAC + Executive Board pathway; 2002 submission by Luxembourg, 2003 inscription; 32-themes register count; 1992-94 pre-inscription touring; what inscription does and does not entail)."
 
 reception:
   kind: status
-  label: "outline"
-  note: "Major landmarks listed; essay pending."
+  label: "substantive"
+  note: "Substantive overview merged via PR #27 (Barthes 1957, Sontag 1977, Sekula 1981, Sandeen 1995, Stimson 2006, Turner 2013 framework). Tier 1-2 critical anchors in place; full critical-reception article."
 
 bibliography:
   kind: count
