@@ -1,0 +1,162 @@
+# Verified tour venues for The Family of Man, used by site/_includes/tour-map.html
+# and embedded on /tour/.
+#
+# Provenance: every venue listed below is attested in an in-repo source-entry's
+# Key excerpts block (src-moma-1955-press-release-book, src-cna-education, or
+# src-unesco-mow-2003). Speculative venues, country-level-only mentions without
+# specific city/dates, and venues attested only in secondary literature are NOT
+# listed here.
+#
+# Coordinates: city centroids from general geographic knowledge — they are NOT
+# claimed to be source-corroborated, only approximate placement for
+# visualization. Specific tour-venue addresses (e.g., the Corcoran Gallery's
+# 17th & New York Ave NW location) are not separately recorded; city-level
+# placement is sufficient for the multi-continent visualization.
+#
+# Three tour waves are color-coded:
+#   us-domestic            — 1955-56, 6 cities, MoMA International Program
+#   international-1955-65  — 1955 onward, USIA-commissioned, multi-copy circulation
+#   second-wave-1992-94    — restored versions touring before 1994 Clervaux install
+
+venues:
+  # 1955-56 US domestic tour - all attested in src-moma-1955-press-release-book p. 2
+  - city: Minneapolis
+    country: USA
+    lat: 44.97
+    lon: -93.27
+    venue: Minneapolis Institute of Art
+    dates: "21 Jun – 4 Sept 1955"
+    wave: us-domestic
+    source: src-moma-1955-press-release-book
+
+  - city: Dallas
+    country: USA
+    lat: 32.78
+    lon: -96.80
+    venue: Dallas Museum of Fine Arts
+    dates: "7 Oct – 18 Nov 1955"
+    wave: us-domestic
+    source: src-moma-1955-press-release-book
+
+  - city: Cleveland
+    country: USA
+    lat: 41.50
+    lon: -81.69
+    venue: Cleveland Museum of Art
+    dates: "24 Jan – 5 Mar 1956"
+    wave: us-domestic
+    source: src-moma-1955-press-release-book
+
+  - city: Philadelphia
+    country: USA
+    lat: 39.96
+    lon: -75.18
+    venue: Philadelphia Museum of Art
+    dates: "25 Mar – 29 Apr 1956"
+    wave: us-domestic
+    source: src-moma-1955-press-release-book
+
+  - city: Baltimore
+    country: USA
+    lat: 39.33
+    lon: -76.62
+    venue: Baltimore Museum of Art
+    dates: "30 May – 15 Jul 1956 (approx.)"
+    wave: us-domestic
+    source: src-moma-1955-press-release-book
+    note: "The MoMA press release records this venue's dates with an explicit '(approx.)' qualifier."
+
+  - city: Pittsburgh
+    country: USA
+    lat: 40.44
+    lon: -79.99
+    venue: Carnegie Institute
+    dates: "18 Oct – 29 Nov 1956"
+    wave: us-domestic
+    source: src-moma-1955-press-release-book
+
+  # International edition / USIA tour 1955-c.1965
+  - city: Washington D.C.
+    country: USA
+    lat: 38.91
+    lon: -77.04
+    venue: Corcoran Gallery
+    dates: "30 Jun – 31 Jul 1955"
+    wave: international-1955-65
+    source: src-moma-1955-press-release-book
+    note: "International edition first stop, preceding Minneapolis by nine days."
+
+  - city: Guatemala City
+    country: Guatemala
+    lat: 14.63
+    lon: -90.51
+    venue: Palacio Protocolo
+    dates: "24 Aug – 18 Sept 1955"
+    wave: international-1955-65
+    source: src-cna-education
+
+  - city: Tokyo
+    country: Japan
+    lat: 35.68
+    lon: 139.76
+    venue: Takashimaya Department Store
+    dates: "March – April 1956"
+    wave: international-1955-65
+    source: src-cna-education
+
+  - city: Johannesburg
+    country: Union of South Africa
+    lat: -26.20
+    lon: 28.04
+    venue: Government Pavilion
+    dates: "30 Aug – 13 Sept 1958"
+    wave: international-1955-65
+    source: src-cna-education
+
+  - city: Moscow
+    country: USSR
+    lat: 55.75
+    lon: 37.62
+    venue: ""
+    dates: "1959 (year only)"
+    wave: international-1955-65
+    source: src-cna-education
+    note: "Venue and exact dates not on the source caption; Sokolniki Park / American National Exhibition identification widely cited but unanchored in any in-repo source."
+
+  # 1992-94 second wave (restored versions touring) - src-unesco-mow-2003
+  - city: Toulouse
+    country: France
+    lat: 43.60
+    lon: 1.44
+    venue: ""
+    dates: "1992 / 1993–94"
+    wave: second-wave-1992-94
+    source: src-unesco-mow-2003
+
+  - city: Tokyo
+    country: Japan
+    lat: 35.68
+    lon: 139.76
+    venue: ""
+    dates: "1992 / 1993–94"
+    wave: second-wave-1992-94
+    source: src-unesco-mow-2003
+    note: "Same city as the 1956 USIA stop; second-wave touring revisited."
+
+  - city: Hiroshima
+    country: Japan
+    lat: 34.39
+    lon: 132.45
+    venue: ""
+    dates: "1992 / 1993–94"
+    wave: second-wave-1992-94
+    source: src-unesco-mow-2003
+
+# Country-level mentions on src-cna-education that do NOT resolve to a specific
+# city/venue/dates are not plotted. Per the CNA portal, these countries appear
+# in the open-ended sample list "India, Russia, France, Zimbabwe, South Africa,
+# Mexico, Germany, Japan, Australia" — six of those nine countries (India,
+# France-non-Toulouse, Mexico, Germany, Australia, and the historically-
+# anachronistic "Zimbabwe" for what was Southern Rhodesia 1955-65) have no
+# city-level attestation in any in-repo source. Future research passes (NARA
+# RG 306, MoMA International Program records) would supply specific venues.
