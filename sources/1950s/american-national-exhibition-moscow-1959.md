@@ -42,3 +42,8 @@ Tier 1: the American National Exhibition itself is a primary archival record —
 - NARA RG 306 access should be the priority for a future pass: the USIA Exhibits Division records in RG 306 would contain the installation reports, visitor counts, diplomatic correspondence, and photographic documentation for the Moscow stop.
 - The Wikipedia URL here serves as a placeholder pointer. A future commit must replace it with a NARA finding aid permalink or a verified DOI pointing to a primary document.
 - `verified: false` — primary archival sources not consulted this round.
+
+
+## Perspective note
+
+This entry documents the Moscow 1959 stop from the USIA / institutional vantage only. No Soviet-side or Russian-language reception source is paired with it in this batch. For balanced reception coverage of the Moscow venue, future batches should add at least one Soviet press / Russian scholarship source on FoM in Sokolniki Park; until then, this entry should be read alongside (not in place of) the Cold War critiques in `src-turner-2012-politics-attention`, `src-james-2012-post-fascist-family-of-man`, and `src-sandeen-1995`.

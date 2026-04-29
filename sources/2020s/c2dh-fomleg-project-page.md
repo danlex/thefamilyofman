@@ -43,3 +43,10 @@ FoMLEG is the only active multi-year research programme specifically dedicated t
   - https://www.uni.lu/c2dh-en/events/70-years-of-the-family-of-man/ (event, May 24, 2025)
 - A future pass should directly fetch the project page to extract the full project description, partner institutions, FNR grant number, and any listed publications.
 - The FoMLEG project's interactive map and deep-mapping website, once published, should become a primary source entry for the tour itinerary.
+
+
+## Perspective note
+
+This entry uses the FoMLEG project's own institutional self-description (the project page describes itself in its own terms; the C²DH news articles use phrases like "the only active multi-year research programme specifically dedicated to *The Family of Man*'s world tour"). FoMLEG is a 2024-launched FNR-funded research programme; as of this entry's accessed date (2026-04-30), the project has not yet published peer-reviewed outputs of its own (per the project's own announcements). Future passes should re-evaluate this institutional framing against the published FoMLEG outputs as they appear, and avoid foregrounding FoMLEG's institutional voice as authoritative until those outputs are in print.
+
+The "January 2025 archival visits to Eastman/MoMA/NARA" claim in the Relevance prose above is sourced from search-result snippets of the companion file `src-c2dh-fomleg-world-tour`, not from a direct fetch of this project page; the same applies to "Announced October 2024" — neither is a verbatim claim from this URL.

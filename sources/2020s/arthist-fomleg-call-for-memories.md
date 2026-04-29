@@ -7,10 +7,17 @@ type: website
 publisher: "ArtHist.net: Network for Art History (host); C²DH / CNA Luxembourg (originating institution)"
 url: "https://arthist.net/archive/50955"
 accessed: 2026-04-30
-tier: 2
+tier: 3
 language: en
 tags: [fomleg, reception, oral-history, participatory, crowdsourcing, world-tour, luxembourg, scholarship]
 ---
+
+<!--
+Tier history: down-tiered Tier 2 → Tier 3 by credibility judge on PR #87 —
+ArtHist.net is an academic notice board, not a peer-reviewed venue; the call
+is institutional self-promotion.
+-->
+
 
 ## Citation
 

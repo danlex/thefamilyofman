@@ -7,10 +7,20 @@ type: archive
 publisher: "Paul Rudolph Institute for Modern Architecture"
 url: "https://www.paulrudolph.institute/195404-family-of-man-exhibit"
 accessed: 2026-04-30
-tier: 1
+tier: 3
+verified: false
 language: en
 tags: [installation, exhibition-design, architecture, rudolph, archive, moma, 1955]
 ---
+
+<!--
+Tier history: originally Tier 1; down-tiered Tier 1 → Tier 3 by credibility
+judge on PR #87. The URL points to a curated institutional summary page,
+not a primary archival item; aggregates (88 venues, 9M visitors) are flagged
+UNVERIFIED inline. Promote back to Tier 1 only when URL points to a primary
+archival object (scan/correspondence/transcribed memo).
+-->
+
 
 ## Citation
 

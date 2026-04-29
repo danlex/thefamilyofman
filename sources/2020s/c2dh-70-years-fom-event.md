@@ -7,10 +7,17 @@ type: website
 publisher: "Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg"
 url: "https://www.uni.lu/c2dh-en/events/70-years-of-the-family-of-man/"
 accessed: 2026-04-30
-tier: 2
+tier: 3
 language: en
 tags: [fomleg, scholarship, conference, reception, zamir, hurm, ewert, anniversary]
 ---
+
+<!--
+Tier history: down-tiered Tier 2 → Tier 3 by credibility judge on PR #87 —
+event/conference page, not peer-reviewed proceedings. Each future published
+proceeding gets its own Tier-2 entry.
+-->
+
 
 ## Citation
 

@@ -18,7 +18,7 @@ Rudolph, Paul. "Family of Man, Exhibition Installation at Museum of Modern Art, 
 
 ## Tier justification
 
-Tier 1: primary publication by the exhibition's installation architect documenting his own design for *The Family of Man* at MoMA, published in the trade journal *Interiors* in April 1955 — contemporaneous with the exhibition's run (January 26 – May 8, 1955). This is an architect's first-person account of the spatial design, published in real time. The UMass Dartmouth Paul Rudolph Library digitised the text and holds it in their Paul Rudolph & His Architecture archive.
+Tier 1: primary publication by the exhibition's installation architect documenting his own design for *The Family of Man* at MoMA, published in the trade journal *Interiors* in April 1955 — contemporaneous with the exhibition's run (January 26 – May 8, 1955). This is an architect's first-person account of the spatial design, published in real time. The UMass Dartmouth Paul Rudolph Library digitised the text and holds it in their Paul Rudolph & His Architecture archive. **Bibliographic-detail caveat:** the page range "pp. 114–17" within an issue numbered "no. 114" is a coincidence that warrants confirmation by direct fetch of `prudolph.lib.umassd.edu/node/3223`; both the issue number and the page range come from search-engine snippets in this round, not from a direct fetch of the digitised text. Treat the page-range as pointer-only until that fetch is completed.
 
 ## Relevance
 

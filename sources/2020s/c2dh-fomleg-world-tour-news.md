@@ -7,10 +7,17 @@ type: website
 publisher: "Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg"
 url: "https://www.uni.lu/c2dh-en/news/following-the-family-of-man-world-tour/"
 accessed: 2026-04-30
-tier: 2
+tier: 3
 language: en
 tags: [fomleg, world-tour, archival-research, moma, national-archives, eastman, scholarship]
 ---
+
+<!--
+Tier history: down-tiered Tier 2 → Tier 3 by credibility judge on PR #87 —
+research-centre news article, not peer-reviewed scholarship. Promote when
+peer-reviewed FoMLEG outputs cite this stop directly.
+-->
+
 
 ## Citation
 

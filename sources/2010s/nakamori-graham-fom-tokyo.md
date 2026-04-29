@@ -7,10 +7,20 @@ type: website
 publisher: "Graham Foundation for Advanced Studies in the Fine Arts (Grant record)"
 url: "http://www.grahamfoundation.org/grantees/5467-the-family-of-man-1956-in-tokyo-japan-kenzo-tange-s-pursuit-of-the-notions-of-humanity-humanism-through-his-exhibition-design"
 accessed: 2026-04-30
-tier: 2
+tier: 3
 language: en
 tags: [reception, japan, tokyo, kenzo-tange, exhibition-design, architecture, scholarship, world-tour]
 ---
+
+<!--
+Tier history:
+- Originally declared Tier 2 (named-curator scholarly project)
+- Down-tiered to Tier 3 by credibility judge on PR #87: cited artifact
+  is a Graham Foundation grant-database record, not a peer-reviewed
+  publication. Promote back to Tier 2 when URL points to a
+  Nakamori-authored publication resulting from the grant.
+-->
+
 
 ## Citation
 
