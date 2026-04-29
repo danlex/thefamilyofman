@@ -8,10 +8,10 @@ exhibition:
 
 photographs:
   kind: count
-  count: 265
+  count: 488
   total: 503
-  pct: 52
-  label: "265 / 503  ·  52%"
+  pct: 97
+  label: "488 / 503  ·  97%"
 
 photographers:
   kind: count
