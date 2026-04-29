@@ -107,7 +107,7 @@ The tour cannot be discussed in a politically neutral register. It was the flags
 
 The standard scholarly counter-readings:
 
-- **Roland Barthes, *Mythologies* (1957).** *"The Great Family of Man"* argues that the exhibition's universalising humanism naturalises historical and political difference. Written in response to the Paris stop. In this wiki as `src-barthes-1957-mythologies`; engaged in detail on the [Reception page]({{ '/reception/' | relative_url }}).
+- **Roland Barthes, *Mythologies* (1957).** *"The Great Family of Man"* argues that the exhibition's universalising humanism naturalises historical and political difference. Written in response to the Paris stop. In this wiki as `src-barthes-1957`; engaged in detail on the [Reception page]({{ '/reception/' | relative_url }}).
 - **Eric Sandeen, *Picturing an Exhibition: The Family of Man and 1950s America* (1995).** The first book-length scholarly study; situates the show within Cold War cultural diplomacy. In this wiki as `src-sandeen-1995`. The Internet Archive listing confirms chapters titled *"The family of man on the move"* and *"The family of man in Moscow"*; the body text is borrow-only and was not accessed for this page.[^4]
 - **Fred Turner, *The Democratic Surround* (2013).** Widely cited as the strongest recent reading of the exhibition's liberal-internationalist visual culture. **Not in this wiki**, not consulted; named here only as a pointer for future research.
 - **Allan Sekula's essays** ("The Traffic in Photographs," 1981; "Reading an Archive," 1986). Frequently cited as the strongest Marxist critique of the show as ideological work. **Not in this wiki**, not consulted; named here only as a pointer.
