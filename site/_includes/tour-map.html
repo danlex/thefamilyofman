@@ -1,0 +1,134 @@
+<!--
+  Tour map render — uses Leaflet 1.9 (CDN) on OpenStreetMap tiles.
+  Data: site/_data/tour_venues.yml
+  Embedded on: site/tour.md
+-->
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+
+<figure class="tour-map-figure">
+  <div id="tour-map" class="tour-map" aria-label="World map of verified Family of Man tour venues"></div>
+  <figcaption>
+    <strong>Verified tour venues, 1955–1994.</strong>
+    Three waves, colour-coded:
+    <span class="legend-swatch" style="background:#1e3a8a"></span> 1955–56 US domestic (6) ·
+    <span class="legend-swatch" style="background:#b91c1c"></span> 1955–c.1965 international (5) ·
+    <span class="legend-swatch" style="background:#15803d"></span> 1992–94 second wave (3).
+    Hover or tap a marker for venue, dates, and source. Country-level-only mentions (India, Mexico, Germany, Australia, etc.) are not plotted because no in-repo source attests a specific city or dates for them. See <a href="{{ '/tour/' | relative_url }}#verifiable-venues-abroad">Verifiable venues abroad</a> for the underlying data and provenance.
+  </figcaption>
+</figure>
+
+<style>
+  .tour-map-figure {
+    margin: 1.5rem 0 2rem;
+  }
+  .tour-map {
+    height: 480px;
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+  }
+  .tour-map-figure figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  .legend-swatch {
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    margin: 0 0.15em 0 0.4em;
+    vertical-align: middle;
+  }
+  .leaflet-popup-content strong {
+    display: block;
+    margin-bottom: 0.2em;
+  }
+  .leaflet-popup-content .popup-wave {
+    font-size: 0.8em;
+    color: #6b7280;
+    margin-top: 0.3em;
+  }
+</style>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+<script>
+  (function() {
+    var venues = [
+      {%- for v in site.data.tour_venues.venues %}
+      {
+        city: {{ v.city | jsonify }},
+        country: {{ v.country | jsonify }},
+        lat: {{ v.lat }},
+        lon: {{ v.lon }},
+        venue: {{ v.venue | jsonify }},
+        dates: {{ v.dates | jsonify }},
+        wave: {{ v.wave | jsonify }},
+        source: {{ v.source | jsonify }},
+        note: {{ v.note | default: '' | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ];
+
+    var waveColors = {
+      'us-domestic': '#1e3a8a',
+      'international-1955-65': '#b91c1c',
+      'second-wave-1992-94': '#15803d'
+    };
+
+    var waveLabels = {
+      'us-domestic': '1955–56 US domestic tour',
+      'international-1955-65': '1955–c.1965 international (USIA)',
+      'second-wave-1992-94': '1992–94 second wave (restored prints)'
+    };
+
+    var map = L.map('tour-map', {
+      center: [25, 0],
+      zoom: 2,
+      worldCopyJump: true,
+      scrollWheelZoom: false
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 18
+    }).addTo(map);
+
+    venues.forEach(function(v) {
+      var marker = L.circleMarker([v.lat, v.lon], {
+        radius: 7,
+        fillColor: waveColors[v.wave] || '#6b7280',
+        color: '#ffffff',
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 0.9
+      });
+
+      var html = '<strong>' + escape(v.city) + (v.country ? ', ' + escape(v.country) : '') + '</strong>';
+      if (v.venue) html += escape(v.venue) + '<br>';
+      html += escape(v.dates);
+      if (v.note) html += '<br><em>' + escape(v.note) + '</em>';
+      html += '<div class="popup-wave">' + escape(waveLabels[v.wave] || v.wave) + ' &middot; ' + escape(v.source) + '</div>';
+
+      marker.bindPopup(html, { maxWidth: 280 });
+      marker.addTo(map);
+    });
+
+    function escape(s) {
+      if (!s) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+  })();
+</script>

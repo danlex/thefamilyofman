@@ -30,6 +30,8 @@ edit_dir: site
 
 After the New York show closed on 8 May 1955, *The Family of Man* did not stop — it multiplied. Over the next decade, multiple physically distinct copies circulated under the auspices of the **United States Information Agency (USIA)**, reaching audiences across continents and becoming one of the most-cited instruments of mid-century U.S. cultural diplomacy. This page traces what is *verifiable* about that circulation from sources in this wiki, and is unusually explicit about what is *not*.
 
+{% include tour-map.html %}
+
 ## How the tour actually worked
 
 The tour was not a single physical installation moving from city to city. From the outset, MoMA produced **multiple circulating editions** — physically distinct copies, partially overlapping with the 1955 New York hang but re-fabricated for travel.[^1] The CNA Luxembourg education portal characterises the operational model: between 1955 and 1964, *"the exhibition became itinerant and toured the world ... in the form of ten copies with minor changes sent to nearly 160 towns. Each of the copies was weighing one tonne and a half, was packed in twenty-three crates and required more than six days to be mounted/installed."*[^2]
