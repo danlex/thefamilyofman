@@ -13,8 +13,9 @@ A living map of **what we know** (with sources) and **what we need to investigat
 
 <pre class="tree">
 <span class="tree-root">The Family of Man</span>
+│   <i>Status legend: ✓ covered (substantive page or done) &middot; ⧗ partial / in progress &middot; ☐ planned &middot; ! blocked on external access</i>
 │
-├─ <b>1955 Exhibition</b> &mdash; <i>see <a href="{{ '/exhibition/' | relative_url }}">/exhibition/</a></i>
+├─ <b>1955 Exhibition</b> ✓ &mdash; <i>see <a href="{{ '/exhibition/' | relative_url }}">/exhibition/</a></i>
 │  ├─ Museum of Modern Art, New York; 24 January &ndash; 8 May 1955
 │  ├─ Edward Steichen, curator (assisted by Wayne Miller)
 │  ├─ Paul Rudolph, installation design (temporary walls; print sizes 24&times;36 to 300&times;400&nbsp;cm)
@@ -22,13 +23,18 @@ A living map of **what we know** (with sources) and **what we need to investigat
 │  ├─ ~270,000 NY visitors
 │  └─ Closing image: W. Eugene Smith, <i>A Walk to Paradise Garden</i> (1946)
 │
-├─ <b>Catalog</b>
+├─ <b>Catalog</b> ⧗ 53% (265/503)
 │  ├─ 503 photographs / 273 photographers / 68 countries
 │  ├─ 265 rows seeded (53%) &mdash; <i>see <a href="{{ '/photographs/' | relative_url }}">/photographs/</a></i>
 │  ├─ 11 individual missing plate numbers in the printed checklist (#5, #7, #8, #61, #88, #90, #145, #149, #216, #246, #261)
 │  └─ Selection process (~2&nbsp;million submissions commonly cited; primary source not yet verified)
 │
-├─ <b>World Tour 1955&ndash;c.1962/1964/1965</b> &mdash; <i>see <a href="{{ '/tour/' | relative_url }}">/tour/</a></i>
+├─ <b>Photographers</b> ⧗ 7% (20/273; 4 bios)
+│  ├─ 20 of 273 photographer rows seeded (PR #8) &mdash; <i>see <a href="{{ '/photographers/' | relative_url }}">/photographers/</a></i>
+│  ├─ 4 short bios (Capa, Wayne Miller, Doisneau, DeCarava)
+│  └─ <b>!</b> 18 of 20 batch-1 source URLs remain <code>verified: false</code> (institutional 403s); access-barrier blocker for further batches
+│
+├─ <b>World Tour 1955&ndash;c.1962/1964/1965</b> ✓ &mdash; <i>see <a href="{{ '/tour/' | relative_url }}">/tour/</a></i>
 │  ├─ 1955&ndash;56 US 6-city tour (Minneapolis &rarr; Pittsburgh)
 │  ├─ International edition first stop: Corcoran Gallery, Washington D.C., 30 Jun&ndash;31 Jul 1955
 │  ├─ USIA commissioning: 10 copies, ~160 towns, ~10M visitors (per CNA)
@@ -36,7 +42,7 @@ A living map of **what we know** (with sources) and **what we need to investigat
 │  ├─ Three-way end-date discrepancy: 1962 (CNA collections) vs 1964 (CNA education) vs 1965 (CNA bio)
 │  └─ 1992&ndash;94 second wave: Toulouse, Tokyo, Hiroshima (per UNESCO MoW register)
 │
-├─ <b>Clervaux, Luxembourg</b> &mdash; <i>see <a href="{{ '/clervaux/' | relative_url }}">/clervaux/</a></i>
+├─ <b>Clervaux, Luxembourg</b> ✓ &mdash; <i>see <a href="{{ '/clervaux/' | relative_url }}">/clervaux/</a></i>
 │  ├─ 1964&ndash;66 US Government donation, at Steichen's request
 │  ├─ 1966 Steichen Clervaux visit (CNA: <i>"expresses his wish for permanent installation"</i>)
 │  ├─ 1974&ndash;89 partial exhibition at Clervaux Castle
@@ -44,18 +50,18 @@ A living map of **what we know** (with sources) and **what we need to investigat
 │  ├─ 2010&ndash;13 second restoration: Studio Berselli, Milan + Nathalie Jacoby (NJOY) rooms
 │  └─ Custodian: Centre national de l'audiovisuel (CNA)
 │
-├─ <b>UNESCO 2003</b> &mdash; <i>see <a href="{{ '/unesco/' | relative_url }}">/unesco/</a></i>
+├─ <b>UNESCO 2003</b> ✓ &mdash; <i>see <a href="{{ '/unesco/' | relative_url }}">/unesco/</a></i>
 │  ├─ Memory of the World programme (founded 1992; 14-member IAC; 570 inscriptions to April 2026)
 │  ├─ Submitted 2002 by Luxembourg; inscribed 2003
 │  ├─ Justification: <i>"greatest photographic enterprise"</i>; <i>"memory of an entire era, that of the Cold War and McCarthyism"</i>
 │  └─ Nomination-form PDFs linked but not yet read (URLs recorded)
 │
-├─ <b>Thematic clusters</b> <i>(working reconstruction &mdash; see <a href="{{ '/sections/' | relative_url }}">/sections/</a>)</i>
+├─ <b>Thematic clusters</b> ⧗ 7/11 used in catalog &mdash; <i>see <a href="{{ '/sections/' | relative_url }}">/sections/</a></i>
 │  ├─ 11 clusters covering 22 MoMA-numbered checklist sections
 │  ├─ UNESCO's "32 themes" / CNA's "37 themes" / our 11 clusters &mdash; documented discrepancy
-│  └─ 8 clusters now used in the catalog; <code>sec-eating-everyday</code> first used in PR #53
+│  └─ 7 clusters used in <code>data/photographs.csv</code> as of PR #53 (<code>sec-eating-everyday</code> first used in PR #53; <code>sec-play-learning</code> mentioned in row notes only, not yet assigned to any row's <code>section</code> column &mdash; the relevant Section 24 rows currently map to <code>sec-relationships-community</code>)
 │
-└─ <b>Critical reception</b> &mdash; <i>see <a href="{{ '/reception/' | relative_url }}">/reception/</a></i>
+└─ <b>Critical reception</b> ✓ (in repo) / ⧗ (Sekula, Turner pointers only) &mdash; <i>see <a href="{{ '/reception/' | relative_url }}">/reception/</a></i>
    ├─ Barthes 1957 &mdash; <i>The Great Family of Man</i> (in repo, verbatim)
    ├─ Sontag 1977 &mdash; <i>On Photography</i>
    ├─ Sekula 1981 &mdash; <i>The Traffic in Photographs</i> (NOT in repo, named only)
@@ -131,6 +137,51 @@ A living map of **what we know** (with sources) and **what we need to investigat
 - **Eric Sandeen, *Picturing an Exhibition: The Family of Man and 1950s America*** (U. New Mexico Press, 1995). Standard historical study. *Source: `src-sandeen-1995` (review-metadata + ToC level only).*
 - **Blake Stimson, *The Pivot of the World*** (MIT Press, 2006). Re-reads the show within post-war photographic modernism.
 - **Fred Turner, *The Democratic Surround*** (U. Chicago Press, 2013). Liberal-democratic design culture. **NOT in repo, not consulted; named only as pointer.**
+
+---
+
+## Roadmap — what will be covered
+
+This section is **forward-looking** — what topics are planned next, in priority order. Items here are not yet merged. The boundary between this section and *"What we need to investigate"* is intent: roadmap items are work we intend to dispatch (the next 3-5 PRs at the front, longer-tail behind); investigation gaps are documented work-needed that may or may not be scheduled. Items move from this section into "What we know" as PRs merge.
+
+### Scheduled (next 1–3 PRs)
+
+These are concrete intended next dispatches. They have no open issues yet at time of writing; issues are opened when each PR begins.
+
+- **Catalog batch #277–301** — 25 plates from the MoMA Master Checklist (continuing from photo-0265). Mechanical, ~30 min, well-understood pattern after PRs #49 and #53.
+- **`/tour/` map visualisation** — visualise the verified venues attested in `/tour/` (6 US domestic, 4 international, 1 Moscow year-only, 3 1992-94 second-wave) on a static SVG / Leaflet map. No new external claims; the venue data already lives in source entries.
+- **Photographer biographies batch 2** — gated on the access-barrier resolution; either via `gh api` / academic-library proxy / archive.org snapshots, or by accepting Tier 3 carries with explicit `verified: false` until institutional sites become reachable.
+
+### Backlog (planned, not yet scheduled)
+
+Known work, intent established, sequence not yet pinned.
+
+- **Catalog completion** — after the scheduled #277–301 batch, 8 more 25-plate batches (#302–326, #327–351, #352–376, #377–401, #402–426, #427–451, #452–476, #477–503; the last range covers 27 plates). The 11 documented missing checklist numbers (Prologue trio + #61 + #88/#90 + #145/#149 + #216 + #246 + #261) mean the final CSV will have **~492 rows**, not 503; plus the out-of-range three-digit plates (#505, #506) catalogued separately.
+- **Photographer biographies batches 3–12** — sequential after batch 2.
+- **Steichen-the-photographer page deepening** — current page covers the life arc; could extend with the curatorial-period detail and the relationship to *The Family of Man* itself.
+- **1955 catalog plate-titles + dates** — needs a primary read of the printed 1955 catalog. Expected source: Luxembourg National Library, or an unrestricted Internet Archive scan once CDL borrow is completed.
+- **Verbatim Sandburg prologue with page numbers** — same blocker as plate-titles.
+- **1994 Clervaux inauguration day-level detail** — *Luxemburger Wort* / *Tageblatt* press archives for the inauguration date, programme, and named curator.
+- **1964–1974 Luxembourg storage decade** — Luxembourg cultural-affairs ministry archival pass for where the prints physically lived between donation and the 1974 partial-display opening.
+- **"First" restoration phase before 2010–13** — date, scope, conservator-of-record. Implied by the German source's *"second restoration phase"* wording.
+- **1992–94 second-wave full itinerary** — UNESCO register names Toulouse, Tokyo, Hiroshima as a sample; CNA records would carry the full venue list.
+- **2013 + 2023 inscription anniversary events** — CNA annual reports + Luxembourg cultural press coverage for the two decennial milestones.
+- **1955 installation specifics** — Paul Rudolph's installation drawings at MoMA Archives.
+- **1955 NY opening reception** — contemporary reviews in *NYT*, *Art News*, *Aperture*, 1955-56.
+- **Per-photograph provenance pages** — phase 3 long-tail (one article per photograph, 503 total).
+- **Theme-count reconciliation essay** — a written treatment of the 32 (UNESCO) / 37 (CNA) / 11 (this wiki) discrepancy, beyond the current `research/sections.md` notes.
+
+### Stretch (long-horizon, gated on external access)
+
+Items that depend on archival access, scholarly literature acquisition, or other external blockers. May or may not become tractable.
+
+- **USIA RG 306 (NARA)** — the single most consequential gap. Would resolve the 9M visitors / 91 venues / 37 countries headline aggregate, the 1962-vs-1964-vs-1965 end-date discrepancy, and per-copy disposition. Multiple fetch attempts denied across sessions.
+- **Sandeen 1995 full text** — particularly the *"on the move"* and *"in Moscow"* chapters. CDL borrow not yet completed; ToC visible at archive.org.
+- **Turner 2013** *(The Democratic Surround)* as in-repo source — would supply the strongest recent reading of the exhibition's liberal-internationalist visual culture.
+- **Sekula 1981/1986 essays** as in-repo sources — would supply the strongest Marxist critique of the show as ideological work.
+- **UNESCO 2002 nomination forms** (English + French PDFs) — URLs recorded in `src-unesco-mow-2003`; access denied to date. Would carry the formal IAC justification text.
+- **MoMA International Program records** — would resolve per-copy tour log and itinerary.
+- **Critical reception in non-English scholarship** — French (CNA publications, *Revue des musées de France*), German (1994 Clervaux opening press), Luxembourgish.
 
 ---
 
