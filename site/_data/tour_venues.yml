@@ -61,9 +61,10 @@ venues:
     lat: 39.33
     lon: -76.62
     venue: Baltimore Museum of Art
-    dates: "30 May – 15 Jul 1956"
+    dates: "30 May – 15 Jul 1956 (approx.)"
     wave: us-domestic
     source: src-moma-1955-press-release-book
+    note: "The MoMA press release records this venue's dates with an explicit '(approx.)' qualifier."
 
   - city: Pittsburgh
     country: USA
