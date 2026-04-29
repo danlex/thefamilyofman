@@ -115,7 +115,11 @@ In priority order:
 4. Fetch MoMA collection record 48872 directly — for the 1927 *Constantin Brancusi in
    his Studio*.
 5. Locate the official court reporter citation for *Brancusi v. United States* (the
-   1928 U.S. Customs Court decision) and quote the operative language directly.
+   1928 U.S. Customs Court decision) and quote the operative language directly. The
+   conventional reporter citation form is commonly given in the secondary literature
+   as "T.D. 43063, 54 Treas. Dec. 428 (Cust. Ct. 1928)"; this exact form has NOT been
+   verified against any fetched primary source in this round and should not be cited
+   without confirmation.
 6. Fetch a Centre Pompidou Atelier Brancusi page (Pompidou holds the reconstruction of
    Brancusi's studio at the Impasse Ronsin) for institutional context on Brancusi's
    studio practice.
