@@ -10,7 +10,7 @@ accessed: 2026-04-29
 tier: 1
 language: en
 verified: true
-tags: [cna, clervaux, donation-1964, restoration-2010-2013, family-of-man]
+tags: [cna, clervaux, donation-1964, restoration-2010-2013, family-of-man, world-tour]
 ---
 
 ## Citation
@@ -30,6 +30,10 @@ The English-language counterpart to the CNA's German collections page (`src-cna-
 - "**July 2013** — Reopening following renovation of exhibition rooms and restoration of photographs."
 - "The restoration campaign has been led in collaboration with the Studio Berselli from Milan, Italy (Silvia Berselli, Roberta Piantavigna, Francesca Vantellini, Isabel Dimas)."
 - "the exhibition rooms featuring a very sober architecture conceived by designer Nathalie Jacoby (NJOY)."
+
+Tour-period framing (re-verified 2026-04-29):
+
+- The page describes *The Family of Man* as a "travelling exhibition, seen by 10 million people throughout the world" between **1955 and 1962**.
 
 ## Notes
 
