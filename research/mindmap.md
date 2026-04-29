@@ -56,10 +56,10 @@ A living map of **what we know** (with sources) and **what we need to investigat
 │  ├─ Justification: <i>"greatest photographic enterprise"</i>; <i>"memory of an entire era, that of the Cold War and McCarthyism"</i>
 │  └─ Nomination-form PDFs linked but not yet read (URLs recorded)
 │
-├─ <b>Thematic clusters</b> ⧗ 8/11 used in catalog &mdash; <i>see <a href="{{ '/sections/' | relative_url }}">/sections/</a></i>
+├─ <b>Thematic clusters</b> ⧗ 7/11 used in catalog &mdash; <i>see <a href="{{ '/sections/' | relative_url }}">/sections/</a></i>
 │  ├─ 11 clusters covering 22 MoMA-numbered checklist sections
 │  ├─ UNESCO's "32 themes" / CNA's "37 themes" / our 11 clusters &mdash; documented discrepancy
-│  └─ 8 clusters now used in the catalog; <code>sec-eating-everyday</code> first used in PR #53
+│  └─ 7 clusters used in <code>data/photographs.csv</code> as of PR #53 (<code>sec-eating-everyday</code> first used in PR #53; <code>sec-play-learning</code> mentioned in row notes only, not yet assigned to any row's <code>section</code> column &mdash; the relevant Section 24 rows currently map to <code>sec-relationships-community</code>)
 │
 └─ <b>Critical reception</b> ✓ (in repo) / ⧗ (Sekula, Turner pointers only) &mdash; <i>see <a href="{{ '/reception/' | relative_url }}">/reception/</a></i>
    ├─ Barthes 1957 &mdash; <i>The Great Family of Man</i> (in repo, verbatim)
@@ -156,7 +156,7 @@ These are concrete intended next dispatches. They have no open issues yet at tim
 
 Known work, intent established, sequence not yet pinned.
 
-- **Catalog completion** — 8 more 25-plate batches to reach 503/503 (#302–326, #327–351, #352–376, #377–401, #402–426, #427–451, #452–476, #477–503). Plus the out-of-range three-digit plates (#505, #506).
+- **Catalog completion** — after the scheduled #277–301 batch, 8 more 25-plate batches (#302–326, #327–351, #352–376, #377–401, #402–426, #427–451, #452–476, #477–503; the last range covers 27 plates). The 11 documented missing checklist numbers (Prologue trio + #61 + #88/#90 + #145/#149 + #216 + #246 + #261) mean the final CSV will have **~492 rows**, not 503; plus the out-of-range three-digit plates (#505, #506) catalogued separately.
 - **Photographer biographies batches 3–12** — sequential after batch 2.
 - **Steichen-the-photographer page deepening** — current page covers the life arc; could extend with the curatorial-period detail and the relationship to *The Family of Man* itself.
 - **1955 catalog plate-titles + dates** — needs a primary read of the printed 1955 catalog. Expected source: Luxembourg National Library, or an unrestricted Internet Archive scan once CDL borrow is completed.
