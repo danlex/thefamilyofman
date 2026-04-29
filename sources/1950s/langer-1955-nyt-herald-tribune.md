@@ -27,7 +27,8 @@ Langer's review represents the *Herald Tribune*'s institutional reception of *Th
 
 ## Key excerpts / pages
 
-- Quoted in Wikipedia's article on *The Family of Man* (fetched 2026-04-30): 'It can truly be said that with this show, photography has come of age as a medium of expression and as an art form.' (Attribution given as Don Langer, *New York Herald Tribune*. NOT read from the original article this session — sourced exclusively from Wikipedia.)
+- Quoted in Wikipedia's article on *The Family of Man* (fetched 2026-04-30): 'It can truly be said that with this show, photography has come of age as a medium of expression and as an art form.' (Attribution given as Don Langer, *New York Herald Tribune*. NOT read from the original article this session.)
+- **Evidentiary chain (per grounding judge on PR #89):** Wikipedia's `<ref name=":6"/>` for this quote resolves to Helen Gee, *Limelight: A Greenwich Village Photography Gallery and Coffeehouse in the 1950s* (New York: Aperture, 2016) — a 2016 secondary book quoting the *Herald Tribune* review, not a direct *Herald Tribune* primary citation. The actual chain of provenance for this quote is therefore: *Herald Tribune* (1955) → Gee, *Limelight* (Aperture, 2016) → Wikipedia → this file. Each step is a layer of indirection that has not been audited by direct fetch this round; promote to verified only after a TimesMachine / NYPL / ProQuest fetch of the original Langer review.
 - Exact date, section, and page number: NOT confirmed this round. Wikipedia's citation apparatus for this quote did not supply a date or page number in the fetched raw wikitext.
 - URL: blank — no Wayback Machine snapshot found; no paywalled database attempted this session.
 

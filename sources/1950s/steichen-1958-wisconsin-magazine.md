@@ -7,7 +7,7 @@ type: article
 publisher: "Wisconsin Magazine of History"
 url: ""
 accessed: 2026-04-30
-tier: 2
+tier: 1
 language: en
 verified: false
 tags: [steichen, primary, photography-history, self-statement, 1958, witness, recorder]
@@ -19,7 +19,7 @@ Steichen, Edward. "Photography: Witness and Recorder of History." *Wisconsin Mag
 
 ## Tier justification
 
-Tier 2: a signed article by Edward Steichen himself — the creator and curator of *The Family of Man* — published in a peer-reviewed institutional history journal (*Wisconsin Magazine of History* is published by the Wisconsin Historical Society, a major state historical institution, and is indexed in JSTOR). Primary authorship by the exhibition's creator makes this a first-person primary account. The *Wisconsin Magazine of History* is a Tier-2 source under both the 'peer-reviewed journals' and 'Steichen's own writings' criteria in `CREDIBILITY.md`. The bibliographic details are confirmed from the Wikipedia article on *The Family of Man* (fetched 2026-04-30) but were NOT verified from an open-access copy of the article this session.
+Tier 1: a signed article by Edward Steichen himself — the creator and curator of *The Family of Man*. Per `CREDIBILITY.md` Tier 1 enumeration, "Steichen's own writings — *A Life in Photography* (1963), correspondence, interviews of record" qualify as primary self-statement; an article authored by Steichen is the same class. The venue (*Wisconsin Magazine of History*, published by the Wisconsin Historical Society) does not downgrade Steichen's own primary text — the venue is a state historical-society publication, not a peer-reviewed photography or critical-theory journal in the sense that `CREDIBILITY.md`'s Tier-2 enumeration names (*History of Photography*, *October*, *Art Bulletin*, *Aperture*, *Afterimage*). Bibliographic details are confirmed from the Wikipedia article on *The Family of Man* (fetched 2026-04-30) but were NOT verified from an open-access copy of the article this session.
 
 ## Relevance
 
