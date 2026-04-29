@@ -3,7 +3,7 @@ title: Research mindmap
 last_updated: 2026-04-29
 ---
 
-> **Note.** This document was last bumped on 2026-04-29 (10-day refresh from 2026-04-19). Catalog: **265 rows** (53% of 503), via PRs #4 (47), #7 (47), #11 (98), #16 (25), #49 (24), #53 (24). Photographers: 20 rows + 4 short bios + 20 source entries (PR #8). Issue #9 closed via PR #12 on 2026-04-24 — the re-verification pass concluded that **18 of 20** photographer-source files cannot be directly fetched (institutional 403s / paywalls) and remain `verified: false`. The access-barrier problem is real and ongoing, but is documented under "Methodological gaps" below, not under issue #9 (which is closed). Five overview pages are now substantive: `/exhibition/` (PR #41), `/clervaux/` (PR #43), `/unesco/` (PR #45), `/tour/` (PR #47), `/reception/` (PR #27). Live on the site.
+> **Note.** This document was last bumped on 2026-04-29 to absorb PRs #57-#79 — the catalog has reached its **final corpus state** for the #1-#503 numbered sequence. Catalog: **488 rows seeded** (against 503 numbered plates; the 15-row gap reflects 15 documented missing-checklist-numbers across 13 gap events plus the recurring-plate single-row treatment for the Eugene Harris #11A-#11F sequence and the series-as-one-row treatment for plates like Ruth Orkin's #73 a-f). Per-PR breakdown: PRs #4 (47), #7 (47), #11 (98), #16 (25), #49 (24), #53 (24), #60 (24), #65 (24), #67 (24), #69 (23), #71 (24), #73 (25), #75 (25), #77 (25), #79 (27). All 11 thematic clusters are now used (final coverage). Two structural milestones: photo-0441 (#456) — H-bomb plate, Atomic Energy Commission, Marshall Islands, 96×120 cm; photo-0488 (#503) — *A Walk to Paradise Garden*, W. Eugene Smith, 1946 — the show's closing image. Photographers: 20 rows + 4 short bios + 20 source entries (PR #8); issue #9 closed via PR #12 (2026-04-24); 18 of 20 sources remain `verified: false` due to institutional 403s — access-barrier problem persists, tracked under "Methodological gaps". Five overview pages are substantive (`/exhibition/`, `/clervaux/`, `/unesco/`, `/tour/`, `/reception/`); `/tour/` carries a Leaflet venue-map (PR #62). Live on the site.
 
 # Research mindmap
 
@@ -23,10 +23,14 @@ A living map of **what we know** (with sources) and **what we need to investigat
 │  ├─ ~270,000 NY visitors
 │  └─ Closing image: W. Eugene Smith, <i>A Walk to Paradise Garden</i> (1946)
 │
-├─ <b>Catalog</b> ⧗ 53% (265/503)
+├─ <b>Catalog</b> ✓ final corpus state (488/503 rows; 15-row gap reconciliation deferred)
 │  ├─ 503 photographs / 273 photographers / 68 countries
-│  ├─ 265 rows seeded (53%) &mdash; <i>see <a href="{{ '/photographs/' | relative_url }}">/photographs/</a></i>
-│  ├─ 11 individual missing plate numbers in the printed checklist (#5, #7, #8, #61, #88, #90, #145, #149, #216, #246, #261)
+│  ├─ 488 rows seeded across 19 batches (PRs #4, #7, #11, #16, #49, #53, #60, #65, #67, #69, #71, #73, #75, #77, #79) &mdash; <i>see <a href="{{ '/photographs/' | relative_url }}">/photographs/</a></i>
+│  ├─ 15 individual missing plate numbers across 13 gap events: #5, #7, #8 (Prologue) · #61 · #88, #90 · #145, #149 · #216 · #246 · #261 · #337 · #346 · #362 · #399 · #425
+│  ├─ Out-of-order plates: #115, #168, #194, #269, #358, #422, and entire Section 38 block (#441&ndash;#445) printed after Section 39 on PDF page 23
+│  ├─ Letter-suffix supplements: #404A (Warsaw Ghetto, German photographer unknown, photo-0390); #11A&ndash;#11F Eugene Harris recurring-coda series (single row at photo-0008 with inline notes at photo-0070, photo-0185, photo-0228, photo-0276, photo-0334)
+│  ├─ <b>Structural milestones</b>: photo-0441 (#456) H-bomb plate, AEC/Marshall Islands, 96&times;120 cm &mdash; the show's narrative climax; photo-0488 (#503) <i>A Walk to Paradise Garden</i> by W. Eugene Smith, 1946 &mdash; the closing image (FIRST row in catalog with populated title + year + multi-source citation)
+│  ├─ Three-digit plates #505, #506 documented in earlier batch notes (photo-0114, photo-0135, photo-0160) but not seeded as separate rows
 │  └─ Selection process (~2&nbsp;million submissions commonly cited; primary source not yet verified)
 │
 ├─ <b>Photographers</b> ⧗ 7% (20/273; 4 bios)
@@ -56,10 +60,10 @@ A living map of **what we know** (with sources) and **what we need to investigat
 │  ├─ Justification: <i>"greatest photographic enterprise"</i>; <i>"memory of an entire era, that of the Cold War and McCarthyism"</i>
 │  └─ Nomination-form PDFs linked but not yet read (URLs recorded)
 │
-├─ <b>Thematic clusters</b> ⧗ 7/11 used in catalog &mdash; <i>see <a href="{{ '/sections/' | relative_url }}">/sections/</a></i>
-│  ├─ 11 clusters covering 22 MoMA-numbered checklist sections
+├─ <b>Thematic clusters</b> ✓ 11/11 used in catalog (final coverage) &mdash; <i>see <a href="{{ '/sections/' | relative_url }}">/sections/</a></i>
+│  ├─ 11 clusters covering 42 MoMA-numbered checklist sections
 │  ├─ UNESCO's "32 themes" / CNA's "37 themes" / our 11 clusters &mdash; documented discrepancy
-│  └─ 7 clusters used in <code>data/photographs.csv</code> as of PR #53 (<code>sec-eating-everyday</code> first used in PR #53; <code>sec-play-learning</code> mentioned in row notes only, not yet assigned to any row's <code>section</code> column &mdash; the relevant Section 24 rows currently map to <code>sec-relationships-community</code>)
+│  └─ All 11 clusters now used in <code>data/photographs.csv</code> after PR #79: <code>sec-prologue</code>, <code>sec-lovers</code>, <code>sec-marriage-birth</code>, <code>sec-family-children</code>, <code>sec-play-learning</code>, <code>sec-work</code>, <code>sec-eating-everyday</code>, <code>sec-relationships-community</code>, <code>sec-hardship-suffering-war</code>, <code>sec-death-mourning</code>, <code>sec-rededication-future</code>. SCHEMA-GAP NOTE: Sections 28 (Religious Expression), 29 (Aloneness), 30 (Aspirations), 41 (Couples), 42 (Childhood Magic) are mapped approximately to <code>sec-rededication-future</code> with explicit "approximate, not canonical" hedging on each row; a future schema PR may introduce finer-grained clusters.
 │
 └─ <b>Critical reception</b> ✓ (in repo) / ⧗ (Sekula, Turner pointers only) &mdash; <i>see <a href="{{ '/reception/' | relative_url }}">/reception/</a></i>
    ├─ Barthes 1957 &mdash; <i>The Great Family of Man</i> (in repo, verbatim)
@@ -84,19 +88,26 @@ A living map of **what we know** (with sources) and **what we need to investigat
 - **NY attendance: ~270,000.** *Source: `src-moma-archives-highlights-1955` (Relevance summary).*
 - **Closing image: W. Eugene Smith, *A Walk to Paradise Garden* (1946).** *Source: same.*
 
-### Thematic structure *(merged via PR #3; 8 of 11 clusters now used in catalog)*
+### Thematic structure *(merged via PR #3; all 11 of 11 clusters now used after PR #79)*
 - The 1955 catalog does **not** present a canonical numbered list of sections. Three institutional figures circulate: UNESCO's **32 themes** (`src-unesco-mow-2003`), CNA's **37 themes** (`src-cna-education`), and our working reconstruction of **11 thematic clusters** (`sec-prologue` through `sec-rededication-future`). The discrepancy is recorded in `research/sections.md` and surfaced on `/sections/`.
-- **PR #53 first use of `sec-eating-everyday`** — Section 23 Food (#254-#268) maps to this cluster; this is the eighth cluster used in the catalog.
+- **All 11 clusters are now used in the catalog** as of PR #79 (closing-image batch). First-use sequence: `sec-prologue`, `sec-lovers`, `sec-marriage-birth`, `sec-family-children` (PR #4); `sec-relationships-community`, `sec-work` (PRs #7, #11); `sec-eating-everyday` (PR #53); `sec-play-learning` (PR #67); `sec-hardship-suffering-war`, `sec-death-mourning` (PR #71); `sec-rededication-future` (PR #75).
+- **SCHEMA-GAP FINDING**: Sections 28 RELIGIOUS EXPRESSION, 29 ALONENESS AND COMPASSION, 30 ASPIRATIONS, 41 COUPLES, and 42 CHILDHOOD MAGIC do not have direct cluster matches in `data/sections.csv` — all five map approximately to `sec-rededication-future` with explicit "approximate, not canonical" hedging on every affected row. A future schema PR may introduce finer-grained clusters (e.g., `sec-religious-expression`, `sec-aloneness`, `sec-couples`, `sec-childhood-magic`) or re-evaluate the existing 11-cluster reconstruction.
 
-### Catalog — through plate #276 (265 rows, 53%)
+### Catalog — final corpus state (488 rows seeded, #1-#503)
 - **Anchor source: MoMA Master Checklist for Exhibition #569** (`src-moma-exh-0569-master-checklist`, Tier 1) — gives per-plate photographer, agency/publication, nationality, "where taken," and print dimensions verbatim.
-- **265 of 503 plates seeded** as of 2026-04-29, via PRs #4 (47), #7 (47), #11 (98), #16 (25), #49 (24), #53 (24). 238 plates remain.
-- **11 individual missing plate numbers** in the printed checklist, distributed across 7 distinct gap events: **#5, #7, #8** (Prologue); **#61** (Mothers and Babies); **#88, #90** (Family Activities); **#145, #149** (Work A); **#216** (Adult Play); **#246** (between Sections 21–22); **#261** (in Section 23 Food). Reasons not stated in the document. Each adjacent row's `notes` records the gap.
-- **Out-of-order plates documented**: #115 (Section 14 Land), #168 (Section 14 mid-flow), #194 (Section 19 Classical Music — Bischof at photo-0192), #269 (Section 25 Relationships — Ansel Adams at photo-0258, printed under the Section 25 heading on page 14 between #268 and #270). Three-digit plates #505 and #506 also appear inside sections 14–15 (deferred).
+- **488 of 503 plates seeded** as of PR #79, via 15 catalog batches: PRs #4 (47), #7 (47), #11 (98), #16 (25), #49 (24), #53 (24), #60 (24), #65 (24), #67 (24), #69 (23), #71 (24), #73 (25), #75 (25), #77 (25), #79 (27). The 15-row gap (488 vs 503) reflects 15 documented missing-checklist-numbers + the recurring-plate single-row treatment for the Eugene Harris #11A-#11F sequence + the series-as-one-row treatment for plates like Ruth Orkin's #73 a-f. **A precise gap-reconciliation audit is a flagged follow-up cleanup item.**
+- **Two structural milestones** during the catalog completion:
+  - **photo-0441 (#456)**: H-bomb plate, Atomic Energy Commission, Marshall Islands, 96×120 cm — the show's narrative climax per `src-moma-archives-highlights-1955` (Tier 1).
+  - **photo-0488 (#503)**: *A Walk to Paradise Garden* by W. Eugene Smith (1946), USA, 42½×36 cm — the canonical closing image per `src-moma-archives-highlights-1955`. **First row in the catalog with populated title + year + multi-source citation.**
+- **15 individual missing plate numbers across 13 gap events**: #5/#7/#8 (Prologue); #61 (Mothers and Babies); #88/#90 (Family Activities); #145/#149 (Work A); #216 (Adult Play); #246 (between Sections 21-22); #261 (Section 23 Food); #337/#346 (between Sections 26 and 27); #362 (Section 28); #399 (Section 32); #425 (Section 35). Each adjacent row's `notes` records the gap.
+- **Out-of-order plates documented**: #115, #168, #194, #269 (single-plate); #358 (Duncan, Saudi Arabia — physical Section 26 / numerical Section 27, mapped numerically per the established precedent at photo-0339); #422 (Crane, Germany — physical Section 34 / numerical Section 35, deliberately mapped to physical at photo-0400 with documented divergence); ENTIRE Section 38 GOVERNMENT block (#441-#445) printed on PDF page 23 AFTER Section 39 on page 22, recorded in numerical order per photo-0339 precedent.
+- **Letter-suffix supplements**: #404A (Warsaw Ghetto, German photographer unknown, photo-0390 — distinct CSV row because the checklist prints distinct dimensions); Eugene Harris #11A-#11F recurring-coda series (single CSV row at photo-0008 with inline notes at photo-0070, photo-0185, photo-0228, photo-0276, photo-0334).
+- **Three-digit out-of-range plates #505 and #506** documented in earlier batch notes (photo-0114, photo-0135, photo-0160) but NOT separately seeded as rows. A follow-up cleanup PR is needed if the project policy decides to add them.
 - **Photographer-name OCR corrections (PR #51)**: photo-0210 'Nick de Morgol?' → 'Nick de Morgoli' (French Vogue photographer); photo-0216 'Walter Sanner' → 'Walter Sanders' (German-born American LIFE staff photographer 1944-1961). Both verified against MoMA's own artist database.
-- **Edward Steichen first appears as a plate photographer at #264 (photo-0253, Section 23 Food)** — a documented fact, not a curatorial-bias signal.
-- **The Master Checklist records no titles and no dates for individual plates.** Steichen deprived the images of titles. Any year or title we add must be backed by a separate Tier-1/2 citation; secondary identifications are preserved with "reported, not primary-verified" caveats.
+- **Edward Steichen as plate photographer**: first appearance at #264 (photo-0253, Section 23 Food, PR #53); second self-inclusion at #490 (photo-0475, Section 42 Childhood Magic, PR #79). Both occurrences are documented neutrally.
+- **The Master Checklist records no titles and no dates for individual plates.** Steichen deprived the images of titles. Photo-0488 is the unique exception — its title and year come from `src-moma-archives-highlights-1955`, a separate Tier-1 source, in a multi-source citation.
 - **National attribution preserved verbatim** from the checklist — Capa "American," Erwitt "American," Horvat "Italian." Re-framing is a separate editorial decision, never a silent correction.
+- **Pre-existing-defect findings** from PRs #58, #71, #73, #75, #77, #79 documented inline for issue #61 family follow-up: unhedged biographical lines on photo-0068/0105 (Eisenstaedt), photo-0092 (Vishniac), photo-0124 (Duncan), photo-0146 (Sander), photo-0152/0337/0366 (Bourke-White), photo-0171 (Mili), photo-0173 (Morgan); photo-0280 "first Brackman Associates" miscount.
 
 ### Photographers — batch 1 seeded (PR #8)
 - **20 photographer rows** covering every unique individual named in the first 47 catalog plates. 4 short bios exist (Capa, Wayne Miller, Doisneau, DeCarava) — the remaining 16 are CSV rows only.
@@ -146,18 +157,17 @@ This section is **forward-looking** — what topics are planned next, in priorit
 
 ### Scheduled (next 1–3 PRs)
 
-These are concrete intended next dispatches. They have no open issues yet at time of writing; issues are opened when each PR begins.
+These are concrete intended next dispatches.
 
-- **Catalog batch #277–301** — 25 plates from the MoMA Master Checklist (continuing from photo-0265). Mechanical, ~30 min, well-understood pattern after PRs #49 and #53.
-- **`/tour/` map visualisation** — visualise the verified venues attested in `/tour/` (6 US domestic, 4 international, 1 Moscow year-only, 3 1992-94 second-wave) on a static SVG / Leaflet map. No new external claims; the venue data already lives in source entries.
-- **Photographer biographies batch 2** — gated on the access-barrier resolution; either via `gh api` / academic-library proxy / archive.org snapshots, or by accepting Tier 3 carries with explicit `verified: false` until institutional sites become reachable.
+- **Issue #61 family cleanup** (~6-8 prior rows): unhedged biographical lines on photo-0068/0105 (Eisenstaedt), photo-0092 (Vishniac), photo-0124 (Duncan), photo-0146 (Sander), photo-0152/0337/0366 (Bourke-White), photo-0171 (Mili), photo-0173 (Morgan); photo-0280 "first Brackman Associates" miscount. Apply the established hedge pattern from PRs #61, #65, #71, #73, #75, #77, #79.
+- **Out-of-range plates #505 #506 seeding** (small, focused): catalog as separate rows or formalise their integration into existing photo-0114/0135/0160 notes per project policy.
+- **488→503 gap reconciliation audit** (focused): enumerate the precise contributors to the 15-row gap (missing checklist numbers + recurring-plate single-row treatment + series-as-one-row plates) and document.
 
 ### Backlog (planned, not yet scheduled)
 
 Known work, intent established, sequence not yet pinned.
 
-- **Catalog completion** — after the scheduled #277–301 batch, 8 more 25-plate batches (#302–326, #327–351, #352–376, #377–401, #402–426, #427–451, #452–476, #477–503; the last range covers 27 plates). The 11 documented missing checklist numbers (Prologue trio + #61 + #88/#90 + #145/#149 + #216 + #246 + #261) mean the final CSV will have **~492 rows**, not 503; plus the out-of-range three-digit plates (#505, #506) catalogued separately.
-- **Photographer biographies batches 3–12** — sequential after batch 2.
+- **Photographer biographies batches 2–12** — sequential after access-barrier resolution. Batch 1 (PR #8, 20 photographers) remains the only batch; ~253 photographers still need rows.
 - **Steichen-the-photographer page deepening** — current page covers the life arc; could extend with the curatorial-period detail and the relationship to *The Family of Man* itself.
 - **1955 catalog plate-titles + dates** — needs a primary read of the printed 1955 catalog. Expected source: Luxembourg National Library, or an unrestricted Internet Archive scan once CDL borrow is completed.
 - **Verbatim Sandburg prologue with page numbers** — same blocker as plate-titles.
@@ -251,7 +261,20 @@ Items that depend on archival access, scholarly literature acquisition, or other
 | [#48](https://github.com/danlex/thefamilyofman/issues/48) | Catalog batch #227–251 | `CLOSED` via PR #49 | +24 rows (gap at #246). |
 | [#50](https://github.com/danlex/thefamilyofman/issues/50) | Photo-0210 / photo-0216 name corrections | `CLOSED` via PR #51 | OCR-error corrections verified against MoMA artist database. |
 | [#52](https://github.com/danlex/thefamilyofman/issues/52) | Catalog batch #252–276 | `CLOSED` via PR #53 | +24 rows (gap at #261); first use of `sec-eating-everyday`. |
-| [#54](https://github.com/danlex/thefamilyofman/issues/54) | Bump mindmap + progress.yml | `OPEN` | This PR. |
+| [#54](https://github.com/danlex/thefamilyofman/issues/54) | Bump mindmap + progress.yml | `CLOSED` via PR #55 | First mindmap bump; absorbed PRs #43-#53. |
+| [#56](https://github.com/danlex/thefamilyofman/issues/56) | Add Roadmap section to mindmap | `CLOSED` via PR #57 | Forward-looking tracking layer + status glyphs in Overview tree + Photographers branch. |
+| [#58](https://github.com/danlex/thefamilyofman/issues/58) | Catalog batch #277–301 | `CLOSED` via PR #60 | +24 rows (Section 25 final + Section 26 begin). |
+| [#59](https://github.com/danlex/thefamilyofman/issues/59) | Tour map visualisation | `CLOSED` via PR #62 | Leaflet map of 14 verified venues, three colour-coded waves. |
+| [#61](https://github.com/danlex/thefamilyofman/issues/61) | Pre-existing biographical hedges | `CLOSED` via PR #63 | 3 Wayne Miller + 2 Eisenstaedt + 1 Eugene Harris stale-count rows hedged. |
+| [#64](https://github.com/danlex/thefamilyofman/issues/64) | Catalog batch #302–326 | `CLOSED` via PR #65 | +24 rows; Section 25 Relationships continuation. |
+| [#66](https://github.com/danlex/thefamilyofman/issues/66) | Catalog batch #327–351 | `CLOSED` via PR #67 | +24 rows; Sections 26 LEARNING + 27 DEATH begin; gaps at #337 + #346. |
+| [#68](https://github.com/danlex/thefamilyofman/issues/68) | Catalog batch #352–376 | `CLOSED` via PR #69 | +23 rows; Sections 28 RELIGIOUS EXPRESSION + 29 ALONENESS begin; first schema-gap (no direct cluster for Section 28/29); gap at #362. |
+| [#70](https://github.com/danlex/thefamilyofman/issues/70) | Catalog batch #377–401 | `CLOSED` via PR #71 | +24 rows; Sections 30/31/32/33 begin; gap at #399; sec-hardship-suffering-war first used. |
+| [#72](https://github.com/danlex/thefamilyofman/issues/72) | Catalog batch #402–426 | `CLOSED` via PR #73 | +25 rows; Sections 34/35 begin; gap at #425; #404A letter-suffix; out-of-order #422. |
+| [#74](https://github.com/danlex/thefamilyofman/issues/74) | Catalog batch #427–451 | `CLOSED` via PR #75 | +25 rows; Sections 36/37/38/39 begin; entire Section 38 block printed out-of-order; Joan Miller (#449) distinct from Wayne Miller. |
+| [#76](https://github.com/danlex/thefamilyofman/issues/76) | Catalog batch #452–476 | `CLOSED` via PR #77 | +25 rows; **STRUCTURAL MILESTONE: H-bomb plate at photo-0441 (#456)**; Sections 40/41/42 begin. |
+| [#78](https://github.com/danlex/thefamilyofman/issues/78) | Catalog batch #477–503 (final) | `CLOSED` via PR #79 | +27 rows; **STRUCTURAL MILESTONE: A Walk to Paradise Garden at photo-0488 (#503)** — closing image; FINAL CORPUS STATE. |
+| [#80](https://github.com/danlex/thefamilyofman/issues/80) | Bump mindmap (final-corpus state) | `OPEN` | This PR. |
 
 ---
 
