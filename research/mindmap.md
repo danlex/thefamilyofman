@@ -3,7 +3,7 @@ title: Research mindmap
 last_updated: 2026-04-29
 ---
 
-> **Note.** This document was last bumped on 2026-04-29 (10-day refresh from 2026-04-19). Catalog: **265 rows** (53% of 503), via PRs #4 (47), #7 (47), #11 (98), #16 (25), #49 (24), #53 (24). Photographers: 20 rows + 4 short bios + 20 source entries (PR #8 — re-verification of obit / museum-page citations still tracked under issue #9). Five overview pages are now substantive: `/exhibition/` (PR #41), `/clervaux/` (PR #43), `/unesco/` (PR #45), `/tour/` (PR #47), `/reception/` (PR #27). Live on the site.
+> **Note.** This document was last bumped on 2026-04-29 (10-day refresh from 2026-04-19). Catalog: **265 rows** (53% of 503), via PRs #4 (47), #7 (47), #11 (98), #16 (25), #49 (24), #53 (24). Photographers: 20 rows + 4 short bios + 20 source entries (PR #8). Issue #9 closed via PR #12 on 2026-04-24 — the re-verification pass concluded that **18 of 20** photographer-source files cannot be directly fetched (institutional 403s / paywalls) and remain `verified: false`. The access-barrier problem is real and ongoing, but is documented under "Methodological gaps" below, not under issue #9 (which is closed). Five overview pages are now substantive: `/exhibition/` (PR #41), `/clervaux/` (PR #43), `/unesco/` (PR #45), `/tour/` (PR #47), `/reception/` (PR #27). Live on the site.
 
 # Research mindmap
 
@@ -94,7 +94,7 @@ A living map of **what we know** (with sources) and **what we need to investigat
 
 ### Photographers — batch 1 seeded (PR #8)
 - **20 photographer rows** covering every unique individual named in the first 47 catalog plates. 4 short bios exist (Capa, Wayne Miller, Doisneau, DeCarava) — the remaining 16 are CSV rows only.
-- **20 source entries added** with `verified: false` flags (NYT obituaries, Magnum, ICP, CCP, Moderna Museet, etc.) because WebFetch returned 403 during the seed session. **Issue #9 still open** — the re-verification has not been done. This blocks more photographer batches.
+- **20 source entries added** with `verified: false` flags (NYT obituaries, Magnum, ICP, CCP, Moderna Museet, etc.) because WebFetch returned 403 during the seed session. **Issue #9 closed via PR #12** (2026-04-24): the re-verification pass *was done* and concluded that 18 of 20 sources still cannot be directly fetched. The access-barrier problem persists and constrains scaling more photographer batches; tracked under "Methodological gaps" below.
 - **Gender column blank** on all 20 rows per project tagging policy.
 
 ### World tour 1955–c.1962/1964/1965 *(substantive — PR #47)*
@@ -143,7 +143,7 @@ A living map of **what we know** (with sources) and **what we need to investigat
 - **Canonical 1955 catalog pages** for the headline figures (503/273/68) — currently anchored on three institutional summaries (MoMA Archives Highlights, UNESCO register, CNA collections page); a primary-source citation to specific pages of the 1955 catalog is still missing.
 
 ### P1 — core (phase 2)
-- **273 photographer biographies** — 4/273 done; 269 remain. Each needs dates, nationality, and a Tier-1/2 source. **Issue #9 still blocks** scaling this.
+- **273 photographer biographies** — 4/273 done; 269 remain. Each needs dates, nationality, and a Tier-1/2 source. The PR #8 re-verification pass (closed via PR #12) concluded that 18 of 20 batch-1 source URLs cannot be directly fetched — a persistent access-barrier problem (see "Methodological gaps" below) that constrains scaling further batches.
 - **NARA RG 306 (USIA records)** — the single most consequential gap for the world-tour aggregate (9M/91/37). Fetch attempts denied. A future pass should consult the RG 306 finding aid (Exhibits Division), per-copy / per-venue tour logs, and closing-administration date (which would resolve the 1962/1964/1965 end-date discrepancy).
 - **MoMA International Program records** — would close the per-copy disposition question (one copy went to Luxembourg as the donation; fates of the other nine copies unknown).
 - **Sandeen 1995 full text** — particularly the *"on the move"* and *"in Moscow"* chapters. CDL borrow not completed.
@@ -176,7 +176,7 @@ A living map of **what we know** (with sources) and **what we need to investigat
 
 ### Methodological gaps
 - **Theme-count reconciliation** — UNESCO 32, CNA 37, our 11. Cross-source treatment exists in `research/sections.md` but is not yet a published essay.
-- **WebFetch access to institutional archives** — MoMA / Magnum / ICP / NYT / NARA returned 403 across several sessions. Options: live audit pass with human-operated browser, archive.org snapshots, or a `gh api` / academic-library proxy. **Issue #9 still tracks.**
+- **WebFetch access to institutional archives** — MoMA / Magnum / ICP / NYT / NARA returned 403 across several sessions, including the dedicated re-verification pass under PR #12 (which concluded 18 of 20 PR #8 sources remained inaccessible). Options to unblock: live audit pass with human-operated browser, archive.org snapshots, or a `gh api` / academic-library proxy. **Issue #9 is closed; the underlying access-barrier problem is the open item.**
 - **Catalog-builder source-entry coverage** — the in-repo `src-moma-exh-0569-master-checklist` excerpt block covers Sections 1–7 only; the catalog rows beyond #50 cite the linked PDF (per the file's URL field) rather than verbatim Key excerpts. This is the established pattern (217+ rows so far) but worth eventually expanding into a comprehensive section-by-section source-entry transcription, particularly if the Tier-1 nomination flow strengthens further.
 
 ---
@@ -189,7 +189,7 @@ A living map of **what we know** (with sources) and **what we need to investigat
 | [#2](https://github.com/danlex/thefamilyofman/issues/2) | Thematic sections + prologue | `CLOSED` via PR #3 | Merged before judges; re-audit pending. |
 | [#5](https://github.com/danlex/thefamilyofman/issues/5) | Catalog plates 48–100 | `CLOSED` via PR #7 | +47 rows. |
 | [#6](https://github.com/danlex/thefamilyofman/issues/6) | Photographer bios batch 1 | `CLOSED` via PR #8 | 20 rows + 4 bios + 20 source entries. |
-| [#9](https://github.com/danlex/thefamilyofman/issues/9) | Re-verify PR #8 citations | `OPEN` | Blocks more photographer batches. |
+| [#9](https://github.com/danlex/thefamilyofman/issues/9) | Re-verify PR #8 citations | `CLOSED` via PR #12 | Re-verification pass done 2026-04-24; 18 of 20 sources remain `verified: false` due to access barriers. Underlying problem tracked in "Methodological gaps." |
 | [#10](https://github.com/danlex/thefamilyofman/issues/10) | Catalog plates 101–200 | `CLOSED` via PR #11 | +98 rows. |
 | [#15](https://github.com/danlex/thefamilyofman/issues/15) | Catalog plates 201–226 | `CLOSED` via PR #16 | +25 rows; pre-merge fixes from judge-bias and judge-grounding (photo-0201 character-type). |
 | [#27](https://github.com/danlex/thefamilyofman/issues/27) | /reception/ expansion | `CLOSED` via PR #27 | Substantive overview merged. |
