@@ -31,7 +31,7 @@ edit_dir: site
     <li><a href="#stieglitz-and-the-291-gallery">Stieglitz and the 291 Gallery</a> · 1905</li>
     <li><a href="#carl-sandburg-brother-in-law">Carl Sandburg, brother-in-law</a> · 1908</li>
     <li><a href="#the-first-world-war">The First World War</a> · 1917</li>
-    <li><a href="#brancusi-the-1925-studio-and-the-1928-customs-case">Brancusi, the studio, and the customs case</a> · 1920–1928</li>
+    <li><a href="#brancusi-the-studio-and-the-1928-customs-case">Brancusi, the studio, and the customs case</a> · 1920–1928</li>
     <li><a href="#vogue-the-navy-and-moma">Vogue, the Navy, and MoMA</a> · 1923–1962</li>
     <li><a href="#the-family-of-man"><em>The Family of Man</em></a> · 1955</li>
     <li><a href="#the-1963-meeting-and-the-gift-to-luxembourg">The 1963 meeting and the gift to Luxembourg</a></li>
@@ -92,7 +92,7 @@ Steichen returned to uniform in the First World War. He commanded the photograph
 
 ## Brancusi, the studio, and the 1928 customs case
 
-Among the friendships Steichen kept across the Atlantic in the interwar years, the closest with another artist was probably with the Romanian sculptor **Constantin Brancusi**. The two were near contemporaries (Brancusi born 1876, Steichen 1879), both immigrants to a country other than their birth — Brancusi to France, Steichen to the United States — and both later remembered as founding figures of, respectively, modern sculpture and modern photography.[^10]
+Among the friendships Steichen kept across the Atlantic in the interwar years, the closest with another artist was probably with the Romanian sculptor **Constantin Brancusi**. The two were near contemporaries — Brancusi was born in **1876** (Wikipedia "Constantin Brâncuși", fetched 2026-04-30, pointer-only), Steichen in 1879. Both were immigrants to a country other than their birth — Brancusi to France, Steichen to the United States — and both are remembered today as founding figures of, respectively, modern sculpture and modern photography.[^10]
 
 Steichen made a series of photographs of Brancusi and his Paris studio across the 1920s. The most-published of these, the 1925 portrait *Brancusi in His Studio, Paris*, is the only one of these dates anchored at Tier 2 in this wiki at the time of writing — see [^10]. The Wikipedia article on Brancusi (fetched 2026-04-30) credits earlier Steichen photographs of the same studio dated 1920 and a portrait of Brancusi dated 1922; a 1927 print is recorded by MoMA as *Constantin Brancusi in his Studio* (collection 48872), and the Metropolitan Museum holds *Brancusi's "Endless Column" in Mr. Steichen's Garden, Voulangis, France*, which records that Brancusi's *Endless Column* was installed at Steichen's house in Voulangis in the French countryside. **Those museum catalog records were attempted in this round but returned HTTP 403/429; the dates and titles in this paragraph are pointer-only until those records are re-fetched.**[^11]
 
