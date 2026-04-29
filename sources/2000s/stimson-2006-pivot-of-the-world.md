@@ -10,7 +10,7 @@ accessed: 2026-04-30
 tier: 2
 language: en
 tags: [scholarship, reception, critical-theory, photography, nationalism, modernism]
-verified: true
+verified: false  # IA bibliographic metadata confirmed; body text not accessed (CDL borrow not completed) — set to false for consistency with other access-restricted entries
 ---
 
 ## Citation

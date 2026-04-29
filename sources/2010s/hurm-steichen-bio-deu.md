@@ -10,7 +10,7 @@ accessed: 2026-04-30
 tier: 2
 language: de
 tags: [steichen, biography, cna, clervaux, luxembourg, scholarship, german-language]
-verified: true
+verified: false  # CNA page does not state a publication year; year field left null pending Editions Saint-Paul / BNL OPAC confirmation
 ---
 
 ## Citation
@@ -46,7 +46,7 @@ Publication year: the CNA documentation page does not state an explicit year; th
 
 ## Notes
 
-- Year not stated on the CNA documentation page this round; "2014" in the YAML is an estimate based on contextual inference from the CNA series and the author's known publication record. A future pass should confirm the year via the Editions Saint-Paul catalog or the Luxembourg National Library OPAC.
+- Year not stated on the CNA documentation page this round; the YAML `year` field is left null (`~`). A future pass should confirm the year via the Editions Saint-Paul catalog or the Luxembourg National Library OPAC.
 - This is a German-language source; the "Language gaps" section of `research/mindmap.md` explicitly identifies German-language scholarship as an active gap. This entry directly addresses that gap.
 - Body text not read this round. No page-specific quotations are recorded.
 - The CNA e-shop is the listed point of purchase; no DOI or WorldCat OCLC was retrieved this round.

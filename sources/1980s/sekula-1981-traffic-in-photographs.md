@@ -34,5 +34,5 @@ Named in `CREDIBILITY.md` as part of "Allan Sekula's essays on photographic mean
 - The essay is frequently reprinted. It appears in Sekula's collected essays *Photography Against the Grain* (Halifax: Nova Scotia College of Art and Design, 1984), cited in secondary literature but NOT consulted in this round.
 - Cross-reference to `src-sandeen-1995`: Sandeen's study engages with Sekula's ideological reading as a counterpoint to the exhibition's humanist self-presentation. Cross-reference to `src-sontag-1977` (companion critical text, see 1970s entry).
 - Cross-reference to companion essay `src-sekula-1986` (see 1980s entry): "Reading an Archive: Photography between Labour and Capital," Block 10 (1986): 4–7, extends the same theoretical framework.
-- Perspective: Marxist / materialist critique. The strongest ideological counter-reading to the exhibition's universalism alongside Barthes 1957.
+- Perspective: Marxist / materialist critique. Widely cited in the reception literature alongside Barthes 1957 as a foundational ideological counter-reading to the exhibition's universalism (assessment of relative weight not independently verified this round).
 - Sandeen 1995 is the anchor for contextualizing this critique within the specific reception history of *The Family of Man*.

@@ -39,12 +39,14 @@ Metadata confirmed session-this-round:
 - Subjects (Library of Congress): Mass media — Political aspects — United States — History — 20th century; Liberalism — United States; Counterculture — United States — History — 20th century; Cold War
 - LC call number: 2013022419
 
-Chapter titles confirmed on the IA item page (fetched 2026-04-30):
+Chapter titles confirmed on the IA item page (fetched 2026-04-30) — partial selection only; the full ToC has 10 chapters and 5 are listed here as the most relevant for the FoM context:
 - "World War II and the making of the democratic surround"
 - "Where did all the fascists come from?"
 - "The Cold War and the democratic personality"
 - "The museum of modern art makes the world a family"
 - "The coming of the counterculture"
+
+(The remaining 5 chapter titles are present on the IA item page but not transcribed here; they are not the load-bearing references for *The Family of Man* discussion.)
 
 ## Notes
 

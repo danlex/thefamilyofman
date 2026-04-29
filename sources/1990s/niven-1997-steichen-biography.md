@@ -19,6 +19,10 @@ Niven, Penelope. *Steichen: A Biography*. New York: Clarkson Potter, 1997. xiii 
 
 Bibliography: pp. 704–747.
 
+## Tier justification
+
+Tier 2 despite the publisher (Clarkson Potter, a Crown / Random House trade imprint, not a university press): the rubric in `CREDIBILITY.md` admits "named scholarly biographies of record" alongside university-press monographs. Niven's biography is the standard book-length life of Steichen, draws on primary archival correspondence and interviews (per the bibliography pp. 704–747), and is routinely cited as the authoritative single-author biography in the reception literature. The classification is conservative — a researcher should still favour Sandeen 1995 (university-press scholarly study, `src-sandeen-1995`) for argument-level claims about *The Family of Man*, and use Niven for biographical detail on Steichen's life and career.
+
 ## Relevance
 
 The standard book-length biography of Edward Steichen (1879–1973). Covers the full arc of Steichen's life and career, including his tenure as Director of Photography at MoMA (1947–1962) and his conception and production of *The Family of Man* exhibition. The most comprehensive single Tier-2 source for claims about Steichen's biography, intentions, and the curatorial process behind the exhibition.
