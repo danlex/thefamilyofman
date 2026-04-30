@@ -8,10 +8,14 @@ section: "sec-work"
 moma_object_id: ""
 clervaux_on_display: "unknown"
 source_ids: "src-moma-exh-0569-master-checklist"
+has_story: false
 layout: photograph
 namespace: Photograph
 edit_dir: data
 generated: true
 ---
+
+## Catalog notes
+
 
 Checklist #153, Section 15 Work (A). August Sander, German, 28 x 21 3/4 cm. (Sander, 1876-1964, is best known for his typological portrait project 'Menschen des 20. Jahrhunderts' / 'People of the 20th Century.')

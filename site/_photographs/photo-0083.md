@@ -8,10 +8,14 @@ section: "sec-family-children"
 moma_object_id: ""
 clervaux_on_display: "unknown"
 source_ids: "src-moma-exh-0569-master-checklist"
+has_story: false
 layout: photograph
 namespace: Photograph
 edit_dir: data
 generated: true
 ---
+
+## Catalog notes
+
 
 Checklist #87, Section 10 Family Activities. Eve Arnold, Magnum, American per checklist, 16 x 13 cm. (Arnold was born in Philadelphia to Russian-immigrant parents; later based in the UK. MoMA records her as American.) The MoMA Master Checklist skips plate number 88 in Section 10 — the entry slot is blank in the document.

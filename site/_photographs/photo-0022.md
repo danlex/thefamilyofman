@@ -8,10 +8,14 @@ section: "sec-lovers"
 moma_object_id: ""
 clervaux_on_display: "unknown"
 source_ids: "src-moma-exh-0569-master-checklist"
+has_story: false
 layout: photograph
 namespace: Photograph
 edit_dir: data
 generated: true
 ---
+
+## Catalog notes
+
 
 Checklist #25, Section 2 Lovers. Louis Faurer, American, 12 x 18 cm. Second of two Faurer plates in this section.
