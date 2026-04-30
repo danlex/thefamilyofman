@@ -17,7 +17,7 @@ verified: false
 
 Rosler, Martha. *3 Works*. Halifax: Press of the Nova Scotia College of Art and Design, 1981.
 
-Republished: Cambridge, MA: MIT Press, 2006, as part of the "October Files" series. (NOT consulted in this round.)
+Republished: Halifax: Press of the Nova Scotia College of Art and Design, 2006 (25th-anniversary edition with a new foreword by Rosler) — corrected per grounding judge on PR #92. The 2006 reprint was issued by the original NSCAD Press, **not** by MIT Press / October Files (the October Files series at MIT Press is associated with Rosler's *Decoys and Disruptions*, 2004, not *3 Works*). The earlier draft of this entry incorrectly named MIT Press / October Files for the 2006 reprint; the Wikipedia source already cited in this file (Martha Rosler article, fetched 2026-04-30) attests the NSCAD Press 2006 reprint.
 
 Contains, among other texts: "In, around, and afterthoughts (on documentary photography)."
 
