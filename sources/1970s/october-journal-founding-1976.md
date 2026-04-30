@@ -21,7 +21,7 @@ The journal's founding editorial, "About October," by Krauss and Michelson appea
 
 ## Relevance
 
-*October* was the primary institutional vehicle for the structuralist and post-structuralist critique of photography in the late 1970s through 1990s. The journal's founding in 1976 coincides almost exactly with the moment when photography theory consolidated as an academic sub-discipline — and when sustained critical readings of exhibitions like *The Family of Man* became possible within a theoretical framework. Krauss, Sekula, Crimp, and Solomon-Godeau all published foundational essays in *October*. The founding issue is the institutional reference point for the entire theoretical tradition that reshaped *Family of Man* reception.
+*October* was the primary institutional vehicle for the structuralist and post-structuralist critique of photography in the late 1970s through 1990s. The journal's founding in 1976 coincides almost exactly with the moment when photography theory consolidated as an academic sub-discipline — and when sustained critical readings of exhibitions like *The Family of Man* became possible within a theoretical framework. Krauss, Sekula, Crimp, and Solomon-Godeau all published foundational essays in *October*. The founding issue is the institutional reference point for the theoretical tradition that produced sustained critical re-readings of *Family of Man* alongside its continued institutional circulation (the Luxembourg installation at Clervaux had already begun by the time *October* was founded; the critical turn shaped the *academic* reception of FoM, not the exhibition's continued popular and institutional life).
 
 Named in `CREDIBILITY.md` as a Tier-2 peer-reviewed journal.
 

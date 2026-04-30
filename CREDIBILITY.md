@@ -18,7 +18,7 @@ Original, authoritative, or institutional records.
 ### Tier 2 — peer-reviewed / academic press
 Scholarly work by recognized authorities.
 - **University presses**: Eric Sandeen, *Picturing an Exhibition: The Family of Man and 1950s America* (University of New Mexico Press, 1995); Blake Stimson, *The Pivot of the World* (MIT Press, 2006); Fred Turner, *The Democratic Surround* (University of Chicago Press, 2013)
-- **Peer-reviewed journals**: *History of Photography*, *October*, *Art Bulletin*, *Aperture* (editorial content), *Afterimage*
+- **Peer-reviewed journals**: *History of Photography*, *October*, *Art Bulletin*, *Aperture* (editorial content), *Afterimage*, *Camera Obscura* (Duke UP), *Screen* (Oxford UP), *Visual Studies* (Routledge), *Art Journal* (CAA / Routledge), *Public Culture* (Duke UP), *Oxford Art Journal* (OUP)
 - **Critical theory of record**: Roland Barthes, "The Great Family of Man," *Mythologies* (1957); Susan Sontag, *On Photography* (1977); Allan Sekula's essays on photographic meaning
 - **Exhibition catalogs** from major research museums with named curatorial authors
 

@@ -1,7 +1,7 @@
 ---
 id: src-history-of-photography-1977-founding
 title: "History of Photography — founding and early issues (1977–)"
-author: "Taylor, John"
+authors: ["Henisch, Heinz K.", "Henisch, Bridget A."]  # founding editors per the body. Earlier draft incorrectly listed 'Taylor, John' in the author field — corrected per credibility judge on PR #91.
 year: 1977
 type: article
 publisher: "Taylor and Francis / Routledge, London"

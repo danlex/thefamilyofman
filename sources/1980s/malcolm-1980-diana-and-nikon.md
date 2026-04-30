@@ -25,7 +25,7 @@ Revised and expanded edition: Boston: Aperture, 1997. (NOT consulted in this rou
 
 The collection brings together Malcolm's photography criticism from the late 1970s, written contemporaneously with Sontag's NYRB essays and the *October* founding. Malcolm's perspective is aesthetic rather than ideological: she addresses questions of photographic style, the distinctions between documentary and art photography, and the claims made on behalf of photography as a fine art. The essays address many of the same photographers whose work appeared in *The Family of Man* (Cartier-Bresson, Strand, Adams) and engage with the legacy of the humanist-documentary tradition. As an end-of-decade compilation from a named NYRB/New Yorker author, it qualifies as Tier-2 critical writing of the period.
 
-Tier 2: named-author critic writing in NYRB and *The New Yorker* (both newspapers/periodicals of record), collected in book form by an academic-quality press.
+Tier 2: named-author critic writing in NYRB and *The New Yorker* — Malcolm qualifies as critical theory of record under `CREDIBILITY.md` Tier 2 (alongside Sontag and Sekula) on the basis of author authority, not venue. **David R. Godine is a respected Boston literary trade publisher, not an academic press** — earlier draft mischaracterized it as "academic-quality press"; corrected per credibility judge on PR #91. The Tier 2 anchor is the critical-theory-of-record clause, not the university-press clause.
 
 ## Key excerpts / pages
 
