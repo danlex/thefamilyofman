@@ -23,7 +23,7 @@ Tier 2: *Aperture* (editorial content) is explicitly listed in `CREDIBILITY.md` 
 
 ## Relevance
 
-A late-career *Aperture* treatment of Steichen, published four years before his death, when he was approximately 89–90 years old. *Aperture* had a longstanding relationship with Steichen — it published prints under his supervision as part of Michael Hoffman's limited-edition print program launched in the late 1960s. This article likely constitutes a major contemporaneous critical assessment of Steichen's career from the photography community's primary critical journal.
+A late-career *Aperture* treatment of Steichen, published four years before his death, when he was approximately 89–90 years old. The *Aperture* / Steichen relationship — including any limited-edition print program associated with Michael Hoffman in the late 1960s — was referenced in unnamed web-search snippets this session but is **NOT confirmed from a named source fetched this session**; that contextual claim should be verified against Niven 1997 (`src-niven-1997`) or *Aperture* institutional histories before being treated as fact. This article likely constitutes a major contemporaneous critical assessment of Steichen's career from the photography community's primary critical journal — but as the page returned HTTP 403, the article's actual content is unread and the "major critical assessment" framing is provisional.
 
 ## Key excerpts / pages
 

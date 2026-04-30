@@ -48,3 +48,6 @@ Facts confirmed via:
 - Cross-references: `src-moma-1955-catalog`, `src-steichen-1963-life`, `src-cna-fom-steichencollections`.
 - A partial exhibition ran at Clervaux Castle 1974–1989; permanent installation established 1994 (confirmed via CNA website, fetched 2026-04-30).
 - Steichen's 1966 visit to Luxembourg (where he expressed his wish for Clervaux as the permanent location) is documented in `src-steichen-1966-luxembourg-visit`.
+
+- **Perspective note.** This entry follows the institutional/biographical framing (Steichen's personal wish; Government-to-Government transfer). For the Cold War cultural-diplomacy reading — in which the USIA tour and its terminal donations are read as part of a US liberal-internationalist soft-power program — see Turner 2013 (`src-turner-2013`, in repo, chapter "The museum of modern art makes the world a family") and Stimson 2006 (`src-stimson-2006`).
+- Cross-reference: `src-turner-2013`, `src-stimson-2006`.

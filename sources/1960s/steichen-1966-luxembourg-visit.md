@@ -38,3 +38,6 @@ Facts confirmed via CNA Steichen Collections website (fetched 2026-04-30):
 - The year "1966" in the file name follows the task brief's specification that "Steichen's visit to Luxembourg in 1966 was reported in *Tageblatt* and *Luxemburger Wort*." That specificity was NOT confirmed from sources fetched in this session; it is carried from the task brief. Caveat: the CNA timeline groups the visit within "1964–1966."
 - A future pass should: (a) access the CNA's underlying archival files or Luxembourg national archives; (b) search *Tageblatt* and *Luxemburger Wort* archives (available at Bibliothèque nationale de Luxembourg, bnl.lu).
 - Cross-references: `src-usia-fom-copy3-luxembourg-1965`, `src-steichen-1963-life`.
+
+- **Perspective note.** This entry follows the institutional/biographical framing (Steichen's personal wish; Government-to-Government transfer). For the Cold War cultural-diplomacy reading — in which the USIA tour and its terminal donations are read as part of a US liberal-internationalist soft-power program — see Turner 2013 (`src-turner-2013`, in repo, chapter "The museum of modern art makes the world a family") and Stimson 2006 (`src-stimson-2006`).
+- Cross-reference: `src-turner-2013`, `src-stimson-2006`.

@@ -42,3 +42,6 @@ Facts confirmed via web search results (fetched 2026-04-30):
 - MoMA Design Store URL (store.moma.org) is cited only for confirming the book is still in print; the URL is NOT a canonical citation — the canonical citation is the 1966 MoMA first edition with ISBN 0-87070-527-X.
 - Cross-references: `src-szarkowski-1964-photographers-eye-exh`, `src-szarkowski-1967-new-documents`, `src-moma-1955-catalog`.
 - The five-category framework is regularly cited in secondary literature (Sandeen 1995, Stimson 2006, Turner 2013 — NOT consulted this round) as defining the post-Steichen curatorial paradigm.
+
+- **Perspective note.** The Steichen→Szarkowski curatorial succession is itself a contested narrative in photography historiography. The framing here describes the formalist shift descriptively; for the critical reading that Szarkowski's program enabled a depoliticized, formalist canon at the expense of *Family of Man*-style social address, see Sekula 1981 (`src-sekula-1981`, in repo) and Christopher Phillips, "The Judgment Seat of Photography," *October* 22 (Autumn 1982): 27–63 (NOT in repo as of this batch; flagged for a future entry).
+- Cross-reference: `src-sekula-1981`.

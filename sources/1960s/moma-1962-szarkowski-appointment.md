@@ -32,7 +32,8 @@ The following facts were confirmed via web search results (fetched 2026-04-30) t
 - John Szarkowski named Director of the Department of Photography, effective **1 July 1962**.
 - Edward Steichen chose Szarkowski as his successor.
 - Szarkowski was "in charge of the Edward Steichen Photography Center at the Museum as well as temporary loan shows of photography."
-- Before MoMA, Szarkowski taught photography at the University of Buffalo and the University of Minnesota and was associate editor of the Walker Art Center's Quarterly. He had received two Guggenheim fellowships.
+- Two Guggenheim fellowships (confirmed via Wikipedia article on John Szarkowski, fetched 2026-04-30).
+- Pre-MoMA career details (specifically: alleged teaching at the University of Buffalo and the University of Minnesota; alleged role as associate editor of the Walker Art Center's *Quarterly*) appeared in unnamed web-search snippets but are **NOT confirmed from any named source fetched this session** and are **NOT supported by the Wikipedia article on John Szarkowski (fetched 2026-04-30), which describes his pre-MoMA career as beginning at the Walker Art Center as a museum photographer with no mention of Buffalo, Minnesota, or a Walker Art Center *Quarterly***. These specific institutional and editorial-role claims are therefore retracted from this entry pending direct fetch of the press release PDF or Niven 1997, where they may or may not appear.
 
 Interior text of the PDF was NOT read in this session (binary returned).
 
