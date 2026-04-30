@@ -8,10 +8,14 @@ section: "sec-lovers"
 moma_object_id: ""
 clervaux_on_display: "unknown"
 source_ids: "src-moma-exh-0569-master-checklist"
+has_story: false
 layout: photograph
 namespace: Photograph
 edit_dir: data
 generated: true
 ---
+
+## Catalog notes
+
 
 Checklist #21, Section 2 Lovers. David Linton, American, 18 x 13 1/2 cm.

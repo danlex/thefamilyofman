@@ -8,10 +8,14 @@ section: "sec-work"
 moma_object_id: ""
 clervaux_on_display: "unknown"
 source_ids: "src-moma-exh-0569-master-checklist"
+has_story: false
 layout: photograph
 namespace: Photograph
 edit_dir: data
 generated: true
 ---
+
+## Catalog notes
+
 
 Checklist #131, Section 14 Land. G. H. Metcalf, Black Star, LIFE, British, 34 x 40 3/4 cm. First of two Metcalf entries in the checklist (see also #141 — photo-0135).
