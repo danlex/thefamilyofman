@@ -540,7 +540,7 @@ permalink: /
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1950s-us-press.md" rel="noopener">
       <div class="action-kicker">1950s</div>
       <h3>US press reception</h3>
-      <p>The 1955 US-press slice is heavily NYC-centric (NYT, Herald Tribune, Atlantic, Time, Life, Newsweek). Verification status is mixed: 2 OCR-verified + 5 Wikipedia-pointer + 4 placeholder.</p>
+      <p>The 1955 US-press slice is heavily NYC-centric (NYT, Herald Tribune, Atlantic, Time, Life, Newsweek). Verification status is mixed: 2 fully OCR-verified + 3 partially OCR-fetched + 5 Wikipedia-pointer + 4 placeholder (per the source note's own tally).</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1970s-critical-theory.md" rel="noopener">
       <div class="action-kicker">1970s</div>
@@ -550,7 +550,7 @@ permalink: /
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1980s-critical-theory.md" rel="noopener">
       <div class="action-kicker">1980s</div>
       <h3>Sekula-era + Phillips 1982</h3>
-      <p>The canonical <em>October</em>-axis critique of MoMA photography. Coexistence-not-supersession: while Phillips and Sekula were dismantling MoMA's curatorial premises, the Luxembourg copy was on partial display at Clervaux.</p>
+      <p>One canonical <em>October</em>-axis critique of MoMA photography — influential, not the only available reading. Coexistence-not-supersession: while Phillips and Sekula were dismantling MoMA's curatorial premises, the Luxembourg copy was on partial display at Clervaux.</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1990s-clervaux-installation.md" rel="noopener">
       <div class="action-kicker">1990s</div>
@@ -592,7 +592,7 @@ permalink: /
     <div class="gap-card">
       <div class="gap-num">4</div>
       <div class="gap-label">primary archives still beyond reach</div>
-      <p class="gap-meta">The headline tour aggregates (91 venues, 9M visitors) live in <strong>NARA Record Group 306</strong> (USIA records), not online. The 1994 Clervaux inauguration press is on <strong>BnL microfilm</strong> in Luxembourg, not in the open eluxemburgensia digital window. The 1955 NYT, Herald Tribune and 1982 Phillips <em>October</em> 22 essay sit behind <strong>TimesMachine, ProQuest, and JSTOR</strong> paywalls. A visit, a FOIA, or a library subscription would close most of these.</p>
+      <p class="gap-meta">The headline tour aggregates (91 venues, 9M visitors) live in <strong>NARA Record Group 306</strong> (USIA records), most of it declassified open-shelf material at College Park rather than a FOIA request. The 1994 Clervaux inauguration press is on <strong>BnL microfilm</strong> in Luxembourg, requiring an in-person reader-room visit. The 1955 NYT, Herald Tribune and 1982 Phillips <em>October</em> 22 essay sit behind <strong>TimesMachine, ProQuest, and JSTOR</strong> — generally reachable only through institutional (university-library) access. The path to closing each is real but non-trivial.</p>
       <a class="gap-link" href="https://github.com/danlex/thefamilyofman/issues?q=is%3Aissue+label%3Ainvestigation" rel="noopener">Investigation issues →</a>
     </div>
     {% if photographers_no_dates > 0 %}
