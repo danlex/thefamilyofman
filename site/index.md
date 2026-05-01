@@ -103,7 +103,7 @@ permalink: /
         He bought his first camera at sixteen, was naturalised American at twenty-one, photographed for <em>Vogue</em> and <em>Vanity Fair</em> for fifteen years, commanded the U.S. Naval Aviation Photographic Unit in the Pacific, then assembled — over three years and across 503 photographs by 273 photographers — the most-visited photography exhibition of the twentieth century. The collection he gathered returned to his birthplace in 1994 and is on continuous public display at <a href="{{ '/clervaux/' | relative_url }}">Clervaux Castle</a> today.
       </p>
       <p class="memorial-prose">
-        Long before <em>The Family of Man</em>, Steichen kept one of his closest artistic friendships across the Atlantic with the Romanian sculptor <strong>Constantin Brancusi</strong>. He photographed Brancusi and the Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and in 1926 imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art. The appeal Steichen filed became <em>Brancusi v. United States</em> — one of the most-cited U.S. legal recognitions of abstract sculpture as art when the U.S. Customs Court ruled for the sculpture in November 1928. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section →</a>
+        Long before <em>The Family of Man</em>, Steichen kept one of his closest artistic friendships across the Atlantic with the Romanian sculptor <strong>Constantin Brancusi</strong>. He photographed Brancusi and the Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and in 1926 imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art. The appeal Steichen filed became <em>Brancusi v. United States</em> — one of the most-cited U.S. legal recognitions of abstract sculpture as art when the U.S. Customs Court ruled for the sculpture in November 1928. Steichen's role as importer and appellant is the standard framing; for the counter-readings — including Marcel Duchamp's role in the New York side of the affair, and later art-market readings of the case — see the perspective note on the full Brancusi section. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section →</a>
       </p>
       <a class="memorial-cta" href="{{ '/steichen/' | relative_url }}">Read the full memorial →</a>
     </div>
@@ -351,7 +351,7 @@ permalink: /
     <a class="action-card" href="{{ '/photographs/photo-0441/' | relative_url }}">
       <div class="action-kicker">Plate 456 · Section 40 BOMB</div>
       <h3>The H-bomb plate</h3>
-      <p>Atomic Energy Commission · the show's narrative climax. Curatorial-vs-critical reading surfaced explicitly.</p>
+      <p>Atomic Energy Commission · the H-bomb step in the death → bomb → return-to-children narrative arc. Curatorial-vs-critical reading surfaced explicitly on the photograph page.</p>
     </a>
     <a class="action-card" href="{{ '/photographs/photo-0488/' | relative_url }}">
       <div class="action-kicker">Plate 503 · Section 42 Childhood Magic</div>
@@ -366,12 +366,12 @@ permalink: /
     <a class="action-card" href="{{ '/photographs/photo-0146/' | relative_url }}">
       <div class="action-kicker">Plate 153 · Section 15 Work</div>
       <h3>August Sander, Germany</h3>
-      <p>Sander's typological-distance method placed inside a humanist frame — the productive interpretive tension of Steichen's selection.</p>
+      <p>Sander's typological-distance method placed inside a humanist frame — an interpretive tension flagged on the photograph page as an open question rather than a documented finding.</p>
     </a>
     <a class="action-card" href="{{ '/photographs/photo-0152/' | relative_url }}">
       <div class="action-kicker">Plate 159 · Section 15 Work</div>
       <h3>Margaret Bourke-White</h3>
-      <p>One of LIFE's four founding staff photographers; six plates in the catalog. Pioneer of industrial and combat photography.</p>
+      <p>Six plates in the catalog (verified against the Master Checklist). Widely credited as one of <em>LIFE</em>'s founding staff photographers from 1936 — that specific claim has not been re-verified against a Tier-1 source on her photograph page.</p>
     </a>
   </div>
 </section>
