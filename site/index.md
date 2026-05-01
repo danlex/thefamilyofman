@@ -60,8 +60,8 @@ permalink: /
     <a href="{{ '/photographs/' | relative_url }}"><span class="num">503</span><span class="label">photographs</span></a>
     <a href="{{ '/photographers/' | relative_url }}"><span class="num">273</span><span class="label">photographers</span></a>
     <a href="{{ '/photographs/' | relative_url }}"><span class="num">68</span><span class="label">countries of origin</span></a>
-    <a href="{{ '/tour/' | relative_url }}"><span class="num">91</span><span class="label">tour venues</span></a>
-    <a href="{{ '/tour/' | relative_url }}"><span class="num">9M</span><span class="label">visitors (1955–62)</span></a>
+    <a href="{{ '/tour/' | relative_url }}"><span class="num">91*</span><span class="label">tour venues (aggregate, pending NARA RG 306)</span></a>
+    <a href="{{ '/tour/' | relative_url }}"><span class="num">9M*</span><span class="label">visitors 1955–62 (aggregate, pending NARA RG 306)</span></a>
     <a href="{{ '/unesco/' | relative_url }}"><span class="num">2003</span><span class="label">UNESCO inscription</span></a>
   </div>
 </section>
@@ -101,6 +101,9 @@ permalink: /
       </blockquote>
       <p class="memorial-prose">
         He bought his first camera at sixteen, was naturalised American at twenty-one, photographed for <em>Vogue</em> and <em>Vanity Fair</em> for fifteen years, commanded the U.S. Naval Aviation Photographic Unit in the Pacific, then assembled — over three years and across 503 photographs by 273 photographers — the most-visited photography exhibition of the twentieth century. The collection he gathered returned to his birthplace in 1994 and is on continuous public display at <a href="{{ '/clervaux/' | relative_url }}">Clervaux Castle</a> today.
+      </p>
+      <p class="memorial-prose">
+        Long before <em>The Family of Man</em>, Steichen kept one of his closest artistic friendships across the Atlantic with the Romanian sculptor <strong>Constantin Brancusi</strong>. He photographed Brancusi and the Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and in 1926 imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art. The appeal Steichen filed became <em>Brancusi v. United States</em> — one of the most-cited U.S. legal recognitions of abstract sculpture as art when the U.S. Customs Court ruled for the sculpture in November 1928. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section →</a>
       </p>
       <a class="memorial-cta" href="{{ '/steichen/' | relative_url }}">Read the full memorial →</a>
     </div>
@@ -155,6 +158,16 @@ permalink: /
         <h3>Wayne Miller</h3>
         <div class="person-dates">1918 – 2013 · Magnum photographer</div>
         <p>Magnum photographer (later Magnum's president, 1962–66) who contributed multiple plates to the exhibition. His role as Steichen's curatorial assistant on <em>The Family of Man</em> is asserted in the major secondary literature (Sandeen 1995; Steichen's own 1963 autobiography) but was not directly named in the in-repo MoMA press release or Master Checklist as of the most recent re-verification — flagged on his <a href="{{ '/photographers/pher-wayne-miller/' | relative_url }}">photographer page</a>.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="work" %}
+      </div>
+      <div class="person-body">
+        <h3>Constantin Brancusi</h3>
+        <div class="person-dates">1876 – 1957 · Romanian sculptor</div>
+        <p>Steichen's closest artist friendship across the Atlantic. Steichen photographed his Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art in 1926. Steichen's customs appeal became <em>Brancusi v. United States</em> — and the November 1928 ruling for the sculpture is among the most-cited U.S. legal recognitions of abstract sculpture as art. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read on the Steichen page →</a></p>
       </div>
     </article>
   </div>
@@ -318,6 +331,48 @@ permalink: /
       </div>
       <p class="dist-note">Bars are scaled to the most-populated section in this snapshot. Empty rows are sections still awaiting catalog work.</p>
     </div>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Featured stories</h2>
+      <p class="lead">A handful of plates have full reader-friendly stories — the photograph's subject, where it sits in Steichen's narrative, how the critical literature has read it. Most of the 503 plates are still catalog-only; these are the ones with research notes.</p>
+    </div>
+    <a class="more" href="{{ '/photographs/' | relative_url }}">All photographs →</a>
+  </div>
+  <div class="action-row">
+    <a class="action-card" href="{{ '/photographs/photo-0001/' | relative_url }}">
+      <div class="action-kicker">Plate 1 · Section 1 Prologue</div>
+      <h3>The opening image</h3>
+      <p>Lick Observatory · the cosmic prologue that situates the human family within the universe.</p>
+    </a>
+    <a class="action-card" href="{{ '/photographs/photo-0441/' | relative_url }}">
+      <div class="action-kicker">Plate 456 · Section 40 BOMB</div>
+      <h3>The H-bomb plate</h3>
+      <p>Atomic Energy Commission · the show's narrative climax. Curatorial-vs-critical reading surfaced explicitly.</p>
+    </a>
+    <a class="action-card" href="{{ '/photographs/photo-0488/' | relative_url }}">
+      <div class="action-kicker">Plate 503 · Section 42 Childhood Magic</div>
+      <h3>The closing image</h3>
+      <p>W. Eugene Smith · <em>A Walk to Paradise Garden</em> (1946). Smith's first photograph after his Okinawa wound.</p>
+    </a>
+    <a class="action-card" href="{{ '/photographs/photo-0395/' | relative_url }}">
+      <div class="action-kicker">Plate 409 · Section 34 Revolt</div>
+      <h3>HCB in China</h3>
+      <p>Henri Cartier-Bresson · the only Chinese plate among his eleven contributions to the catalog.</p>
+    </a>
+    <a class="action-card" href="{{ '/photographs/photo-0146/' | relative_url }}">
+      <div class="action-kicker">Plate 153 · Section 15 Work</div>
+      <h3>August Sander, Germany</h3>
+      <p>Sander's typological-distance method placed inside a humanist frame — the productive interpretive tension of Steichen's selection.</p>
+    </a>
+    <a class="action-card" href="{{ '/photographs/photo-0152/' | relative_url }}">
+      <div class="action-kicker">Plate 159 · Section 15 Work</div>
+      <h3>Margaret Bourke-White</h3>
+      <p>One of LIFE's four founding staff photographers; six plates in the catalog. Pioneer of industrial and combat photography.</p>
+    </a>
   </div>
 </section>
 
