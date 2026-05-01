@@ -28,6 +28,8 @@ fresh_fetches_this_round:
 
 # Africa gap: The Family of Man in South Africa (1958) and the USIA visual diplomacy context
 
+> **Scope note.** This file is a venue-specific research supplement to `research/world-tour.md` §5 (named venues) and §9 (known gaps). It is **not** a fifth decade-themed perspective note in the `reception-*.md` series. Critical perspectives on FoM are anchored in `research/reception-1970s-critical-theory.md` (Barthes / Sontag) and `research/reception-1980s-critical-theory.md` (Sekula / Sandeen / Solomon-Godeau). Newbury 2023/2024 are filed in `sources/2020s/` as Tier-2 anchors for the African leg, not as a new perspective register.
+
 ## Scope of this note
 
 This note supplements `research/world-tour.md` with a focused treatment of the African dimension of *The Family of Man*'s international tour — specifically the Johannesburg stop attested in `src-cna-education`, the access barriers encountered when attempting to find contemporaneous African press coverage, and the post-1994 scholarly literature that provides the critical framework for understanding what the show meant in apartheid South Africa.
