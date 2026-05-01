@@ -24,7 +24,7 @@ The CNA's own educational platform historical-context page is a Tier-1 instituti
 ## Key excerpts / pages
 
 - **Access status (2026-04-30):** Page fetched successfully via WebFetch.
-- Verbatim: "the exhibition permanently opened at Clervaux Castle in June 1994, following a last showing in Toulouse, France, and in Tokyo and Hiroshima, Japan, which welcomed each day up to three thousand persons eager to admire the collection."
+- Verbatim, fetched 2026-05-01 (corrected per grounding judge on PR #95 — the earlier draft of this entry inverted the page's clause order and inserted the connective "following" which does not appear on the page): "After a last showing in Toulouse, France, in Tokyo and in Hiroshima, Japan which welcomed each day up to three thousand persons eager to admire the collection, the exhibition permanently opened at Clervaux Castle in June 1994."
 - Verbatim: "In 1964, at the end of the collection's journey around the world, the American government presented it as gift to the Grand-Duchy of Luxembourg."
 - Verbatim (Steichen quote, in Luxembourgish, attributed to a meeting with Grand Duchess Charlotte at the White House in 1963): "Ech sinn e lëtzebuerger Jong" ("I am a boy from Luxembourg").
 - Site attribution: © 2021 CNA; website designed by Cropmark.

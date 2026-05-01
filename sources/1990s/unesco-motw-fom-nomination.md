@@ -25,8 +25,8 @@ The UNESCO Memory of the World inscription (2003) is the definitive internationa
 
 - **Access status (2026-04-30):** UNESCO Memory of the World page (`https://www.unesco.org/en/memory-world/family-man`) fetched successfully. The fetch returned verified content.
 - Verbatim from fetched page: "503 photographs taken by 273 photographers" from 68 countries. Year of MoMA creation: 1955.
-- Verbatim from fetched page: "Since June 1994, the Clervaux museum has welcomed over 163,000 visitors globally."
-- Verbatim from fetched page: "Prior to permanent installation, the restored collection toured three cities in 1992 and winter 1993–1994, drawing 50,000 additional visitors." [Cities identified in other sources as Toulouse, Tokyo, and Hiroshima.]
+- Verbatim, re-fetched 2026-05-01 (corrected per grounding judge on PR #95 — the earlier draft paraphrased "the museum" as "the Clervaux museum", "has attracted" as "has welcomed", and "from all over the world" as "globally", and labelled the result verbatim): "Since June 1994 the museum has attracted over 163,000 visitors from all over the world"
+- Verbatim, re-fetched 2026-05-01 (corrected per grounding judge on PR #95 — the earlier draft synthesised this from a different page sentence and labelled it verbatim): "not counting the 50,000 who went to see the restored collection in Toulouse, Tokyo and Hiroshima in 1992 and in the winter of 1993-1994"
 - Verbatim from fetched page: the pre-installation tour represented "the final 'round-the-world' trip" before permanent placement at Clervaux.
 - Verbatim from fetched page: Submission year 2002, registration year 2003, submitted by Luxembourg.
 - The 32 thematic groupings: "joys and sadnesses, their satisfactions and their unhappinesses, and their longing for peace" (verbatim from fetched page).
