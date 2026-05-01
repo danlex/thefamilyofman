@@ -114,7 +114,7 @@ permalink: /
   <div class="home-section-head">
     <div>
       <h2>The people behind the exhibition</h2>
-      <p class="lead">Beyond the 273 photographers whose plates fill the galleries, four people shaped what visitors actually saw — and one Luxembourg head of state brought the prints home.</p>
+      <p class="lead">Beyond the 273 photographers whose plates fill the galleries, the show was shaped by a wider cast: collaborators in 1955, the artistic friendship that pre-dates it, the head of state who brought the prints home, the institutional successor at MoMA, the critics who reframed it, and the scholar and curator who keep it visible at Clervaux today.</p>
     </div>
   </div>
   <div class="people-grid">
@@ -168,6 +168,46 @@ permalink: /
         <h3>Constantin Brancusi</h3>
         <div class="person-dates">1876 – 1957 · Romanian sculptor</div>
         <p>Steichen's closest artist friendship across the Atlantic. Steichen photographed his Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art in 1926. Steichen's customs appeal became <em>Brancusi v. United States</em> — and the November 1928 ruling for the sculpture is among the most-cited U.S. legal recognitions of abstract sculpture as art. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read on the Steichen page →</a></p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="rededication-and-future" %}
+      </div>
+      <div class="person-body">
+        <h3>John Szarkowski</h3>
+        <div class="person-dates">1925 – 2007 · Steichen's MoMA successor</div>
+        <p>Took over the Department of Photography from Steichen on 1 July 1962 and held the post until 1991. <em>The Photographer's Eye</em> (1964 exhibition; 1966 book) and <em>New Documents</em> (1967, with Arbus, Friedlander, Winogrand) re-defined photographic modernism in a direction that the canonical critical reading (Phillips, <em>October</em> 22, 1982) describes as moving away from <em>The Family of Man</em>'s humanist-documentary paradigm — a framing the institutional record does not itself adopt.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="hardship-suffering-and-war" %}
+      </div>
+      <div class="person-body">
+        <h3>Roland Barthes</h3>
+        <div class="person-dates">1915 – 1980 · French critic</div>
+        <p>Wrote "La grande famille des hommes" in <em>Mythologies</em> (1957), the foundational critique of the exhibition's universalism. He argued the show converts historically specific human arrangements into eternal Nature — placing "Nature at the bottom of History." His essay set the terms for every subsequent critical reading on the <a href="{{ '/reception/' | relative_url }}">Reception page</a>.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="rededication-and-future" %}
+      </div>
+      <div class="person-body">
+        <h3>Eric Sandeen</h3>
+        <div class="person-dates">scholar · standard scholarly account</div>
+        <p>Wrote <em>Picturing an Exhibition: The Family of Man and 1950s America</em> (University of New Mexico Press, 1995) — the standard book-length historical study. Sandeen reconstructs how the show was assembled, how it was received venue by venue, and how its Cold War sponsorship shaped what was shown and what wasn't, complicating both Steichen's universalist framing and Barthes's counter-framing with archive evidence. Reviews are catalogued in the bibliography (<em>American Historical Review</em> 1997, <em>Journal of American Studies</em> 1996); biographical dates not re-verified against a Tier-1/2 source in our research.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="religion-and-faith" %}
+      </div>
+      <div class="person-body">
+        <h3>Anke Reitz</h3>
+        <div class="person-dates">curator · Centre national de l'audiovisuel</div>
+        <p>Co-curator of the Clervaux Castle permanent installation today and co-editor (with Gerd Hurm and Shamoon Zamir) of <em>The Family of Man Revisited: Photography in a Global Age</em> (I.B. Tauris, 2018) — the most recent book-length critical reassessment of the exhibition. Biographical details and dates are not directly anchored in the in-repo CNA pages; flagged for upgrade against a CNA staff page or scholar bio.</p>
       </div>
     </article>
   </div>
