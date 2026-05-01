@@ -173,6 +173,39 @@ permalink: /
   </div>
 </section>
 
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <div class="kicker">1920–1928 · before the gallery</div>
+      <h2>The Endless Column in the garden — Steichen helps Brancusi</h2>
+      <p class="lead">Twenty-seven years before <em>The Family of Man</em>, Edward Steichen was the photographer-friend who fought one of the most-cited U.S. legal recognitions of abstract sculpture as art — the case that ruled, in November 1928, that Constantin Brancusi's polished bronze <em>Bird in Space</em> was a work of art rather than a piece of duty-bearing manufactured metal.</p>
+    </div>
+    <a class="more" href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section →</a>
+  </div>
+  <div class="memorial-card">
+    <div class="memorial-portrait person-portrait-glyph">
+      {% include section-glyph.html slug="work" %}
+      <div class="memorial-portrait-credit">Constantin Brancusi (1876–1957) · dates per Wikipedia, pointer-only</div>
+    </div>
+    <div class="memorial-body">
+      <p class="memorial-prose">
+        Across the 1920s Steichen made a series of photographs of Brancusi inside his Paris studio. The most-published of these, the 1925 portrait <em>Brancusi in His Studio, Paris</em>, is anchored in this wiki at Tier 2 through an Aperture Foundation print record; earlier studio photographs dated 1920 and a portrait dated 1922 are recorded at the Wikipedia level only and remain pointer-only here until the Met and MoMA collection records can be re-fetched.
+      </p>
+      <p class="memorial-prose">
+        At Steichen's house in <strong>Voulangis</strong>, in the French countryside outside Paris, Brancusi's <em>Endless Column</em> stood in the garden — recorded today as <em>Brancusi's "Endless Column" in Mr. Steichen's Garden, Voulangis, France</em> in the Metropolitan Museum's photography collection (the catalog page returned 403 in our research round; the title is carried as a Wikipedia pointer). Brancusi made his <em>Endless Column</em> in repeating modular units; the most monumental version is the cast-iron monument at Târgu Jiu, Romania, but the Voulangis piece predates it by a decade and reflects how directly Steichen lived with Brancusi's work.
+      </p>
+      <blockquote class="memorial-quote">
+        "In the meanwhile there has been developing a so-called new school of art, whose exponents attempt to portray abstract ideas rather than imitate natural objects."
+        <cite>Justice J. Waite, opinion of the U.S. Customs Court in <em>Brancusi v. United States</em>, November 1928. Quoted via Wikipedia and the Bellevue College reproduction of the court extract — pointer-only until the official court reporter is consulted.</cite>
+      </blockquote>
+      <p class="memorial-prose">
+        In <strong>October 1926</strong> a <em>Bird in Space</em> bronze arrived in New York harbor on the steamship <em>Paris</em>, alongside nineteen other Brancusi sculptures destined for U.S. exhibition. U.S. Customs officials refused to classify the polished bronze as art; under the 1922 Tariff Act, an "original work of a professional sculptor" was duty-free, but the officials saw a "manufactured metal object" subject to a 40% tariff. <strong>Steichen filed an appeal in November 1926</strong>. The case became <em>Brancusi v. United States</em>; in November 1928, Judges Young and Waite of the U.S. Customs Court ruled in favor of the artist. Whether Steichen personally took the witness stand alongside Jacob Epstein and other witnesses, or whether his name appears only as the consignee/appellant on the case caption, is not resolved by the pointer sources used here — see the full Steichen page for the open questions and the upgrade path.
+      </p>
+      <a class="memorial-cta" href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section on the Steichen page →</a>
+    </div>
+  </div>
+</section>
+
 <section class="exposition-wall">
   <img src="{{ '/assets/images/family-of-man-layout.jpg' | relative_url }}"
        alt="Layout view of a Family of Man installation"
