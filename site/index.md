@@ -114,7 +114,7 @@ permalink: /
   <div class="home-section-head">
     <div>
       <h2>The people behind the exhibition</h2>
-      <p class="lead">Beyond the 273 photographers whose plates fill the galleries, four people shaped what visitors actually saw — and one Luxembourg head of state brought the prints home.</p>
+      <p class="lead">Beyond the 273 photographers whose plates fill the galleries, the show was shaped by a wider cast: collaborators in 1955, the artistic friendship that pre-dates it, the head of state who brought the prints home, the institutional successor at MoMA, the critics who reframed it, and the scholar and curator who keep it visible at Clervaux today.</p>
     </div>
   </div>
   <div class="people-grid">
@@ -170,6 +170,82 @@ permalink: /
         <p>Steichen's closest artist friendship across the Atlantic. Steichen photographed his Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art in 1926. Steichen's customs appeal became <em>Brancusi v. United States</em> — and the November 1928 ruling for the sculpture is among the most-cited U.S. legal recognitions of abstract sculpture as art. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read on the Steichen page →</a></p>
       </div>
     </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="rededication-peace-and-the-future" %}
+      </div>
+      <div class="person-body">
+        <h3>John Szarkowski</h3>
+        <div class="person-dates">1925 – 2007 · Steichen's MoMA successor</div>
+        <p>Took over the Department of Photography from Steichen on 1 July 1962 and held the post until 1991. <em>The Photographer's Eye</em> (1964 exhibition; 1966 book) and <em>New Documents</em> (1967, with Arbus, Friedlander, Winogrand) re-defined photographic modernism in a direction that the canonical critical reading (Phillips, <em>October</em> 22, 1982) describes as moving away from <em>The Family of Man</em>'s humanist-documentary paradigm — a framing the institutional record does not itself adopt.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="hardship-suffering-and-war" %}
+      </div>
+      <div class="person-body">
+        <h3>Roland Barthes</h3>
+        <div class="person-dates">French critic · biographical dates not anchored in our Barthes source files</div>
+        <p>Wrote "La grande famille des hommes" in <em>Mythologies</em> (1957), the foundational critique of the exhibition's universalism. He argued the show converts historically specific human arrangements into eternal Nature — placing "Nature at the bottom of History." His essay set the terms for every subsequent critical reading on the <a href="{{ '/reception/' | relative_url }}">Reception page</a>.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="rededication-peace-and-the-future" %}
+      </div>
+      <div class="person-body">
+        <h3>Eric Sandeen</h3>
+        <div class="person-dates">scholar · standard scholarly account</div>
+        <p>Wrote <em>Picturing an Exhibition: The Family of Man and 1950s America</em> (University of New Mexico Press, 1995) — the standard book-length historical study. Sandeen reconstructs how the show was assembled, how it was received venue by venue, and how its Cold War sponsorship shaped what was shown and what wasn't, complicating both Steichen's universalist framing and Barthes's counter-framing with archive evidence. Reviews are catalogued in the bibliography (<em>American Historical Review</em> 1997, <em>Journal of American Studies</em> 1996); biographical dates not re-verified against a Tier-1/2 source in our research.</p>
+      </div>
+    </article>
+    <article class="person-card">
+      <div class="person-portrait person-portrait-glyph">
+        {% include section-glyph.html slug="relationships-and-community" %}
+      </div>
+      <div class="person-body">
+        <h3>Anke Reitz</h3>
+        <div class="person-dates">curator · Centre national de l'audiovisuel</div>
+        <p>Co-editor (with Gerd Hurm and Shamoon Zamir) of <em>The Family of Man Revisited: Photography in a Global Age</em> (I.B. Tauris, 2018) — the most recent book-length critical reassessment of the exhibition. Frequently named in CNA / Clervaux contexts as part of the team responsible for the permanent installation; her exact current title is not directly anchored against an in-repo CNA staff page in this round and is flagged for upgrade. Biographical details and dates not re-verified against a Tier-1/2 source.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <div class="kicker">1920–1928 · before the gallery</div>
+      <h2>The Endless Column in the garden — Steichen helps Brancusi</h2>
+      <p class="lead">Twenty-seven years before <em>The Family of Man</em>, Edward Steichen was the photographer-friend who fought one of the most-cited U.S. legal recognitions of abstract sculpture as art — the case that ruled, in November 1928, that Constantin Brancusi's polished bronze <em>Bird in Space</em> was a work of art rather than a piece of duty-bearing manufactured metal.</p>
+    </div>
+    <a class="more" href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section →</a>
+  </div>
+  <div class="memorial-card">
+    <div class="memorial-portrait person-portrait-glyph">
+      {% include section-glyph.html slug="work" %}
+      <div class="memorial-portrait-credit">Constantin Brancusi (1876–1957) · dates per Wikipedia, pointer-only</div>
+    </div>
+    <div class="memorial-body">
+      <p class="memorial-prose">
+        Across the 1920s Steichen made a series of photographs of Brancusi inside his Paris studio. The most-published of these, the 1925 portrait <em>Brancusi in His Studio, Paris</em>, is anchored in this wiki at Tier 2 through an Aperture Foundation print record; earlier studio photographs dated 1920 and a portrait dated 1922 are recorded at the Wikipedia level only and remain pointer-only here until the Met and MoMA collection records can be re-fetched.
+      </p>
+      <p class="memorial-prose">
+        At Steichen's house in <strong>Voulangis</strong>, in the French countryside outside Paris, Brancusi's <em>Endless Column</em> stood in the garden — recorded today as <em>Brancusi's "Endless Column" in Mr. Steichen's Garden, Voulangis, France</em> in the Metropolitan Museum's photography collection (the catalog page returned 403 in our research round; the title is carried as a Wikipedia pointer). The Voulangis piece reflects how directly Steichen lived with Brancusi's work — a sculpture by the artist standing in his own garden, around the same years that he was photographing Brancusi inside the Paris studio.
+      </p>
+      <blockquote class="memorial-quote">
+        "…a so-called new school of art, whose exponents attempt to portray abstract ideas rather than imitate natural objects."
+        <cite>Justice J. Waite, opinion of the U.S. Customs Court in <em>Brancusi v. United States</em>, November 1928 (verbatim fragment as preserved on the Steichen page; pointer-only via Wikipedia and the Bellevue College court-extract reproduction, not the official court reporter).</cite>
+      </blockquote>
+      <p class="memorial-prose">
+        In <strong>October 1926</strong> a <em>Bird in Space</em> bronze arrived in New York harbor on the steamship <em>Paris</em>, alongside nineteen other Brancusi sculptures destined for U.S. exhibition. U.S. Customs officials refused to classify the polished bronze as art; under the 1922 Tariff Act, an "original work of a professional sculptor" was duty-free, but the officials saw a "manufactured metal object" subject to a 40% tariff. <strong>Steichen filed an appeal in November 1926</strong>. The case became <em>Brancusi v. United States</em>; in November 1928, Judges Young and Waite of the U.S. Customs Court ruled in favor of the artist. Whether Steichen personally took the witness stand alongside Jacob Epstein and other witnesses, or whether his name appears only as the consignee/appellant on the case caption, is not resolved by the pointer sources used here — see the full Steichen page for the open questions and the upgrade path.
+      </p>
+      <p class="memorial-prose">
+        <strong>Perspective note.</strong> This section follows the standard secondary-literature framing of <em>Brancusi v. United States</em>, with Steichen as importer and appellant. Other readings exist: Marcel Duchamp's role in organising the U.S. shipment and placing Brancusi's work with American collectors is treated by some art historians as more central to the New York side of the affair than Steichen's; later scholarship has also read the case in terms of art-market consolidation and the institutional canonisation of male modernist sculpture. Those readings are not anchored to in-repo Tier-1/2 sources in this round — the perspective note as it appears in the long-form section on /steichen/ is the canonical version.
+      </p>
+      <a class="memorial-cta" href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section on the Steichen page →</a>
+    </div>
   </div>
 </section>
 
