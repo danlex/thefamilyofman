@@ -45,6 +45,23 @@ Full role definitions live in `.claude/agents/`.
   - **Schema checks** — confirm `validate_schema.py` passes locally
   - **Perspective tagging** — declare perspective(s) touched; note any contested claims
 
+## Judge-panel calibration by PR type
+
+Not every PR needs all 4 judges. Apply the matrix below; spawn only the judges marked ✓.
+
+| PR type | Schema | Credibility | Grounding | Bias |
+|---|:---:|:---:|:---:|:---:|
+| Sources / research bibliography (sources/, research/*reception*) | ✓ | ✓ | ✓ | ✓ |
+| Per-photograph research notes (research/photographs/) | ✓ | spot-check | ✓ | only if ≥2 high-stakes plates (H-bomb, closing image, Section 40, contested photographers) |
+| Site infrastructure (scripts/, site/_layouts/, site/_includes/) — pure code, no factual claims | ✓ | — | — | — |
+| Site content pages with prose claims (site/*.md outside _photographs/) | ✓ | ✓ | ✓ | ✓ |
+| Photographer biography batches (data/photographers.csv + research/photographers/) | ✓ | ✓ | ✓ | ✓ |
+| Mindmap / progress.yml / dashboards | ✓ | — | spot-check | — |
+
+**Spot-check** = the orchestrator (not a spawned judge) greps the diff for the recurring failure modes: fabricated-verbatim quotes, orphan src-ids, tier inflation, Wayne Miller curatorial-assistant claim. If clean, skip the judge; if anything suspicious, spawn the relevant judge.
+
+**Rationale:** the Schema judge is fast and mechanical (Haiku model). The Credibility / Grounding / Bias judges are heavier and have shown the same recurring catches across batches. Always running all 4 spends coordination cycles on already-known failure modes; calibrating by PR type focuses the heavier judges on PRs where their unique value lands.
+
 ## Judge review format
 
 Every judge posts exactly one PR review comment with this structure:
