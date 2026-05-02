@@ -29,9 +29,10 @@ The 1962 transition from Steichen to Szarkowski at the MoMA Department of Photog
 
 Verbatim from the article (fetched 2026-05-02):
 
-- Steichen "served as Director of Photography until 1962."
+- "From 1947 to 1961, Steichen served as Director of the Department of Photography at New York's Museum of Modern Art" (verbatim from the Wikipedia article).
 - Steichen "announced his retirement in 1961."
 - "Steichen hired John Szarkowski to be his successor at the Museum of Modern Art on July 1, 1962."
+- *Inference (not a verbatim quote):* the directorship formally ended in 1961 with the retirement announcement; Steichen continued as **Director Emeritus** through *The Bitter Years* in October–November 1962, with Szarkowski's effective start date 1 July 1962.
 - Steichen's last MoMA exhibition: "The Bitter Years: 1935–1941" (October 18–November 25, 1962), where Steichen served as "Director Emeritus."
 - Death: Steichen "lived there [Umpawaug, Connecticut] until his death on March 25, 1973, two days before his 94th birthday."
 

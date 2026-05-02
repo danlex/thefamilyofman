@@ -23,7 +23,7 @@ Tier 3: Wikipedia is **pointer-only** per `CREDIBILITY.md`. Recorded here for th
 
 ## Relevance
 
-The 1967 *Concerned Photographer* exhibits — and the institutional arc they would launch (the International Fund for Concerned Photography, then the International Center of Photography in 1974) — are part of the 1960s American photography institution-building that re-articulated the documentary tradition Steichen had assembled in *The Family of Man*. Several *Family of Man* photographers (Robert Capa via Cornell Capa's continuing custodianship, David Seymour, Henri Cartier-Bresson, Werner Bischof, Eugene Smith) would become foundational figures in the *Concerned Photographer* canon. This pointer entry captures the 1967 launch year verbatim from Wikipedia for future research into the FoM → Concerned Photographer institutional arc.
+The 1967 *Concerned Photographer* exhibits — and the institutional arc they would launch (the International Fund for Concerned Photography, then the International Center of Photography in 1974) — are part of the 1960s American photography institution-building that **re-articulated** the documentary-humanist tradition Steichen had assembled in *The Family of Man*. Several *FoM* photographers (Robert Capa via Cornell Capa's continuing custodianship, David Seymour, Henri Cartier-Bresson, Werner Bischof, W. Eugene Smith) would become foundational figures in the *Concerned Photographer* canon — the relationship is institutional continuity rather than rupture. `research/reception-1980s-critical-theory.md` ¶4 explicitly groups Cornell Capa / ICP within the humanist-documentary tradition; this entry captures the 1967 launch year verbatim from Wikipedia as one anchor for that institutional-arc framing.
 
 ## Key excerpts / pages
 
