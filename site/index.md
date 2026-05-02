@@ -181,12 +181,12 @@ permalink: /
       </div>
     </article>
     <article class="person-card">
-      <div class="person-portrait person-portrait-glyph">
-        {% include section-glyph.html slug="hardship-suffering-and-war" %}
+      <div class="person-portrait">
+        <img src="{{ '/assets/images/barthes-1969-dagens-nyheter.jpg' | relative_url }}" alt="Roland Barthes photographed for Dagens Nyheter, 1969" loading="lazy">
       </div>
       <div class="person-body">
         <h3>Roland Barthes</h3>
-        <div class="person-dates">French critic · biographical dates not anchored in our Barthes source files</div>
+        <div class="person-dates">1915 – 1980 · French critic and semiotician (per <code>src-wikipedia-barthes-pointer</code>)</div>
         <p>Wrote "La grande famille des hommes" in <em>Mythologies</em> (1957), the foundational critique of the exhibition's universalism. He argued the show converts historically specific human arrangements into eternal Nature — placing "Nature at the bottom of History." His essay set the terms for every subsequent critical reading on the <a href="{{ '/reception/' | relative_url }}">Reception page</a>.</p>
       </div>
     </article>
