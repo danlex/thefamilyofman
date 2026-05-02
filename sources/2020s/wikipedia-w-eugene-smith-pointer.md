@@ -33,7 +33,7 @@ Verbatim from the article (fetched 2026-05-02):
 - **Death:** October 15, 1978, in Tucson, Arizona, U.S.
 - **Nationality:** American
 - **Profession framing:** "perhaps the single most important American photographer in the development of the editorial photo essay"
-- ***A Walk to Paradise Garden*** (1946): "showing his two children walking together in a wooded clearing. The image gained prominence when curator Edward Steichen selected it as the closing photograph for the 1955 Museum of Modern Art exhibition 'The Family of Man,' which featured 503 photographs by 273 photographers from 68 countries."
+- ***A Walk to Paradise Garden*** (1946) — verbatim from the article (re-fetched 2026-05-02): "'The Walk to Paradise Garden' (1946) – single photograph of his two children walking hand in hand towards a clearing in woods. It was the closing image in the 1955 Museum of Modern Art exhibition, *The Family of Man*, organized by Edward Steichen with 503 photographs, by 273 photographers from 68 countries."
 
 ## Notes
 

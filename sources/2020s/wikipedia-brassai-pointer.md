@@ -31,7 +31,7 @@ Verbatim from the article (fetched 2026-05-02):
 
 - **Birth name:** Gyula Halász
 - **Birth:** 9 September 1899 in Brassó, Transylvania, Kingdom of Hungary, Austria-Hungary (now Brașov, Romania)
-- **Death:** 8 July 1984 in Beaulieu-sur-Mer, France
+- **Death:** 8 July 1984. Place described two ways on the same Wikipedia article: the infobox gives "Beaulieu-sur-Mer, France"; the Death section reads verbatim: "Brassaï died on 8 July 1984 at his home on the French Riviera near Nice and was buried at Montparnasse Cemetery in Paris." (Beaulieu-sur-Mer is a commune on the French Riviera approximately 7 km east of Nice; the two descriptions are not in contradiction.)
 - **Nationality:** Hungarian-French (naturalized French citizen in 1949)
 - **Pseudonym:** adopted from his birthplace Brassó
 - **Notable works:** the 1933 publication *Paris de nuit*, capturing Parisian nightlife

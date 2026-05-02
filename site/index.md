@@ -186,7 +186,7 @@ permalink: /
       </div>
       <div class="person-body">
         <h3>Roland Barthes</h3>
-        <div class="person-dates">1915 – 1980 · French critic and semiotician</div>
+        <div class="person-dates">1915 – 1980 · French critic and semiotician (per <code>src-wikipedia-barthes-pointer</code>)</div>
         <p>Wrote "La grande famille des hommes" in <em>Mythologies</em> (1957), the foundational critique of the exhibition's universalism. He argued the show converts historically specific human arrangements into eternal Nature — placing "Nature at the bottom of History." His essay set the terms for every subsequent critical reading on the <a href="{{ '/reception/' | relative_url }}">Reception page</a>.</p>
       </div>
     </article>
