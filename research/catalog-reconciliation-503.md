@@ -54,6 +54,8 @@ The off-by-one resolves at **photo-0488** vs. the highest checklist number #503:
 
 **Conclusion: the closed catalog count is 490 plate rows for the 503-numbered MoMA Master Checklist.**
 
+> **Counting-convention note.** The arithmetic above uses two different gap counts depending on whether bare-`#11` is treated as a missing number (it is, in the strict-bare-number reading: the printed checklist contains no entry "11" without a letter suffix). The first block uses **16** missing numbers (excluding `#11`, on the view that the `#11A` unique row "occupies" the slot); the corrected derivation uses **17** (including `#11`). The CSV note on `photo-0489` follows the **16** convention (where the slot is implicitly occupied); this reconciliation note follows the **17** convention, with the `+1` for `#11A` added back as a separate term. Both arrive at **490**; the difference is bookkeeping, not a missing/extra row.
+
 ## The 17 documented missing-number gaps
 
 For each, a quick witness pointer to the row that documents it.
