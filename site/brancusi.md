@@ -12,7 +12,7 @@ edit_dir: site
 {% include image.html
    src="/assets/images/brancusi-1922-steichen-portrait.jpg"
    alt="Constantin Brâncuși photographed by Edward Steichen, 1922"
-   caption="Constantin Brâncuși photographed by Steichen in 1922 at Steichen's home in Voulangis, France (per the Wikimedia Commons record, re-fetched 2026-05-02). One of several portraits Steichen made of the sculptor across the 1920s — a friendship that would lead to the 1928 *Brancusi v. United States* customs case."
+   caption="Constantin Brâncuși photographed by Steichen in 1922 at Brâncuși's workshop in Voulangis, France (per the Wikimedia Commons primary record, re-fetched 2026-05-02). One of several portraits Steichen made of the sculptor across the 1920s — a friendship that would lead to the 1928 *Brancusi v. United States* customs case."
    credit="Edward Steichen, 1922 · Public domain in the United States (PD-US-expired)"
    credit_url="https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_Brancusi.jpg" %}
 </div>

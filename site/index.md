@@ -225,7 +225,7 @@ permalink: /
   <div class="memorial-card">
     <a class="memorial-portrait" href="{{ '/brancusi/' | relative_url }}">
       <img src="{{ '/assets/images/brancusi-1922-steichen-portrait.jpg' | relative_url }}" alt="Constantin Brâncuși photographed by Edward Steichen, 1922" loading="lazy">
-      <div class="memorial-portrait-credit">Constantin Brâncuși (1876–1957), photographed by Steichen at Steichen's home in Voulangis, France, 1922 · Public domain in the United States (PD-US-expired)</div>
+      <div class="memorial-portrait-credit">Constantin Brâncuși (1876–1957), photographed by Steichen at Brâncuși's workshop in Voulangis, France, 1922 (per the Wikimedia Commons primary record) · Public domain in the United States (PD-US-expired)</div>
     </a>
     <div class="memorial-body">
       <p class="memorial-prose">
