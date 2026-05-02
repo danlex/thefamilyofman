@@ -161,13 +161,13 @@ permalink: /
       </div>
     </article>
     <article class="person-card">
-      <div class="person-portrait person-portrait-glyph">
-        {% include section-glyph.html slug="work" %}
-      </div>
+      <a class="person-portrait" href="{{ '/brancusi/' | relative_url }}">
+        <img src="{{ '/assets/images/brancusi-1922-steichen-portrait.jpg' | relative_url }}" alt="Constantin Brâncuși photographed by Edward Steichen, 1922" loading="lazy">
+      </a>
       <div class="person-body">
-        <h3>Constantin Brancusi</h3>
+        <h3>Constantin Brâncuși</h3>
         <div class="person-dates">1876 – 1957 · Romanian sculptor</div>
-        <p>Steichen's closest artist friendship across the Atlantic. Steichen photographed his Paris studio across the 1920s, kept Brancusi's <em>Endless Column</em> in his garden at Voulangis, and imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art in 1926. Steichen's customs appeal became <em>Brancusi v. United States</em> — and the November 1928 ruling for the sculpture is among the most-cited U.S. legal recognitions of abstract sculpture as art. <a href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read on the Steichen page →</a></p>
+        <p>Steichen's closest artist friendship across the Atlantic. Steichen photographed Brâncuși and his work across the 1920s, kept Brâncuși's <em>Endless Column</em> in his garden at Voulangis, and imported a <em>Bird in Space</em> bronze that U.S. Customs refused to recognise as art in 1926. Steichen's customs appeal became <em>Brancusi v. United States</em> — and the November 1928 ruling for the sculpture is among the most-cited U.S. legal recognitions of abstract sculpture as art. <a href="{{ '/brancusi/' | relative_url }}">Brâncuși and Steichen →</a></p>
       </div>
     </article>
     <article class="person-card">
@@ -220,13 +220,13 @@ permalink: /
       <h2>The Endless Column in the garden — Steichen helps Brancusi</h2>
       <p class="lead">Twenty-seven years before <em>The Family of Man</em>, Edward Steichen was the photographer-friend who fought one of the most-cited U.S. legal recognitions of abstract sculpture as art — the case that ruled, in November 1928, that Constantin Brancusi's polished bronze <em>Bird in Space</em> was a work of art rather than a piece of duty-bearing manufactured metal.</p>
     </div>
-    <a class="more" href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section →</a>
+    <a class="more" href="{{ '/brancusi/' | relative_url }}">Brâncuși and Steichen — full page →</a>
   </div>
   <div class="memorial-card">
-    <div class="memorial-portrait person-portrait-glyph">
-      {% include section-glyph.html slug="work" %}
-      <div class="memorial-portrait-credit">Constantin Brancusi (1876–1957) · dates per Wikipedia, pointer-only</div>
-    </div>
+    <a class="memorial-portrait" href="{{ '/brancusi/' | relative_url }}">
+      <img src="{{ '/assets/images/brancusi-1922-steichen-portrait.jpg' | relative_url }}" alt="Constantin Brâncuși photographed by Edward Steichen, 1922" loading="lazy">
+      <div class="memorial-portrait-credit">Constantin Brâncuși (1876–1957), photographed by Steichen at Steichen's home in Voulangis, France, 1922 · Public domain in the United States (PD-US-expired)</div>
+    </a>
     <div class="memorial-body">
       <p class="memorial-prose">
         Across the 1920s Steichen made a series of photographs of Brancusi inside his Paris studio. The most-published of these, the 1925 portrait <em>Brancusi in His Studio, Paris</em>, is anchored in this wiki at Tier 2 through an Aperture Foundation print record; earlier studio photographs dated 1920 and a portrait dated 1922 are recorded at the Wikipedia level only and remain pointer-only here until the Met and MoMA collection records can be re-fetched.
@@ -244,7 +244,7 @@ permalink: /
       <p class="memorial-prose">
         <strong>Perspective note.</strong> This section follows the standard secondary-literature framing of <em>Brancusi v. United States</em>, with Steichen as importer and appellant. Other readings exist: Marcel Duchamp's role in organising the U.S. shipment and placing Brancusi's work with American collectors is treated by some art historians as more central to the New York side of the affair than Steichen's; later scholarship has also read the case in terms of art-market consolidation and the institutional canonisation of male modernist sculpture. Those readings are not anchored to in-repo Tier-1/2 sources in this round — the perspective note as it appears in the long-form section on /steichen/ is the canonical version.
       </p>
-      <a class="memorial-cta" href="{{ '/steichen/#brancusi-the-studio-and-the-1928-customs-case' | relative_url }}">Read the full Brancusi section on the Steichen page →</a>
+      <a class="memorial-cta" href="{{ '/brancusi/' | relative_url }}">Read the full Brâncuși and Steichen page →</a>
     </div>
   </div>
 </section>
