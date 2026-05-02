@@ -38,6 +38,6 @@ Verbatim from the article (fetched 2026-05-02):
 
 ## Notes
 
-- Cross-references: `src-moma-1962-szarkowski-appointment`, `src-moma-1962-bitter-years-exhibition` (this batch), `src-szarkowski-1964-photographers-eye-exh`, `src-phillips-1982-judgment-seat`.
+- Cross-references: `src-moma-1962-szarkowski-appt`, `src-moma-1962-bitter-years-exhibition` (this batch), `src-szarkowski-1964-photographers-eye-exh`, `src-phillips-1982-judgment-seat`.
 - Per `CREDIBILITY.md` Wikipedia is treated as a pointer source — these claims should be promoted to Tier 1 / Tier 2 against MoMA archival records (e.g., MoMA press release for the 1962 succession; MoMA personnel records) before being cited as authoritative.
-- The 1961 retirement announcement vs the 1962 effective date is consistent with the Szarkowski appointment news-cycle narrative recorded at `src-moma-1962-szarkowski-appointment` (in repo) — those two source files align.
+- The 1961 retirement announcement vs the 1962 effective date is consistent with the Szarkowski appointment news-cycle narrative recorded at `src-moma-1962-szarkowski-appt` (in repo) — those two source files align.

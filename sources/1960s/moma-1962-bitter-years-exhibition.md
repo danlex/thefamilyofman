@@ -40,4 +40,4 @@ The exhibition was subsequently bequeathed to Luxembourg by Steichen and is toda
 - `verified: false` because the canonical MoMA exhibition page returned HTTP 403 in this session.
 - The dates and curatorial role are anchored to Wikipedia as a pointer source per `CREDIBILITY.md`.
 - For the Luxembourg-installation framing of *The Bitter Years* (1965 gift; 1989 transfer to CNA; 28 September 2012 opening at the Dudelange Waassertuerm; December 2020 closure), see the CNA Bitter Years page at `https://www.steichencollections-cna.lu/eng/collections/2_the-bitter-years`, quoted inline in `site/steichen.md` footnote [^16] (PR #101). The CNA page has NOT yet been registered as a `src-` entry in this repo; flagged for a future batch as a candidate `src-cna-collections-eng-bitter-years`.
-- Cross-references: `src-aperture-1969-steichen`, `src-steichen-1963-life`, `src-moma-1962-szarkowski-appointment`.
+- Cross-references: `src-aperture-1969-steichen`, `src-steichen-1963-life`, `src-moma-1962-szarkowski-appt`.
