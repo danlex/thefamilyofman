@@ -16,7 +16,9 @@
 
 The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #37 as:
 
-> *"37 — U.S.A. — Elliott Erwitt, Magnum, American — 14 × 34 cm"*
+> *"37 — U.S.A. — Elliott Erwitt, Magnum, American"*
+
+The print dimension (14 × 34 cm) is recorded in `data/photographs.csv` for this row; the checklist line above does not carry print dimensions.
 
 This is the first of two Erwitt plates in the Pregnancy–Births sequence (the second is plate #50, photo-0047, Section 7 Births). Erwitt has four plates in the full exhibition; all four are set in the USA and credited via Magnum with nationality "American" per the checklist (data verified against `data/photographs.csv` grep this session; prior plates at photo-0034 and photo-0047; later plates at photo-0178 and photo-0359).
 
@@ -30,7 +32,7 @@ Whether the print entered MoMA's permanent collection or was returned after the 
 
 The MoMA Master Checklist records "U.S.A." as the location for plate #37 but records no further description of its subject. The checklist provides no title and no date.
 
-Section 4, Pregnancy, is positioned in the exhibition's narrative immediately after Section 3 Marriage and immediately before Section 5 Childbirth, forming a continuous biological-life arc from union through birth. The MoMA Archives Highlights page (`src-moma-archives-highlights-1955`, Tier-1, in-repo, read this session) summarizes this arc as: "lovers → childbirth → household life → careers," within which the Pregnancy–Childbirth sequence is the transition from private intimate life to the beginning of family. In this context, plate #37 functions as a contribution to the exhibition's thematic claim that pregnancy is a shared human experience that transcends national or cultural context.
+Section 4, Pregnancy, is positioned in the exhibition's narrative immediately after Section 3 Marriage and immediately before Section 5 Childbirth, forming a continuous biological-life arc from union through birth. The MoMA Archives Highlights page (`src-moma-archives-highlights-1955`, Tier-1, in-repo, read this session) summarizes the exhibition's broader arc as moving from entrance archway with crowd imagery → lovers → childbirth → household life → careers → death → H-bomb → return to children / new life; this is a paraphrase of that summary, with the Pregnancy–Childbirth sequence sitting in the lovers→childbirth opening of the arc as the transition from private intimate life to the beginning of family. In this context, plate #37 functions as a contribution to the exhibition's thematic claim that pregnancy is a shared human experience that transcends national or cultural context.
 
 Erwitt was known, across his career, for black-and-white photographs of everyday American life, often with an ironic or wry quality; this general characterization derives from `src-magnum-photographer-bios` (Tier-3, in-repo, read this session) and is not a claim about the specific subject of plate #37. What plate #37 depicts — the stage or moment of pregnancy it documents — is not stated by the checklist and cannot be confirmed without a Tier-1/2 source providing plate-level identification.
 

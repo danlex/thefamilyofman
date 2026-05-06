@@ -16,7 +16,9 @@
 
 The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #287 as:
 
-> *"287 — Italy — David Seymour, Magnum, UNESCO (commissioner), American — 18 × 14 1/2 cm"*
+> *"287 — Italy — David Seymour, Magnum, UNESCO (commissioner), American"*
+
+The print dimension (18 × 14½ cm) is recorded in `data/photographs.csv` for this row; the checklist line above does not carry print dimensions.
 
 This is the second of four Seymour plates in the exhibition (first at #68, photo-0064, Austria; third at #315, photo-0304, Germany; fourth at #331, photo-0320, Italy). All four plates carry the identical triple attribution: Magnum (agency), UNESCO (commissioner), and American (nationality per checklist). Plate #287 is the final numbered plate of Section 24, Ring Around the Rosy, in the checklist's numerical sequence — the next entry on the same checklist page is the recurring Eugene Harris flute-player image (#11E, Peru), followed by the SECTION 25 RELATIONSHIPS heading. The position of this plate at the section's close, just before Section 25 Relationships begins, gives it a transitional structural role within the exhibition's arc.
 

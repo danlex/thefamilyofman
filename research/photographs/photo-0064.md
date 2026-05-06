@@ -16,7 +16,9 @@
 
 The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #68 as:
 
-> *"68 — Austria — David Seymour, Magnum, UNESCO (publication/commissioner), American — 24 × 22 1/2 cm"*
+> *"68 — Austria — David Seymour, Magnum, UNESCO (publication/commissioner), American"*
+
+The print dimension (24 × 22½ cm) is recorded in `data/photographs.csv` for this row; the checklist line above does not carry print dimensions.
 
 This is the first of four Seymour plates in the exhibition. All four carry the identical triple credit — Magnum (agency), UNESCO (commissioner), American (nationality per checklist) — across different countries: Austria (this plate, photo-0064), Italy (plate #287, photo-0276), Germany (plate #315, photo-0304), and Italy again (plate #331, photo-0320). The consistent Magnum + UNESCO combination across four plates set in different post-war European countries suggests a single UNESCO-commissioned photographic project that Steichen drew on; this provenance claim has not been cross-verified against any UNESCO archival source fetched this round.
 
@@ -34,7 +36,7 @@ The consistent UNESCO commission across all four of Seymour's plates suggests th
 
 Section 9, Children (A), is the first of two Children sections in the exhibition (the second is Section 11, Children B). It positions photographs of childhood at the center of the exhibition's family-and-life arc, following the Pregnancy and Childbirth and Nursing Mothers sections. Plate #68 (24 × 22 1/2 cm) is a medium-sized print within this section, consistent with clustered wall groupings typical of the installation's mid-scale plates.
 
-Austria's post-war political status — Allied occupation through the early 1950s and the restoration of sovereignty under the Austrian State Treaty — is part of the broader context for any image credited to Austria in this period, but no source has been fetched in this round to anchor the specific political timeline against the date the photograph was made; the "Austria" location designation in the checklist does not by itself establish when, where, or in what condition the image was taken.
+No claim about Austria's specific post-war political conditions, occupation, or treaty timeline is anchored in any source fetched in this round. The "Austria" location designation in the checklist by itself establishes only the country attribution, not when, where, or in what conditions the photograph was made.
 
 ## Reception / analysis
 
@@ -47,7 +49,7 @@ Eric Sandeen (*Picturing an Exhibition*, 1995, `src-sandeen-1995`, Tier-2, in-re
 ## Perspective notes
 
 - **Institutional / curatorial (Steichen / MoMA / UNESCO):** All four Seymour plates carry the UNESCO commissioner credit, suggesting a deliberate curatorial choice to anchor the children-of-Europe visual argument in commissioned, internationally sanctioned humanitarian photography. This adds an institutional-legitimacy layer to the humanist claim: these images were made for UNESCO, not merely selected by a single curator.
-- **Critical / theoretical (Barthes):** The use of post-war children photographs — images made in the specific context of European war trauma — to illustrate a universal claim about childhood exemplifies the transformation of "History" into "Nature" that Barthes diagnosed. The Austrian setting points to the kind of historically-specific post-war European context that the universalizing exhibition frame suppresses (the precise political moment of the photograph's making is not anchored in this round).
+- **Critical / theoretical (Barthes):** The use of post-war children photographs to illustrate a universal claim about childhood exemplifies the transformation of "History" into "Nature" that Barthes diagnosed. Whether plate #68 in particular sits inside that pattern depends on the specific subject and circumstances of its making, neither of which is anchored in any source fetched this round.
 
 ## Open questions
 

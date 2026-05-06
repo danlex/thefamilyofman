@@ -16,7 +16,9 @@
 
 The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #129 as:
 
-> *"129 — France — Brassai, Rapho Guillumette (agency), French — 140 × 112 cm"*
+> *"129 — France — Brassai, Rapho Guillumette (agency), French"*
+
+The print dimension (140 × 112 cm) is recorded in `data/photographs.csv` for this row; the checklist line above does not carry print dimensions.
 
 At 140 × 112 cm, this is among the largest prints in the entire exhibition. The MoMA Archives Highlights page (`src-moma-archives-highlights-1955`, Tier-1, in-repo, read this session) confirms that installation print sizes ranged from 24 × 36 cm to 300 × 400 cm. At 140 × 112 cm, plate #129 is well above the stated minimum and was among the dominant visual presences in Section 14 Land.
 

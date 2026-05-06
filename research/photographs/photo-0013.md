@@ -16,7 +16,9 @@
 
 The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #16 as:
 
-> *"16 — France — Robert Doisneau, Rapho Guillumette (agency), French — 12 × 14 cm"*
+> *"16 — France — Robert Doisneau, Rapho Guillumette (agency), French"*
+
+The print dimension (12 × 14 cm) is recorded in `data/photographs.csv` for this row; the checklist line above does not carry print dimensions.
 
 This is the second of three Doisneau plates in Section 2 Lovers (plates #14, #16, #20; corresponding to photo-0011, photo-0013, photo-0017). All three are attributed to Rapho Guillumette agency and recorded as French, consistent with the single-photographer, single-agency structure of the Doisneau entries in this section.
 
