@@ -23,7 +23,7 @@ Tier-3 institutional photographer-archive page at LIFE for Margaret Bourke-White
 
 ## Key excerpts / pages
 
-Verbatim quotations from the page fetched 2026-05-06:
+Summary content paraphrased from the LIFE archive page fetched 2026-05-06 (the WebFetch step returned a summarized rendering of the page, not the literal HTML; treat the bullet points below as paraphrased summary, not as verbatim quotes from the live page):
 
 - Birth and death dates "1904–1971".
 - "In 1929, she created the lead story for Fortune magazine's first issue."
