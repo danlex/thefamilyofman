@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Family of Man">
+  <title>The Family of Man</title>
+  <style>
+    .bg { fill: #111111; }
+    .fg { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #f1f1f1; }
+      .fg { fill: #0b0b0b; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="6" ry="6"/>
+  <!-- Stylized 'F' — three rectangles, even-weight stems, Rudolph-grid feel -->
+  <rect class="fg" x="18" y="13" width="9"  height="38"/>
+  <rect class="fg" x="18" y="13" width="28" height="9"/>
+  <rect class="fg" x="18" y="28" width="22" height="8"/>
+</svg>
