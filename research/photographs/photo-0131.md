@@ -20,7 +20,7 @@ The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo
 
 The print dimension (20 × 15 3/4 cm) is recorded in `data/photographs.csv` for this row; the checklist line above does not carry print dimensions.
 
-"U.S.S.R." is the 1955 geopolitical designation used by the checklist. This is the third of five Robert Capa plates in the exhibition; the others are plate #26 (photo-0023, Czechoslovakia, Section 3 Marriage), a second USSR plate (photo-0118, Section 14 Land, plate #118), photo-0246 (Food, USSR), and photo-0274 (Ring Around the Rosy, Israel). Plates #118 and #137 are both set in the USSR and both placed in Section 14 Land — two USSR plates from Capa within the same thematic section.
+"U.S.S.R." is the 1955 geopolitical designation used by the checklist. This is the third of five Robert Capa plates in the exhibition; the others are plate #26 (photo-0023, Czechoslovakia, Section 3 Marriage), a second USSR plate (photo-0118, Section 14 Land, plate #124), photo-0246 (Food, USSR), and photo-0274 (Ring Around the Rosy, Israel). Plates #124 and #137 are both set in the USSR and both placed in Section 14 Land — two USSR plates from Capa within the same thematic section.
 
 The ICP Robert Capa archive page (`src-icp-capa-archive`, Tier-1, in-repo, read this session) confirms Capa's dates as Budapest 1913 – Indochina 1954, his nationality as "American (b. Hungary)," and his co-founding of Magnum Photos in 1947. The checklist carries the double credit Magnum (agency) and LADIES' HOME JOURNAL (publication), indicating that this plate was made on assignment for that publication and licensed to the exhibition through Magnum.
 
@@ -40,7 +40,7 @@ The LADIES' HOME JOURNAL credit on plate #137 is noteworthy: it places this imag
 
 The MoMA Archives Highlights page (`src-moma-archives-highlights-1955`, Tier-1, in-repo, read this session) describes the exhibition's arc as moving from "household life → careers → death." Section 14 Land falls within what the institutional summary characterizes as the "careers" segment: work on the land as a universal human activity.
 
-At 20 × 15 3/4 cm, plate #137 is a small print. Capa's two USSR plates in Section 14 — the earlier plate #118 (photo-0118) and this plate #137 — bracket a range of intervening plates by other photographers. Their presence gives the USSR unusual representation in a section where most countries appear with a single plate.
+At 20 × 15 3/4 cm, plate #137 is a small print. Capa's two USSR plates in Section 14 — the earlier plate #124 (photo-0118) and this plate #137 — bracket a range of intervening plates by other photographers. Their presence gives the USSR unusual representation in a section where most countries appear with a single plate.
 
 ## Reception / analysis
 
