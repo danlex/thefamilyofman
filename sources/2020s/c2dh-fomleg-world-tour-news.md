@@ -1,15 +1,16 @@
 ---
 id: src-c2dh-fomleg-world-tour
 title: "Following 'The Family of Man' World Tour: Behind the Scenes of a Traveling Exhibition"
-author: "C²DH, University of Luxembourg"
+author: "Sánchez González, Emilia (C²DH, University of Luxembourg)"
 year: 2025
 type: website
 publisher: "Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg"
 url: "https://www.uni.lu/c2dh-en/news/following-the-family-of-man-world-tour/"
-accessed: 2026-04-30
+accessed: 2026-05-07
 tier: 3
 language: en
-tags: [fomleg, world-tour, archival-research, moma, national-archives, eastman, scholarship]
+verified: true
+tags: [fomleg, world-tour, archival-research, moma, national-archives, eastman, scholarship, berlin, brecht]
 ---
 
 <!--
@@ -21,7 +22,7 @@ peer-reviewed FoMLEG outputs cite this stop directly.
 
 ## Citation
 
-C²DH, University of Luxembourg. "Following 'The Family of Man' World Tour: Behind the Scenes of a Traveling Exhibition." C²DH News, 2025. URL: https://www.uni.lu/c2dh-en/news/following-the-family-of-man-world-tour/.
+Sánchez González, Emilia. "Following 'The Family of Man' World Tour: Behind the Scenes of a Traveling Exhibition." C²DH News, Luxembourg Centre for Contemporary and Digital History, University of Luxembourg, 3 March 2025. https://www.uni.lu/c2dh-en/news/following-the-family-of-man-world-tour/
 
 ## Tier justification
 
@@ -29,16 +30,27 @@ Tier 2: institutional news article from the C²DH (Luxembourg Centre for Contemp
 
 ## Relevance
 
-Documents the January 2025 on-site archival research phase of FoMLEG, during which researchers visited the George Eastman Museum (Rochester, NY), MoMA (New York), and the U.S. National Archives (Washington, D.C. / College Park). These three institutions hold the core primary records for *The Family of Man*'s world tour — USIA records at NARA (RG 306), MoMA International Program records, and Steichen's papers at the Eastman Museum. This article is the institutional record of the FoMLEG team's engagement with those archives in 2025, and the best available pointer to what archival discoveries the forthcoming FoMLEG publications will be based on.
+Documents the January 2025 on-site archival research phase of FoMLEG, during which researchers visited the George Eastman Museum (Rochester, NY), MoMA Archives (New York City), and the U.S. National Archives (College Park, MD). These three institutions hold the core primary records for *The Family of Man*'s world tour — USIA records at NARA (RG 306), MoMA International Program records, and Steichen's papers at the Eastman Museum. Critically, the article reproduces verbatim image captions from NARA RG 306 photographs, including a 1955 caption naming the West Berlin venue (Hochschule für Bildende Künste) — the only freshly-fetched anchor for that venue produced in any session to date.
 
 ## Key excerpts / pages
 
-- URL confirmed in multiple search results (2026-04-30); page title: 'Following 'The Family of Man' World Tour. Behind the scenes of a traveling exhibition.'
-- Archival venues confirmed in search result (2026-04-30): 'January 2025 kicked off the on-site archival research phase of the project and sent researchers on a trip to three core locations outside of Luxembourg: The George Eastman Museum, the Museum of Modern Art (MoMA), and the U.S. National Archives.'
+Verbatim image captions captured by direct fetch 2026-05-07:
+
+- Berlin, 1955 (NARA-cited image caption): *"German playwright and poet Bertolt Brecht crosses from East Berlin to visit 'The Family of Man' exhibition at the Hochschule für Bildende Künste in West Berlin, Germany. 1955. Records of the U.S. Information Agency. Courtesy National Archives, photo no. 306-FM-3."*
+- Beirut, 1958 (NARA-cited): *"Exhibition poster for 'The Family of Man' in Beirut, Lebanon, 1958. Courtesy National Archives, no. 306-PPB-7"*
+
+Article framing (paraphrased; not directly quoted as the surrounding prose was not extracted verbatim):
+
+- Author: Emilia Sánchez González (Doctoral researcher, C²DH).
+- Publication date: 3 March 2025.
+- The article reports the FoMLEG team's January 2025 visits to three institutions: the George Eastman Museum (Rochester, NY); the Museum of Modern Art Archives (New York City); and the U.S. National Archives and Records Administration (College Park, MD).
+- Specific NARA citations referenced in the article include "Records of the U.S. Information Agency" and reference numbers in the form "306-FM-#" and "306-PPB-#" — the standard Records-Group-306 photographic citation format.
 
 ## Notes
 
-- Page NOT directly fetched this round — Chrome navigation was denied. Content confirmed from search-engine excerpts (2026-04-30).
-- Verified: false — page not opened this round; metadata carries from search results only.
-- This article is the institutional companion to `src-c2dh-fomleg` (the project page). Taken together, these two entries mark the FoMLEG project as the active scholarly programme most likely to resolve the open questions identified in `research/world-tour.md` (specifically: NARA RG 306 access, MoMA International Program records, and the 91-venue / 37-country figure).
-- A future pass should directly fetch this page to extract the full account of what the researchers found at each archive, any preliminary findings, and any named archivists or collections consulted.
+- **Direct fetch 2026-05-07.** This entry was previously documented as "page not directly fetched"; the page was successfully retrieved via WebFetch on 2026-05-07 and the Berlin and Beirut image captions were extracted verbatim.
+- **Significance for the Berlin venue claim.** The article carries verbatim text quoting a NARA RG 306 photo caption (306-FM-3) that names the Hochschule für Bildende Künste as the West Berlin venue in 1955. This is the only freshly-fetched anchor for the Berlin venue produced in any session to date. NARA RG 306 itself remains inaccessible to this project's tooling (denied access in multiple rounds; see `src-nara-rg306-africa-access-barrier`). The C²DH article functions as a Tier-3 institutional witness *to* a Tier-1 primary record — the photo caption it quotes is authored by USIA, not C²DH.
+- **Cited primary archives (per the article's image attributions).** Records of the U.S. Information Agency, NARA, photo no. 306-FM-3 (Berlin Brecht visit, 1955); 306-PPB-7 (Beirut poster, 1958). These are verbatim NARA citations — they do not establish RG 306 access for this project, only that FoMLEG's researchers accessed those records and published two image captions.
+- A future pass should extract the rest of the article's body text — there were other unquoted captions and prose passages on installation logistics, NARA visitor experience, and the author's research questions that were not captured verbatim this round.
+- The article also lists in narrative regions visited by the touring exhibition (per `src-c2dh-fomleg-lasting-legacy`, fetched 2026-05-07): "North America, Europe, and East Asia (Japan and South Korea)" plus "Guatemala, Chile, South Africa, Egypt, Afghanistan" and "India, Sri Lanka, Indonesia, the Philippines, Laos, Lebanon, Syria" — but no specific city venues for these countries beyond Berlin and Beirut were captioned in the present article.
+- Perspective: institutional / scholarly-research-in-progress. Companion to `src-c2dh-fomleg-project-page` and `src-c2dh-fomleg-lasting-legacy` and the broader FoMLEG output stream.
