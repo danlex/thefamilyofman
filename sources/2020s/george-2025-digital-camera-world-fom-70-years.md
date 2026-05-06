@@ -40,4 +40,4 @@ All content below is derived from WebSearch result snippets returned 2026-05-07.
 - `verified: false`: URL confirmed in multiple search results (2026-05-07). Full text not fetched. Publication date confirmed as 1 July 2025.
 - The phrase "greatest-ever photo exhibition" in the article title echoes the MoMA original subtitle ("The Greatest Photographic Exhibition of All Time"), which is itself a promotional subtitle from the 1955 catalog. Whether the article critically reflects on this promotional framing or uncritically perpetuates it cannot be determined without reading the full text.
 - This article and `src-dench-2025-amateur-photographer-fom` form a cluster of UK photography-press 70th-anniversary coverage. Neither reaches Tier 2; both are valid Tier-3 reception data points.
-- Cross-reference: `src-dench-2025-amateur-photographer-fom` (companion Tier-3 press review); `src-c2dh-70-years-symposium-2025` (the academic side of the 2025 anniversary).
+- Cross-reference: `src-dench-2025-amateur-photographer-fom` (companion Tier-3 press review); `src-c2dh-70-years-fom` (the academic side of the 2025 anniversary).

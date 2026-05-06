@@ -8,7 +8,7 @@ publisher: "Panorama: Journal of the Association of Historians of American Art, 
 url: "https://journalpanorama.org/article/zombie-humanism/"
 doi: "https://doi.org/10.24926/24716839.19237"
 accessed: 2026-05-07
-tier: 2
+tier: 3
 language: en
 tags: [reception, generative-ai, digital, humanism, cold-war, flickr-foundation, scholarship, panorama, 2020s]
 verified: false
@@ -24,13 +24,11 @@ DOAJ record: https://doaj.org/article/02fed309b7ec43ff87d5878ed68aeab9
 
 ## Tier justification
 
-Tier 2: peer-reviewed article in *Panorama: Journal of the Association of Historians of American Art*, published by the University of Minnesota Libraries Publishing for the Association of Historians of American Art (AHAA). The journal is indexed in the Directory of Open Access Journals (DOAJ) and described in its own about page as "peer-reviewed, open-access." This makes it equivalent in standing to peer-reviewed art-history journals listed in `CREDIBILITY.md`. The journal's Digital Dialogues section — where this article appears — is described as "reviews and reflections on the digital work that is impacting American art history" and is editor-reviewed; this article sits within the peer-reviewed feature context of a Tier-2-eligible publication. The DOI is a stable Panorama journal DOI. The DOAJ record confirms the article's open-access status.
-
-Note: *Panorama* is not explicitly enumerated in `CREDIBILITY.md`'s Tier-2 list, but it is a peer-reviewed AHAA journal published by a university press (U of Minnesota Libraries Publishing), which falls within the `CREDIBILITY.md` Tier-2 category of "Peer-reviewed journals" from recognized scholarly publishers. A future credibility-judge review may confirm or adjust the tier.
+Tier 3: this article appears in the *Panorama* "Digital Dialogues" section, which is **editor-reviewed** rather than peer-reviewed at the article level (Panorama's peer-reviewed feature track is separate). The journal as a whole is a DOAJ-indexed, AHAA / University of Minnesota Libraries Publishing scholarly venue, but the article's specific section does not clear the Tier-2 peer-review-at-article-level bar. Tier-3 is the appropriate classification: named scholar (Lewandowski), stable DOI, DOAJ-indexed open-access publication, scholarly-press production. Demoted from Tier-2 per credibility-judge review on PR #127 (2026-05-07).
 
 ## Relevance
 
-The article examines the long critical afterlife of Edward Steichen's *Family of Man* in the context of generative AI image-making, focusing on the Flickr Foundation's "A Flickr of Humanity" New Curators Programme and its third volume, *A Generated Family of Man* (2023), which regenerated the FoM catalogue using Microsoft Bing's Image Creator. Lewandowski uses this AI project as a lens to examine what she calls "zombie humanism" — the persistence of FoM's universalist humanist ideology in post-photographic image-generation. The article is the only identified 2020s peer-reviewed English-language article that directly addresses both *The Family of Man* and generative AI, making it a unique contribution to the digital-turn chapter of FoM's reception history.
+The article examines the long critical afterlife of Edward Steichen's *Family of Man* in the context of generative AI image-making, focusing on the Flickr Foundation's "A Flickr of Humanity" New Curators Programme and its third volume, *A Generated Family of Man* (2023), which regenerated the FoM catalogue using Microsoft Bing's Image Creator. Lewandowski uses this AI project as a lens to examine what she calls "zombie humanism" — the persistence of FoM's universalist humanist ideology in post-photographic image-generation. The article is the only identified 2020s scholarly English-language article (DOAJ-indexed, editor-reviewed in *Panorama*'s Digital Dialogues section) that directly addresses both *The Family of Man* and generative AI, making it a unique contribution to the digital-turn chapter of FoM's reception history.
 
 The Flickr Foundation project it reviews (published October 2023) is documented at: https://www.flickr.org/programs/new-curators/a-flickr-of-humanity/
 
