@@ -19,7 +19,7 @@ Szarkowski, John. *Looking at Photographs: 100 Pictures from the Collection of t
 
 ## Tier justification
 
-Tier 2: This is a named-author catalog from a major research museum (MoMA). Szarkowski's catalog essays from this period are consistently cited in the secondary literature as Tier-2 scholarship — they are the primary statement of the curatorial position that Phillips 1982 (`src-phillips-1982`) took as its explicit target. The book functions as a text of record for the MoMA formalist-curatorial position on photography. It is a Tier-2 exhibition catalog "from major research museums with named curatorial authors" per CREDIBILITY.md.
+Tier 2: This is a named-author catalog from a major research museum (MoMA). Szarkowski's catalog essays from this period are consistently cited in the secondary literature as Tier-2 scholarship — they are the primary statement of the curatorial position that Phillips 1982 (`src-phillips-1982-judgment-seat`) took as its explicit target. The book functions as a text of record for the MoMA formalist-curatorial position on photography. It is a Tier-2 exhibition catalog "from major research museums with named curatorial authors" per CREDIBILITY.md.
 
 ## Relevance
 
@@ -51,7 +51,7 @@ The book was confirmed in the Internet Archive metadata record `lookingatphotogr
 - The book does not accompany an exhibition (Wikipedia, fetched 2026-05-06: "published as a book only, without an accompanying exhibition"). It is therefore categorized as `type: catalog` only in the loose sense of a MoMA curatorial publication — it presents collection works with commentary.
 - The book is the institutional statement of Szarkowski's curatorial criteria in the early-to-mid phase of his directorship, before his formulation of the *Mirrors and Windows* framework (1978). Together with `src-szarkowski-1978-mirrors-windows`, it frames the MoMA photographic-canon discourse of the 1970s.
 - Cross-reference to `src-szarkowski-1978-mirrors-windows` (see 1970s entry): Szarkowski's 1978 exhibition catalog develops a binary framework (documentary vs. self-expressive) that is the conceptual successor to this book.
-- Cross-reference to `src-phillips-1982` (see 1980s entry): Christopher Phillips's "The Judgment Seat of Photography" (*October* 22, Fall 1982) takes Szarkowski's curatorial authority — including the institutional authority that produced this book — as its explicit critical object.
+- Cross-reference to `src-phillips-1982-judgment-seat` (see 1980s entry): Christopher Phillips's "The Judgment Seat of Photography" (*October* 22, Fall 1982) takes Szarkowski's curatorial authority — including the institutional authority that produced this book — as its explicit critical object.
 - Cross-reference to `src-sandeen-1995`: Sandeen's study reads the transition from Steichen to Szarkowski as a shift in MoMA's institutional framing of photography's social mission — the Szarkowski formalist position is the successor against which the Sekula / October critique mounted its arguments.
 - Perspective: formalist / institutional. This is the institutional counter-voice to the critical-theory axis. Its inclusion in the 1970s bibliography prevents the batch from recording only the critical-theory side of the debate.
 - `verified: false`: Full body text NOT accessed this round (CDL borrow-only). Bibliographic metadata (title, author, year, publisher, ISBN, page count) verified against the Internet Archive metadata API record `lookingatphotogr0000muse`, fetched 2026-05-06.

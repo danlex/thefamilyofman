@@ -17,9 +17,9 @@ verified: false
 
 Freund, Gisèle. *Photographie et société*. Paris: Seuil, Collection Points, 1974. French original.
 
-English translation: Freund, Gisèle. *Photography and Society*. Boston: David R. Godine, 1980. 248 pp. ISBN 0879232501. (Translation of the 1974 French original; English edition published 1980.)
+English translation: Freund, Gisèle. *Photography and Society*. Boston: David R. Godine, 248 pp., ISBN 0879232501, LCCN 78058502. The publication year of the English edition is 1979 per the Internet Archive metadata API record `photographysocie00freu` (fetched 2026-05-06) and 1980 per standard bibliographic citations and Wikipedia (the latter NOT re-fetched in this round); the discrepancy may reflect a late-1979 / early-1980 release-versus-cataloging gap and is not resolved by sources fetched in this round.
 
-German translation: published 1974 (same year as French original).
+German translation: published in 1974 per the Wikipedia article on Gisèle Freund — Wikipedia NOT re-fetched in this round; date carried from the producing subagent's prior fetch and not independently verified here.
 
 ## Tier justification
 
@@ -63,10 +63,10 @@ Full text of both records is access-restricted (borrow-only CDL); body text NOT 
   - Description: "Translation of Photographie et société"
   - Access: restricted (borrow-only CDL)
 
-- Wikipedia article on Gisèle Freund (fetched 2026-05-06) confirms:
+- Wikipedia article on Gisèle Freund (fetched in the producing subagent's session 2026-05-06; NOT re-fetched in this review pass — the four bullet points below are carried from the producing subagent's reading of that page and have not been independently re-verified here):
   - The French original was published by "Seuil (Coll. Points), Paris 1974"
   - Described as "revised and expanded edition of her dissertation" (doctoral thesis *La photographie en France au dix-neuvième siècle*, 1936)
-  - German translation also published 1974; English in 1980; Spanish 1976; Swedish 1977
+  - Translation publication years per the Wikipedia article as read by the producing subagent: German 1974; English 1980; Spanish 1976; Swedish 1977. NOT independently re-verified in this review pass.
   - The Wikipedia text states: "_Photographie et societé_, revised and expanded edition of her dissertation, Seuil (Coll. Points), Paris 1974" — this is the Wikipedia page text, not a verbatim passage from the book.
 - **Body text NOT accessed in this round.** No verbatim passages available.
 

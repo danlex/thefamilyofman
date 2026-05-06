@@ -21,7 +21,7 @@ Reprinted in: Sekula, Allan. *Photography Against the Grain: Essays and Photo Wo
 
 ## Tier justification
 
-Tier 2: Artforum is not named in the closed list in `CREDIBILITY.md`, but Sekula is named as a "critical theory of record" author (named explicitly in the mandate list alongside Barthes, Sontag, Krauss, Crimp, Foster, Phillips, Tagg, Burgin, Rosler, Solomon-Godeau, Stimson, Turner). The tier holds via the author clause, not the journal clause. The essay also appears in the collected volume *Photography Against the Grain* (1984), which is widely cited as a university-press-quality critical text. The tier justification is the author-level clause, not Artforum's general status.
+Tier 2: Artforum is not named in the closed list in `CREDIBILITY.md`, but Sekula is one of the three authors named in the rubric's "critical theory of record" line ("Roland Barthes, 'The Great Family of Man,' *Mythologies* (1957); Susan Sontag, *On Photography* (1977); Allan Sekula's essays on photographic meaning"), and this Artforum essay is precisely an essay on photographic meaning. The tier holds via the author/topic clause, not the journal clause. The essay also appears in the collected volume *Photography Against the Grain* (1984), widely cited as a university-press-quality critical text. The tier justification is the author-level clause, not Artforum's general status.
 
 ## Relevance
 

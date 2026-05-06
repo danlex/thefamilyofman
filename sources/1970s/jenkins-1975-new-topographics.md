@@ -5,7 +5,8 @@ author: "Jenkins, William"
 year: 1975
 type: catalog
 publisher: "International Museum of Photography at George Eastman House, Rochester, NY"
-url: "https://en.wikipedia.org/wiki/New_Topographics"
+url: "https://www.eastman.org/"
+primary_url_status: "George Eastman Museum institutional root; specific 1975 New Topographics catalog page not located online in this round. Bibliographic data verified via Wikipedia article (https://en.wikipedia.org/wiki/New_Topographics, fetched 2026-05-06) used as pointer-only per CREDIBILITY.md."
 accessed: 2026-05-06
 tier: 3
 language: en

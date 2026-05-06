@@ -45,7 +45,7 @@ The exhibition and catalog are confirmed in the Internet Archive metadata record
   - LCCN: 78056165
   - Page count: 162 pages
   - Exhibition dates: "held at the Museum of Modern Art, New York, July 28–Oct. 2, 1978, and other museums Nov. 13, 1978–Mar. 2, 1980"
-  - Edition: 3rd printing (indicating print-run demand for this catalog)
+  - Edition: 3rd printing
   - Language: English
   - Subject: Photography, Artistic
   - Access: restricted (borrow-only CDL)
@@ -57,7 +57,7 @@ The exhibition and catalog are confirmed in the Internet Archive metadata record
 - Wikipedia article on John Szarkowski (fetched 2026-05-06) confirms the 1978 title and ISBN 0-87070-475-3 (matching IA record 0870704753 with hyphens removed). Wikipedia summary is a pointer-only; the primary bibliographic record is the IA metadata.
 - The exhibition's date (July–October 1978) places it precisely at the threshold moment between the 1970s critical-theory turn (Sontag's *On Photography* was published 1977; *October* founded 1976; Sekula's theoretical framework already established) and the 1980s *October*-axis peak. Szarkowski's framework was thus issued simultaneously with the critical positions that took it as a target.
 - Cross-reference to `src-szarkowski-1973-looking` (see 1970s entry): the 1973 book and the 1978 catalog together constitute Szarkowski's curatorial writings of record for the decade.
-- Cross-reference to `src-phillips-1982` (see 1980s entry): Phillips's "Judgment Seat of Photography" (*October* 22, 1982) explicitly critiques the Szarkowski curatorial authority that *Mirrors and Windows* represents.
+- Cross-reference to `src-phillips-1982-judgment-seat` (see 1980s entry): Phillips's "Judgment Seat of Photography" (*October* 22, 1982) explicitly critiques the Szarkowski curatorial authority that *Mirrors and Windows* represents.
 - Cross-reference to `src-sontag-1977`: the 1977–1978 publication cluster (Sontag's book, Szarkowski's catalog) marks the decade's critical peak on both the humanist-critique side (Sontag) and the institutional-formalist side (Szarkowski).
 - Cross-reference to `src-sandeen-1995`: Sandeen's anchor study situates the Szarkowski curatorial framework as the post-Steichen institutional context within which *Family of Man* was retrospectively positioned.
 - Perspective: formalist / institutional. Complements rather than opposes the critical-theory entries. The Anglophone-bias flag in `research/reception-1970s-critical-theory.md` applies to the batch's critical-theory selection; this entry is the institutional counterweight.
