@@ -35,6 +35,8 @@ fresh_fetches_this_round:
 
 # 2000s reception: Stimson era, the fiftieth-anniversary cluster, and the UNESCO inscription effect
 
+> **A note on the framing "Stimson era".** The phrase is used here as a convenience handle for the decade in which Blake Stimson's *The Pivot of the World* (MIT Press, 2006) sits as the most-cited single 2000s monograph engaging *The Family of Man* — it does **not** mean that this essay or the project endorses Stimson's reading as the definitive 2000s account. Stimson's body text was not consulted in the round that produced this essay (see §3); the actual content of his argument is therefore characterised here only at the metadata level and through second-hand summaries. A future round that opens Stimson's text directly may revise this framing substantially.
+
 This essay accompanies the 2000s bench of source entries
 (`sources/2000s/`) and continues the decade-by-decade reception thread
 established in `research/reception-1950s-us-press.md`,
@@ -63,7 +65,7 @@ The reception thread carries the following positions into the 2000s:
 - Susan Sontag 1977 — the popular extension of the Barthesian reading
   into Anglophone book-publishing, although her direct engagement with
   *Family of Man* is brief [src-sontag-1977; not re-read this round].
-- Allan Sekula 1981 / 1986 — the *Art Journal* / Bay Press
+- Allan Sekula 1981 / 1986 — the *Art Journal* / *Block*
   consolidation of the political critique, repositioning the show as
   ideologically continuous with US Cold War cultural diplomacy
   [src-sekula-1981, src-sekula-1986; not re-read this round].

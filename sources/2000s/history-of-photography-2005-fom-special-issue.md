@@ -20,6 +20,7 @@ Hoffman, Katherine. "The Family of Man: An introduction." *History of Photograph
 A second article in the same issue, located via the same Taylor & Francis DOI structure during this round:
 
 - Anonymous (search-result attribution; reviewer not named on the search-snippet page), "Sowing the seeds / setting the stage: Steichen, Stieglitz and *The Family of Man*," *History of Photography*, vol. 29, no. 4 (2005). DOI: 10.1080/03087298.2005.10442814. Pages NOT confirmed from a fetched source this round.
+  - **Title provenance**: this second-article title rests on a Google search snippet to the Taylor & Francis Online page; neither the article body nor the abstract page was fetched this round, and the title's exact wording (including the "Sowing the seeds / setting the stage" punctuation) has NOT been independently confirmed against the publisher's own bibliographic record. Future fetch should reconcile any minor variance.
 
 ## Tier justification
 
