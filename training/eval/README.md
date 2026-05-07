@@ -19,24 +19,25 @@ Eval-Designer PRs, never via auto-curation.
   `training/schema.md`, plus an `eval_category` and `difficulty` field
   inside `metadata`.
 
-## v0.1 seed (50 questions, 2026-05-07, issue #121)
+## v0.1 seed (48 questions, 2026-05-07, issue #121)
 
 This is the first batch. Plan.md §11 targets ~200 questions at v0.1; this
-seeds 50.
+seeds 48 (originally drafted as 50; two rows withdrawn during the judge
+panel — see "Withdrawn rows" below).
 
 ### Distribution
 
 | `eval_category`       | Count | Share |
 |-----------------------|-------|-------|
-| catalog               | 8     | 16%   |
-| photographer          | 14    | 28%   |
+| catalog               | 8     | 17%   |
+| photographer          | 12    | 25%   |
 | exhibition-history    | 3     | 6%    |
-| tour                  | 8     | 16%   |
+| tour                  | 8     | 17%   |
 | clervaux              | 5     | 10%   |
 | unesco                | 5     | 10%   |
 | reception             | 5     | 10%   |
 | sections              | 2     | 4%    |
-| **Total**             | **50**| **100%** |
+| **Total**             | **48**| **100%** |
 
 (`eval_category` is the eval-specific bucket. Top-level `topic` follows
 `training/schema.md`'s enum: `catalog`, `photographer`,
@@ -44,7 +45,26 @@ seeds 50.
 `provenance`. Eval categories `sections` and `exhibition-history` both
 map to the schema `topic` `exhibition-history`.)
 
-No category exceeds 30% of the 50 questions.
+No category exceeds 30% of the 48 questions.
+
+### Withdrawn rows (2)
+
+Two rows were withdrawn during the judge panel for PR #131 because their
+answers rest only on Tier-3 sources (CREDIBILITY.md and
+`scripts/audit_dataset.py` require `min_tier ≤ 2`):
+
+- `eval-00012` — Wayne Miller's Magnum-Photos presidency (1962–66). Sources
+  cited: `src-magnum-photographer-bios` (Tier 3), `src-nyt-2013-wayne-miller-obit`
+  (Tier 3). The presidency claim is not anchored in any Tier-1/2 in-repo source.
+- `eval-00022` — Roy DeCarava's 1952 Guggenheim. Source cited:
+  `src-nyt-2009-decarava-obit` (Tier 3). The 1952-Guggenheim claim is not
+  anchored in any Tier-1/2 in-repo source.
+
+Both `id`s are left as gaps (not renumbered) so the surviving rows keep
+their original identifiers. A future v0.2 pass can either reframe these
+questions to Tier-1/2-anchored substitutes (e.g., the MoMA Master Checklist's
+plate-level credit for Miller and DeCarava — both Tier-1) or close the gaps
+by adding Tier-1/2 sources for the original facts.
 
 ### Difficulty mix
 
