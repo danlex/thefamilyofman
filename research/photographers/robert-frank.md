@@ -1,6 +1,6 @@
 # Robert Frank (1924–2019)
 
-Robert Frank was a Swiss-American photographer best known for his 1958 book *Les Américains* / *The Americans*, "one of the most revolutionary volumes in the history of photography" per the ICP archive page (fetched 2026-05-07; src-icp-frank-archive). The Wikipedia pointer (fetched 2026-05-07) gives the day-month resolution as November 9, 1924 in Zürich, Switzerland and September 9, 2019 in Inverness, Cape Breton Island, Nova Scotia, Canada (src-wikipedia-frank-pointer). The ICP page predates Frank's death and gives no death date.
+Robert Frank was a Swiss-born photographer (later naturalized American — exact naturalization year not anchored in any source fetched this round; MoMA Master Checklist credits all 7 of his FoM plates "Swiss") best known for *Les Américains* / *The Americans* (per `src-icp-frank-archive`: "first published in France as *Les Américains* in 1957"; American edition followed in 1959), "one of the most revolutionary volumes in the history of photography" per the ICP archive page (fetched 2026-05-07; src-icp-frank-archive). The Wikipedia pointer (fetched 2026-05-07) gives the day-month resolution as November 9, 1924 in Zürich, Switzerland and September 9, 2019 in Inverness, Cape Breton Island, Nova Scotia, Canada (src-wikipedia-frank-pointer). The ICP page predates Frank's death and gives no death date.
 
 ## Career
 
