@@ -484,7 +484,7 @@ permalink: /
   <div class="home-section-head">
     <div>
       <h2>A timeline</h2>
-      <p class="lead">Six anchor dates between the exhibition's opening and its current life at Clervaux.</p>
+      <p class="lead">Eight anchor dates between the exhibition's opening and its current life at Clervaux — including the 2025 70th anniversary and the 2026 conservation crisis at Clervaux Castle.</p>
     </div>
   </div>
   <div class="timeline">
@@ -507,6 +507,14 @@ permalink: /
     <div class="timeline-row">
       <span class="date">2010–2013</span>
       <span class="what">A major restoration and re-installation of the Clervaux galleries is completed — see the <a href="{{ '/clervaux/' | relative_url }}">Clervaux page</a> for the CNA programme.</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">24 May 2025</span>
+      <span class="what">The C²DH (Université du Luxembourg) and the CNA mark the 70th anniversary with an international symposium <em>"70 Years of <em>The Family of Man</em>"</em> at Clervaux Castle (co-organised by Gilles Zeimet, Anita Sawallisch, Andreas Fickers; speakers Ewert, Sánchez González, Lesch, Böger, Zamir).</span>
+    </div>
+    <div class="timeline-row">
+      <span class="date">Apr 2026</span>
+      <span class="what">A <em>woxx</em> investigative report by Chris Lauer documents a 2025 HVAC compressor failure at Clervaux Castle and a parliamentary inquiry by CSV MP Stéphanie Weydert into possible moisture damage; CNA director Gilles Zeimet announces his resignation 24 April 2026 (companion <em>woxx</em> piece by Joël Adami).</span>
     </div>
     <div class="timeline-row">
       <span class="date">Today</span>
@@ -632,6 +640,43 @@ permalink: /
       <div class="action-kicker">1990s</div>
       <h3>Clervaux + Sandeen</h3>
       <p>The CNA institutional voice on the 1994 inauguration coexists with the critical reading of the same period (Sandeen 1995, Solomon-Godeau 1991, Crimp 1993). Both should be cited.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2000s-stimson-era.md" rel="noopener">
+      <div class="action-kicker">2000s</div>
+      <h3>Stimson era + UNESCO 2003</h3>
+      <p>Blake Stimson's <em>The Pivot of the World</em> (MIT Press, 2006) is the most-cited 2000s scholarly engagement, alongside the 2004 Back/Schmidt-Linsenhoff bilingual volume and the 2005 <em>History of Photography</em> 50th-anniversary special issue. The 2003 UNESCO Memory of the World inscription gives the show a parallel institutional canonization. "Stimson era" is a convenience handle, not a verdict — Stimson's body text remains borrow-only-not-fetched in this round.</p>
+    </a>
+  </div>
+</section>
+
+<section class="wrap-wide" style="padding: 0 1.25rem; margin-top: 4rem;">
+  <div class="home-section-head">
+    <div>
+      <h2>Recent findings</h2>
+      <p class="lead">Fresh research that has landed in the wiki since the last batch — each card links to the merged source and research files. Findings are flagged with the tier and access status of their primary anchors.</p>
+    </div>
+    <a class="more" href="https://github.com/danlex/thefamilyofman/pulls?q=is%3Apr+is%3Aclosed" rel="noopener">All merged PRs →</a>
+  </div>
+  <div class="action-row">
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md#west-berlin-venue-anchoring-achieved-2026-05-07" rel="noopener">
+      <div class="action-kicker">World tour</div>
+      <h3>Berlin venue anchored — and Brecht crossed the wall to see it</h3>
+      <p>The 1955 West Berlin venue is now anchored as the <em>Hochschule für Bildende Künste</em> via a verbatim NARA RG 306 photo caption (306-FM-3) reproduced in the C²DH FoMLEG project article: <em>"German playwright and poet Bertolt Brecht crosses from East Berlin to visit 'The Family of Man' exhibition at the Hochschule für Bildende Künste in West Berlin, Germany. 1955."</em> First Tier-1-anchored European venue beyond the Paris stop.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md#paris-venue-institutionally-consistent-partially-anchored-2026-05-07" rel="noopener">
+      <div class="action-kicker">World tour</div>
+      <h3>Paris venue: MNAM, not MAMVP</h3>
+      <p>The Paris stop is identified as the <em>Musée National d'Art Moderne</em> (then at the Palais de Tokyo), January 1956 — Tier-3-anchored via Wikipedia row + institutional-consistency exclusion. The often-repeated <em>Musée d'Art Moderne de la Ville de Paris</em> (the city museum) attribution is ruled out: MAMVP wasn't founded until 1961.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/sources/2020s/woxx-2026-fom-kulturpolitischer-problemfall.md" rel="noopener">
+      <div class="action-kicker">Conservation</div>
+      <h3>2026 Clervaux HVAC crisis</h3>
+      <p>An April 2026 <em>woxx</em> investigative report (Chris Lauer; companion 24 April 2026 piece by Joël Adami) documents a July-2025 HVAC compressor failure at Clervaux Castle, parliamentary questioning by CSV MP Stéphanie Weydert, and the 24 April 2026 resignation of CNA director Gilles Zeimet. The first 2020s conservation-incident entry in the bibliography.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
+      <div class="action-kicker">Photographers</div>
+      <h3>+8 anchored bios in two batches</h3>
+      <p>Batches 03 and 04 (PRs #125, #128) added Eisenstaedt, Cartier-Bresson, Bourke-White, Rodger, Lange, Frank, Adams, and Brandt — each anchored on ICP constituent-archive pages (Tier 1) plus LIFE / Magnum / Wikipedia-pointer secondary sources. Walker Evans was confirmed by strict-grep to have <strong>0</strong> plates in the catalog and was correctly skipped.</p>
     </a>
   </div>
 </section>
