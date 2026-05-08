@@ -6,7 +6,7 @@ year: 2012
 type: article
 publisher: "Public Culture, vol. 24, no. 1 (66), Duke University Press"
 url: "https://doi.org/10.1215/08992363-1443556"
-accessed: 2026-04-30
+accessed: 2026-05-09
 tier: 2
 language: en
 tags: [reception, cold-war, exhibition-design, politics, attention, scholarship, usia]
@@ -29,11 +29,21 @@ The journal article that preceded *The Democratic Surround* (`src-turner-2013`),
 - DOI confirmed active, resolves to Duke University Press abstract page (search result, 2026-04-30): 'The Family of Man and the Politics of Attention in Cold War America.'
 - Search-result verbatim (2026-04-30): 'The essay explores how the exhibition and its display mode marked the emergence of both a liberating politics of attention and a constraining mode of social control that remain features of contemporary life.'
 - Award noted in search result (2026-04-30): 'won the Katherine Singer Kovács Award for outstanding scholarship in cinema and media studies from the Society for Cinema and Media Studies in 2013.'
-- PDF freely available at: https://fredturner.stanford.edu/sites/g/files/sbiybj27111/files/media/file/turner-family-of-man-pc-24.1.pdf (URL returned in search, 2026-04-30; NOT fetched this round).
+
+### Fresh fetch 2026-05-09 (full PDF)
+
+PDF retrieved 2026-05-09 via `curl` from https://fredturner.stanford.edu/sites/g/files/sbiybj27111/files/media/file/turner-family-of-man-pc-24.1.pdf (HTTP 200, 751 KB), text extracted with `pdftotext`. Six page-anchored verbatim excerpts confirmed against the extracted text:
+
+- **p. 57** (introduction, Turner stating his project): "to scrape away several decades' worth of critical disdain and illuminate a deeply democratic, even utopian, impulse that drove the show and much of the early audience response to it."
+- **p. 58** (closing of the introduction, paradox formulation): "even as *The Family of Man* championed a far more open, tolerant, and diverse society than we remember, it also helped deliver us into a world in which media constantly ask us to manage ourselves in terms set by faraway others."
+- **p. 68** (Bayer-genealogy section, on the Bauhaus inheritance): "By today's standards, such an innovation might seem mild, even trivial. From a time in which digital screens bombard us with images from every conceivable angle and in places as diverse as football stadiums, airplanes, and bedrooms, it is difficult to imagine how important Bayer's new strategy actually was."
+- **p. 68** (immediately following): "Within Bayer's extended field of vision, however, fragments of media surrounded viewers — viewers who in turn reached out to the images they saw, selecting, arranging, and integrating them in their minds into their own individual gestalts. In Bayer's work, viewers took charge of both the viewing process and the construction of their psyches. As a result, at least in theory, viewers became more independent and psychologically whole."
+- **p. 84** (conclusion, the "thus modeled" verdict): "*The Family of Man* thus modeled a more diverse and tolerant society, but also a society whose members had adjusted themselves to an array of opportunities chosen on their behalf by those in power."
+- **p. 84** (final paragraph, the "pioneer postmodern modes" framing): "[The exhibition's] vision of national unity also helped pioneer postmodern modes of mediated authority."
+- **footnote anchors p. 56 n. 2 and p. 61 n. 11** confirmed as cite-clusters for Barthes / Phillips / Sekula / Sandeen / Stimson / Staniszewski / Ribalta in Turner's footnotes.
 
 ## Notes
 
-- Body text NOT consulted in this round. The DOI resolves to an abstract page; full text is paywalled through Duke University Press. The author's Stanford page hosts a free PDF (URL above) which was not fetched this round due to tool limitations.
+- Body text consulted in fresh 2026-05-09 fetch (see Key excerpts). Earlier `accessed: 2026-04-30` round was metadata-only via the DOI abstract page; the 2026-05-09 round retrieved the full PDF from Turner's Stanford faculty page and extracted page-anchored quotations.
 - This article is the key bridge between the 1955 exhibition's physical design and its Cold War political function. It complements `src-turner-2013` (book) and `src-james-2012-post-fascist` (German reception) as the main scholarly readings of the exhibition's media-political argument.
-- A future pass should retrieve the PDF from Turner's Stanford page to extract page-specific quotations and the specific claims about USIA's use of the exhibition's spatial logic internationally.
-- Perspective: media studies / intellectual history. The article version of the argument developed further in chapter 6 of `src-turner-2013`.
+- Perspective: media studies / intellectual history. The article version of the argument developed further in chapter 8 of `src-turner-2013` ("The Museum of Modern Art Makes the World a Family").

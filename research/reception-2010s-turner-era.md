@@ -172,7 +172,7 @@ question of audience:
 > from every conceivable angle and in places as diverse as football
 > stadiums, airplanes, and bedrooms, it is difficult to imagine how
 > important Bayer's new strategy actually was."
-> (Turner 2012, pp. 68)
+> (Turner 2012, p. 68)
 
 > "*The Family of Man* thus modeled a more diverse and tolerant
 > society, but also a society whose members had adjusted themselves to
@@ -522,6 +522,24 @@ major scholar (Turner) sets out to *defend* — with explicit
 qualifications — the political project of the exhibition against the
 Barthes / Phillips / Sekula consensus. Two qualifications belong on
 that observation.
+
+A note on this framing. The phrase "first decade since the 1980s" is
+meant in a narrow sense: the first decade in which a scholar engages
+directly and at book length with the *October*-axis political critique
+on its own terms (audience-experience, installation logic, the show's
+"design grammar") and offers a counter-reading at that level. Sandeen
+1995 is also a recovery reading, but its register is
+historical-contextual reconstruction rather than a head-on rebuttal of
+Phillips / Sekula. Stimson 2006 is sympathetic to the show but reads
+it as one term in a comparative argument about mass-photographic
+objects (alongside Frank's *The Americans* and the Bechers) rather
+than as the primary object of defence. Turner's distinctive
+contribution is to take Barthes / Phillips / Sekula as the explicit
+interlocutors and to argue that they have the show's *intent and
+audience experience* wrong. Readers who would characterise Sandeen
+1995 or Stimson 2006 as the relevant precedent are not wrong; the
+phrasing here flags the methodological difference rather than denying
+the precedent.
 
 First, Turner's defence is not a reversal of the *October* axis at
 the level of fact. He grants the show's "middlebrow aesthetics," the
