@@ -54,7 +54,7 @@ All 490 catalogued photographs in `data/photographs.csv` have been assigned to o
 
 **Total: 490 photographs assigned. 0 rows with `section_uncertain: true`.**
 
-The 490 figure reflects the catalog's current state: 503 numbered checklist slots minus 17 documented missing numbers (gaps #5/#7/#8, #61, #88/#90, #145/#149, #216, #246, #261, #337, #346, #362, #399, #425), minus 1 for the Eugene Harris recurring-plate convention (only #11A is its own row), plus 1 for #404A (letter-suffix supplement), plus 2 for out-of-range three-digit plates (#505 and #506). See `research/catalog-reconciliation-503.md` for the full derivation.
+The 490 figure reflects the catalog's current state: 503 numbered checklist slots minus 17 documented missing numbers (gaps #5/#7/#8, #11, #61, #88/#90, #145/#149, #216, #246, #261, #337, #346, #362, #399, #425; the bare slot #11 is in the gaps because the unique Eugene Harris image is rowed separately as #11A), plus 1 for #11A (the Eugene Harris Peruvian flute-player image as its own row), plus 1 for #404A (letter-suffix supplement), plus 2 for out-of-range three-digit plates (#505 and #506). 503 − 17 + 1 + 1 + 2 = 490. See `research/catalog-reconciliation-503.md` for the full derivation.
 
 ### Approximate assignments (schema gaps)
 
