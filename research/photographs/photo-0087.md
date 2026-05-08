@@ -14,7 +14,7 @@
 
 ## Provenance
 
-The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #93 as:
+The MoMA Master Checklist (the in-repo excerpt at `src-moma-exh-0569-master-checklist`, Tier-1, covers plates 1–50 only; plate #93 falls outside that excerpt and the full PDF was not re-fetched this round) records plate #93 — per the `data/photographs.csv` notes for this row, which transcribe the checklist line:
 
 > *"93 — U.S.A. — Dorothea Lange, American — 18 × 14 1/4"*
 

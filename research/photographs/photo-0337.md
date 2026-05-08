@@ -14,7 +14,7 @@
 
 ## Provenance
 
-The MoMA Master Checklist (`src-moma-exh-0569-master-checklist`, Tier-1, in-repo, read this session) records plate #350 as:
+The MoMA Master Checklist (the in-repo excerpt at `src-moma-exh-0569-master-checklist`, Tier-1, covers plates 1–50 only; plate #350 falls outside that excerpt and the full PDF was not re-fetched this round) records plate #350 — per the `data/photographs.csv` notes for this row, which transcribe the checklist line:
 
 > *"350 — Korea — Margaret Bourke-White, LIFE, American — 20 × 28"*
 
@@ -40,7 +40,7 @@ The `data/sections.csv` entry for `sec-death-mourning` (read this session) recor
 
 At the time of the exhibition, the Korean War (1950–1953) was a recent memory for American and international audiences. The placement of a Korea plate — plausibly from Korean War coverage, though not confirmed — in the Death section positions that conflict's human cost within the exhibition's universalizing frame: death in Korea as an instance of death everywhere.
 
-The ICP page for Bourke-White notes her coverage of the Korean War as part of her major international assignments. The LIFE archive page records that she was the first woman to accompany Air Corps crews on bombing missions (1942, WWII) and "The first woman to accompany Air Corps crews on bombing missions" — establishing her precedent as a war correspondent. The Korea assignment would be consistent with this career trajectory, though the specific plate-to-assignment match remains unverified this round.
+The ICP page for Bourke-White notes her coverage of the Korean War as part of her major international assignments. The LIFE archive page (`src-life-archive-bourke-white-bio`, Tier-3, in-repo, read this session) records verbatim: "She was America's first accredited female photographer in World War II and the first authorized to fly on a combat mission." — establishing her precedent as a war correspondent. The Korea assignment would be consistent with this career trajectory, though the specific plate-to-assignment match remains unverified this round.
 
 ## Reception / analysis
 
