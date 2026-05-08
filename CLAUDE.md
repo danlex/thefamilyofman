@@ -50,16 +50,26 @@ For each claim you add to a source file, research note, or CSV `notes` field, yo
 
 Any "no" → the claim does not go in the file.
 
-## Subagent spawning — worktree status (updated 2026-05-08)
+## Subagent spawning — worktree status (updated 2026-05-09 after v2.1.136 smoke test)
 
-Earlier rounds (April 2026) avoided `isolation: worktree` for source-touching subagents because the worktree tool layer denied Bash/WebFetch/Edit even with `bypassPermissions`. Two upstream Claude Code fixes have since landed that should resolve this:
+Earlier rounds (April 2026) avoided `isolation: worktree` for source-touching subagents because the worktree tool layer denied Bash/WebFetch/Edit even with `bypassPermissions`. Two upstream Claude Code fixes have since landed:
 
 - **v2.1.98 (April 9, 2026)** — "Fixed agent team members not inheriting leader's permission mode when using `--dangerously-skip-permissions`."
 - **v2.1.121 (April 28, 2026)** — "Fixed subagents with worktree isolation leaking working directory back to parent session's Bash tool." This was the proximate cause of the branch-contention bug observed across 5+ parallel runs in early May 2026 (workers' `git checkout` flipped the parent session's working tree).
 
-**Current recommendation (as of 2026-05-08):** worktree-isolated parallel subagents should now work as intended. Validate with a small read-only spawn before relying on it for batch work, and confirm the Claude Code binary is at v2.1.121 or later (`claude --version`). On v2.1.133+ the new `worktree.baseRef` setting (`fresh` | `head`) controls whether the worktree branches from `origin/<default>` or local `HEAD` — set to `fresh` for reproducible PR cycles.
+**Smoke-test result on Claude Code v2.1.136 (2026-05-09):** the fix is **partial, not complete**:
 
-**Fallback** (if validation fails on this machine's Claude Code build): keep doing source-touching work in the main session, as documented in earlier rounds.
+- ✅ **Bash permitted** in worktree subagents (the April 2026 hard-block on Bash is resolved)
+- ✅ **Read permitted**
+- ❌ **WebFetch still hard-denied** — the worktree tool layer returned *"Permission to use WebFetch has been denied"* with no prompt. This is a narrower failure than the April bug (which blocked Bash too) but it still rules out worktree isolation for any worker that needs to fetch external URLs.
+
+**Current recommendation:**
+
+- For **source-touching workers that need WebFetch** (sources-librarian-*, photographer-biographer, provenance-researcher, reception-analyst, tour-historian) — keep using **no-worktree spawns in the main session**. The April 2026 workaround stands.
+- For **read-only repo-analysis workers** (judge agents, schema/grounding/credibility audits) — `isolation: "worktree"` is now safe and *preferred*, since it eliminates the branch-contention bug entirely.
+- On v2.1.133+ set `worktree.baseRef: fresh` so worktrees branch from `origin/<default>` for reproducible PR cycles.
+
+**Fallback diagnostic** if WebFetch starts working in a future Claude Code release: run the same smoke test (`Agent({ isolation: "worktree" })` running `WebFetch https://example.com`) and update this section.
 
 ## Post-merge dataset-curator hook
 
