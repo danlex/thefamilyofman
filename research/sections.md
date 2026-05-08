@@ -3,7 +3,7 @@ title: "The thematic sections of The Family of Man"
 perspective: [curatorial, critical]
 contested: true
 source_ids: [src-moma-1955-catalog, src-moma-1955-press-release-book, src-moma-exh-2429, src-moma-archives-highlights-1955, src-cna-education, src-unesco-mow-2003, src-barthes-1957, src-sandeen-1995]
-last_updated: 2026-04-19
+last_updated: 2026-05-08
 ---
 
 # The thematic sections of *The Family of Man*
@@ -32,9 +32,38 @@ Eric Sandeen's *Picturing an Exhibition: The Family of Man and 1950s America* (U
 
 Any summary of *The Family of Man*'s section structure that restates only the curatorial progression risks reproducing the humanist frame Barthes and Sandeen respectively problematize. Every sectional entry in this repo therefore carries both a curatorial anchor (catalog, MoMA) and, where relevant, a critical anchor (Barthes 1957; Sandeen 1995). Representational imbalance is a known feature of the 1955 exhibition (≈59% of photographers American, per `src-moma-archives-highlights-1955`); that imbalance travels into any count of "what the sections contain" and is flagged in the photographs and photographers datasets separately.
 
+## Photo-to-section mapping (issue #121, completed 2026-05-08)
+
+All 490 catalogued photographs in `data/photographs.csv` have been assigned to one of the 11 thematic clusters. The `section` column was already fully populated in the prior catalog-builder passes (issues #1 through #107); the `photo_ids` column in `data/sections.csv` was populated mechanically from that existing mapping on 2026-05-08 (issue #121). The anchor for every assignment is `src-moma-exh-0569-master-checklist` (the MoMA Exhibition #569 master checklist, Tier-1 in-repo source), which sequences plates by section and was read in prior sessions; each photo's `notes` field records which checklist section it belongs to.
+
+### Mapping summary table
+
+| Section ID | Title | Checklist sections covered | Photo count | Certainty |
+|---|---|---|---|---|
+| sec-prologue | Prologue | Section 1 | 8 | Canonical (verbatim checklist section header) |
+| sec-lovers | Lovers | Section 2 | 14 | Canonical |
+| sec-marriage-birth | Marriage and childbirth | Sections 3, 4, 5, 7 | 22 | Canonical (four checklist sections collapsed into one cluster) |
+| sec-family-children | Family and children | Sections 6, 8, 9, 10, 11, 12, 13 | 69 | Canonical (seven checklist sections collapsed) |
+| sec-play-learning | Play, learning, and education | Sections 26, 35 | 36 | Section 26 canonical; Section 35 Teens approximate |
+| sec-work | Work | Sections 14, 15, 16, 17 | 74 | Canonical (four checklist sections collapsed) |
+| sec-eating-everyday | Eating and everyday life | Section 23 | 14 | Canonical |
+| sec-relationships-community | Relationships and community | Sections 18, 19, 20, 21, 22, 24, 25, 39 | 123 | Sections 18-25 canonical; Section 39 Faces approximate |
+| sec-hardship-suffering-war | Hardship, suffering, and war | Sections 31, 32, 33, 34, 40 + unlabeled bridge (#452-#455) | 30 | Sections 31-33 canonical; Section 34 Revolt and unlabeled bridge approximate; Section 40 Bomb clean fit |
+| sec-death-mourning | Death and mourning | Section 27 | 13 | Canonical |
+| sec-rededication-future | Rededication, peace, and the future | Sections 28, 29, 30, 36, 37, 38, 41, 42 | 87 | Sections 36-38 approximate (democracy/peace cluster fit); Sections 28-30, 41-42 approximate |
+
+**Total: 490 photographs assigned. 0 rows with `section_uncertain: true`.**
+
+The 490 figure reflects the catalog's current state: 503 numbered checklist slots minus 17 documented missing numbers (gaps #5/#7/#8, #61, #88/#90, #145/#149, #216, #246, #261, #337, #346, #362, #399, #425), minus 1 for the Eugene Harris recurring-plate convention (only #11A is its own row), plus 1 for #404A (letter-suffix supplement), plus 2 for out-of-range three-digit plates (#505 and #506). See `research/catalog-reconciliation-503.md` for the full derivation.
+
+### Approximate assignments (schema gaps)
+
+The MoMA checklist has 42 named sections; `data/sections.csv` has 11 thematic clusters. Many late-exhibition checklist sections (28 Religious Expression, 29 Aloneness and Compassion, 30 Aspirations, 35 Teens, 36 Man's Judgment, 37 Voting, 38 Government, 39 Faces, 41 Couples, 42 Childhood Magic) have no direct one-to-one cluster match. Each of these was assigned to the nearest available cluster and flagged "approximate, not canonical" in the individual photo notes. Future work on issue #142 (per-section landing pages) may require refining the cluster schema — either expanding from 11 to ~20 clusters or accepting that the 11-cluster abstraction will produce some imprecise groupings.
+
 ## Known gaps (open tasks)
 
 - **Exact verbatim Sandburg excerpts per section** are not populated in `data/sections.csv`. The 1955 catalog's interior text was not accessible via the two Internet Archive scans we checked on 2026-04-19 (`https://archive.org/details/familyofman00stei` and `https://archive.org/details/familyofmangreat00stei` both showed as access-restricted). Per the brief, paraphrase is not quotation; the `sandburg_prologue_excerpt` column is therefore deliberately blank until a physical or unrestricted digital copy can be consulted.
 - **Page numbers in Sandeen 1995 and in the 1955 catalog** for specific claims are deferred; `src-sandeen-1995` and `src-moma-1955-catalog` both document this in their Notes.
 - **Canonical theme count** (32 vs. 37) is an unresolved discrepancy between two Tier-1 institutional sources. Our 11-row clustering is conservative and re-openable.
-- **Per-section `photo_ids`** are blank pending the catalog-builder work on issue #1.
+- **Schema gap**: the 11-cluster scheme does not map cleanly onto the catalog's 42 sections. Ten checklist sections have been assigned to their nearest cluster with explicit "approximate, not canonical" hedges. Issue #142 should revisit whether additional clusters are needed.
+- **Sections 28-30 and 36-42 assignments**: these eight closing-arc checklist sections are all mapped to `sec-rededication-future` with explicit approximation hedges. A finer-grained cluster (e.g., `sec-religious-expression`, `sec-civic-life`, `sec-aloneness`) may be warranted if Phase 2 landing pages need to distinguish them.
