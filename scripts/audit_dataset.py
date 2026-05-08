@@ -5,6 +5,10 @@ Checks:
 - No duplicate ids
 - No duplicate (user-message, perspective) pairs
 - Every example has ≥1 source_id with min_tier ≤ 2
+- Declared min_tier matches the actual minimum tier among cited sources
+  (i.e. `min_tier == min(tier(src) for src in source_ids)`, where the
+  per-source tier is read from the YAML frontmatter of the matching file
+  in `sources/`)
 - contested==true examples either have counter_perspective_id OR assistant message acknowledges contestation
 - perspective_sources ⊆ source_ids
 - ≥25% of interpretive examples carry perspective=critical (soft check — warns)
@@ -18,8 +22,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SOURCES_DIR = ROOT / "sources"
 
 INTERPRETIVE_TOPICS = {"reception", "exhibition-history"}
+
 CONTESTATION_PATTERNS = [
     re.compile(r"\bcontested\b", re.I),
     re.compile(r"\bcritiqued\b", re.I),
@@ -32,6 +38,59 @@ CONTESTATION_PATTERNS = [
     re.compile(r"\bTurner\b"),
 ]
 
+# Pattern to extract `id:` and `tier:` from YAML frontmatter without pulling
+# in PyYAML as a dependency.
+_FRONT_ID_RE = re.compile(r"^id:\s*([^\s#]+)", re.MULTILINE)
+_FRONT_TIER_RE = re.compile(r"^tier:\s*([0-9]+)", re.MULTILINE)
+
+
+def build_source_tier_map(sources_dir: Path = SOURCES_DIR) -> dict[str, int]:
+    """Scan `sources/**/*.md` once and return {src_id: tier_int}.
+
+    Reads the YAML frontmatter of each source file. Files missing either
+    `id:` or `tier:` are skipped silently — those are caught by
+    `scripts/validate_schema.py`, not here.
+    """
+    tier_map: dict[str, int] = {}
+    if not sources_dir.exists():
+        return tier_map
+    for path in sources_dir.rglob("*.md"):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        # Only inspect the frontmatter block (between the first two `---`)
+        if not text.startswith("---"):
+            continue
+        end = text.find("\n---", 3)
+        front = text[:end] if end != -1 else text
+        m_id = _FRONT_ID_RE.search(front)
+        m_tier = _FRONT_TIER_RE.search(front)
+        if not m_id or not m_tier:
+            continue
+        tier_map[m_id.group(1).strip()] = int(m_tier.group(1))
+    return tier_map
+
+
+def _row_source_ids(obj: dict) -> list[str]:
+    """Return source_ids for a row, supporting both the eval format
+    (`metadata.source_ids`) and the legacy/training top-level format
+    (`source_ids`)."""
+    meta = obj.get("metadata", {}) or {}
+    if isinstance(meta.get("source_ids"), list):
+        return list(meta["source_ids"])
+    if isinstance(obj.get("source_ids"), list):
+        return list(obj["source_ids"])
+    return []
+
+
+def _row_min_tier(obj: dict):
+    """Return declared min_tier for a row, supporting both row formats."""
+    meta = obj.get("metadata", {}) or {}
+    if "min_tier" in meta:
+        return meta.get("min_tier")
+    return obj.get("min_tier")
+
 
 def _acknowledges_contestation(obj: dict) -> bool:
     for msg in obj.get("messages", []):
@@ -42,7 +101,10 @@ def _acknowledges_contestation(obj: dict) -> bool:
     return False
 
 
-def audit_jsonl(path: Path) -> tuple[list[str], list[str]]:
+def audit_jsonl(
+    path: Path,
+    src_tier_map: dict[str, int] | None = None,
+) -> tuple[list[str], list[str]]:
     errors: list[str] = []
     warnings: list[str] = []
     ids: set[str] = set()
@@ -51,6 +113,8 @@ def audit_jsonl(path: Path) -> tuple[list[str], list[str]]:
     contested_examples: list[dict] = []
     interpretive_total = 0
     interpretive_critical = 0
+    if src_tier_map is None:
+        src_tier_map = build_source_tier_map()
 
     examples: list[tuple[int, dict]] = []
     with path.open() as f:
@@ -74,15 +138,44 @@ def audit_jsonl(path: Path) -> tuple[list[str], list[str]]:
         ids.add(ex_id)
 
         meta = obj.get("metadata", {}) or {}
-        source_ids = set(meta.get("source_ids") or [])
+        source_ids_list = _row_source_ids(obj)
+        source_ids = set(source_ids_list)
         perspective_sources = set(meta.get("perspective_sources") or [])
         if not source_ids:
             errors.append(f"{path}:{i} {ex_id} missing source_ids")
             continue
 
-        min_tier = meta.get("min_tier")
+        min_tier = _row_min_tier(obj)
         if not isinstance(min_tier, int) or min_tier > 2:
             errors.append(f"{path}:{i} {ex_id} min_tier must be ≤ 2, got {min_tier!r}")
+
+        # Cross-check the declared min_tier against the actual minimum tier
+        # among the cited sources (read from sources/**/*.md frontmatter).
+        # This catches rows that declare a credibility floor stronger than
+        # their citations actually support — see issue #138.
+        if isinstance(min_tier, int):
+            per_source: list[tuple[str, int | None]] = [
+                (sid, src_tier_map.get(sid)) for sid in source_ids_list
+            ]
+            unknown = [sid for sid, t in per_source if t is None]
+            if unknown:
+                errors.append(
+                    f"{path}:{i} {ex_id} unknown source_ids (no matching "
+                    f"sources/**/*.md): {sorted(unknown)}"
+                )
+            known_tiers = [t for _, t in per_source if t is not None]
+            if known_tiers:
+                actual_min_tier = min(known_tiers)
+                if actual_min_tier != min_tier:
+                    breakdown = ", ".join(
+                        f"{sid}:{t if t is not None else '?'}"
+                        for sid, t in per_source
+                    )
+                    errors.append(
+                        f"{path}:{i} {ex_id} min_tier mismatch: declared "
+                        f"{min_tier}, actual {actual_min_tier} "
+                        f"(sources: {breakdown})"
+                    )
 
         if not perspective_sources.issubset(source_ids):
             errors.append(
