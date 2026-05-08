@@ -9,7 +9,7 @@ url: "https://www.moma.org/docs/press_archives/1958/releases/MOMA_1955_0073_56.p
 accessed: 2026-05-08
 tier: 1
 language: en
-verified: true
+verified: false
 tags: [steichen, primary, self-statement, catalog, introduction, photography, humanism, 1955]
 ---
 
@@ -39,7 +39,7 @@ The following passage is quoted verbatim from the MoMA press release of June 21,
 
 ## Notes
 
-- `verified: true` for the excerpt as quoted above — the passage was read verbatim from the MoMA press release PDF this session (2026-05-08). The press release explicitly identifies this as from Steichen's catalog introduction.
+- `verified: false` for the catalog introduction as a primary object — the canonical object identified by `type: catalog` and the title is the catalog itself, which has NOT been consulted (both archive.org catalog items are print-disabled). The verified flag is set to false to match that primary-object status. **The press-release-quoted excerpt above WAS read verbatim from `MOMA_1955_0073_56.pdf` this session (2026-05-08)**; that anchor is documented under `src-moma-1955-press-release-book` (verified: true). Per CLAUDE.md's anti-confabulation rule, the verified flag must reflect the canonical object's verification status, not a downstream excerpt's. The press release explicitly identifies the passage as from Steichen's catalog introduction; that identification is what is anchored, not the catalog itself.
 - The catalog introduction as a whole was NOT read this session (catalog is print-disabled). The quoted passage is a press-release excerpt of unknown length relative to the full introduction.
 - This entry documents the introduction as a standalone Tier-1 primary text by Steichen. The catalog as an object is documented in `src-moma-1955-catalog`. The catalog's bibliographic data (publisher, edition variants, page counts) should be sourced from that entry, not this one.
 - Cross-references:
