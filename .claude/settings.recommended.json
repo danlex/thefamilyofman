@@ -1,0 +1,90 @@
+// Recommended additions to your local .claude/settings.local.json (gitignored).
+// This file is committed as a *reference* — copy the relevant blocks into your
+// own settings.local.json. Do NOT rename this to settings.json or
+// settings.local.json directly; Claude Code will not load it.
+//
+// Last reviewed: 2026-05-08, against Claude Code v2.1.132–v2.1.133+.
+//
+// Sections:
+//   1. autoMode.hard_deny  — destructive-action blocks (requires v2.1.133+)
+//   2. worktree.baseRef    — reproducible worktree base ref (requires v2.1.133+)
+//   3. hooks.PostToolUse   — post-merge dataset-curator queue (works on v2.1.121+)
+//
+// Strip the // comments before copying — JSON does not support them.
+{
+  // --------------------------------------------------------------------------
+  // 1. autoMode.hard_deny — guardrails that block unconditionally regardless of
+  // user intent or allow exceptions. Requires Claude Code v2.1.133+ (May 7).
+  //
+  // These mirror the destructive-action rules currently documented in
+  // CLAUDE.md prose. Putting them here makes the harness enforce them rather
+  // than relying on Claude's own restraint.
+  // --------------------------------------------------------------------------
+  "autoMode": {
+    "allow": ["$defaults"],
+    "hard_deny": [
+      {
+        "tool": "Bash(git push --force *)",
+        "reason": "Force-push is destructive; never auto-allowed. Use --force-with-lease only with explicit user approval."
+      },
+      {
+        "tool": "Bash(git push *--no-verify*)",
+        "reason": "Bypassing git hooks defeats the validator gate. CLAUDE.md forbids --no-verify."
+      },
+      {
+        "tool": "Bash(git commit *--no-verify*)",
+        "reason": "Same as above — pre-commit hooks are part of the museum-grade-accuracy stack."
+      },
+      {
+        "tool": "Bash(git reset --hard *)",
+        "reason": "--hard reset destroys uncommitted work. Use git stash + soft reset instead, or get explicit user approval."
+      },
+      {
+        "tool": "Bash(rm -rf *)",
+        "reason": "Always confirm with the user before recursive delete."
+      },
+      {
+        "tool": "Bash(gh pr merge * main *)",
+        "reason": "Direct merges of third-party branches into main require explicit user authorization."
+      }
+    ],
+    "environment": ["$defaults"]
+  },
+
+  // --------------------------------------------------------------------------
+  // 2. worktree.baseRef — control whether agent-isolation worktrees branch
+  // from origin/<default> ("fresh") or local HEAD ("head"). Default in
+  // v2.1.133+ is "fresh", which gives reproducible PR cycles when the parent
+  // session has uncommitted changes. Requires v2.1.133+.
+  // --------------------------------------------------------------------------
+  "worktree": {
+    "baseRef": "fresh"
+  },
+
+  // --------------------------------------------------------------------------
+  // 3. hooks.PostToolUse — post-merge dataset-curator queue.
+  //
+  // Works on Claude Code v2.1.121+. The hook script lives in the repo at
+  // .claude/hooks/post-merge-curator.sh and is committed; it logs every
+  // `gh pr merge` invocation to .claude/dataset-curator-queue.jsonl
+  // (gitignored) for batch processing by a future scheduled
+  // dataset-curator agent.
+  //
+  // The hook does NOT spawn an agent or open issues itself — it only
+  // captures events. This keeps the blast radius of every git operation
+  // small.
+  // --------------------------------------------------------------------------
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/post-merge-curator.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -50,9 +50,40 @@ For each claim you add to a source file, research note, or CSV `notes` field, yo
 
 Any "no" → the claim does not go in the file.
 
-## Subagent spawning — worktree permission caveat
+## Subagent spawning — worktree status (updated 2026-05-08)
 
-Subagents spawned with `isolation: worktree` + `run_in_background: true` do not currently inherit this repo's `.claude/settings.local.json` allowlist. The `bypassPermissions` spawn mode does not propagate to the worktree tool layer. As of 2026-04-24, the workaround is to do short source-verification work directly in the main session until a `SubagentStart` hook is added to copy settings into new worktrees.
+Earlier rounds (April 2026) avoided `isolation: worktree` for source-touching subagents because the worktree tool layer denied Bash/WebFetch/Edit even with `bypassPermissions`. Two upstream Claude Code fixes have since landed that should resolve this:
+
+- **v2.1.98 (April 9, 2026)** — "Fixed agent team members not inheriting leader's permission mode when using `--dangerously-skip-permissions`."
+- **v2.1.121 (April 28, 2026)** — "Fixed subagents with worktree isolation leaking working directory back to parent session's Bash tool." This was the proximate cause of the branch-contention bug observed across 5+ parallel runs in early May 2026 (workers' `git checkout` flipped the parent session's working tree).
+
+**Current recommendation (as of 2026-05-08):** worktree-isolated parallel subagents should now work as intended. Validate with a small read-only spawn before relying on it for batch work, and confirm the Claude Code binary is at v2.1.121 or later (`claude --version`). On v2.1.133+ the new `worktree.baseRef` setting (`fresh` | `head`) controls whether the worktree branches from `origin/<default>` or local `HEAD` — set to `fresh` for reproducible PR cycles.
+
+**Fallback** (if validation fails on this machine's Claude Code build): keep doing source-touching work in the main session, as documented in earlier rounds.
+
+## Post-merge dataset-curator hook
+
+A `PostToolUse` hook script lives at `.claude/hooks/post-merge-curator.sh` and is invoked when `Bash(gh pr merge ...)` runs. It captures the PR number, branch, SHA, and changed files into `.claude/dataset-curator-queue.jsonl` (gitignored). A future scheduled `dataset-curator` agent (or manual `/dataset-curator` invocation) consumes the queue and opens a `training-curation` GitHub issue.
+
+Activation is per-user — register in your own `.claude/settings.local.json` or `~/.claude/settings.local.json`:
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          { "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/post-merge-curator.sh" }
+        ]
+      }
+    ]
+  }
+}
+```
+
+The hook does NOT spawn an agent; it logs the event for batch processing. Per the project's risk-management posture, expanding the blast radius of every git operation is more costly than missing one merge in the queue.
 
 ## Prompt-injection defense
 
