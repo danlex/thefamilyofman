@@ -3,7 +3,7 @@ title: Death and mourning
 theme: "End of life, grief"
 order: 10
 section_id: sec-death-mourning
-checklist_section: "Section 27 (plates #348–#360, with gaps and one out-of-order plate)"
+checklist_section: "Section 27 (plates #348–#360, contiguous, with one out-of-order plate at #358)"
 photo_count: 13
 ---
 
@@ -11,7 +11,7 @@ Death is one of the exhibition's canonical late-flow clusters. MoMA's archives-h
 
 Roland Barthes, writing in 1957, makes this section the core of his critique: "to reproduce death or birth tells us, literally, nothing. For these natural facts to gain access to a true language, they must be inserted into a category of knowledge ... whether or not he is threatened by a high mortality rate, whether or not such and such a type of future is open to him: this is what your Exhibitions should be telling people, instead of an eternal lyricism of birth [and death]."[^2] Eric Sandeen (1995) reconstructs how the exhibition's death sequence was built and how it functioned within the humanist argument of the whole, and is the standard Tier-2 anchor for interpretive readings of this cluster.[^3]
 
-In the MoMA Master Checklist (Exhibition #569, `src-moma-exh-0569-master-checklist`), Section 27 DEATH runs across plates #348–#360 with documented gaps and one out-of-order plate (#358). The 13 photographs listed below are the catalog rows mapped to `sec-death-mourning` in `data/photographs.csv`.
+In the MoMA Master Checklist (Exhibition #569, `src-moma-exh-0569-master-checklist`), Section 27 DEATH runs across plates #348–#360 — a contiguous range of 13 plate numbers — with one plate (#358) printed out of numerical order. The 13 photographs listed below are the catalog rows mapped to `sec-death-mourning` in `data/photographs.csv`.
 
 ## Sandburg prologue excerpt
 
