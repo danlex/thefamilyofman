@@ -646,6 +646,11 @@ permalink: /
       <h3>Stimson era + UNESCO 2003</h3>
       <p>Blake Stimson's <em>The Pivot of the World</em> (MIT Press, 2006) is the most-cited 2000s scholarly engagement, alongside the 2004 Back/Schmidt-Linsenhoff bilingual volume and the 2005 <em>History of Photography</em> 50th-anniversary special issue. The 2003 UNESCO Memory of the World inscription gives the show a parallel institutional canonization. "Stimson era" is a convenience handle, not a verdict — Stimson's body text remains borrow-only-not-fetched in this round.</p>
     </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
+      <div class="action-kicker">2010s</div>
+      <h3>Turner era + <em>Democratic Surround</em></h3>
+      <p>Fred Turner's <em>Public Culture</em> 24:1 (2012) and <em>The Democratic Surround</em> (Chicago, 2013) form the first 2010s scholarly engagement to defend the exhibition's <em>intent and audience experience</em> directly against the Barthes / Phillips / Sekula consensus — while still granting the show's role in pioneering "postmodern modes of mediated authority." Anchored on a fresh-fetched curl read of the Turner 2012 PDF (six page-pinned excerpts at pp. 57, 58, 68, 84). Sandeen 2015 (Guatemala), Hurm/Reitz/Zamir 2018 (CNA volume), and the 2010–2013 Clervaux restoration close the decade.</p>
+    </a>
   </div>
 </section>
 
@@ -672,6 +677,16 @@ permalink: /
       <div class="action-kicker">Conservation</div>
       <h3>2026 Clervaux HVAC crisis</h3>
       <p>An April 2026 <em>woxx</em> investigative report (Chris Lauer; companion 24 April 2026 piece by Joël Adami) documents a July-2025 HVAC compressor failure at Clervaux Castle, parliamentary questioning by CSV MP Stéphanie Weydert, and the 24 April 2026 resignation of CNA director Gilles Zeimet. The first 2020s conservation-incident entry in the bibliography.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographs" rel="noopener">
+      <div class="action-kicker">Photo-stories</div>
+      <h3>+5 plate deep-dives (PR #160)</h3>
+      <p>Lange #93 (Children B, USA), Capa #124 (Land, USSR — LADIES' HOME JOURNAL credit), Cartier-Bresson #128 (Land, Indonesia — Magnum), Eisenstaedt #295 (Relationships, USA — LIFE), Bourke-White #350 (Death, Korea — LIFE). Each entry pairs the institutional/curatorial reading with the Barthes critical reading and flags working hypotheses (Capa-Steinbeck-1947, Bourke-White-Korean-War) as unverified rather than asserted. Plate-counts strict-grep verified; the in-repo MoMA Master Checklist excerpt covers plates 1–50, so the verbatim plate-line strings for 93/124/128/295/350 are explicitly carried via <code>data/photographs.csv</code> notes rather than overstated as fresh PDF reads.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
+      <div class="action-kicker">Reception</div>
+      <h3>2010s essay closes the Turner gap (PR #161)</h3>
+      <p>The 6/7 reception decade (1960s and 2020s remaining). Built on a 2026-05-09 curl + pdftotext read of Turner's <em>Public Culture</em> PDF — every page-cited block quote is now pinned in the source file (pp. 57, 58, 68, 84) with verbatim text, including the "antiauthoritarian politics behind its design" framing on p. 57 and the "pioneer postmodern modes of mediated authority" verdict on p. 84. Closes a four-round grounding-judge cycle with the forward chain (essay → source file → page-anchored verbatim) complete for every block quote.</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
       <div class="action-kicker">Photographers</div>
