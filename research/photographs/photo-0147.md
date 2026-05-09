@@ -46,7 +46,7 @@ Barthes's "The Great Family of Man" (`src-barthes-1957`, Tier-2, in-repo) explic
 
 ## Perspective notes
 
-- Curatorial (MoMA 1955): Haas has six plates across multiple sections (Lovers, Work A, Dance, Relationships, Learning, and the pre-Bomb bridge group). The ARGOSY credit on this plate is the only instance among his six checklist appearances where a publication credit appears alongside his Magnum agency credit, suggesting this image had a prior magazine-publication history distinct from his LIFE or Magnum-direct placements.
+- Curatorial (MoMA 1955): Haas has six plates across multiple sections (Lovers, Work A, Dance, Relationships, Learning, and the pre-Bomb bridge group). The ARGOSY credit on this plate is one of three instances among his six checklist appearances where a publication credit appears alongside his Magnum agency credit (the other two are photo-0235 with LIFE in Section 21 Dance and photo-0329 with VOGUE in Section 26 Learning, per `data/photographs.csv` notes). The dual-credit pattern suggests Haas's plates carried prior magazine-publication histories distinct from his Magnum-direct placements; this is the only one of the three pointing to ARGOSY rather than the more common LIFE / VOGUE prior-publication context.
 - Critical: Haas's color photography of the 1950s is associated with the aesthetic he brought to color photojournalism. The checklist does not indicate whether this plate was printed in color or black-and-white for the exhibition (the MoMA exhibition used both; the checklist does not systematically record this).
 
 ## Open questions

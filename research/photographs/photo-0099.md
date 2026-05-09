@@ -22,7 +22,7 @@ This is one of four Smith plates in *The Family of Man* (photo-0099, photo-0333,
 
 Section 11 is titled "Children (B)" in the MoMA Master Checklist. The plate appears at checklist #105, two positions after Homer Page's #103 and within the run of Children-B plates. The `data/sections.csv` entry (in-repo, read this session) maps Section 11 Children B to the `sec-family-children` cluster.
 
-W. Eugene Smith joined Magnum Photos in 1955 as an associate member (per `src-icp-w-eugene-smith-archive`, Tier-1, in-repo, verified 2026-05-09: "In 1955, he joined Magnum, the international cooperative photography agency") — the same year *The Family of Man* opened (January 24, 1955). His work on this plate therefore predates or coincides with his Magnum membership.
+W. Eugene Smith joined Magnum Photos in 1955 (per `src-icp-w-eugene-smith-archive`, Tier-1, in-repo, verified 2026-05-09: "In 1955, he joined Magnum, the international cooperative photography agency"). The "associate" qualifier comes from `src-magnum-w-eugene-smith` (Tier-1, in-repo) — see the Magnum-paragraph excerpt below — not from the ICP page. 1955 was also the year *The Family of Man* opened (January 24, 1955). His work on this plate therefore predates or coincides with his Magnum membership.
 
 Per the Magnum Photos biography (`src-magnum-w-eugene-smith`, Tier-1, in-repo, verified 2026-05-09): "Smith worked for *Life* again between 1947 and 1955, before resigning in order to join Magnum Photos as an associate." This plate is attributed in the checklist to Smith individually, without a publication credit, which is consistent with a pre-Magnum *LIFE* or freelance attribution.
 
