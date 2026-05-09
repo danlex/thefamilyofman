@@ -26,7 +26,7 @@ SECTIONS_COLUMNS = [
 SOURCE_REQUIRED_FIELDS = {"id", "title", "year", "type", "tier", "language"}
 SOURCE_TYPES = {"book", "article", "catalog", "archive", "website", "interview", "film"}
 SOURCE_TIERS = {1, 2, 3}
-SOURCE_LANGS = {"en", "fr", "de", "lb", "it", "es", "pt", "nl", "ja", "ru"}
+SOURCE_LANGS = {"en", "fr", "de", "lb", "it", "es", "pt", "nl", "ja", "ru", "pl", "sr", "cs"}
 CLERVAUX_VALUES = {"yes", "no", "rotating", "unknown", ""}
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
