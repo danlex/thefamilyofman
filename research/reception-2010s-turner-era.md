@@ -378,11 +378,12 @@ The editorial framing, verbatim from the same page:
 > analyses of the formal dynamics of the exhibition."
 > (CNA documentation page, fetched 2026-05-09)
 
-Three primary documents are presented in the volume "for the first
-time in English," per the same page: "Commentaries by critical
-theorist Max Horkheimer and novelist Wolfgang Koeppen, a letter from
-photographer August Sander, and a poetic sequence on the images by
-Polish poet Witold Wirpsza." A separate Munich audience-response
+Three primary documents are presented in the volume — the CNA page
+states they are "documents about the exhibition never before
+available in English": "Commentaries by critical theorist Max
+Horkheimer and novelist Wolfgang Koeppen, a letter from photographer
+August Sander, and a poetic sequence on the images by Polish poet
+Witold Wirpsza." A separate Munich audience-response
 section is also flagged: "A detailed survey of audience responses in
 Munich from 1955 allows a rare glimpse of what visitors thought about
 the exhibition."
