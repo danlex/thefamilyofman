@@ -646,6 +646,11 @@ permalink: /
       <h3>Stimson era + UNESCO 2003</h3>
       <p>Blake Stimson's <em>The Pivot of the World</em> (MIT Press, 2006) is the most-cited 2000s scholarly engagement, alongside the 2004 Back/Schmidt-Linsenhoff bilingual volume and the 2005 <em>History of Photography</em> 50th-anniversary special issue. The 2003 UNESCO Memory of the World inscription gives the show a parallel institutional canonization. "Stimson era" is a convenience handle, not a verdict — Stimson's body text remains borrow-only-not-fetched in this round.</p>
     </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1960s-szarkowski-transition.md" rel="noopener">
+      <div class="action-kicker">1960s</div>
+      <h3>Szarkowski transition + ICP founding</h3>
+      <p>Steichen retires (1962); Szarkowski takes over as MoMA Director of Photography on 1 July 1962 and curates the formalist counter-program — <em>The Photographer's Eye</em> (1964/66) and <em>New Documents</em> (1967). Steichen's autobiography <em>A Life in Photography</em> appears in 1963; the USIA tour winds down 1962–1965; Luxembourg receives the donated copy in 1965–1966. Cornell Capa founds the Concerned Photographer Fund (1966) — a documentary-humanist continuation track that complicates the "Szarkowski killed FoM's humanism" narrative. Sandburg dies in 1967. The 1960s are pre-critical for FoM in the sense that the canonical Anglophone critique has not yet been written: Barthes 1957 awaits Annette Lavers's 1972 translation; Sontag, Sekula, and Phillips arrive 1977–1982.</p>
+    </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
       <div class="action-kicker">2010s</div>
       <h3>Turner era + <em>Democratic Surround</em></h3>
@@ -663,6 +668,16 @@ permalink: /
     <a class="more" href="https://github.com/danlex/thefamilyofman/pulls?q=is%3Apr+is%3Aclosed" rel="noopener">All merged PRs →</a>
   </div>
   <div class="action-row">
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1960s-szarkowski-transition.md" rel="noopener">
+      <div class="action-kicker">Reception</div>
+      <h3>1960s essay: the Szarkowski transition (PR #170)</h3>
+      <p>The decade-by-decade reception arc reaches 6/7 (only 2020s now remaining). Steichen's 1962 retirement and Szarkowski's 1 July 1962 appointment open the formalist counter-program; the Concerned Photographer Fund's founding in 1966 marks the documentary-humanist continuation track that complicates a "Szarkowski killed FoM" narrative. The 1960s are pre-critical for FoM in the strict sense — Barthes 1957 awaits Annette Lavers's 1972 translation. Anchored on 19 in-repo 1960s sources; passed all four judges across four rounds (the Howard→Lavers translator misattribution caught in round 1).</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
+      <div class="action-kicker">Photographers</div>
+      <h3>+12 anchored bios across batches 03–05 (PRs #125, #128, #171)</h3>
+      <p>Batch 05 (PR #171) added Russell Lee, Ben Shahn, Carl Mydans, and Esther Bubley — the FSA / OWI core slate plus a pointed gender-imbalance corrective (Bubley brings the female-tagged photographer count from 2 to 3, a +50% relative shift in one PR). Strict-grep again caught a 0-plates candidate (Arthur Rothstein) and swapped to Bubley. Three honest discrepancies surfaced rather than buried: ICP Mydans 1906 vs. Wikipedia 1907, ICP Russell Lee broken-HTML rendering, and ICP Bubley page carrying no biography paragraph (anchored instead via Bonnie Yochelson's estate biography at <em>estherbubley.com</em>).</p>
+    </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographs" rel="noopener">
       <div class="action-kicker">Photo-stories</div>
       <h3>+5 plate deep-dives (PR #160)</h3>
@@ -671,17 +686,7 @@ permalink: /
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
       <div class="action-kicker">Reception</div>
       <h3>2010s essay closes the Turner gap (PR #161)</h3>
-      <p>The 6/7 reception decade (1960s and 2020s remaining). Built on a 2026-05-09 curl + pdftotext read of Turner's <em>Public Culture</em> PDF — every page-cited block quote is now pinned in the source file (pp. 57, 58, 68, 84) with verbatim text, including the "antiauthoritarian politics behind its design" framing on p. 57 and the "pioneer postmodern modes of mediated authority" verdict on p. 84. Closes a four-round grounding-judge cycle with the forward chain (essay → source file → page-anchored verbatim) complete for every block quote.</p>
-    </a>
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/sources/2020s/woxx-2026-fom-kulturpolitischer-problemfall.md" rel="noopener">
-      <div class="action-kicker">Conservation</div>
-      <h3>2026 Clervaux HVAC crisis</h3>
-      <p>An April 2026 <em>woxx</em> investigative report (Chris Lauer; companion 24 April 2026 piece by Joël Adami) documents a July-2025 HVAC compressor failure at Clervaux Castle, parliamentary questioning by CSV MP Stéphanie Weydert, and the 24 April 2026 resignation of CNA director Gilles Zeimet. The first 2020s conservation-incident entry in the bibliography.</p>
-    </a>
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
-      <div class="action-kicker">Photographers</div>
-      <h3>+8 anchored bios in two batches</h3>
-      <p>Batches 03 and 04 (PRs #125, #128) added Eisenstaedt, Cartier-Bresson, Bourke-White, Rodger, Lange, Frank, Adams, and Brandt — each anchored on ICP constituent-archive pages (Tier 1) plus LIFE / Magnum / Wikipedia-pointer secondary sources. Walker Evans was confirmed by strict-grep to have <strong>0</strong> plates in the catalog and was correctly skipped.</p>
+      <p>Built on a 2026-05-09 curl + pdftotext read of Turner's <em>Public Culture</em> PDF — every page-cited block quote is pinned in the source file (pp. 57, 58, 68, 84) with verbatim text, including the "antiauthoritarian politics behind its design" framing on p. 57 and the "pioneer postmodern modes of mediated authority" verdict on p. 84. Closes a four-round grounding-judge cycle with the forward chain (essay → source file → page-anchored verbatim) complete for every block quote.</p>
     </a>
   </div>
 </section>
