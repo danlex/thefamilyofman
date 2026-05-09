@@ -1,0 +1,19 @@
+# August Sander (1876–1964)
+
+August Sander was a German portrait photographer best known for *Menschen des 20. Jahrhunderts* / "People of the Twentieth Century" — a typological photographic atlas of German society begun in the 1910s and continued, with interruption, into the postwar period. The ICP archive page (fetched 2026-05-09) gives the dates and nationality cleanly in its right-hand panel as "1876 - 1964" / "German" (src-icp-august-sander-archive). The SFMOMA artist page (fetched 2026-05-09) renders the same anchor as "1876, Herdorf, Germany / 1964, Cologne, Germany / German" (src-sfmoma-august-sander). Britannica (fetched 2026-05-09) and the Wikipedia pointer (fetched 2026-05-09) corroborate the November 17, 1876 / April 20, 1964 day-month tokens and the Herdorf birthplace / Cologne deathplace at narrative-paragraph resolution (src-britannica-august-sander, src-wikipedia-august-sander-pointer).
+
+## Career
+
+Per the ICP archive page (verbatim, fetched 2026-05-09), Sander "received his first camera from an uncle in 1892 and promptly set up a darkroom and taught himself photography. After serving in the German military, he took up photography full-time. He established a photography studio, first in Austria, then in Cologne, where he settled in 1910 and made photographs of local peasants. This activity inspired his life's work — a comprehensive document of the German people entitled 'Menschen des 20. Jahrhunderts' (Citizens of the Twentieth Century)" (src-icp-august-sander-archive). The same source notes that "by the early 1930s, Sander was recognized as an authority on photography in Germany and delivered a series of popular radio lectures, 'The Nature and Development of Photography'", and that "as Hitler rose to power in the early 1930s, Sander was forced to discontinue 'Citizens of the Twentieth Century'" — partly because his son, who "died in prison in 1944", was a Communist Party member, "which made Nazi officials suspicious of Sander's work" (src-icp-august-sander-archive). Britannica adds the early-life biographical context that "the son of a mining carpenter, Sander apprenticed as a miner in 1889" before acquiring his first camera in 1892 (src-britannica-august-sander).
+
+## Connection to *The Family of Man*
+
+Sander is represented by three plates in *The Family of Man* (count verified by strict-match grep against `data/photographs.csv` 2026-05-09): photo-0146 (Section 15 Work A, Germany, 28 x 21 3/4 cm), photo-0402 (Section 35 Teens, Germany, 28 x 19 1/2 cm), and photo-0447 (Section 41 Couples, Germany, 18 x 12 1/2 cm). All three are credited "German" in the MoMA Master Checklist (src-moma-exh-0569-master-checklist), and all three are set in Germany. None of the four biographical sources fetched in this round (ICP, SFMOMA, Britannica, Wikipedia) mention *The Family of Man* by name on Sander's page (verified by string-search 2026-05-09); the connection is anchored at the plate level via the MoMA Master Checklist. The selection of three Sander plates — across Work, Teens, and Couples sections — is the largest dedicated commitment to typological-portraiture lineage in FoM, and the only Weimar-era pre-1933 portrait corpus represented at this scale in the exhibition.
+
+## References
+
+- src-moma-exh-0569-master-checklist — MoMA Exhibition #569 Master Checklist
+- src-icp-august-sander-archive — August Sander at the International Center of Photography (Tier 1, fetched 2026-05-09)
+- src-sfmoma-august-sander — August Sander at the San Francisco Museum of Modern Art (Tier 1, fetched 2026-05-09)
+- src-britannica-august-sander — August Sander entry, Encyclopædia Britannica (Tier 3, fetched 2026-05-09)
+- src-wikipedia-august-sander-pointer — Wikipedia pointer for day-month tokens, Herdorf and Cologne place specificity, and "People of the 20th Century" framing (Tier 3, fetched 2026-05-09)
