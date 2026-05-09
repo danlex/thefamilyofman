@@ -3,3 +3,4 @@
 *.env.local
 .claude/worktrees/
 .claude/dataset-curator-queue.jsonl
+.scratch/
