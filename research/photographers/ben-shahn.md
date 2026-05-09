@@ -16,5 +16,5 @@ Shahn is represented by one plate in *The Family of Man* (count verified by stri
 
 - src-moma-exh-0569-master-checklist — MoMA Exhibition #569 Master Checklist
 - src-icp-ben-shahn-archive — Ben Shahn at the International Center of Photography (Tier 1, fetched 2026-05-09)
-- src-britannica-ben-shahn — Britannica entry for Ben Shahn (Tier 2, fetched 2026-05-09)
+- src-britannica-ben-shahn — Britannica entry for Ben Shahn (Tier 3 per CREDIBILITY.md, fetched 2026-05-09)
 - src-wikipedia-ben-shahn-pointer — Wikipedia pointer for day-month tokens, family-immigration arc, and FoM plate-source identification (Tier 3, fetched 2026-05-09)
