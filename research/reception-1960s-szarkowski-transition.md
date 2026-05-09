@@ -576,7 +576,8 @@ project picks the continuity reading explicitly.
 **What the 1960s do *not* settle:** the verdict question. There is
 no 1960s monograph in this repo that engages *The Family of Man*
 critically. Barthes 1957 is in French and would not be widely read
-in English until Howard's 1972 translation. Sontag's *On Photography*
+in English until Annette Lavers's 1972 translation (Hill and Wang;
+translator named per `src-barthes-1957`). Sontag's *On Photography*
 is 1977. Sekula's *Art Journal* essay is 1981. Phillips's *October*
 essay is 1982. The 1960s are pre-critical for *The Family of Man* in
 the sense that the canonical Anglophone critique has not yet been
