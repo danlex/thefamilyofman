@@ -15,7 +15,7 @@ verified: true
 
 ## Citation
 
-Fickers, Andreas, Claude Ewert, and Emilia Sanchez Gonzalez. "Tracing the Legacy of Edward Steichen: A Glocal Approach to the International Reception and National Heritagisation of the 'Family of Man' Exhibition (FoMLEG)." Research project page. Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg. Announced October 2024. URL: https://www.uni.lu/c2dh-en/research-projects/fomleg/ (not accessed directly this round — see Notes).
+Fickers, Andreas, Claude Ewert, and Emilia Sanchez Gonzalez. "Tracing the Legacy of Edward Steichen: A Glocal Approach to the International Reception and National Heritagisation of the 'Family of Man' Exhibition (FoMLEG)." Research project page. Luxembourg Centre for Contemporary and Digital History (C²DH), University of Luxembourg. Announced October 2024. URL: https://www.uni.lu/c2dh-en/research-projects/fomleg/ (directly fetched 2026-05-09 — see Notes).
 
 ## Tier justification
 
