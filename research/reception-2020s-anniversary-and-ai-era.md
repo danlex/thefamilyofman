@@ -623,7 +623,7 @@ Third, the article's empirical content — its direct engagement
 with *A Generated Family of Man* — produces specific observations
 about what AI-image-generation does to particular FoM images that
 have no equivalent in earlier critical literature. Lewandowski
-notes (p. 5–6) that the Warsaw Ghetto 1943 image (the only FoM
+notes (p. 4) that the Warsaw Ghetto 1943 image (the only FoM
 image directly related to the Holocaust, on Lewandowski's reading)
 was "thankfully only represented through a human prompt and not an
 AI one" in *A Generated Family of Man*; that Raphael Platnick's
