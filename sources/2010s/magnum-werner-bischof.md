@@ -33,6 +33,7 @@ Tier-1 institutional page from Bischof's own cooperative agency (Magnum Photos, 
 - "Werner Bischof was born in Switzerland in 1916. He studied photography with Hans Finsler in his native Zurich at the School for Arts and Crafts, then opened a photography and advertising studio."
 - "In 1942, he became a freelancer for Du magazine, which published his first major photo essays in 1943. Bischof received international recognition after the publication of his 1945 reportage on the devastation caused by the Second World War."
 - "Bischof died in a road accident in the Andes on May 16, 1954, only nine days before Magnum founder Robert Capa lost his life in Indochina."
+- "He was sent to report on famine in India by *Life* magazine in 1951." — anchors the 1951 LIFE / India famine assignment that surrounds Bischof's India plate (photo-0381) in *The Family of Man*'s Section 32 Famine.
 
 ## Notes
 
