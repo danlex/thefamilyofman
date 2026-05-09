@@ -690,8 +690,8 @@ permalink: /
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographs" rel="noopener">
       <div class="action-kicker">Photo-stories</div>
-      <h3>+5 plate deep-dives (PR #160)</h3>
-      <p>Lange #93 (Children B, USA), Capa #124 (Land, USSR — LADIES' HOME JOURNAL credit), Cartier-Bresson #128 (Land, Indonesia — Magnum), Eisenstaedt #295 (Relationships, USA — LIFE), Bourke-White #350 (Death, Korea — LIFE). Each entry pairs the institutional/curatorial reading with the Barthes critical reading and flags working hypotheses (Capa-Steinbeck-1947, Bourke-White-Korean-War) as unverified rather than asserted. Plate-counts strict-grep verified; the in-repo MoMA Master Checklist excerpt covers plates 1–50, so the verbatim plate-line strings for 93/124/128/295/350 are explicitly carried via <code>data/photographs.csv</code> notes rather than overstated as fresh PDF reads.</p>
+      <h3>+10 plate deep-dives across batches 05 + 08 (PRs #160 + #194)</h3>
+      <p>Batch 08 (PR #194) added 5 more deep-dives, paired with the photographer-bios just written: Smith's <strong>plate #105</strong> (Children B, USA — note this is <em>not</em> the closing image; #503 is, also Smith); Homer Page #103 (a Children B plate, his first deep-dive); Haas #154 (Work A, USA — ARGOSY-credited, one of three dual-publication credits across his six plates); Bubley #334 (Section 26 Learning, England); Bischof #395 (Famine, India — Bischof's documented 1951 LIFE famine assignment is now anchored as a research lead in the Magnum source). Each entry pairs the institutional / curatorial reading with the Barthes critical reading; Bischof's plate gets the strongest direct invocation of Barthes's "ask the parents of Emmet Till" passage. Together with batch 05 (PR #160), the catalog now has 30+ deep-dive entries, biased toward the highest-plate-count photographers.</p>
     </a>
   </div>
 </section>
