@@ -646,6 +646,11 @@ permalink: /
       <h3>Stimson era + UNESCO 2003</h3>
       <p>Blake Stimson's <em>The Pivot of the World</em> (MIT Press, 2006) is the most-cited 2000s scholarly engagement, alongside the 2004 Back/Schmidt-Linsenhoff bilingual volume and the 2005 <em>History of Photography</em> 50th-anniversary special issue. The 2003 UNESCO Memory of the World inscription gives the show a parallel institutional canonization. "Stimson era" is a convenience handle, not a verdict — Stimson's body text remains borrow-only-not-fetched in this round.</p>
     </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
+      <div class="action-kicker">2010s</div>
+      <h3>Turner era + <em>Democratic Surround</em></h3>
+      <p>Fred Turner's <em>Public Culture</em> 24:1 (2012) and <em>The Democratic Surround</em> (Chicago, 2013) form the first 2010s scholarly engagement to defend the exhibition's <em>intent and audience experience</em> directly against the Barthes / Phillips / Sekula consensus — while still granting the show's role in pioneering "postmodern modes of mediated authority." Anchored on a fresh-fetched curl read of the Turner 2012 PDF (six page-pinned excerpts at pp. 57, 58, 68, 84). Sandeen 2015 (Guatemala), Hurm/Reitz/Zamir 2018 (CNA volume), and the 2010–2013 Clervaux restoration close the decade.</p>
+    </a>
   </div>
 </section>
 
@@ -658,15 +663,15 @@ permalink: /
     <a class="more" href="https://github.com/danlex/thefamilyofman/pulls?q=is%3Apr+is%3Aclosed" rel="noopener">All merged PRs →</a>
   </div>
   <div class="action-row">
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md#west-berlin-venue-anchoring-achieved-2026-05-07" rel="noopener">
-      <div class="action-kicker">World tour</div>
-      <h3>Berlin venue anchored — and Brecht crossed the wall to see it</h3>
-      <p>The 1955 West Berlin venue is now anchored as the <em>Hochschule für Bildende Künste</em> via a verbatim NARA RG 306 photo caption (306-FM-3) reproduced in the C²DH FoMLEG project article: <em>"German playwright and poet Bertolt Brecht crosses from East Berlin to visit 'The Family of Man' exhibition at the Hochschule für Bildende Künste in West Berlin, Germany. 1955."</em> First Tier-1-anchored European venue beyond the Paris stop.</p>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographs" rel="noopener">
+      <div class="action-kicker">Photo-stories</div>
+      <h3>+5 plate deep-dives (PR #160)</h3>
+      <p>Lange #93 (Children B, USA), Capa #124 (Land, USSR — LADIES' HOME JOURNAL credit), Cartier-Bresson #128 (Land, Indonesia — Magnum), Eisenstaedt #295 (Relationships, USA — LIFE), Bourke-White #350 (Death, Korea — LIFE). Each entry pairs the institutional/curatorial reading with the Barthes critical reading and flags working hypotheses (Capa-Steinbeck-1947, Bourke-White-Korean-War) as unverified rather than asserted. Plate-counts strict-grep verified; the in-repo MoMA Master Checklist excerpt covers plates 1–50, so the verbatim plate-line strings for 93/124/128/295/350 are explicitly carried via <code>data/photographs.csv</code> notes rather than overstated as fresh PDF reads.</p>
     </a>
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md#paris-venue-institutionally-consistent-partially-anchored-2026-05-07" rel="noopener">
-      <div class="action-kicker">World tour</div>
-      <h3>Paris venue: MNAM, not MAMVP</h3>
-      <p>The Paris stop is identified as the <em>Musée National d'Art Moderne</em> (then at the Palais de Tokyo), January 1956 — Tier-3-anchored via Wikipedia row + institutional-consistency exclusion. The often-repeated <em>Musée d'Art Moderne de la Ville de Paris</em> (the city museum) attribution is ruled out: MAMVP wasn't founded until 1961.</p>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
+      <div class="action-kicker">Reception</div>
+      <h3>2010s essay closes the Turner gap (PR #161)</h3>
+      <p>The 6/7 reception decade (1960s and 2020s remaining). Built on a 2026-05-09 curl + pdftotext read of Turner's <em>Public Culture</em> PDF — every page-cited block quote is now pinned in the source file (pp. 57, 58, 68, 84) with verbatim text, including the "antiauthoritarian politics behind its design" framing on p. 57 and the "pioneer postmodern modes of mediated authority" verdict on p. 84. Closes a four-round grounding-judge cycle with the forward chain (essay → source file → page-anchored verbatim) complete for every block quote.</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/sources/2020s/woxx-2026-fom-kulturpolitischer-problemfall.md" rel="noopener">
       <div class="action-kicker">Conservation</div>
