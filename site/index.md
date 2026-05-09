@@ -675,8 +675,8 @@ permalink: /
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
       <div class="action-kicker">Photographers</div>
-      <h3>+12 anchored bios across batches 03–05 (PRs #125, #128, #171)</h3>
-      <p>Batch 05 (PR #171) added Russell Lee, Ben Shahn, Carl Mydans, and Esther Bubley — the FSA / OWI core slate plus a pointed gender-imbalance corrective (Bubley brings the female-tagged photographer count from 2 to 3, a +50% relative shift in one PR). Strict-grep again caught a 0-plates candidate (Arthur Rothstein) and swapped to Bubley. Three honest discrepancies surfaced rather than buried: ICP Mydans 1906 vs. Wikipedia 1907, ICP Russell Lee broken-HTML rendering, and ICP Bubley page carrying no biography paragraph (anchored instead via Bonnie Yochelson's estate biography at <em>estherbubley.com</em>).</p>
+      <h3>+16 anchored bios across batches 03–06 (PRs #125, #128, #171, #174)</h3>
+      <p>Batch 06 (PR #174) added Werner Bischof, Elliott Erwitt, Ernst Haas, and Brassaï — the LIFE / Magnum continuation. Marc Riboud was strict-grep swapped out (0 plates) for Haas (6 plates). Plate-count corrections landed too: Bischof 3→6, Haas 2→6 — the catalog had under-counted both. Discrepancies surfaced rather than buried: Eze vs. Beaulieu-sur-Mer for Brassaï's death; <em>Paris de nuit</em> 1932 (ICP) vs. 1933 (Britannica/Wikipedia); Austrian (FoM checklist) vs. American (ICP) for Haas — anchored on the FoM checklist primary record. The 0-plates strict-grep filter has now caught Walker Evans, Arthur Rothstein, and Marc Riboud across three consecutive batches.</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographs" rel="noopener">
       <div class="action-kicker">Photo-stories</div>
