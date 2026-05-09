@@ -6,7 +6,7 @@ year: 2015
 type: website
 publisher: "Centre national de l'audiovisuel, Luxembourg"
 url: "https://steichencollections-cna.lu/eng/collections/1_the-family-of-man"
-accessed: 2026-04-29
+accessed: 2026-05-09
 tier: 1
 language: en
 verified: true
@@ -30,6 +30,14 @@ The English-language counterpart to the CNA's German collections page (`src-cna-
 - "**July 2013** — Reopening following renovation of exhibition rooms and restoration of photographs."
 - "The restoration campaign has been led in collaboration with the Studio Berselli from Milan, Italy (Silvia Berselli, Roberta Piantavigna, Francesca Vantellini, Isabel Dimas)."
 - "the exhibition rooms featuring a very sober architecture conceived by designer Nathalie Jacoby (NJOY)."
+
+### Fresh fetch 2026-05-09 — restoration narrative paragraph
+
+Re-fetched via `curl` 2026-05-09 (HTTP 200); cached locally during the recep-2010s session. The page contains, immediately after the date bullets above, a narrative restoration paragraph not previously transcribed:
+
+- "A second restoration period followed the closure of the museum in the years 2010-2013. Recent developments in the science and tools used in photography restoration enabled a state-of-the-art analysis and treatment of the photographs to be carried out. A lot of the damage noted was able to be dealt with thanks to restoration treatments such as cleaning, consolidation and retouching."
+
+This paragraph is the substantive (not just dated-bullet) account of the 2010–2013 restoration campaign and is what the reception-2010s essay (`research/reception-2010s-turner-era.md`) block-quotes.
 
 Tour-period framing (re-verified 2026-04-29):
 

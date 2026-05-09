@@ -6,7 +6,7 @@ year: 2018
 type: book
 publisher: "I.B. Tauris, London"
 url: "https://steichencollections-cna.lu/eng/documentations/4_publication-the-family-of-man-revisited-photography-in-a-global-age"
-accessed: 2026-04-30
+accessed: 2026-05-09
 tier: 2
 language: en
 tags: [scholarship, reception, essay-collection, global-reception, cna, critical-theory]
@@ -47,6 +47,14 @@ Winfried Fluck, Ulrike Gehring, Gerd Hurm, Martin Jay, Miles Orvell, Anke Reitz,
 Primary historical documents included (per CNA page description): commentary by Max Horkheimer and Wolfgang Koeppen; a letter by August Sander; poems by Witold Wirpsza.
 
 Framing language on CNA page: "The most widely seen exhibition in the history of photography" (institutional characterization used on the CNA page; not an independent verification of that claim).
+
+### Fresh fetch 2026-05-09 — full editorial blurb verbatim
+
+Re-fetched via `curl` 2026-05-09 (HTTP 200, cached locally during the recep-2010s session). The CNA documentation page carries the publisher's editorial blurb in full; previously only the contributor list and primary-document inventory had been transcribed. Verbatim:
+
+- "*The Family of Man: Photography in a Global Age* revises the critical debate about *The Family of Man*, challenging in particular the legacy of Roland Barthes's influential account of the exhibition. The expert contributors explore new contexts for understanding Steichen's work and they undertake radically new analyses of the formal dynamics of the exhibition. Also presented are documents about the exhibition never before available in English. Commentaries by critical theorist Max Horkheimer and novelist Wolfgang Koeppen, a letter from photographer August Sander, and a poetic sequence on the images by Polish poet Witold Wirpsza enable and encourage new critical reflections. A detailed survey of audience responses in Munich from 1955 allows a rare glimpse of what visitors thought about the exhibition. Today, when armed conflict, environmental catastrophe, and economic inequality continue to threaten our future, it is timely to revisit *The Family of Man*."
+
+The phrasing "for the first time in English" used in the reception-2010s essay (`research/reception-2010s-turner-era.md`) is the essay's compression of the blurb's "Also presented are documents about the exhibition never before available in English"; the blurb's full sentence is the verbatim source.
 
 ## Notes
 
