@@ -663,21 +663,6 @@ permalink: /
     <a class="more" href="https://github.com/danlex/thefamilyofman/pulls?q=is%3Apr+is%3Aclosed" rel="noopener">All merged PRs →</a>
   </div>
   <div class="action-row">
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md#west-berlin-venue-anchoring-achieved-2026-05-07" rel="noopener">
-      <div class="action-kicker">World tour</div>
-      <h3>Berlin venue anchored — and Brecht crossed the wall to see it</h3>
-      <p>The 1955 West Berlin venue is now anchored as the <em>Hochschule für Bildende Künste</em> via a verbatim NARA RG 306 photo caption (306-FM-3) reproduced in the C²DH FoMLEG project article: <em>"German playwright and poet Bertolt Brecht crosses from East Berlin to visit 'The Family of Man' exhibition at the Hochschule für Bildende Künste in West Berlin, Germany. 1955."</em> First Tier-1-anchored European venue beyond the Paris stop.</p>
-    </a>
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md#paris-venue-institutionally-consistent-partially-anchored-2026-05-07" rel="noopener">
-      <div class="action-kicker">World tour</div>
-      <h3>Paris venue: MNAM, not MAMVP</h3>
-      <p>The Paris stop is identified as the <em>Musée National d'Art Moderne</em> (then at the Palais de Tokyo), January 1956 — Tier-3-anchored via Wikipedia row + institutional-consistency exclusion. The often-repeated <em>Musée d'Art Moderne de la Ville de Paris</em> (the city museum) attribution is ruled out: MAMVP wasn't founded until 1961.</p>
-    </a>
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/sources/2020s/woxx-2026-fom-kulturpolitischer-problemfall.md" rel="noopener">
-      <div class="action-kicker">Conservation</div>
-      <h3>2026 Clervaux HVAC crisis</h3>
-      <p>An April 2026 <em>woxx</em> investigative report (Chris Lauer; companion 24 April 2026 piece by Joël Adami) documents a July-2025 HVAC compressor failure at Clervaux Castle, parliamentary questioning by CSV MP Stéphanie Weydert, and the 24 April 2026 resignation of CNA director Gilles Zeimet. The first 2020s conservation-incident entry in the bibliography.</p>
-    </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographs" rel="noopener">
       <div class="action-kicker">Photo-stories</div>
       <h3>+5 plate deep-dives (PR #160)</h3>
@@ -687,6 +672,11 @@ permalink: /
       <div class="action-kicker">Reception</div>
       <h3>2010s essay closes the Turner gap (PR #161)</h3>
       <p>The 6/7 reception decade (1960s and 2020s remaining). Built on a 2026-05-09 curl + pdftotext read of Turner's <em>Public Culture</em> PDF — every page-cited block quote is now pinned in the source file (pp. 57, 58, 68, 84) with verbatim text, including the "antiauthoritarian politics behind its design" framing on p. 57 and the "pioneer postmodern modes of mediated authority" verdict on p. 84. Closes a four-round grounding-judge cycle with the forward chain (essay → source file → page-anchored verbatim) complete for every block quote.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/sources/2020s/woxx-2026-fom-kulturpolitischer-problemfall.md" rel="noopener">
+      <div class="action-kicker">Conservation</div>
+      <h3>2026 Clervaux HVAC crisis</h3>
+      <p>An April 2026 <em>woxx</em> investigative report (Chris Lauer; companion 24 April 2026 piece by Joël Adami) documents a July-2025 HVAC compressor failure at Clervaux Castle, parliamentary questioning by CSV MP Stéphanie Weydert, and the 24 April 2026 resignation of CNA director Gilles Zeimet. The first 2020s conservation-incident entry in the bibliography.</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
       <div class="action-kicker">Photographers</div>
