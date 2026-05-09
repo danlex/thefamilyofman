@@ -27,7 +27,7 @@ Provides Museum-of-Warsaw-director Tier-2 corroboration of the **Warsaw 1959 sto
 
 ## Key excerpts / pages
 
-Direct fetch 2026-05-09 (cache `/.scratch/1854-photography-warsaw-fom.html`). Verbatim from the article body:
+Direct fetch 2026-05-09 (cache `/.scratch/1854-photography-warsaw-fom.html`). Article byline: **Diane Smyth** (named in the page's `<meta name="author">` tag and in the JSON-LD schema graph; Smyth is identified in the cached page as "the editor of BJP" — *British Journal of Photography* — "returning for a second stint on staff in 2023"). The article is structured as an interview-feature with Karolina Ziębińska-Lewandowska; sentences in third-person narrative voice are Smyth's framing rather than direct museum-director quotations. Verbatim from the article body:
 
 - **Subhead (verbatim)**: *"Repressed under communism, Polish photography burst into new life after 1989 and is now creatively evolving again, says Karolina Ziębińska-Lewandowska, director of the Museum of Warsaw."*
 
