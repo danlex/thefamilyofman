@@ -32,6 +32,10 @@ PHOTOGRAPHS = ROOT / "data" / "photographs.csv"
 NAME_VARIANTS: dict[str, list[str]] = {
     "pher-roy-decarava": ["Roy DeCarava", "Roy De Carava"],
     "pher-laurence-le-guay": ["Laurence Le Guay", "Laurence LeGuay"],
+    # The MoMA Master Checklist (PDF OCR) prints "Brassai" without diacritic;
+    # the canonical stage name carries a diaeresis ("Brassaï"). Both spellings
+    # refer to the same photographer (Gyula Halász, 1899–1984).
+    "pher-brassai": ["Brassaï", "Brassai"],
 }
 
 
