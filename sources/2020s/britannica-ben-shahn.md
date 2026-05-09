@@ -7,7 +7,7 @@ type: website
 publisher: "Encyclopædia Britannica, Inc."
 url: "https://www.britannica.com/biography/Ben-Shahn"
 accessed: 2026-05-09
-tier: 2
+tier: 3
 language: en
 verified: true
 tags: [ben-shahn, photographer-biography, social-realism, fsa]
@@ -19,7 +19,7 @@ Britannica Editors. "Ben Shahn." *Encyclopædia Britannica*. Accessed 2026-05-09
 
 ## Tier justification
 
-Tier 2: editorially-reviewed reference encyclopedia, fact-checked by Britannica Editors per the page's own attribution ("Written and fact-checked by Britannica Editors"). Used here as a Tier-2 confirmation of Shahn's day-month birth and death tokens, his birthplace, and his FSA period 1935–1938.
+Tier 3: per `CREDIBILITY.md` Tier 3 list, "Encyclopedia entries with named authors and visible references (*Grove Art*, *Encyclopedia Britannica*)." Britannica is editorially reviewed and fact-checked by Britannica Editors per the page's own attribution, which establishes its Tier-3 credibility but does not promote it above the rubric's explicit placement. Used here as a Tier-3 corroboration of Shahn's day-month birth and death tokens, his birthplace, and his FSA period 1935–1938 — the year-level dates and biographical spine remain anchored at Tier 1 via `src-icp-ben-shahn-archive`.
 
 ## Key excerpts / pages
 
