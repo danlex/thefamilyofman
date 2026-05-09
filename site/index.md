@@ -654,7 +654,12 @@ permalink: /
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
       <div class="action-kicker">2010s</div>
       <h3>Turner era + <em>Democratic Surround</em></h3>
-      <p>Fred Turner's <em>Public Culture</em> 24:1 (2012) and <em>The Democratic Surround</em> (Chicago, 2013) form the first 2010s scholarly engagement to defend the exhibition's <em>intent and audience experience</em> directly against the Barthes / Phillips / Sekula consensus — while still granting the show's role in pioneering "postmodern modes of mediated authority." Anchored on a fresh-fetched curl read of the Turner 2012 PDF (six page-pinned excerpts at pp. 57, 58, 68, 84). Sandeen 2015 (Guatemala), Hurm/Reitz/Zamir 2018 (CNA volume), and the 2010–2013 Clervaux restoration close the decade.</p>
+      <p>Fred Turner's <em>Public Culture</em> 24:1 (2012) and <em>The Democratic Surround</em> (Chicago, 2013) form the first 2010s scholarly engagement to defend the exhibition's <em>intent and audience experience</em> directly against the Barthes / Phillips / Sekula consensus — while still granting the show's role in pioneering "postmodern modes of mediated authority." Anchored on a fresh-fetched curl read of the Turner 2012 PDF (nine page-pinned excerpts at pp. 55–58, 68, 84). Sandeen 2015 (Guatemala), Hurm/Reitz/Zamir 2018 (CNA volume), and the 2010–2013 Clervaux restoration close the decade.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2020s-anniversary-and-ai-era.md" rel="noopener">
+      <div class="action-kicker">2020s</div>
+      <h3>70th anniversary + AI-era humanism critique</h3>
+      <p>Five registers held in tension: the 70th-anniversary popular press (Aperture, Daily Art, Amateur Photographer, Digital Camera World) reanimating the catalog's own 1955 self-description; C²DH FoMLEG (Luxembourg, 2024–) reframing FoM as a glocal-history research object; Lewandowski 2024's Barthesian "zombie humanism" reading of AI-era image generation; Newbury 2023/2024 placing FoM inside USIA cultural-diplomacy logistics for Africa; and the 2026 Clervaux HVAC crisis (Lauer / Adami in <em>woxx</em>; Weydert PQ; Zeimet resignation) opening the first parliamentary politicization of the inscribed collection. Built on 11 cache files (~6 MB) including a full Lewandowski PDF; closes the reception decade arc to <strong>7/7</strong>.</p>
     </a>
   </div>
 </section>
@@ -668,10 +673,15 @@ permalink: /
     <a class="more" href="https://github.com/danlex/thefamilyofman/pulls?q=is%3Apr+is%3Aclosed" rel="noopener">All merged PRs →</a>
   </div>
   <div class="action-row">
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-1960s-szarkowski-transition.md" rel="noopener">
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2020s-anniversary-and-ai-era.md" rel="noopener">
       <div class="action-kicker">Reception</div>
-      <h3>1960s essay: the Szarkowski transition (PR #170)</h3>
-      <p>The decade-by-decade reception arc reaches 6/7 (only 2020s now remaining). Steichen's 1962 retirement and Szarkowski's 1 July 1962 appointment open the formalist counter-program; the Concerned Photographer Fund's founding in 1966 marks the documentary-humanist continuation track that complicates a "Szarkowski killed FoM" narrative. The 1960s are pre-critical for FoM in the strict sense — Barthes 1957 awaits Annette Lavers's 1972 translation. Anchored on 19 in-repo 1960s sources; passed all four judges across four rounds (the Howard→Lavers translator misattribution caught in round 1).</p>
+      <h3>2020s essay closes the decade arc to 7/7 (PR #188)</h3>
+      <p>The redo of a previously-blocked attempt (PR #173, anti-confabulation BLOCK) — this round persisted 11 cache files in <code>.scratch/</code> totaling ~6 MB, including the full 4.5 MB Lewandowski 2024 <em>Panorama</em> PDF, woxx Lauer/Adami articles, C²DH FoMLEG project page, and PSU Press Newbury 2024 catalog. A previously-confabulated PSU Press passage (about "the global tour of Edward Steichen's 1955...") was retracted in three coordinated places. The <code>feedback_subagent_cache_artifacts.md</code> rule was codified after the failure and proven on this redo: zero artifacts → confabulation BLOCK; substantive artifacts → grounded redo possible.</p>
+    </a>
+    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/world-tour.md" rel="noopener">
+      <div class="action-kicker">World tour</div>
+      <h3>Tokyo Takashimaya anchored at Tier-2 (PR #189)</h3>
+      <p>The 1956 Tokyo opening at the Takashimaya Department Store (21 March 1956) is now anchored at Tier-2 with <strong>three independent attestations</strong>: Takenaka 2020 (Japanese researcher quoting <em>Asahi Graph</em> 23 March 1956), O'Brian 2008 (<em>Asia-Pacific Journal: Japan Focus</em>), and SFMOMA Phillips 2022 (verbatim 1956 Nikkei photograph caption). Side-find: Moscow ANEM 1959 / Sokolniki Park venue identification closed via O'Brian. Three competing Tier-2 attendance figures surfaced as a documented disagreement — Turner 7.5M / 37 countries vs. O'Brian 9M / 61 countries vs. CNA ~10M — rather than one canonical formula.</p>
     </a>
     <a class="action-card" href="https://github.com/danlex/thefamilyofman/tree/main/research/photographers" rel="noopener">
       <div class="action-kicker">Photographers</div>
@@ -682,11 +692,6 @@ permalink: /
       <div class="action-kicker">Photo-stories</div>
       <h3>+5 plate deep-dives (PR #160)</h3>
       <p>Lange #93 (Children B, USA), Capa #124 (Land, USSR — LADIES' HOME JOURNAL credit), Cartier-Bresson #128 (Land, Indonesia — Magnum), Eisenstaedt #295 (Relationships, USA — LIFE), Bourke-White #350 (Death, Korea — LIFE). Each entry pairs the institutional/curatorial reading with the Barthes critical reading and flags working hypotheses (Capa-Steinbeck-1947, Bourke-White-Korean-War) as unverified rather than asserted. Plate-counts strict-grep verified; the in-repo MoMA Master Checklist excerpt covers plates 1–50, so the verbatim plate-line strings for 93/124/128/295/350 are explicitly carried via <code>data/photographs.csv</code> notes rather than overstated as fresh PDF reads.</p>
-    </a>
-    <a class="action-card" href="https://github.com/danlex/thefamilyofman/blob/main/research/reception-2010s-turner-era.md" rel="noopener">
-      <div class="action-kicker">Reception</div>
-      <h3>2010s essay closes the Turner gap (PR #161)</h3>
-      <p>Built on a 2026-05-09 curl + pdftotext read of Turner's <em>Public Culture</em> PDF — every page-cited block quote is pinned in the source file (pp. 57, 58, 68, 84) with verbatim text, including the "antiauthoritarian politics behind its design" framing on p. 57 and the "pioneer postmodern modes of mediated authority" verdict on p. 84. Closes a four-round grounding-judge cycle with the forward chain (essay → source file → page-anchored verbatim) complete for every block quote.</p>
     </a>
   </div>
 </section>
