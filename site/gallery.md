@@ -1,0 +1,379 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+---
+
+<section class="wrap-wide gallery-intro">
+  <div class="home-section-head">
+    <div>
+      <h1>Gallery</h1>
+      <p class="lead">A chronological reading of the exhibition's pre-history, making, touring, and afterlife — through the {{ '25' }} photographs and installation views currently in this wiki under public-domain or Creative-Commons licences. Every plate of the 503 in the show remains under copyright with the photographers' estates and is not hosted here; the gallery surfaces only what is openly licensed, in the order it was taken.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-pre">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-pre" class="era-title">1859 – 1922 · Pre-history</h2>
+    <p class="era-note">Photographs from the half-century before <em>The Family of Man</em> that Steichen would gather into the show, alongside his own early Pictorialist work and the Brâncuși friendship that would later shape his curatorial method.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/carroll-1859-alice-queen-of-may.jpg' | relative_url }}" alt="Lewis Carroll's photograph of Alice Liddell as 'The Queen of May', 1859" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1859</div>
+        <h3 class="gallery-title"><em>Alice Liddell as "The Queen of May"</em></h3>
+        <div class="gallery-byline">Lewis Carroll · Public domain (PD-old)</div>
+        <div class="gallery-source"><a href="https://upload.wikimedia.org/wikipedia/commons/d/d6/Alice_Liddell_as_The_Queen_of_May_by_Lewis_Carroll%2C_1859.jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/brady-1861-dead-soldier.jpg' | relative_url }}" alt="Mathew Brady, dead soldier, American Civil War, c. 1861" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">c. 1861</div>
+        <h3 class="gallery-title"><em>Civil War dead</em></h3>
+        <div class="gallery-byline">Mathew Brady · Public domain (pre-1929)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/Category:The_Family_of_Man_(Steichen_exhibition)" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/steichen-1901-self-portrait.jpg' | relative_url }}" alt="Edward Steichen self-portrait, age 22, gum print, 1901" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1901</div>
+        <h3 class="gallery-title"><em>Self-portrait, age 22</em></h3>
+        <div class="gallery-byline">Edward Steichen, gum print · Public domain</div>
+        <div class="gallery-source"><a href="https://upload.wikimedia.org/wikipedia/commons/f/fd/Eduard_J._Steichen%2C_self_portrait_1902.jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/steichen-1903-jp-morgan.jpg' | relative_url }}" alt="Edward Steichen, photographic portrait of J. Pierpont Morgan, 1903" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1903</div>
+        <h3 class="gallery-title">J. Pierpont Morgan</h3>
+        <div class="gallery-byline">Edward Steichen · Public domain</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_Photographic_portrait_of_Pierpont_Morgan_(1837-1913).jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/steichen-1904-pond-moonlight.jpg' | relative_url }}" alt="Edward Steichen, The Pond — Moonlight, 1904" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1904</div>
+        <h3 class="gallery-title"><em>The Pond — Moonlight</em></h3>
+        <div class="gallery-byline">Edward Steichen, gum-bichromate print · Public domain</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:ThePondMoonlight.jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/charlotte-1919-grand-duchess.jpg' | relative_url }}" alt="Charlotte, Grand Duchess of Luxembourg, 1919" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1919</div>
+        <h3 class="gallery-title">Grand Duchess Charlotte of Luxembourg</h3>
+        <div class="gallery-byline">Photographer unknown · Public domain (PD-old)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Charlotte_-_Grand_Duchess_of_Luxembourg.jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <a class="gallery-link" href="{{ '/brancusi/' | relative_url }}">
+        <div class="gallery-image">
+          <img src="{{ '/assets/images/brancusi-1922-steichen-portrait.jpg' | relative_url }}" alt="Constantin Brâncuși photographed by Edward Steichen, 1922" loading="lazy">
+        </div>
+        <figcaption class="gallery-caption">
+          <div class="gallery-meta-year">1922</div>
+          <h3 class="gallery-title">Constantin Brâncuși in his Voulangis workshop</h3>
+          <div class="gallery-byline">Edward Steichen · Public domain</div>
+          <div class="gallery-source">Brâncuși and Steichen →</div>
+        </figcaption>
+      </a>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-fsa">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-fsa" class="era-title">1936 – 1944 · The decade of the contributors</h2>
+    <p class="era-note">FSA documentary photography and the Toni Frissell illustration tradition. These four photographs are among the plates Steichen would select for the show two decades after they were taken.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/lange-1936-migrant-mother.jpg' | relative_url }}" alt="Dorothea Lange, Migrant Mother, March 1936" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">March 1936</div>
+        <h3 class="gallery-title"><em>Migrant Mother</em> (Florence Owens Thompson, Nipomo, California)</h3>
+        <div class="gallery-byline">Dorothea Lange, Farm Security Administration · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/photographers/pher-dorothea-lange/' | relative_url }}">Lange contributed five plates →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/delano-1940-tobacco-farmers.jpg' | relative_url }}" alt="Jack Delano, Mr. and Mrs. Andrew Lyman, Polish tobacco farmers near Windsor Locks, Connecticut, September 1940" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">September 1940</div>
+        <h3 class="gallery-title">Mr. and Mrs. Andrew Lyman, Polish tobacco farmers</h3>
+        <div class="gallery-byline">Jack Delano, FSA · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/photographers/pher-jack-delano/' | relative_url }}">Delano: 1 plate (#140 Land) →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/lee-1941-easter-chicago.jpg' | relative_url }}" alt="Russell Lee, Easter morning on the Southside of Chicago, April 1941" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">April 1941</div>
+        <h3 class="gallery-title">Easter morning on the Southside of Chicago</h3>
+        <div class="gallery-byline">Russell Lee, FSA / Office of War Information · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/photographers/pher-russell-lee/' | relative_url }}">Lee: 2 plates →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/frissell-1944-my-shadow.jpg' | relative_url }}" alt="Toni Frissell, My Shadow, from A Child's Garden of Verses, 1944" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1944</div>
+        <h3 class="gallery-title"><em>My Shadow</em>, from A Child's Garden of Verses</h3>
+        <div class="gallery-byline">Toni Frissell, LOC Toni Frissell Collection · No known restrictions on publication</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/Category:The_Family_of_Man_(Steichen_exhibition)" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-navy">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-navy" class="era-title">1943 – 1945 · The Naval Aviation Photographic Unit</h2>
+    <p class="era-note">The crucible where Steichen — by then in his sixties — built the curatorial method that <em>The Family of Man</em> would inherit. Steichen commanded the unit; Wayne Miller served under him as a combat photographer; both would later collaborate on the 1955 exhibition.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/steichen-1943-lexington.jpg' | relative_url }}" alt="Cmdr Edward Steichen on the deck of USS Lexington, November 1943, photograph by Lt Victor Jorgensen" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">November 1943</div>
+        <h3 class="gallery-title">Cmdr Steichen above the deck of USS Lexington</h3>
+        <div class="gallery-byline">Lt Victor Jorgensen, U.S. Navy · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Steichen_above_Lexington,_by_Jorgensen,_11-1943.png" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/steichen-guam-1945.jpg' | relative_url }}" alt="Capt. E. J. Steichen photographing children on Guam, c. March 1945" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">c. March 1945</div>
+        <h3 class="gallery-title">Capt. Steichen photographing children on Guam</h3>
+        <div class="gallery-byline">U.S. Navy combat photograph, NARA · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Capt._E.J._Steichen,_Navy_combat_photographer,_photographs_native_children_on_Guam_Island_-_NARA_-_520630.jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/miller-1945-uss-ticonderoga.jpg' | relative_url }}" alt="Lt. Wayne Miller in his quarters aboard the USS Ticonderoga, 1945" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1945</div>
+        <h3 class="gallery-title">Lt. Wayne Miller aboard USS Ticonderoga</h3>
+        <div class="gallery-byline">U.S. Navy combat photograph, NARA item 520842 · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/photographers/pher-wayne-miller/' | relative_url }}">Steichen's 1953 curatorial assistant →</a></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-show">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-show" class="era-title">1948 – 1961 · The exhibition and its tour</h2>
+    <p class="era-note">Installation photographs (USIA / NARA) capturing how Paul Rudolph's 1955 design was re-fabricated for the world tour, plus Carl Sandburg — author of the prologue distributed as a leaflet to every visitor.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/family-of-man-layout.jpg' | relative_url }}" alt="Family of Man tour exhibit installation layout" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era)</div>
+        <h3 class="gallery-title">Tour-edition installation: Rudolph's design re-fabricated by USIA</h3>
+        <div class="gallery-byline">U.S. National Archives, Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/exhibition/' | relative_url }}">Rudolph's design, Steichen's curation →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/moma-1955-opening.jpg' | relative_url }}" alt="Family of Man tour exhibit installation, &quot;Opening Day&quot;" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era)</div>
+        <h3 class="gallery-title">Tour-edition installation: "Opening Day"</h3>
+        <div class="gallery-byline">U.S. National Archives, Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/world-tour/' | relative_url }}">The 1955 – 62 USIA world tour →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/sandburg-1955-nywts.jpg' | relative_url }}" alt="Carl Sandburg, 1955, photographed for the New York World Telegram" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1955</div>
+        <h3 class="gallery-title">Carl Sandburg, author of the prologue</h3>
+        <div class="gallery-byline">Al Ravenna / World Telegram, LOC NYWT&amp;S Collection · No known restrictions on publication</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Carl_Sandburg_NYWTS.jpg" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/family-of-man-schoolchildren.jpg' | relative_url }}" alt="Schoolchildren viewing a tour-edition installation of The Family of Man" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1961 – 1979 (USAID dating window)</div>
+        <h3 class="gallery-title">Schoolchildren at a tour-edition installation</h3>
+        <div class="gallery-byline">USIA staff photograph, NARA · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/world-tour/' | relative_url }}">The 1955 – 62 USIA world tour →</a></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-after">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-after" class="era-title">1965 – 1969 · The afterlife begins</h2>
+    <p class="era-note">Three years after Szarkowski took over MoMA Photography from Steichen, the curatorial succession captured at the 1965 White House Festival of the Arts. Rudolph in his Yale chairmanship years. Barthes — three years after the English translation of <em>Mythologies</em> reached Anglophone reception — at the height of the structuralist moment.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/rudolph-1965-loc-portrait.jpg' | relative_url }}" alt="Paul Rudolph, seated portrait, 1965" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1965</div>
+        <h3 class="gallery-title">Paul Rudolph, in his Yale chairmanship years</h3>
+        <div class="gallery-byline">LOC Paul Rudolph Archive · No known restrictions on publication</div>
+        <div class="gallery-source"><a href="https://www.loc.gov/item/2024633891/" rel="noopener">Library of Congress</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/szarkowski-1965-white-house.jpg' | relative_url }}" alt="John Szarkowski (centre), Joanna Steichen, and Edward Steichen at the 1965 White House Festival of the Arts" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1965</div>
+        <h3 class="gallery-title">Szarkowski, Joanna and Edward Steichen, White House Festival</h3>
+        <div class="gallery-byline">Marion S. Trikosko, LOC U.S. News &amp; World Report Collection · No known restrictions</div>
+        <div class="gallery-source"><a href="https://www.loc.gov/item/2016647270/" rel="noopener">Library of Congress</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/barthes-1969-dagens-nyheter.jpg' | relative_url }}" alt="Roland Barthes photographed for Dagens Nyheter, 27 February 1969" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">27 February 1969</div>
+        <h3 class="gallery-title">Roland Barthes</h3>
+        <div class="gallery-byline">Photo for <em>Dagens Nyheter</em> · Public domain</div>
+        <div class="gallery-source"><a href="{{ '/reception/' | relative_url }}">"La grande famille des hommes" (1957) →</a></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-clervaux">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-clervaux" class="era-title">2005 – 2015 · The Clervaux home</h2>
+    <p class="era-note">The collection's permanent installation at Clervaux Castle — Steichen's personal request that the U.S. donate the last complete touring edition to Luxembourg in 1964; inaugurated 1994, restored 2010 – 2013, listed by UNESCO as Memory of the World in 2003.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/clervaux-castle.jpg' | relative_url }}" alt="Clervaux Castle exterior, Luxembourg, 25 March 2005" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">25 March 2005</div>
+        <h3 class="gallery-title">Clervaux Castle exterior</h3>
+        <div class="gallery-byline">Donar Reiskoffer · CC BY-SA 3.0 (Wikimedia Commons)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Luxembourg,_Clervaux,_Castle2.JPG" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/clervaux-signage.jpg' | relative_url }}" alt="Family of Man permanent installation signage at Clervaux Castle, 8 September 2006" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">8 September 2006</div>
+        <h3 class="gallery-title">Permanent installation signage at Clervaux</h3>
+        <div class="gallery-byline">Joachim Köhler · CC BY-SA 3.0 (Wikimedia Commons)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:Clerf-FamilyOfMan-20060908.JPG" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/clervaux-2013-interior.jpg' | relative_url }}" alt="Clervaux Castle interior, Family of Man permanent installation, 2013" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">2013</div>
+        <h3 class="gallery-title">Interior, Clervaux installation (post-restoration)</h3>
+        <div class="gallery-byline">Gorup de Besanez · CC BY-SA 4.0 (Wikimedia Commons)</div>
+        <div class="gallery-source"><a href="{{ '/clervaux/' | relative_url }}">The Clervaux home →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/clervaux-2015-rg72-interior.jpg' | relative_url }}" alt="Clervaux Castle interior, Family of Man permanent installation, 7 August 2015" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">7 August 2015</div>
+        <h3 class="gallery-title">Interior, Clervaux installation</h3>
+        <div class="gallery-byline">RG72 · CC BY-SA 4.0 (Wikimedia Commons)</div>
+        <div class="gallery-source"><a href="{{ '/clervaux/' | relative_url }}">The Clervaux home →</a></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-coda">
+  <div class="home-section-head">
+    <div>
+      <h2>What this gallery does not show</h2>
+      <p class="lead">The 503 photographs of <em>The Family of Man</em> itself are copyrighted by their photographers and estates. This wiki does not host them — see the per-plate <a href="{{ '/photographs/' | relative_url }}">photographs index</a> for descriptive entries linking out to the institutions that hold prints (primarily the Museum of Modern Art and the Centre national de l'audiovisuel at Clervaux). When more photographs of the show's making, tour, or afterlife enter the public domain or are released under open licences, they will be added to the gallery in chronological position.</p>
+    </div>
+  </div>
+</section>
