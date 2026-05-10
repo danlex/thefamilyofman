@@ -130,13 +130,14 @@ permalink: /
       </div>
     </article>
     <article class="person-card">
-      <div class="person-portrait person-portrait-glyph">
-        {% include section-glyph.html slug="work" %}
+      <div class="person-portrait">
+        <img src="{{ '/assets/images/rudolph-1965-loc-portrait.jpg' | relative_url }}" alt="Paul Rudolph, seated portrait, 1965" loading="lazy">
       </div>
       <div class="person-body">
         <h3>Paul Rudolph</h3>
         <div class="person-dates">1918 – 1997 · architect</div>
         <p>Designed the gallery installation: temporary walls, prints ranging from 24 × 36 cm to 300 × 400 cm, photographs floating at varying heights — sometimes set on the floor, sometimes hung from the ceiling. Rudolph would later chair Yale University's Department of Architecture from 1958 to 1965 and become a defining figure of late-modernist American building.</p>
+        <div class="person-credit">Photo: Paul Rudolph Archive, 1965 · Library of Congress · No known restrictions on publication</div>
       </div>
     </article>
     <article class="person-card">
@@ -151,13 +152,14 @@ permalink: /
       </div>
     </article>
     <article class="person-card">
-      <div class="person-portrait person-portrait-glyph">
-        {% include section-glyph.html slug="family-and-children" %}
+      <div class="person-portrait">
+        <img src="{{ '/assets/images/miller-1945-uss-ticonderoga.jpg' | relative_url }}" alt="Lt. Wayne Miller in his quarters aboard the USS Ticonderoga, 1945" loading="lazy">
       </div>
       <div class="person-body">
         <h3>Wayne Miller</h3>
         <div class="person-dates">1918 – 2013 · Magnum photographer</div>
         <p>Magnum photographer (later Magnum's president, 1962–66) who contributed multiple plates to the exhibition. His role as Steichen's curatorial assistant on <em>The Family of Man</em> is asserted in the major secondary literature (Sandeen 1995; Steichen's own 1963 autobiography) but was not directly named in the in-repo MoMA press release or Master Checklist as of the most recent re-verification — flagged on his <a href="{{ '/photographers/pher-wayne-miller/' | relative_url }}">photographer page</a>.</p>
+        <div class="person-credit">Photo: U.S. Navy combat photograph, 1945 · NARA item 520842 · Public domain (PD-USGov)</div>
       </div>
     </article>
     <article class="person-card">
@@ -171,13 +173,14 @@ permalink: /
       </div>
     </article>
     <article class="person-card">
-      <div class="person-portrait person-portrait-glyph">
-        {% include section-glyph.html slug="rededication-peace-and-the-future" %}
+      <div class="person-portrait">
+        <img src="{{ '/assets/images/szarkowski-1965-white-house.jpg' | relative_url }}" alt="John Szarkowski (centre) with Joanna Steichen and Edward Steichen at the 1965 White House Festival of the Arts" loading="lazy">
       </div>
       <div class="person-body">
         <h3>John Szarkowski</h3>
         <div class="person-dates">1925 – 2007 · Steichen's MoMA successor</div>
         <p>Took over the Department of Photography from Steichen on 1 July 1962 and held the post until 1991. <em>The Photographer's Eye</em> (1964 exhibition; 1966 book) and <em>New Documents</em> (1967, with Arbus, Friedlander, Winogrand) re-defined photographic modernism in a direction that the canonical critical reading (Phillips, <em>October</em> 22, 1982) describes as moving away from <em>The Family of Man</em>'s humanist-documentary paradigm — a framing the institutional record does not itself adopt.</p>
+        <div class="person-credit">Photo: Marion S. Trikosko, 1965 · Library of Congress (Szarkowski centre, with Joanna and Edward Steichen) · No known restrictions on publication</div>
       </div>
     </article>
     <article class="person-card">
