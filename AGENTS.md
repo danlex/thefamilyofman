@@ -62,6 +62,38 @@ Not every PR needs all 4 judges. Apply the matrix below; spawn only the judges m
 
 **Rationale:** the Schema judge is fast and mechanical (Haiku model). The Credibility / Grounding / Bias judges are heavier and have shown the same recurring catches across batches. Always running all 4 spends coordination cycles on already-known failure modes; calibrating by PR type focuses the heavier judges on PRs where their unique value lands.
 
+## Pre-judge audit
+
+Before spawning the judge panel on a PR that touches `sources/` or `research/`,
+the dispatcher (or a human reviewer) should run the cache-artifact audit
+script against the PR's worktree:
+
+```
+python3 scripts/check_cache_artifacts.py <path-to-worktree>
+# or, for machine-readable output:
+python3 scripts/check_cache_artifacts.py <path-to-worktree> --json
+```
+
+The script enforces the rule codified after PR #173 (see
+`feedback_subagent_cache_artifacts.md`): every "fresh-fetch 2026-MM-DD"
+claim in a changed `sources/<era>/*.md` or `research/**/*.md` file must
+have a matching cache artifact (`.cache-*.html`, `.cache-*.pdf`,
+`.scratch/*.{html,pdf}`, `.tmp_fetched/*.{html,pdf}`) whose filename
+contains the cited domain. It also flags `verified: false` sources
+annotated as `NOT fetched` that are nonetheless block-quoted by a
+research essay in the same diff — the exact PR #173 confabulation
+shape.
+
+Exit code:
+- `0` — both fail buckets empty (the audit is a *floor*, not a guarantee
+  — quote-vs-cache content match remains Judge-Grounding's job)
+- non-zero — at least one unmatched fresh-fetch URL or one unverified
+  blockquote candidate; surface to the human and revise before judging
+
+The check is read-only on the repo and runs in a few seconds against a
+typical PR worktree. The dataset-curator queue script may also call it
+in batch mode against merged PRs.
+
 ## Judge review format
 
 Every judge posts exactly one PR review comment with this structure:
