@@ -48,7 +48,7 @@ Direct fetch 2026-05-10 (cache `/.scratch/c2dh-following-fom-tour.html`). Verbat
 ## Notes
 
 - **Direct fetch 2026-05-10** (cache `/.scratch/c2dh-following-fom-tour.html`, 184 KB, HTTP 200). The article body was retrieved successfully; the JSON-LD schema at the head of the page confirms publication date `2025-03-03T13:28:31+00:00` and modification date `2025-10-16T06:48:19+00:00`.
-- **The "150 cities" figure adds a sixth distinct value to the headline-aggregate dispute:** 91 venues / 37 countries (Wikipedia derivative, Turner 2012); 9M / 61 countries / 91 venues (O'Brian 2008); 9M / 69 countries / 6 USIA copies (Córdova 2013); 10M / 10 copies (CNA Luxembourg education); 91 venues / 38 countries (Polish Wikipedia); 120 museums (Cuartoscuro 2014); 150+ cities / 9M / 250 photographers (this article). No single primary archival source has yet anchored any of these figures to a NARA RG 306 master tour log.
+- **The "150 cities" figure adds a seventh distinct value to the headline-aggregate dispute:** 91 venues / 37 countries (Wikipedia derivative, Turner 2012); 9M / 61 countries / 91 venues (O'Brian 2008); 9M / 69 countries / 6 USIA copies (Córdova 2013); 10M / 10 copies (CNA Luxembourg education); 91 venues / 38 countries (Polish Wikipedia); 120 museums (Cuartoscuro 2014); 150+ cities / 9M / 250 photographers (this article). No single primary archival source has yet anchored any of these figures to a NARA RG 306 master tour log.
 - **What this source DOES anchor at Tier 2:**
   - The C²DH FoMLEG project's active NARA RG 306 archival research (named institutional voice).
   - Beirut, Lebanon, 1958 as a tour stop (image-evidence caption).
