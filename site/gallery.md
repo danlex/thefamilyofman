@@ -111,8 +111,8 @@ permalink: /gallery/
 <section class="wrap-wide gallery-section" aria-labelledby="era-fsa">
   <div class="era-head">
     <div class="era-rule"></div>
-    <h2 id="era-fsa" class="era-title">1936 – 1944 · The decade of the contributors</h2>
-    <p class="era-note">FSA documentary photography and the Toni Frissell illustration tradition. These four photographs are among the plates Steichen would select for the show two decades after they were taken.</p>
+    <h2 id="era-fsa" class="era-title">1935 – 1944 · The decade of the contributors</h2>
+    <p class="era-note">FSA and OWI documentary photography — the federal photography programmes that produced the majority of Steichen's American plates. The images below include sourced exhibition plates (plate IDs noted) alongside representative works by the same photographers. All FSA/OWI photographs are public domain (PD-USGov) with no known restrictions on publication.</p>
   </div>
   <div class="gallery-grid">
     <figure class="gallery-card">
@@ -129,13 +129,85 @@ permalink: /gallery/
 
     <figure class="gallery-card">
       <div class="gallery-image">
-        <img src="{{ '/assets/images/delano-1940-tobacco-farmers.jpg' | relative_url }}" alt="Jack Delano, Mr. and Mrs. Andrew Lyman, Polish tobacco farmers near Windsor Locks, Connecticut, September 1940" loading="lazy">
+        <img src="{{ '/assets/images/photo-0377.jpg' | relative_url }}" alt="Ben Shahn, children of destitute Ozark mountaineer, Arkansas, October 1935" loading="lazy">
       </div>
       <figcaption class="gallery-caption">
-        <div class="gallery-meta-year">September 1940</div>
-        <h3 class="gallery-title">Mr. and Mrs. Andrew Lyman, Polish tobacco farmers</h3>
-        <div class="gallery-byline">Jack Delano, FSA · Public domain (PD-USGov)</div>
-        <div class="gallery-source"><a href="{{ '/photographers/pher-jack-delano/' | relative_url }}">Delano: 1 plate (#140 Land) →</a></div>
+        <div class="gallery-meta-year">October 1935 · Plate #391</div>
+        <h3 class="gallery-title">Children of destitute Ozark mountaineer, Arkansas</h3>
+        <div class="gallery-byline">Ben Shahn, Farm Security Administration · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0377.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-fsa-8a16213 · Section 31 Hard Times</div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0093.jpg' | relative_url }}" alt="Dorothea Lange, migrant cotton picker's child, Shafter Camp, California, November 1938" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">November 1938 · Plate #99</div>
+        <h3 class="gallery-title">Migrant cotton picker's child, Shafter Camp, California</h3>
+        <div class="gallery-byline">Dorothea Lange, Farm Security Administration · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0093.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-fsa-8b32567 · Section 11 Children (B)</div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0376.jpg' | relative_url }}" alt="Dorothea Lange, drought refugees from Oklahoma camping by the roadside, June 1938" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">June 1938 · Plate #390</div>
+        <h3 class="gallery-title">Drought refugees from Oklahoma camping by the roadside</h3>
+        <div class="gallery-byline">Dorothea Lange, Farm Security Administration · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0376.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-fsa-8b38702 · Section 31 Hard Times</div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0379.jpg' | relative_url }}" alt="Dorothea Lange, Nettie Featherston wife of migratory laborer with three children, near Childress, Texas, June 1938" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">June 1938 · Plate #393</div>
+        <h3 class="gallery-title">Nettie Featherston, wife of a migratory laborer, near Childress, Texas</h3>
+        <div class="gallery-byline">Dorothea Lange, Farm Security Administration · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0379.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-fsa-8b32434 · Section 31 Hard Times</div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0170.jpg' | relative_url }}" alt="Russell Lee, child of white migrant worker ironing in camp near Harlingen, Texas, February 1939" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">February 1939 · Plate #178</div>
+        <h3 class="gallery-title">Child of migrant worker ironing in camp, near Harlingen, Texas</h3>
+        <div class="gallery-byline">Russell Lee, Farm Security Administration · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0170.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-fsa-8a25248 · Section 16 Work (B)</div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0134.jpg' | relative_url }}" alt="Jack Delano, Mr. and Mrs. Andrew Lyman, Polish tobacco farmers near Windsor Locks, Connecticut, September 1940" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">September 1940 · Plate #140</div>
+        <h3 class="gallery-title">Mr. and Mrs. Andrew Lyman, Polish tobacco farmers, Windsor Locks, Connecticut</h3>
+        <div class="gallery-byline">Jack Delano, Farm Security Administration · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0134.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-ppmsc-00255 · Section 14 Land · <a href="{{ '/photographers/pher-jack-delano/' | relative_url }}">Delano bio →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0080.jpg' | relative_url }}" alt="Russell Lee, family of Victor Rauh, miner, Butte, Montana, October 1942" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">October 1942 · Plate #84</div>
+        <h3 class="gallery-title">Family of Victor Rauh, miner, Butte, Montana</h3>
+        <div class="gallery-byline">Russell Lee, Bureau of Mines / OWI · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0080.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">LOC: LC-DIG-fsa-8d09343 · Section 10 Family Activities · <a href="{{ '/photographers/pher-russell-lee/' | relative_url }}">Lee bio →</a></div>
       </figcaption>
     </figure>
 
@@ -153,6 +225,18 @@ permalink: /gallery/
 
     <figure class="gallery-card">
       <div class="gallery-image">
+        <img src="{{ '/assets/images/delano-1940-tobacco-farmers.jpg' | relative_url }}" alt="Jack Delano, Mr. and Mrs. Andrew Lyman, Polish tobacco farmers near Windsor Locks, Connecticut, September 1940" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">September 1940</div>
+        <h3 class="gallery-title">Mr. and Mrs. Andrew Lyman, Polish tobacco farmers (context print)</h3>
+        <div class="gallery-byline">Jack Delano, FSA · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="{{ '/photographers/pher-jack-delano/' | relative_url }}">Delano: 1 plate (#140 Land) →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
         <img src="{{ '/assets/images/frissell-1944-my-shadow.jpg' | relative_url }}" alt="Toni Frissell, My Shadow, from A Child's Garden of Verses, 1944" loading="lazy">
       </div>
       <figcaption class="gallery-caption">
@@ -160,6 +244,27 @@ permalink: /gallery/
         <h3 class="gallery-title"><em>My Shadow</em>, from A Child's Garden of Verses</h3>
         <div class="gallery-byline">Toni Frissell, LOC Toni Frissell Collection · No known restrictions on publication</div>
         <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/Category:The_Family_of_Man_(Steichen_exhibition)" rel="noopener">Wikimedia Commons</a></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap-wide gallery-section" aria-labelledby="era-atomic">
+  <div class="era-head">
+    <div class="era-rule"></div>
+    <h2 id="era-atomic" class="era-title">1952 · The atomic conclusion</h2>
+    <p class="era-note">The exhibition's final plate — the show's narrative climax — was a large-format hydrogen-bomb image credited to the Atomic Energy Commission. This sourced plate corresponds to Operation Ivy, the first U.S. thermonuclear test at Enewetak Atoll, Marshall Islands. All U.S. federal government images are public domain (PD-USGov).</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/photo-0441.jpg' | relative_url }}" alt="Operation Ivy, Mike shot mushroom cloud, aerial view, Enewetak Atoll, Marshall Islands, 1 November 1952" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1 November 1952 · Plate #456 (Section 40 Bomb)</div>
+        <h3 class="gallery-title">Operation Ivy, Mike shot — mushroom cloud, Enewetak Atoll</h3>
+        <div class="gallery-byline">U.S. Air Force / Atomic Energy Commission · Public domain (PD-USGov) · <a href="{{ '/assets/images/photo-0441.license.json' | relative_url }}">license</a></div>
+        <div class="gallery-source">NARA item 558592, Record Group 434 · Section 40 Bomb</div>
       </figcaption>
     </figure>
   </div>
