@@ -319,15 +319,15 @@ permalink: /gallery/
   <div class="era-head">
     <div class="era-rule"></div>
     <h2 id="era-show" class="era-title">1948 – 1961 · The exhibition and its tour</h2>
-    <p class="era-note">Installation photographs (USIA / NARA) capturing how Paul Rudolph's 1955 design was re-fabricated for the world tour, plus Carl Sandburg — author of the prologue distributed as a leaflet to every visitor.</p>
+    <p class="era-note">Eight surviving NARA / USIA installation photographs capturing how Paul Rudolph's 1955 design was re-fabricated for the world tour — five "Lay-out" variants and two "Opening Day" variants — plus Carl Sandburg, author of the prologue distributed as a leaflet to every visitor, and a tour-edition image of schoolchildren in the show. All seven installation photographs are U.S. federal-government works (Department of State / Agency for International Development, dated 1948 – 1967 in the NARA / DPLA metadata window).</p>
   </div>
   <div class="gallery-grid">
     <figure class="gallery-card">
       <div class="gallery-image">
-        <img src="{{ '/assets/images/family-of-man-layout.jpg' | relative_url }}" alt="Family of Man tour exhibit installation layout" loading="lazy">
+        <img src="{{ '/assets/images/family-of-man-layout.jpg' | relative_url }}" alt="Family of Man tour exhibit installation layout (DPLA 5c4794f6)" loading="lazy">
       </div>
       <figcaption class="gallery-caption">
-        <div class="gallery-meta-year">1948 – 1967 (tour-era)</div>
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Lay-out I</div>
         <h3 class="gallery-title">Tour-edition installation: Rudolph's design re-fabricated by USIA</h3>
         <div class="gallery-byline">U.S. National Archives, Still Pictures · Public domain (PD-USGov)</div>
         <div class="gallery-source"><a href="{{ '/exhibition/' | relative_url }}">Rudolph's design, Steichen's curation →</a></div>
@@ -336,13 +336,85 @@ permalink: /gallery/
 
     <figure class="gallery-card">
       <div class="gallery-image">
-        <img src="{{ '/assets/images/moma-1955-opening.jpg' | relative_url }}" alt="Family of Man tour exhibit installation, &quot;Opening Day&quot;" loading="lazy">
+        <img src="{{ '/assets/images/foM-tour-layout-dpla-7cfb545f.jpg' | relative_url }}" alt="Family of Man tour exhibit, Lay-out (DPLA 7cfb545f)" loading="lazy">
       </div>
       <figcaption class="gallery-caption">
-        <div class="gallery-meta-year">1948 – 1967 (tour-era)</div>
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Lay-out II</div>
+        <h3 class="gallery-title">Tour-edition installation: another venue</h3>
+        <div class="gallery-byline">USIA / USAID staff photograph, NARA Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit%2C_Lay-out_-_DPLA_-_7cfb545f1c598c59f3f7dff35aa18ed3.jpg" rel="noopener">Wikimedia Commons / DPLA</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/foM-tour-layout-dpla-9881c46d.jpg' | relative_url }}" alt="Family of Man tour exhibit, Lay-out (DPLA 9881c46d)" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Lay-out III</div>
+        <h3 class="gallery-title">Tour-edition installation: another venue</h3>
+        <div class="gallery-byline">USIA / USAID staff photograph, NARA Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit%2C_Lay-out_-_DPLA_-_9881c46d5f380f44f582ced220c3af76.jpg" rel="noopener">Wikimedia Commons / DPLA</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/foM-tour-layout-dpla-adcdd414.jpg' | relative_url }}" alt="Family of Man tour exhibit, Lay-out (DPLA adcdd414)" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Lay-out IV</div>
+        <h3 class="gallery-title">Tour-edition installation: another venue</h3>
+        <div class="gallery-byline">USIA / USAID staff photograph, NARA Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit%2C_Lay-out_-_DPLA_-_adcdd414c7f42710945dd0431fd0bd68.jpg" rel="noopener">Wikimedia Commons / DPLA</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/foM-tour-layout-dpla-ddaf6f4b.jpg' | relative_url }}" alt="Family of Man tour exhibit, Lay-out (DPLA ddaf6f4b)" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Lay-out V</div>
+        <h3 class="gallery-title">Tour-edition installation: another venue</h3>
+        <div class="gallery-byline">USIA / USAID staff photograph, NARA Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit%2C_Lay-out_-_DPLA_-_ddaf6f4b9ac1ad9dec2c0e1e2bf17990.jpg" rel="noopener">Wikimedia Commons / DPLA</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/foM-tour-layout-dpla-f7639f1b.jpg' | relative_url }}" alt="Family of Man tour exhibit, Lay-out (DPLA f7639f1b)" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Lay-out VI</div>
+        <h3 class="gallery-title">Tour-edition installation: another venue</h3>
+        <div class="gallery-byline">USIA / USAID staff photograph, NARA Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit%2C_Lay-out_-_DPLA_-_f7639f1bd10b3415c580d36076fe9800.jpg" rel="noopener">Wikimedia Commons / DPLA</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/moma-1955-opening.jpg' | relative_url }}" alt="Family of Man tour exhibit installation, &quot;Opening Day&quot; (DPLA bd5b1ae5)" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Opening Day I</div>
         <h3 class="gallery-title">Tour-edition installation: "Opening Day"</h3>
         <div class="gallery-byline">U.S. National Archives, Still Pictures · Public domain (PD-USGov)</div>
         <div class="gallery-source"><a href="{{ '/world-tour/' | relative_url }}">The 1955 – 62 USIA world tour →</a></div>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card">
+      <div class="gallery-image">
+        <img src="{{ '/assets/images/foM-tour-opening-dpla-2882adf2.jpg' | relative_url }}" alt="Family of Man tour exhibit, Opening Day (DPLA 2882adf2)" loading="lazy">
+      </div>
+      <figcaption class="gallery-caption">
+        <div class="gallery-meta-year">1948 – 1967 (tour-era) · Opening Day II</div>
+        <h3 class="gallery-title">Tour-edition installation: another opening</h3>
+        <div class="gallery-byline">USIA / USAID staff photograph, NARA Still Pictures · Public domain (PD-USGov)</div>
+        <div class="gallery-source"><a href="https://commons.wikimedia.org/wiki/File:%22Family_of_Man%22_Exhibit%2C_Opening_Day_-_DPLA_-_2882adf2084b87d5105cccf267f28b78.jpg" rel="noopener">Wikimedia Commons / DPLA</a></div>
       </figcaption>
     </figure>
 
