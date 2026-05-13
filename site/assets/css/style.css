@@ -511,7 +511,7 @@ main {
 
 .entry-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
   gap: 0;
   border-top: 1px solid var(--hairline);
 }
@@ -1005,7 +1005,7 @@ main {
 
 .numbers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   gap: 0;
   margin-top: 1rem;
   border-top: 1px solid var(--ink);
@@ -1253,7 +1253,7 @@ main {
 
 .gaps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 0;
   border-top: 1px solid var(--ink);
   border-left: 1px solid var(--hairline);
@@ -1450,7 +1450,7 @@ main {
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   gap: 0;
   border-top: 1px solid var(--ink);
   border-left: 1px solid var(--hairline);
@@ -1613,7 +1613,7 @@ main {
 
 .plates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 0;
   margin-top: 1rem;
   border-top: 1px solid var(--ink);
@@ -1815,6 +1815,9 @@ main {
 @keyframes site-search-slide {
   from { opacity: 0; transform: translateY(-8px); }
   to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-search-drawer { animation: none; }
 }
 .site-search-drawer-inner {
   padding: 1.25rem 1.25rem 1.5rem;
@@ -2070,6 +2073,93 @@ body.site-search-open {
   padding: 3rem 1.25rem 5rem;
   border-top: 1px solid var(--hairline);
   margin-top: 3rem;
+}
+
+/* ---------- Mobile responsive audit fixes (issue #220) ----------
+ * The site was built desktop-first. This block adds the targeted
+ * narrow-viewport adjustments needed for legibility on 375px (and down
+ * to 320px / iPhone SE) without disturbing the desktop look.
+ */
+
+/* Long URLs in card metadata can force horizontal overflow on phones. */
+.gallery-source a,
+.search-hit-title,
+.search-hit-sub,
+.source-card .source-meta,
+.plate-license,
+.gallery-byline,
+.cite-foot { overflow-wrap: anywhere; }
+
+/* Catalog tables (photographs / photographers / sources) carry up to six
+ * columns. Below 640px we keep the table's html semantics intact but hide
+ * the lowest-priority columns per table. The remaining columns become
+ * tap-friendly and stay readable without horizontal scroll. */
+@media (max-width: 640px) {
+  .entity-table { font-size: 0.85rem; }
+  .entity-table th, .entity-table td { padding: 0.55rem 0.4rem; }
+
+  /* Photographs: hide Country (4) + Section (5); keep ID, Photographer, Year, View. */
+  #photographs-table th:nth-child(4),
+  #photographs-table td:nth-child(4),
+  #photographs-table th:nth-child(5),
+  #photographs-table td:nth-child(5) { display: none; }
+
+  /* Photographers: hide Nationality (2); keep Name, Dates, Plates, Biography. */
+  #photographers-table th:nth-child(2),
+  #photographers-table td:nth-child(2) { display: none; }
+
+  /* Sources: hide Type (4) + Tier (5); keep Author, Title, Year, Link. */
+  #sources-table th:nth-child(4),
+  #sources-table td:nth-child(4),
+  #sources-table th:nth-child(5),
+  #sources-table td:nth-child(5) { display: none; }
+}
+
+/* Below 640px, also let the table itself overflow horizontally as a
+ * safety net for long titles that might still exceed the column. */
+@media (max-width: 640px) {
+  .entity-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .entity-table thead, .entity-table tbody { display: table; width: 100%; table-layout: fixed; }
+  .entity-table td { overflow-wrap: anywhere; }
+}
+
+/* Tap targets — the primary nav wraps to a second row at <=880px,
+ * and at that point each anchor needs to clear the WCAG 2.5.5 44x44
+ * minimum. The original `padding: 0.1rem 0` was far below threshold. */
+@media (max-width: 880px) {
+  .site-nav a {
+    padding: 0.5rem 0.25rem;
+    margin: -0.5rem -0.25rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .site-search-toggle {
+    padding: 0.6rem;
+    margin-left: 0.25rem;
+  }
+}
+
+/* List-layout pages (photographs / photographers / sections / bibliography)
+ * stack <main>'s 1.25rem + the layout's own 1.25rem padding. The desktop
+ * default is fine, but at 540px and below the doubled frame cramps the
+ * table — drop the layout's internal padding so main's frame is the only
+ * one. */
+.list-page { padding: 0 1.25rem; }
+
+@media (max-width: 540px) {
+  .list-page { padding: 0; }
+  main { padding-left: 1rem; padding-right: 1rem; }
+  .gallery-intro { padding: 2rem 0.25rem 0.5rem; }
+  .gallery-section { padding: 0.5rem 0.25rem 2rem; }
+  .gallery-coda { padding: 2rem 0.25rem 3rem; }
+  .era-head { margin: 1.75rem 0 1.5rem; }
+}
+
+/* Touch-device hover-image-scale would never trigger; disable the transition
+ * cost on phones to avoid paint when the user just taps. */
+@media (hover: none) {
+  .gallery-link:hover .gallery-image img { transform: none; }
 }
 
 @media print {
