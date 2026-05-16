@@ -16,7 +16,6 @@ sources:
   - src-artishock-2022-fom-bogota
   - src-c2dh-fomleg-world-tour
   - src-c2dh-fomleg-lasting-legacy
-  - src-kossakowski-warsaw-archive
   - src-artmuseum-warsaw-kossakowski-fom
   - src-muzej-jugoslavije-fom-belgrade
   - src-takenaka-2020-popular-inquiry-japan
