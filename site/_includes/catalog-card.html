@@ -1,0 +1,79 @@
+{% comment %}
+  catalog-card.html
+  Parameters: p (a row from site.data.photographs)
+  Renders one plate card for the catalog gallery.
+  Image is shown only when site/assets/images/<p.id>.jpg exists
+  (checked by presence in page.plate_images, a set built in catalog.md).
+{% endcomment %}
+
+{% assign plate_num = p.id | remove: "photo-" | plus: 0 %}
+{% assign _img_set = page.plate_images | split: "," %}
+{% assign has_image = false %}
+{% if _img_set contains p.id %}{% assign has_image = true %}{% endif %}
+
+{% assign detail_href = '/photographs/' | append: p.id | append: '/' | relative_url %}
+
+<figure class="cg-card{% unless has_image %} cg-card--no-image{% endunless %}"
+        data-id="{{ p.id }}"
+        data-year="{{ p.year | default: '' }}"
+        data-photographer="{{ p.photographer | default: '' }}"
+        data-section="{{ p.section | default: '' }}"
+        data-country="{{ p.country | default: '' }}">
+
+  <a href="{{ detail_href }}" class="cg-card-link" aria-label="Plate {{ plate_num }}{% if p.photographer != '' %} by {{ p.photographer }}{% endif %}">
+
+    {% if has_image %}
+    <div class="cg-image" aria-hidden="true">
+      <img src="{{ '/assets/images/' | append: p.id | append: '.jpg' | relative_url }}"
+           alt="{% if p.title and p.title != 'Untitled' %}{{ p.title }} — {% endif %}{{ p.photographer }}{% if p.year and p.year != '' %}, {{ p.year }}{% endif %}"
+           loading="lazy"
+           width="400"
+           height="500">
+    </div>
+    {% else %}
+    <div class="cg-image cg-image--absent" aria-hidden="true">
+      <div class="cg-absent-label">
+        <span>No in-repo image</span>
+        {% if p.moma_object_id and p.moma_object_id != '' %}
+        <a href="https://www.moma.org/collection/works/{{ p.moma_object_id }}" rel="noopener" class="cg-absent-link" tabindex="-1">MoMA record →</a>
+        {% else %}
+        <a href="https://steichencollections.lu/" rel="noopener" class="cg-absent-link" tabindex="-1">Clervaux record →</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+    <figcaption class="cg-caption">
+      <div class="cg-plate-num">Plate {{ plate_num }}</div>
+
+      <h3 class="cg-title">
+        {% if p.title and p.title != '' and p.title != 'Untitled' %}
+          {{ p.title }}
+        {% else %}
+          <em>Untitled</em>
+        {% endif %}
+      </h3>
+
+      <div class="cg-byline">
+        {% if p.photographer and p.photographer != '' %}
+          {{ p.photographer }}
+        {% else %}
+          <span class="cg-unknown">Photographer unknown</span>
+        {% endif %}
+        {% if p.year and p.year != '' %}
+          <span class="cg-sep">·</span>
+          <span class="cg-year">{{ p.year }}</span>
+        {% else %}
+          <span class="cg-sep">·</span>
+          <em class="cg-unknown">date not in checklist</em>
+        {% endif %}
+      </div>
+
+      {% if p.country and p.country != '' %}
+      <div class="cg-country">{{ p.country }}</div>
+      {% endif %}
+
+    </figcaption>
+  </a>
+
+</figure>
