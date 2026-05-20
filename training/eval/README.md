@@ -66,13 +66,13 @@ questions to Tier-1/2-anchored substitutes (e.g., the MoMA Master Checklist's
 plate-level credit for Miller and DeCarava — both Tier-1) or close the gaps
 by adding Tier-1/2 sources for the original facts.
 
-### Difficulty mix
+### Difficulty mix (v0.1 seed)
 
 - `easy` — 8
 - `medium` — 24
 - `hard` — 18
 
-### Critical-perspective floor
+### Critical-perspective floor (v0.1 seed)
 
 Of the rows whose schema-`topic` is interpretive (`reception`,
 `exhibition-history`), the share carrying `perspective: critical`:
@@ -82,6 +82,73 @@ Of the rows whose schema-`topic` is interpretive (`reception`,
   archival only)
 - combined interpretive: 5/10 = 50% — well above the 25% floor in
   `scripts/audit_dataset.py`.
+
+## v0.1 batch 02 (+37 questions, 2026-05-20, issue #139)
+
+Second batch, bringing the cumulative total from 48 to 85 (originally
+drafted as 50; 13 rows were withdrawn before merge due to distribution-cap
+violations, Tier-3-only sources, or narrow overlap with existing rows).
+
+Questions are drawn from source files read in the authoring session:
+ICP archive pages for Sander, Brassaï, Haas, Feininger, Shahn, Mili,
+Brandt, Eisenstaedt, Erwitt, Mydans, Bubley, Lee, Hamaya, Yamahata
+(all Tier 1); Takenaka 2020 (Tier 2) for the Japan tour; C²DH 2025
+dispatch (Tier 2) for the world-tour "150 cities" figure and Beirut 1958;
+Newbury 2024 (Tier 2) for USIA Africa photographic diplomacy; and the
+MoMA Master Checklist / MoMA Szarkowski 1962 appointment file (Tier 1)
+for exhibition-history and catalog rows. No external URL was fetched in
+this batch; all evidence comes from in-repo source files.
+
+### Cumulative distribution (85 questions)
+
+| `eval_category`       | Count | Share |
+|-----------------------|-------|-------|
+| photographer          | 25    | 29%   |
+| tour                  | 17    | 20%   |
+| catalog               | 11    | 13%   |
+| reception             | 9     | 11%   |
+| clervaux              | 8     | 9%    |
+| exhibition-history    | 7     | 8%    |
+| unesco                | 7     | 8%    |
+| sections              | 1     | 1%    |
+| **Total**             | **85**| **100%** |
+
+No category exceeds 30%.
+
+### Withdrawn rows from batch 02 (13)
+
+Withdrawn before merge for distribution, Tier-3, or overlap reasons:
+
+- `eval-00053` — Brassaï plate count (narrow; overlaps eval-00052)
+- `eval-00055` — Haas Magnum president years (narrow single-fact)
+- `eval-00059` — Erwitt Magnum president year (narrow single-fact)
+- `eval-00062` — Mydans birthyear ICP vs Wikipedia (narrow single-fact)
+- `eval-00071` — Sander plate count/sections (narrow; overlaps eval-00051)
+- `eval-00074` — Bubley plate count (narrow; 3 plates only)
+- `eval-00075` — Russell Lee FSA duration (narrow; 2 plates only)
+- `eval-00080` — Steichen Presidential Medal of Freedom 1963 (`src-steichen-1963-presidential-medal-freedom` is Tier 3; min_tier would be > 2)
+- `eval-00088` — Mydans FSA/LIFE career + imprisonment (narrow; overlaps eval-00062)
+- `eval-00092` — Bitter Years exhibition (`src-moma-1962-bitter-years-exhibition` is Tier 3; min_tier would be > 2)
+- `eval-00094` — Mili MoMA exhibitions (narrow; overlaps eval-00058)
+- `eval-00096` — Sander radio lecture title (very narrow; overlaps eval-00051)
+- `eval-00097` — Hamaya birthplace (very narrow; overlaps eval-00063)
+
+All `id`s left as gaps per convention.
+
+### Difficulty mix (cumulative 85 rows)
+
+- `easy` — 15
+- `medium` — 38
+- `hard` — 32
+
+### Critical-perspective floor (cumulative 85 rows)
+
+Of the rows whose schema-`topic` is interpretive (`reception`,
+`exhibition-history`), the share carrying `perspective: critical`:
+
+- `reception` rows: 9/9 = 100%
+- `exhibition-history` rows: 0/7 (curatorial / institutional / archival only)
+- combined interpretive: 9/16 = 56% — well above the 25% floor.
 
 ## Adding to the eval set
 
@@ -111,3 +178,9 @@ The v0.1 seed (eval-00001 … eval-00050) was authored on 2026-05-07
 against material merged through PR #111 (photographer-bios batch 02)
 and PR #107 (catalog completion / 488–490 reconciliation). No questions
 were drawn from material in open PRs.
+
+Batch 02 (eval-00051 … eval-00100, 13 withdrawn) was authored on
+2026-05-20 against material merged through PR #246 (photog-bios batch 07,
+origin/main = 7e87656). All evidence drawn from in-repo source files
+read in the authoring session; no external URLs fetched in this batch.
+Issue #139.
