@@ -1,6 +1,6 @@
 ---
 id: src-wikipedia-fom-copies-pointer
-title: "The Family of Man [Wikipedia — used as pointer only for USIA copy dispersal dates]"
+title: "The Family of Man"
 author: "Wikipedia contributors"
 year: 2026
 type: website
@@ -10,6 +10,7 @@ accessed: 2026-04-30
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [wikipedia, pointer-only, family-of-man, usia, world-tour, copies, dispersal]
 ---
 

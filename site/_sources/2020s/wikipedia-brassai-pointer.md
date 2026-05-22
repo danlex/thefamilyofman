@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-brassai-pointer
-title: "Brassaï [Wikipedia article — fetched 2026-05-02; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Brassaï"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-02
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [brassai, photographer-biography, hungarian-french, paris, pointer-source]
 ---
 

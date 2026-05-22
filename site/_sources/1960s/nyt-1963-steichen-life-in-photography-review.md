@@ -35,7 +35,7 @@ Steichen's autobiography *A Life in Photography* (Doubleday / MoMA, 1963) was pu
 
 - Flagged `verified: false` because no review text was accessed.
 - This entry should be merged into a full record when the review is located via NYT TimesMachine or ProQuest.
-- Candidates for NYT reviewer in 1963: Jacob Deschin (NYT photography critic), Howard Devree (art critic, retired 1959 — unlikely), or a Book Review-designated critic.
+- Candidates for NYT reviewer in 1963: Jacob Deschin (NYT photography critic), Howard Devree (art critic, retired 1959 — unlikely), or a Book Review-designated critic. **Note added 2026-05-17**: Jacob Deschin is now confirmed as the NYT photography critic active in the 1960s, based on Wikipedia's *New Documents* article (fetched 2026-05-17), which names him as having written a skeptical review of Szarkowski's 1967 *New Documents* exhibition. This makes Deschin the most probable author of any NYT notice of the 1963 autobiography. His exact authorship of the 1963 review remains unconfirmed.
 - Sister entry: `src-nyt-1963-life-review` covers only NYT. Reviews in *Saturday Review*, *Time*, *Newsweek*, and *New York Herald Tribune* were searched but not located in sources fetched this session; those reviews are listed under Open questions below.
 - Cross-references: `src-steichen-1963-life`, `src-deschin-1955-nyt`.
 

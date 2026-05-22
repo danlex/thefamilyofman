@@ -1,6 +1,6 @@
 ---
 id: src-wikipedia-mow-programme-pointer
-title: "Wikipedia: Memory of the World Programme (pointer)"
+title: "Memory of the World Programme"
 author: "Wikipedia contributors"
 year: 2026
 type: website
@@ -11,6 +11,7 @@ tier: 3
 language: en
 tags: [wikipedia, pointer, memory-of-the-world, unesco, iac, inscription, 2003]
 verified: true
+pointer_only: true
 ---
 
 ## Citation

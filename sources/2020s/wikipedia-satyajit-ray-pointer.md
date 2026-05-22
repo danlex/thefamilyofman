@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-satyajit-ray-pointer
-title: "Satyajit Ray [Wikipedia article — fetched 2026-05-10; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Satyajit Ray"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-10
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [satyajit-ray, photographer-biography, indian-cinema, bengali, calcutta, kolkata, pointer-source]
 ---
 

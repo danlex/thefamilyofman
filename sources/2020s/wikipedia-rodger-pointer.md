@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-rodger-pointer
-title: "George Rodger [Wikipedia article — pointer-only per CREDIBILITY.md; not consulted in this round]"
-author: ""
+title: "George Rodger"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-06
 tier: 3
 language: en
 verified: false
+pointer_only: true
 tags: [rodger, photographer-biography, magnum, africa, pointer-source]
 ---
 

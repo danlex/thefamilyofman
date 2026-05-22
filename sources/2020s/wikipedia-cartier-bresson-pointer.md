@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-cartier-bresson-pointer
-title: "Henri Cartier-Bresson [Wikipedia article — fetched 2026-05-06; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Henri Cartier-Bresson"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-06
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [cartier-bresson, photographer-biography, magnum, decisive-moment, pointer-source]
 ---
 

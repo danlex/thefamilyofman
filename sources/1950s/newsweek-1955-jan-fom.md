@@ -1,6 +1,6 @@
 ---
 id: src-newsweek-1955-jan-fom
-title: "Newsweek coverage of The Family of Man [pointer entry]"
+title: "Newsweek coverage of The Family of Man"
 author: "Unknown [unsigned / staff]"
 year: 1955
 type: article
@@ -10,6 +10,7 @@ accessed: 2026-04-30
 tier: 3
 language: en
 verified: false
+pointer_only: true
 tags: [review, reception, newsweek, 1955, family-of-man, pointer-only]
 ---
 

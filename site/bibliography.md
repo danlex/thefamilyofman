@@ -36,7 +36,7 @@ edit_dir: site
     {% for s in sorted %}
     <tr>
       <td>{{ s.author }}</td>
-      <td>{{ s.title }}</td>
+      <td>{{ s.title }}{% if s.pointer_only %} <span class="tag-pointer" title="Pointer-only source per CREDIBILITY.md">pointer</span>{% endif %}</td>
       <td>{{ s.year }}</td>
       <td>{{ s.type }}</td>
       <td>{{ s.tier }}</td>

@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-yamahata-pointer
-title: "Yōsuke Yamahata [Wikipedia article — fetched 2026-05-10; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Yōsuke Yamahata"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-10
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [yosuke-yamahata, photographer-biography, japanese-photography, nagasaki, atomic-bomb, hibakusha, singapore-birth, pointer-source]
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-adams-pointer
-title: "Ansel Adams [Wikipedia article — fetched 2026-05-07; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Ansel Adams"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-07
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [adams, photographer-biography, group-f64, yosemite, pointer-source]
 ---
 

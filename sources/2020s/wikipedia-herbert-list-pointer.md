@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-herbert-list-pointer
-title: "Herbert List [Wikipedia article — fetched 2026-05-09; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Herbert List"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-09
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [herbert-list, photographer-biography, magnum, german-photography, surrealism, pointer-source, family-of-man]
 ---
 
