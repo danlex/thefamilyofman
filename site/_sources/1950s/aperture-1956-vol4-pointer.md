@@ -1,6 +1,6 @@
 ---
 id: src-aperture-1956-vol4
-title: "Aperture, Volume 4 (1956) — all four issues [pointer entry]"
+title: "Aperture, Volume 4 (1956) — all four issues"
 author: "Multiple [Aperture editorial board; individual authors not confirmed]"
 year: 1956
 type: article
@@ -10,6 +10,7 @@ accessed: 2026-05-08
 tier: 2
 language: en
 verified: false
+pointer_only: true
 tags: [aperture, reception, photography-press, 1956, family-of-man, pointer-only]
 ---
 

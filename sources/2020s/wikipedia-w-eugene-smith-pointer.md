@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-w-eugene-smith-pointer
-title: "W. Eugene Smith [Wikipedia article — fetched 2026-05-02; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "W. Eugene Smith"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-02
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [w-eugene-smith, photographer-biography, walk-to-paradise-garden, fom-closing-image, pointer-source]
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: src-moma-1955-press-release-opening
-title: "MoMA press release announcing The Family of Man opening, January 1955 [pointer entry]"
+title: "MoMA press release announcing The Family of Man opening, January 1955"
 author: "Museum of Modern Art"
 year: 1955
 type: archive
@@ -10,6 +10,7 @@ accessed: 2026-05-08
 tier: 1
 language: en
 verified: false
+pointer_only: true
 tags: [moma, archives, press-release, 1955, family-of-man, primary, pointer-only]
 ---
 

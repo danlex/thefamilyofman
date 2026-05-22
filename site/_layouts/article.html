@@ -6,6 +6,19 @@ layout: default
   {% if page.namespace %}<div class="kicker">{{ page.namespace }}</div>{% endif %}
   <h1 class="article-title">{{ page.title }}</h1>
 
+  {% if page.namespace == "Source" %}
+  <div class="source-meta">
+    {% if page.author and page.author != "" %}<span class="sm-author">{{ page.author }}</span>{% endif %}
+    {% if page.publisher and page.publisher != "" %}<span class="sm-pub">{{ page.publisher }}</span>{% endif %}
+    {% if page.year %}<span class="sm-year">{{ page.year }}</span>{% endif %}
+    {% if page.tier %}<span class="sm-tier">Tier {{ page.tier }}</span>{% endif %}
+    {% if page.pointer_only %}<span class="sm-badge sm-pointer" title="Pointer-only source per CREDIBILITY.md — recorded as a pointer to primary/secondary sources, not cited as authority on its own">Pointer source</span>{% endif %}
+    {% if page.verified == false or page.verified == "false" %}<span class="sm-badge sm-unverified" title="Not verified against the live source in the recorded session">Unverified</span>{% endif %}
+    {% if page.accessed %}<span class="sm-accessed">Accessed {{ page.accessed }}</span>{% endif %}
+    {% if page.url and page.url != "" %}<a class="sm-link" href="{{ page.url }}" rel="noopener nofollow">View source ↗</a>{% endif %}
+  </div>
+  {% endif %}
+
   {% if page.byline or page.dates %}
   <div class="article-meta">
     {% if page.byline %}{{ page.byline }}{% endif %}

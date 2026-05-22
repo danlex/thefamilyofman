@@ -1,6 +1,6 @@
 ---
 id: src-saturday-review-1955-fom
-title: "Saturday Review coverage of The Family of Man [pointer entry]"
+title: "Saturday Review coverage of The Family of Man"
 author: "Unknown [unsigned / staff]"
 year: 1955
 type: article
@@ -10,6 +10,7 @@ accessed: 2026-04-30
 tier: 3
 language: en
 verified: false
+pointer_only: true
 tags: [review, reception, saturday-review, 1955, family-of-man, pointer-only]
 ---
 

@@ -175,6 +175,50 @@ main {
   margin-bottom: 2rem;
 }
 
+.source-meta {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--mid);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.85rem;
+  margin-bottom: 2rem;
+}
+.source-meta .sm-author { color: var(--ink); font-weight: 600; }
+.source-meta .sm-tier,
+.source-meta .sm-badge {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.source-meta .sm-pointer { border-color: var(--ink); color: var(--ink); }
+.source-meta .sm-unverified { border-style: dashed; }
+.source-meta .sm-link {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+.source-meta .sm-link:hover { opacity: 0.6; }
+
+.tag-pointer {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--mid);
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 0.05rem 0.35rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .article hr,
 .hairline {
   border: 0;

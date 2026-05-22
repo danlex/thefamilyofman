@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-kimura-pointer
-title: "Ihei Kimura [Wikipedia article — fetched 2026-05-10; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Ihei Kimura"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-10
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [ihei-kimura, photographer-biography, japanese-photography, leica, akita, tokyo, family-of-man, pointer-source]
 ---
 

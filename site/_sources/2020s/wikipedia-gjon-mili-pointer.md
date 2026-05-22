@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-gjon-mili-pointer
-title: "Gjon Mili [Wikipedia article — fetched 2026-05-09; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Gjon Mili"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-09
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [gjon-mili, photographer-biography, life-magazine, stroboscopic-photography, albanian-american, pointer-source]
 ---
 

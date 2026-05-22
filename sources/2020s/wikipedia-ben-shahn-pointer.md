@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-ben-shahn-pointer
-title: "Ben Shahn [Wikipedia article — fetched 2026-05-09; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Ben Shahn"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-09
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [ben-shahn, photographer-biography, social-realism, family-of-man, pointer-source]
 ---
 

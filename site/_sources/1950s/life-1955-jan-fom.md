@@ -1,6 +1,6 @@
 ---
 id: src-life-1955-jan-fom
-title: "Life magazine coverage of The Family of Man [pointer entry]"
+title: "Life magazine coverage of The Family of Man"
 author: "Unknown [unsigned / staff]"
 year: 1955
 type: article
@@ -10,6 +10,7 @@ accessed: 2026-04-30
 tier: 3
 language: en
 verified: false
+pointer_only: true
 tags: [review, reception, life-magazine, 1955, family-of-man, pointer-only]
 ---
 

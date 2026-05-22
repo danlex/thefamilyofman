@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-david-seymour-pointer
-title: "David Seymour (photographer) [Wikipedia article — fetched 2026-05-09; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "David Seymour (photographer)"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-09
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [david-seymour, chim, photographer-biography, magnum, suez, fom-mention, pointer-source]
 ---
 

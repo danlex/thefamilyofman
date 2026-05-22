@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-steichen-1962-retirement-pointer
-title: "Edward Steichen [Wikipedia article — re-fetched 2026-05-02; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Edward Steichen"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-02
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [steichen, retirement, 1962, szarkowski-succession, pointer-source]
 ---
 

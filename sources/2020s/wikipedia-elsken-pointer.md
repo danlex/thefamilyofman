@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-elsken-pointer
-title: "Ed van der Elsken [Wikipedia article — fetched 2026-05-09; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Ed van der Elsken"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-09
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [ed-van-der-elsken, photographer-biography, dutch-photography, amsterdam, paris, pointer-source, family-of-man]
 ---
 

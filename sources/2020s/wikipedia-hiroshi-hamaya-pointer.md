@@ -1,7 +1,7 @@
 ---
 id: src-wikipedia-hamaya-pointer
-title: "Hiroshi Hamaya [Wikipedia article — fetched 2026-05-10; pointer-only per CREDIBILITY.md]"
-author: ""
+title: "Hiroshi Hamaya"
+author: "Wikipedia contributors"
 year: 2026
 type: website
 publisher: "Wikipedia / Wikimedia Foundation"
@@ -10,6 +10,7 @@ accessed: 2026-05-10
 tier: 3
 language: en
 verified: true
+pointer_only: true
 tags: [hiroshi-hamaya, photographer-biography, japanese-photography, magnum, family-of-man, pointer-source]
 ---
 
