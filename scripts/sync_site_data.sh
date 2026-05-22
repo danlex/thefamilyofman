@@ -13,7 +13,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
 # --- CSVs into _data ---------------------------------------------------
 mkdir -p "$ROOT/site/_data"
-for f in photographs photographers sections; do
+for f in photographs photographers sections timeline-events; do
   src="$ROOT/data/${f}.csv"
   if [ -f "$src" ]; then
     cp "$src" "$ROOT/site/_data/${f}.csv"
@@ -38,4 +38,5 @@ echo "wrote:"
 echo "  site/_data/photographs.csv"
 echo "  site/_data/photographers.csv"
 echo "  site/_data/sections.csv"
+echo "  site/_data/timeline-events.csv"
 echo "  site/_sources/ ($(find "$ROOT/site/_sources" -type f -name '*.md' 2>/dev/null | wc -l | tr -d ' ') files)"
