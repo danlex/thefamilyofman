@@ -489,6 +489,7 @@ permalink: /
       <h2>A timeline</h2>
       <p class="lead">Eight anchor dates between the exhibition's opening and its current life at Clervaux — including the 2025 70th anniversary and the 2026 conservation crisis at Clervaux Castle.</p>
     </div>
+    <a class="more" href="{{ '/timeline/' | relative_url }}">Full timeline →</a>
   </div>
   <div class="timeline">
     <div class="timeline-row">
