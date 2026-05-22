@@ -1,5 +1,8 @@
 # Wayne Miller (1918–2013)
 
+![Lt. Wayne Miller in his quarters aboard the USS Ticonderoga (CV-14), 1945](../../site/assets/images/miller-1945-uss-ticonderoga.jpg)
+*Lt. Wayne F. Miller in his quarters aboard the USS Ticonderoga (CV-14), 1945. U.S. Navy combat photograph, NARA item 520842 — public domain (work of the U.S. federal government). License: [miller-1945-uss-ticonderoga.license.json](../../site/assets/images/miller-1945-uss-ticonderoga.license.json).*
+
 Wayne F. Miller was an American photographer and Magnum member who served as Edward Steichen's curatorial assistant on *The Family of Man* (src-nyt-2013-wayne-miller-obit; src-magnum-photographer-bios). Born in Chicago on 19 September 1918 and trained under Steichen in the US Navy's Aviation Photographic Unit during the Second World War, Miller is represented in the MoMA Master Checklist by at least six prints in the first 47 plates alone (#22, #29, #42, #43, #44, #47) — more than any other contributor in that range (src-moma-exh-0569-master-checklist). He died in Orinda, California on 22 May 2013 (src-nyt-2013-wayne-miller-obit).
 
 ## Career
