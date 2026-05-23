@@ -8,7 +8,7 @@ Name note: The Wikipedia article title uses "Hideo Haga" (given name first, West
 
 ## Early life and education
 
-Per the Wikipedia pointer (src-wikipedia-haga-pointer): Haga was born in Dalian, Manchuria — reflecting the historical context of Japanese colonial presence in the region. His father was an engineer with photographic interests, and Haga was encouraged to pursue photography from childhood. He enrolled at Keio University in 1941 and graduated with a literature degree in 1944. During his university years he attended lectures by folklorist Shinobu Orikuchi, "which significantly influenced his career direction" (src-wikipedia-haga-pointer) — foregrounding the ethnographic orientation that would define his photographic practice.
+Per the Wikipedia pointer (src-wikipedia-haga-pointer): Haga was born in Dalian, Manchuria (now Dalian, Liaoning, China). His father was an engineer with photographic interests, and Haga was encouraged to pursue photography from childhood. He enrolled at Keio University in 1941 and graduated with a literature degree in 1944. During his university years he attended lectures by folklorist Shinobu Orikuchi, "which significantly influenced his career direction" (src-wikipedia-haga-pointer) — foregrounding the ethnographic orientation that would define his photographic practice.
 
 ## Career
 
@@ -52,7 +52,7 @@ ICP constituent archive at `https://www.icp.org/browse/archive/constituents/hide
 
 ## Open questions
 
-- Haga's birthplace in Dalian, Manchuria is documented in Wikipedia; additional Tier-1/2 sources may supply the biographical context for this colonial-period birth, but none were accessible this round.
+- Haga's birthplace in Dalian, Manchuria (now Dalian, Liaoning, China) is documented in Wikipedia; additional Tier-1/2 sources may supply further biographical context, but none were accessible this round.
 - Haga died on 12 November 2022, at age 101 — making him one of the very last living *Family of Man* contributing photographers. This biographical detail may be of significance to the museum narrative and could be documented with a Japanese press obituary in a future pass.
 - The photograph title "Pregnant Japanese Woman Hurrying on Her Way" warrants verification against the 1956 Japanese FoM catalogue or a Japanese newspaper caption.
 
