@@ -13,7 +13,7 @@ In the MoMA Master Checklist (Exhibition #569, `src-moma-exh-0569-master-checkli
 
 MoMA's archive-highlights narrative summary does not name this mid-flow group as a discrete stage — the institutional summary moves from "careers" directly to "death" — but "relationships" and "play" are recognized motifs in the wider critical literature on the exhibition's humanist argument.[^1]
 
-Barthes's universalism critique applies with particular force to this cluster: the exhibition's scenes of communal music, dance, and play across cultures are presented as evidence of universal human joy, flattening the specific social and historical conditions (class, segregation, colonialism) under which those scenes of togetherness were captured. "The universality of human actions," Barthes wrote in 1957, is "postulated as a fact, whereas it is a mystification."[^2] Sandeen's reconstruction of the exhibition's structure contextualizes the mid-flow social-life sequence within the Cold War diplomatic frame of the touring show.[^3]
+Barthes's universalism critique applies with particular force to this cluster: the exhibition's scenes of communal music, dance, and play across cultures are presented as evidence of universal human joy, flattening the specific social and historical conditions (class, segregation, colonialism) under which those scenes of togetherness were captured. The exhibition's stated aim, Barthes wrote in 1957, was to show "the universality of human actions in the daily life of all the countries of the world"; he argued that from an insistence on human difference "a type of unity is magically produced: man is born, works, laughs and dies everywhere in the same way."[^2] Sandeen's reconstruction of the exhibition's structure contextualizes the mid-flow social-life sequence within the Cold War diplomatic frame of the touring show.[^3]
 
 ## Sandburg prologue excerpt
 
@@ -64,7 +64,7 @@ Showing {{ cluster_plates.size }} {% if cluster_plates.size == 1 %}plate{% else 
 
 ## Cluster boundaries and certainty
 
-Sections 18–22 and 24–25 are **canonical** mappings; each is a verbatim checklist section header and falls cleanly within this cluster. The Section 39 FACES borrowing (#446–#451) is **approximate**: those 6 photographs appear late in the checklist after the BOMB section, in a sequence that does not correspond to any of the 11 standard clusters with high confidence, and are assigned here provisionally. See [`research/sections.md`](https://github.com/danlex/thefamilyofman/blob/main/research/sections.md) for the full certainty table.
+Sections 18–22 and 24–25 are **canonical** mappings; each is a verbatim checklist section header and falls cleanly within this cluster. The Section 39 FACES borrowing (#446–#451) is **approximate**: those 6 photographs sit near the end of the checklist — in Section 39, immediately before the Section 40 BOMB plate (#456) — in a sequence that does not correspond to any of the 11 standard clusters with high confidence, and are assigned here provisionally. See [`research/sections.md`](https://github.com/danlex/thefamilyofman/blob/main/research/sections.md) for the full certainty table.
 
 The cluster is bounded on the early side by `sec-work` (ending at Section 17 WOMAN'S WORK) and on the later side by `sec-eating-everyday` (Section 23 FOOD, extracted as a separate cluster) and then `sec-play-learning` (Section 26 LEARNING).
 

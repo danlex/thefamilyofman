@@ -11,7 +11,7 @@ Following the lovers sequence, the exhibition turned to marriage and to childbir
 
 This grouping is a thematic cluster; "marriage and childbirth" is not a verbatim heading from the 1955 catalog, which does not present its sequencing as titled sections. In the MoMA Master Checklist (Exhibition #569, `src-moma-exh-0569-master-checklist`), the equivalent named sections are MARRIAGE (Section 3, plates #26–#32), PREGNANCY (Section 4, plates #33–#41), CHILDBIRTH (Section 5, plates #42–#44), and BIRTHS (Section 7, plates #48–#50). These four have been collapsed into this single cluster following the MoMA archive summary's narrative logic. Note that Section 6 NURSING MOTHERS (#45–#47) was assigned instead to `sec-family-children` because it precedes rather than follows the Birth cluster in the checklist.
 
-Roland Barthes's 1957 critique bears specifically on the curatorial logic of this cluster: "to reproduce death or birth tells us, literally, nothing. For these natural facts to gain access to a true language, they must be inserted into a category of knowledge ... whether or not he is threatened by a high mortality rate ... this is what your Exhibitions should be telling people, instead of an eternal lyricism of birth."[^3]
+Roland Barthes's 1957 critique bears specifically on the curatorial logic of grouping marriage and birth under universal headings. Barthes framed the exhibition's premise as the assertion that "birth, death, work, knowledge, play, always impose the same types of behaviour; there is a family of Man," and judged this "myth of the human 'condition'" to "[rest] on a very old mystification, which always consists in placing Nature at the bottom of History."[^3]
 
 ## Sandburg prologue excerpt
 
