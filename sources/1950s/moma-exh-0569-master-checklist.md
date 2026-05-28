@@ -740,9 +740,11 @@ The PDF (26 pp., 9.0 MB) was fetched 2026-05-10 and is cached at `.scratch/moma-
 
 ---
 
-### Section 41: **Comrades** (p. 24)
+### Section 41: **Couples** (p. 24)
 
-- 457 — United Nations — Meria Bordy [OCR: "Meria Bordy"], Russian — 132 x 170
+(Section label corrected 2026-05-28. `pdftotext` garbled this heading to `C0!1E!&§` at line 1460 of the `.txt` extraction, and an earlier transcription of this file mis-read it as "Comrades". The PDF page-24 image was read directly this session and the typed, underlined heading is unambiguously **COUPLES**.)
+
+- 457 — United Nations — Meria Bordy [OCR: "Meria Bordy"; PDF page-24 image reads "Maria Bordy" — name discrepancy not reconciled here], Russian — 132 x 170
 - 458 — U. S. A. — Alfred Eisenstaedt, LIFE, American — 18 x 14 1/4
 - 459 — Holland — Emmy Andriesse [OCR: "ElllmyAndriesse"], Dutch — 18 x 14 1/4
 - 460 — Canada — John Phillips, LIFE, American — 18 x 23 1/4
