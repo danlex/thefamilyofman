@@ -50,6 +50,10 @@ For each claim you add to a source file, research note, or CSV `notes` field, yo
 
 Any "no" → the claim does not go in the file.
 
+## Tooling discipline — no ad-hoc scripts
+
+Verification, data inspection, and audits run through **committed, reusable scripts in `scripts/`** — not ad-hoc inline logic (`python3 -c "..."`, throwaway `awk`/`sed`/`jq`, or multi-statement shell pipelines that encode checking logic). Inline one-offs are unreviewable, unversioned, irreproducible, and force the user to approve opaque executions one at a time. If a check is worth running, commit it as a script (docstring, exit code, `--json` where useful) and invoke that file; reuse an existing `scripts/*.py` before writing a new one. Plain `git`/`gh`/`ls`/single-pattern `grep` and running a committed script are fine — the rule targets *encoding logic inline*, not invoking reviewed artifacts. Full rule in `AGENTS.md § Tooling discipline`.
+
 ## Subagent spawning — worktree status (updated 2026-05-09 after v2.1.136 smoke test)
 
 Earlier rounds (April 2026) avoided `isolation: worktree` for source-touching subagents because the worktree tool layer denied Bash/WebFetch/Edit even with `bypassPermissions`. Two upstream Claude Code fixes have since landed:

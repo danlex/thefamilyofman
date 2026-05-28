@@ -143,6 +143,28 @@ When a PR hits the revision cap without unanimity, the Dispatcher adds label `es
 - Manual tick: `gh issue list --label needs-agent --state open` then invoke the Dispatcher subagent.
 - Scheduled tick: the `/loop` skill or a cron trigger can run the Dispatcher on a cadence.
 
+## Tooling discipline — no ad-hoc scripts
+
+Verification, data inspection, and audits must run through **committed, reusable
+scripts in `scripts/`** — never through ad-hoc inline logic (`python3 -c "..."`,
+throwaway `awk`/`sed`/`jq` checks, or multi-statement shell pipelines that encode
+checking/analysis logic). Inline scripts are unreviewable, unversioned,
+irreproducible, and force the user to approve opaque one-off executions.
+
+Rules:
+- **If a check is worth running, it is worth committing.** Add or extend a script
+  in `scripts/` (docstring, `--json` where useful, meaningful exit code), then
+  invoke that file.
+- **Reuse before writing.** Existing audits: `validate_schema.py`,
+  `check_injection_patterns.py`, `check_cache_artifacts.py`,
+  `audit_jekyll_mirror.py`, `sync_photo_counts.py`, `verify_section_pages.py`,
+  `check_credibility.py`, `merge_if_ready.py`.
+- **Plain commands are fine.** `git`, `gh`, `ls`, a single-pattern `grep`/`git grep`,
+  and running a committed script are not "scripts" in this sense. The line is
+  *encoding checking/analysis logic inline* vs. *invoking a reviewed artifact*.
+- The moment a check gates a commit or would be run more than once, it must be a
+  committed script — not pasted into the Bash tool.
+
 ## Governance
 
 Humans (you) retain:
