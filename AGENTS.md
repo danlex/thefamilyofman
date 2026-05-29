@@ -155,9 +155,12 @@ Rules:
 - **If a check is worth running, it is worth committing.** Add or extend a script
   in `scripts/` (docstring, `--json` where useful, meaningful exit code), then
   invoke that file.
-- **Reuse before writing.** Existing audits: `validate_schema.py`,
-  `check_injection_patterns.py`, `check_cache_artifacts.py`,
-  `audit_jekyll_mirror.py`, `sync_photo_counts.py`, `verify_section_pages.py`,
+- **Reuse before writing.** Existing audits / pre-flights:
+  `validate_schema.py`, `check_injection_patterns.py`,
+  `check_cache_artifacts.py`, `audit_jekyll_mirror.py`,
+  `sync_photo_counts.py`, `verify_section_pages.py`,
+  `photographer_anchors.py` (pre-flight for issue-#184 deep-research cycles —
+  plate count, per-plate table, existing bio size, candidate sources),
   `check_credibility.py`, `merge_if_ready.py`.
 - **Plain commands are fine.** `git`, `gh`, `ls`, a single-pattern `grep`/`git grep`,
   and running a committed script are not "scripts" in this sense. The line is
