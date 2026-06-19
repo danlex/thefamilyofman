@@ -1,0 +1,22 @@
+name: Audit Jekyll mirror
+
+on:
+  pull_request:
+    paths:
+      - 'sources/**'
+      - 'site/_sources/**'
+      - 'scripts/audit_jekyll_mirror.py'
+      - '.github/workflows/audit-jekyll-mirror.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run mirror audit
+        run: python3 scripts/audit_jekyll_mirror.py
